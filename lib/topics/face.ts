@@ -18,11 +18,8 @@ export const face: TopicContent = {
       {
         title: "2. Funções Essenciais do Esqueleto Facial",
         content: [
-          "O esqueleto facial desempenha funções complexas que vão além do suporte ósseo:",
-          "• **Proteção Sensorial**: Delimita cavidades e fornece as aberturas para os órgãos dos sentidos da **visão**, **paladar** e **olfato**.",
-          "• **Vias de Passagem**: Fornece aberturas para as áreas **respiratórias** e passagens **digestórias**.",
-          "• **Mastigação**: Contém a **mandíbula**, as **maxilas** e os **dentes**, estruturas necessárias para o processo de mastigação.",
-          "• **Ancoragem Muscular**: Fornece áreas para a inserção dos **músculos faciais** (músculos da expressão facial).",
+          "O esqueleto facial desempenha funções complexas que vão além do mero suporte ósseo. A **proteção sensorial** constitui uma função primordial, delimitando cavidades e fornecendo aberturas para os órgãos dos sentidos da visão (órbitas), paladar e olfato (cavidade nasal).",
+          "A face fornece **vias de passagem** essenciais, criando aberturas para as áreas respiratórias e passagens digestórias. A função de **mastigação** é garantida pela presença da mandíbula, das maxilas e dos dentes, estruturas necessárias para o processamento mecânico dos alimentos. Por fim, o esqueleto facial fornece áreas para a **ancoragem muscular**, servindo de inserção para os músculos faciais responsáveis pela expressão facial.",
         ],
       },
       {

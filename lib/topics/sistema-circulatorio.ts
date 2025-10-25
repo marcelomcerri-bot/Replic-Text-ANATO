@@ -17,12 +17,9 @@ export const sistemaCirculatorio: TopicContent = {
       {
         title: "Funções Essenciais do Sistema Circulatório",
         content: [
-          "O sangue circulante, que é o veículo utilizado pelo sistema, desempenha diversas funções cruciais:",
-          "• Transporte Nutritivo e Gasoso: Levar material nutritivo e oxigênio (O₂) às células de todas as partes do organismo. O sangue é um condutor de gases entre as células do organismo e o meio.",
-          "• Remoção de Resíduos: Transportar os produtos residuais do metabolismo celular (incluindo CO₂) desde os locais de produção até os órgãos encarregados de os eliminar (como os rins).",
-          "• Transporte de Moléculas de Sinalização: Conduzir hormônios das glândulas endócrinas para seus órgãos-alvo.",
-          "• Defesa Orgânica: Possuir células especializadas na defesa orgânica contra substâncias estranhas e microrganismos.",
-          "• Termorregulação: Ajudar a regular a temperatura corporal, desviando o sangue de/para a pele para controlar a quantidade de calor perdida.",
+          "O sangue circulante, que constitui o veículo utilizado pelo sistema, desempenha diversas funções cruciais para a manutenção da homeostase corporal. A primeira função essencial é o **transporte nutritivo e gasoso**, responsável por levar material nutritivo e oxigênio (O₂) às células de todas as partes do organismo, atuando como condutor de gases entre as células e o meio ambiente.",
+          "A **remoção de resíduos** constitui outra função vital, transportando os produtos residuais do metabolismo celular (incluindo CO₂) desde os locais de produção até os órgãos encarregados de eliminá-los, como os rins. O sistema também realiza o **transporte de moléculas de sinalização**, conduzindo hormônios das glândulas endócrinas para seus órgãos-alvo, coordenando funções corporais à distância.",
+          "Adicionalmente, o sangue participa da **defesa orgânica**, possuindo células especializadas no combate a substâncias estranhas e microrganismos invasores. Por fim, o sistema circulatório auxilia na **termorregulação**, ajustando a temperatura corporal ao desviar o sangue de ou para a pele, controlando assim a quantidade de calor perdida para o ambiente.",
         ],
       },
       {
@@ -34,9 +31,7 @@ export const sistemaCirculatorio: TopicContent = {
           {
             title: "Função Cardíaca",
             content: [
-              "O coração funciona como uma bomba contrátil-propulsora para impulsionar o sangue através dos vasos. Ele é subdividido em quatro câmaras:",
-              "• Dois átrios (câmaras de recepção) que recebem o sangue que retorna.",
-              "• Dois ventrículos (câmaras de bombeamento principais) que bombeiam o sangue para as circulações.",
+              "O coração funciona como uma bomba contrátil-propulsora cuja finalidade é impulsionar o sangue através dos vasos. Estruturalmente, é subdividido em quatro câmaras distintas que desempenham funções complementares. Os **dois átrios** constituem as câmaras de recepção, responsáveis por receber o sangue que retorna das circulações sistêmica e pulmonar. Os **dois ventrículos** representam as câmaras de bombeamento principais, cuja contração vigorosa bombeia o sangue para as respectivas circulações.",
             ],
           },
           {
@@ -67,20 +62,16 @@ export const sistemaCirculatorio: TopicContent = {
           {
             title: "Artérias",
             content: [
-              "As artérias são os vasos que levam o sangue centrifugamente, ou seja, para fora do coração.",
-              "Tipos e Estrutura: São tubos cilindróides e elásticos. A túnica média é geralmente mais espessa nas artérias do que nas veias, o que é importante para o reforço da parede e a alteração do diâmetro (vasoconstrição/vasodilatação).",
-              "Situação: A quase totalidade das artérias são profundas, o que é uma característica funcional, pois as protege.",
-              "Fluxo: A elastina nas paredes das artérias ajuda a amortecer os pulsos de pressão e a manter o fluxo pulsátil.",
+              "As artérias são os vasos que conduzem o sangue centrifugamente, ou seja, para fora do coração em direção aos tecidos periféricos. Estruturalmente, constituem tubos cilindróides e elásticos cuja túnica média é geralmente mais espessa do que nas veias, característica importante para o reforço da parede vascular e para a alteração ativa do diâmetro luminal (vasoconstrição e vasodilatação).",
+              "Anatomicamente, a quase totalidade das artérias são profundas, característica funcional que as protege de lesões externas. A elastina presente nas paredes arteriais desempenha papel fundamental ao amortecer os pulsos de pressão gerados pela contração cardíaca, mantendo um fluxo pulsátil contínuo mesmo durante a diástole ventricular.",
             ],
           },
           {
             title: "Veias",
             content: [
-              "As veias são os vasos que levam o sangue centripetamente, ou seja, das células para o coração.",
-              "Estrutura: As veias são estruturalmente diferentes das artérias, pois têm uma luz mais ampla, uma túnica média mais fina e uma túnica adventícia mais espessa.",
-              "Válvulas: A presença de válvulas é uma das principais características das veias (mas não em todas, como as do cérebro). As válvulas são pregas membranosas da túnica íntima, em forma de bolso, com a borda livre voltada para a direção do coração.",
-              "Função da Válvula: As válvulas impedem o refluxo do sangue e dividem a coluna sanguínea venosa, permitindo a progressão do sangue de segmento em segmento.",
-              "Retorno Venoso: Devido à baixa pressão do sangue venoso, o retorno ao coração é auxiliado pela contração muscular (bomba muscular esquelética).",
+              "As veias são os vasos que conduzem o sangue centripetamente, ou seja, das células periféricas em direção ao coração. Estruturalmente, as veias diferem significativamente das artérias, apresentando uma luz mais ampla, uma túnica média mais fina e uma túnica adventícia mais espessa, adaptações que refletem as diferentes pressões hemodinâmicas a que estão submetidas.",
+              "Uma das principais características distintivas das veias é a presença de **válvulas** (embora não em todas, como as cerebrais). Estas válvulas constituem pregas membranosas da túnica íntima, em forma de bolso, com a borda livre voltada para a direção do coração. Funcionalmente, as válvulas impedem o refluxo do sangue e dividem a coluna sanguínea venosa em segmentos, permitindo a progressão unidirecional do sangue.",
+              "Devido à baixa pressão do sangue venoso, o retorno ao coração é auxiliado por mecanismos acessórios, destacando-se a contração muscular esquelética (bomba muscular), que comprime as veias e impulsiona o sangue em direção ao coração.",
             ],
           },
           {

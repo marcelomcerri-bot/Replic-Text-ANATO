@@ -15,11 +15,9 @@ export const sistemaUrinario: TopicContent = {
           {
             title: "Funções Essenciais dos Rins",
             content: [
-              "Os rins realizam um trabalho complexo de engenharia química e mecânica:",
-              "Filtração e Excreção: Filtram diariamente muitos litros de fluido do sangue. Eliminam do corpo a urina, que contém toxinas, resíduos metabólicos, excesso de água e de íons.",
-              "Regulação Química: Regulam o volume e a composição química do sangue, mantendo o equilíbrio adequado de água, sais, ácidos e bases.",
-              "Produção de Hormônios: No adulto, os rins são a principal fonte de produção de eritropoietina, uma glicoproteína que atua na formação das células sanguíneas.",
-              "Manutenção do Meio Interno: Controlam o líquido tecidual em relação ao volume, composição química e osmolaridade, mantendo a constância do meio interno, que é indispensável à vida.",
+              "Os rins realizam um trabalho complexo de engenharia química e mecânica, essencial à homeostase corporal. A primeira função corresponde à **filtração e excreção**, mediante a qual filtram diariamente cerca de 180 litros de fluido do sangue, eliminando do corpo a urina, que contém toxinas, resíduos metabólicos nitrogenados, excesso de água e de íons.",
+              "A **regulação química** constitui outra função vital, pois os rins regulam o volume e a composição química do sangue, mantendo o equilíbrio adequado de água, sais, ácidos e bases. Adicionalmente, desempenham função endócrina através da **produção de hormônios**, sendo no adulto a principal fonte de eritropoietina, glicoproteína que estimula a formação de células sanguíneas na medula óssea.",
+              "Por fim, os rins são responsáveis pela **manutenção do meio interno**, controlando o líquido tecidual em relação ao volume, composição química e osmolaridade, mantendo a constância do meio interno, requisito indispensável à vida.",
             ],
           },
         ],
@@ -27,10 +25,8 @@ export const sistemaUrinario: TopicContent = {
       {
         title: "2. Produtos Residuais Nitrogenados Excretados",
         content: [
-          "Os principais produtos residuais que devem ser eliminados pela urina são três compostos nitrogenados:",
-          "Ureia: Derivada da decomposição de aminoácidos durante a reciclagem normal das proteínas corporais.",
-          "Ácido Úrico: Resultante da decomposição do metabolismo do ácido nucleico.",
-          "Creatinina: Formada pela decomposição da fosfocreatina, uma molécula presente no músculo que armazena energia para a produção de ATP.",
+          "Os principais produtos residuais que devem ser eliminados pela urina são três compostos nitrogenados derivados do metabolismo celular. A **ureia** origina-se da decomposição de aminoácidos durante a reciclagem normal das proteínas corporais, constituindo o principal produto de excreção nitrogenada.",
+          "O **ácido úrico** resulta da decomposição das bases púricas provenientes do metabolismo dos ácidos nucleicos (DNA e RNA). A **creatinina** é formada pela decomposição da fosfocreatina, molécula presente no músculo esquelético que armazena energia para a produção rápida de ATP durante a contração muscular. A concentração sérica desses compostos serve como importante indicador da função renal.",
         ],
       },
       {

@@ -28,14 +28,9 @@ export const sistemaGenitalFeminino: TopicContent = {
       {
         title: "2. Componentes Funcionais do Sistema Genital Feminino",
         content: [
-          "Anatômica e funcionalmente, os órgãos do sistema genital feminino são distribuídos da seguinte forma:",
-          "Gônadas (Órgãos Gametógenos): Ovários (produtores de óvulos).",
-          "Vias Condutoras (Órgãos Gametóforos): Tubas Uterinas.",
-          "Órgão de Abrigo: Útero (abriga o novo ser vivo em desenvolvimento).",
-          "Órgão de Cópula: Vagina.",
-          "Estruturas Eréteis: Clitóris e Bulbo do Vestíbulo.",
-          "Glândulas Anexas: Glândulas Vestibulares Maiores e Menores.",
-          "Genitais Externos (Pudendo/Vulva): Monte do púbis, lábios maiores, lábios menores, clitóris, bulbo do vestíbulo e glândulas vestibulares.",
+          "Anatômica e funcionalmente, os órgãos do sistema genital feminino são distribuídos de acordo com suas funções específicas. As **gônadas** (órgãos gametógenos) correspondem aos ovários, responsáveis pela produção dos óvulos. As **vias condutoras** (órgãos gametóforos) são representadas pelas tubas uterinas, que transportam os gametas e constituem o local habitual da fertilização.",
+          "O **órgão de abrigo**, representado pelo útero, abriga o novo ser vivo em desenvolvimento durante a gestação. O **órgão de cópula**, a vagina, recebe o pênis durante o ato sexual e serve como canal do parto. As **estruturas eréteis** incluem o clitóris e o bulbo do vestíbulo, estruturas homólogas às masculinas que se enchem de sangue durante a excitação sexual.",
+          "As **glândulas anexas**, representadas pelas glândulas vestibulares maiores e menores, secretam muco lubrificante. Os **genitais externos** (pudendo ou vulva) compreendem o monte do púbis, lábios maiores, lábios menores, clitóris, bulbo do vestíbulo e glândulas vestibulares, constituindo o conjunto de estruturas visíveis externamente.",
         ],
       },
       {
@@ -47,10 +42,8 @@ export const sistemaGenitalFeminino: TopicContent = {
           {
             title: "Função Endócrina",
             content: [
-              "Os ovários produzem óvulos e hormônios sexuais femininos:",
-              "Estrogênios: Mantêm os órgãos reprodutores e as características sexuais secundárias das mulheres.",
-              "Progesterona: Sinaliza o útero para se preparar para a gravidez.",
-              "Após a ovulação, o corpo lúteo (remanescente dos folículos ovarianos) continua a secretar estrogênios e progesterona.",
+              "Os ovários produzem óvulos e hormônios sexuais femininos essenciais para a reprodução e manutenção das características femininas. Os **estrogênios** são responsáveis por manter a integridade estrutural e funcional dos órgãos reprodutores, além de sustentar as características sexuais secundárias das mulheres, como o desenvolvimento mamário e a distribuição característica de gordura corporal.",
+              "A **progesterona** sinaliza o útero para se preparar para a gravidez, promovendo a proliferação e vascularização do endométrio. Após a ovulação, o **corpo lúteo** (estrutura endócrina derivada do remanescente dos folículos ovarianos) continua a secretar estrogênios e progesterona, mantendo o endométrio preparado para uma eventual implantação embrionária.",
             ],
           },
           {

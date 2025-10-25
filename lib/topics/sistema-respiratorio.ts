@@ -15,10 +15,8 @@ export const sistemaRespiratorio: TopicContent = {
           {
             title: "Processos Respiratórios",
             content: [
-              "1. Ventilação Pulmonar: Movimento do ar para dentro e para fora dos pulmões (a única de responsabilidade exclusiva do sistema respiratório).",
-              "2. Respiração Externa: Troca gasosa entre o sangue e o ar nos pulmões (hematose).",
-              "3. Transporte Cardiovascular: Transporte do O₂ e CO₂ pelo sistema cardiovascular.",
-              "4. Respiração Interna: Troca gasosa entre o sangue e as células dos tecidos.",
+              "O processo respiratório completo envolve quatro etapas sequenciais e integradas. A **ventilação pulmonar** corresponde ao movimento mecânico do ar para dentro e para fora dos pulmões, constituindo a única etapa de responsabilidade exclusiva do sistema respiratório.",
+              "A **respiração externa** (ou hematose) representa a troca gasosa entre o sangue e o ar nos alvéolos pulmonares. O **transporte cardiovascular** promove o transporte do O₂ e CO₂ pelo sistema cardiovascular entre os pulmões e os tecidos periféricos. Por fim, a **respiração interna** consiste na troca gasosa entre o sangue capilar e as células dos tecidos, permitindo a entrega de oxigênio e a remoção de dióxido de carbono no nível celular.",
             ],
           },
         ],

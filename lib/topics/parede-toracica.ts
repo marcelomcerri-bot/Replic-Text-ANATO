@@ -37,10 +37,8 @@ export const paredeToracica: TopicContent = {
       {
         title: "2. Classificação das Costelas pela Fixação",
         content: [
-          "As costelas são classificadas de acordo com o modo como se fixam ao esterno (anteriormente), distinguindo-se três tipos:",
-          "1. Costelas Verdadeiras (Vértebro-esternais): São aquelas cujas cartilagens costais se articulam diretamente com o esterno.",
-          "2. Costelas Falsas (Vertebrocondrais): São aquelas que se fixam ao esterno indiretamente, geralmente através da cartilagem costal da costela superior.",
-          "3. Costelas Flutuantes (Vertebrais): São um subgrupo das costelas falsas que não se articulam com o esterno (nem direta, nem indiretamente), permanecendo suspensas na parede lateral do tronco.",
+          "As costelas são classificadas de acordo com o modo como se fixam ao esterno anteriormente, distinguindo-se três tipos funcionais. As **costelas verdadeiras** (vértebro-esternais) são aquelas cujas cartilagens costais se articulam diretamente com o esterno, geralmente correspondendo aos sete primeiros pares.",
+          "As **costelas falsas** (vertebrocondrais) são aquelas que se fixam ao esterno indiretamente, geralmente através da fusão de suas cartilagens costais com a cartilagem costal da costela superior. As **costelas flutuantes** (vertebrais) constituem um subgrupo das costelas falsas que não se articulam com o esterno (nem direta, nem indiretamente), permanecendo suspensas na parede lateral do tronco, correspondendo aos dois últimos pares de costelas.",
         ],
       },
       {

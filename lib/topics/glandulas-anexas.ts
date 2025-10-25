@@ -7,11 +7,9 @@ export const glandulasAnexas: TopicContent = {
       {
         title: "1. Classificação e Conceito de Glândulas",
         content: [
-          "As glândulas são formadas por células epiteliais especializadas que produzem e secretam um produto.",
-          "Produto Glandular: Geralmente, os produtos das glândulas são fluidos aquosos (à base de água) que também contêm proteínas. O produto proteico é criado no retículo endoplasmático rugoso (RE), empacotado pelo complexo de Golgi e liberado por exocitose.",
-          "Existem dois tipos principais de glândulas no corpo:",
-          "Glândulas Exócrinas: Secretam seus produtos, como saliva, bile ou suor, através de um ducto para a superfície epitelial ou para dentro de cavidades (como o tubo digestório). As glândulas salivares e o pâncreas (parte exócrina) são exemplos.",
-          "Glândulas Endócrinas: Não possuem ductos e secretam substâncias, como hormônios, diretamente no sangue venoso.",
+          "As glândulas são formadas por células epiteliais especializadas que produzem e secretam um produto específico. O **produto glandular** geralmente consiste em fluidos aquosos (à base de água) que também contêm proteínas. A síntese do produto proteico ocorre no retículo endoplasmático rugoso (RE), sendo subsequentemente empacotado pelo complexo de Golgi e liberado por exocitose.",
+          "Existem dois tipos principais de glândulas no corpo humano, classificados de acordo com a presença ou ausência de ductos excretores. As **glândulas exócrinas** secretam seus produtos, como saliva, bile ou suor, através de um sistema de ductos para a superfície epitelial ou para dentro de cavidades corporais (como o tubo digestório). As glândulas salivares e a porção exócrina do pâncreas são exemplos clássicos.",
+          "As **glândulas endócrinas**, por sua vez, não possuem ductos excretores e secretam substâncias, como hormônios, diretamente na corrente sanguínea venosa, permitindo que os produtos secretórios sejam distribuídos sistemicamente pelo organismo.",
         ],
       },
       {
@@ -54,11 +52,8 @@ export const glandulasAnexas: TopicContent = {
           {
             title: "Funções Essenciais",
             content: [
-              "O fígado é crucial para a homeostase devido às suas múltiplas funções:",
-              "Processamento de Nutrientes: Processa os nutrientes absorvidos e armazena o carboidrato sob a forma de glicogênio.",
-              "Desintoxicação: Desintoxica muitos venenos e fármacos no sangue.",
-              "Secreção de Bile: Secreta bile, um fluido importante para a emulsificação de gorduras.",
-              "Célula Funcional: Quase todas as funções são realizadas pelos hepatócitos.",
+              "O fígado é crucial para a manutenção da homeostase devido às suas múltiplas funções metabólicas e detoxificadoras. O **processamento de nutrientes** constitui uma função central, pois o fígado processa os nutrientes absorvidos pelo trato gastrintestinal e armazena carboidratos sob a forma de glicogênio, disponibilizando-os quando necessário.",
+              "A **desintoxicação** representa outra função vital, desintoxicando muitos venenos e fármacos presentes no sangue antes que estes atinjam a circulação sistêmica geral. A **secreção de bile**, fluido importante para a emulsificação de gorduras no duodeno, facilita a digestão e absorção de lipídios. Quase todas essas funções são realizadas pelos **hepatócitos**, as células funcionais do fígado.",
             ],
           },
           {

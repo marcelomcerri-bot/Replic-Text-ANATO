@@ -9,19 +9,15 @@ export const cranio: TopicContent = {
         title: "Conceito e Funções Essenciais do Crânio",
         content: [
           "O **crânio** é a parte esquelética da cabeça. No contexto do esqueleto axial, o crânio é uma das suas três regiões principais.",
-          "O crânio é muito mais do que apenas um suporte estrutural; é uma caixa óssea que desempenha múltiplas funções essenciais:",
-          "1. **Proteção do Encéfalo:** Sua função principal e mais evidente é abrigar e proteger o encéfalo.",
-          "2. **Órgãos dos Sentidos:** Apresenta cavidades especializadas para abrigar os órgãos da sensibilidade específica, como os da visão, audição, equilíbrio, olfato e gustação.",
-          "3. **Mastigação e Vias Abertas:** Apresenta aberturas para a passagem do ar e do alimento. Além disso, contém a mandíbula, as maxilas e os dentes, estruturas necessárias para o processo de mastigação.",
+          "O crânio é muito mais do que apenas um suporte estrutural; é uma caixa óssea que desempenha múltiplas funções essenciais. A função primordial e mais evidente corresponde à **proteção do encéfalo**, abrigando e protegendo o sistema nervoso central.",
+          "Adicionalmente, o crânio apresenta cavidades especializadas para abrigar os **órgãos dos sentidos** da sensibilidade específica, como os da visão (órbitas), audição e equilíbrio (osso temporal), olfato (cavidade nasal) e gustação. O crânio também fornece **vias de passagem** para o ar e alimento, apresentando aberturas que comunicam com os sistemas respiratório e digestório. Além disso, contém a mandíbula, as maxilas e os dentes, estruturas necessárias para o processo de **mastigação**.",
         ],
       },
       {
         title: "Divisões Estruturais: Neurocrânio e Viscerocrânio",
         content: [
-          "O crânio pode ser dividido em duas grandes porções estruturais e funcionais:",
-          "• **Neurocrânio:** É a porção superior e posterior. É a maior das duas porções e sua função primária é abrigar o encéfalo. É a caixa óssea que envolve o cérebro.",
-          "• **Viscerocrânio:** É a porção anterior e inferior. É a menor das duas porções e está relacionada com órgãos viscerais (sistemas digestório e respiratório). O viscerocrânio é comumente conhecido como a **face**.",
-          "No momento do nascimento, o **neurocrânio** é bem mais volumoso do que o **viscerocrânio**.",
+          "O crânio pode ser dividido em duas grandes porções estruturais e funcionais. O **neurocrânio** constitui a porção superior e posterior, sendo a maior das duas porções. Sua função primária é abrigar o encéfalo, formando a caixa óssea que envolve o cérebro.",
+          "O **viscerocrânio** corresponde à porção anterior e inferior, sendo a menor das duas porções e relacionando-se com órgãos viscerais dos sistemas digestório e respiratório. O viscerocrânio é comumente conhecido como a **face**. No momento do nascimento, é importante notar que o **neurocrânio** é bem mais volumoso do que o **viscerocrânio**, refletindo o desenvolvimento encefálico precoce.",
         ],
       },
       {

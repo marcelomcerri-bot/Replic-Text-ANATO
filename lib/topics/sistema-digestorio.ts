@@ -17,13 +17,8 @@ export const sistemaDigestorio: TopicContent = {
       {
         title: "2. Funções Essenciais do Sistema Digestório",
         content: [
-          "O processo digestório envolve uma sequência de eventos para transformar alimentos complexos em formas absorvíveis:",
-          "Ingestão: O alimento é colocado voluntariamente na cavidade oral (boca).",
-          "Propulsão: Inclui a deglutição (iniciada pela língua, que impele o alimento para a faringe) e o peristaltismo.",
-          "Decomposição Mecânica: Inclui a mastigação (boca) e a agitação do alimento (estômago).",
-          "Digestão Química: Desdobramento das moléculas de alimento por enzimas.",
-          "Absorção: Passagem dos nutrientes digeridos para o sangue ou para a linfa. A maior parte da absorção ocorre no intestino delgado.",
-          "Defecação: Eliminação dos resíduos indigestíveis.",
+          "O processo digestório envolve uma sequência coordenada de eventos destinados a transformar alimentos complexos em formas moleculares absorvíveis. A **ingestão** constitui a etapa inicial, na qual o alimento é colocado voluntariamente na cavidade oral. A **propulsão** inclui a deglutição (iniciada pela língua, que impele o alimento para a faringe) e o peristaltismo (ondas de contração muscular que movimentam o alimento ao longo do tubo digestório).",
+          "A **decomposição mecânica** abrange a mastigação na boca e a agitação do alimento no estômago, fragmentando fisicamente as partículas alimentares. A **digestão química** promove o desdobramento enzimático das macromoléculas de alimento em nutrientes simples. A **absorção** representa a passagem dos nutrientes digeridos para o sangue ou para a linfa, ocorrendo predominantemente no intestino delgado. Por fim, a **defecação** elimina os resíduos indigestíveis do organismo.",
         ],
       },
       {

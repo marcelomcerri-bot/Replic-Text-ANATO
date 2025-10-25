@@ -15,12 +15,9 @@ export const sistemaGenitalMasculino: TopicContent = {
       {
         title: "2. Classificação dos Órgãos Genitais Masculinos",
         content: [
-          "Os órgãos do sistema genital masculino podem ser classificados em:",
-          "Gônadas (Órgãos Sexuais Primários): Testículos - Produzem os espermatozoides e hormônios sexuais.",
-          "Vias Espermáticas (Ductos Reprodutores): Epidídimo e Ductos Deferentes - Conduzem os espermatozoides e os armazenam.",
-          "Glândulas Acessórias: Glândulas Seminais, Próstata e Glândulas Bulbouretrais - Produzem grande parte do líquido seminal.",
-          "Estruturas Eréteis: Corpos Cavernosos e Corpo Esponjoso do Pênis - Enchem-se de sangue para a ereção.",
-          "Órgãos Genitais Externos: Pênis e Escroto - Estruturas visíveis na superfície do corpo e órgão da cópula.",
+          "Os órgãos do sistema genital masculino podem ser classificados em categorias funcionais distintas. As **gônadas** (órgãos sexuais primários) correspondem aos testículos, responsáveis pela produção dos espermatozoides e dos hormônios sexuais masculinos.",
+          "As **vias espermáticas** (ductos reprodutores), representadas pelo epidídimo e ductos deferentes, conduzem e armazenam os espermatozoides. As **glândulas acessórias** — glândulas seminais, próstata e glândulas bulbouretrais — produzem a maior parte do líquido seminal.",
+          "As **estruturas eréteis**, compostas pelos corpos cavernosos e corpo esponjoso do pênis, enchem-se de sangue durante a ereção. Por fim, os **órgãos genitais externos**, pênis e escroto, constituem as estruturas visíveis na superfície do corpo, sendo o pênis o órgão da cópula.",
         ],
       },
       {
@@ -32,9 +29,8 @@ export const sistemaGenitalMasculino: TopicContent = {
           {
             title: "Funções dos Testículos",
             content: [
-              "Além de produzir os gametas (espermatozoides), o testículo produz a testosterona (hormônio sexual masculino).",
-              "Função Hormonal: A testosterona mantém os órgãos genitais acessórios (próstata, glândulas seminais e bulbouretrais) e estimula os caracteres sexuais secundários masculinos (ex: crescimento de pelos faciais, aumento da laringe/alteração no timbre da voz e crescimento do esqueleto).",
-              "Controle Hormonal: A secreção de testosterona está sob controle do hormônio luteinizante (hormônio estimulante das células intersticiais) produzido pela hipófise.",
+              "Além de produzir os gametas (espermatozoides), o testículo desempenha função endócrina ao produzir testosterona, o principal hormônio sexual masculino. A **função hormonal** da testosterona é essencial para manter a integridade estrutural e funcional dos órgãos genitais acessórios (próstata, glândulas seminais e bulbouretrais), além de estimular o desenvolvimento e manutenção dos caracteres sexuais secundários masculinos, como o crescimento de pelos faciais, o aumento da laringe com consequente alteração no timbre da voz e o crescimento do esqueleto.",
+              "O **controle hormonal** da secreção de testosterona está sob regulação do hormônio luteinizante (também chamado hormônio estimulante das células intersticiais), produzido pela adenoipófise.",
             ],
           },
           {
