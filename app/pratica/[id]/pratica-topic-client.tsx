@@ -58,20 +58,20 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
             <h2 className="text-2xl font-bold mb-6 pb-3 border-b-2 border-accent">Conteúdo</h2>
             <div className="space-y-8">
               {topic.content.sections.map((section, index) => (
-                <div key={index} className="space-y-4">
+                <div key={index} className="space-y-6">
                   <h3 className="text-xl font-semibold text-accent">{section.title}</h3>
-                  <div className="space-y-4">
+                  <div className="space-y-6">
                     {section.content.map((paragraph, pIndex) => (
                       <FormattedText key={pIndex} text={paragraph} />
                     ))}
                   </div>
 
                   {section.subsections && (
-                    <div className="ml-6 space-y-6 mt-6">
+                    <div className="ml-6 space-y-8 mt-8">
                       {section.subsections.map((subsection, subIndex) => (
-                        <div key={subIndex} className="space-y-3 pl-4 border-l-4 border-accent/30">
-                          <h4 className="text-lg font-semibold text-foreground">{subsection.title}</h4>
-                          <div className="space-y-3">
+                        <div key={subIndex} className="space-y-4 pl-6 border-l-4 border-accent/30 bg-accent/5 p-6 rounded-r-lg">
+                          <h4 className="text-lg font-bold text-foreground">{subsection.title}</h4>
+                          <div className="space-y-5">
                             {Array.isArray(subsection.content) ? (
                               subsection.content.map((paragraph, pIndex) => (
                                 <FormattedText key={pIndex} text={paragraph} />
