@@ -22,6 +22,14 @@ export interface TopicContent {
     correctAnswer: number
     explanation: string
   }>
+  references?: Array<{
+    title: string
+    authors: string
+    source: string
+    year: string
+    url: string
+    type: string
+  }>
 }
 
 import { allTopics } from "./topics/index"
