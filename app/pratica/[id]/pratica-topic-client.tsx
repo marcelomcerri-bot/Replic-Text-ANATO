@@ -55,23 +55,23 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
 
         <div className="space-y-12">
           <section>
-            <h2 className="text-2xl font-bold mb-6 pb-3 border-b-2 border-accent">Conteúdo</h2>
-            <div className="space-y-8">
+            <h2 className="text-2xl font-bold mb-8 pb-4 border-b-2 border-accent">Conteúdo</h2>
+            <div className="space-y-12">
               {topic.content.sections.map((section, index) => (
-                <div key={index} className="space-y-6">
-                  <h3 className="text-xl font-semibold text-accent">{section.title}</h3>
-                  <div className="space-y-6">
+                <div key={index} className="space-y-8">
+                  <h3 className="text-2xl font-bold text-accent mb-6">{section.title}</h3>
+                  <div className="space-y-6 text-lg">
                     {section.content.map((paragraph, pIndex) => (
                       <FormattedText key={pIndex} text={paragraph} />
                     ))}
                   </div>
 
                   {section.subsections && (
-                    <div className="ml-6 space-y-8 mt-8">
+                    <div className="space-y-10 mt-10">
                       {section.subsections.map((subsection, subIndex) => (
-                        <div key={subIndex} className="space-y-4 pl-6 border-l-4 border-accent/30 bg-accent/5 p-6 rounded-r-lg">
-                          <h4 className="text-lg font-bold text-foreground">{subsection.title}</h4>
-                          <div className="space-y-5">
+                        <div key={subIndex} className="border-2 border-accent/20 bg-gradient-to-r from-accent/5 to-transparent p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                          <h4 className="text-xl font-bold text-foreground mb-6 pb-3 border-b border-accent/30">{subsection.title}</h4>
+                          <div className="space-y-6 text-base">
                             {Array.isArray(subsection.content) ? (
                               subsection.content.map((paragraph, pIndex) => (
                                 <FormattedText key={pIndex} text={paragraph} />

@@ -8,7 +8,7 @@ export function FormattedText({ text }: { text: string }) {
     // Processa texto com listas
     const lines = text.split("\n")
     return (
-      <div className="space-y-3">
+      <div className="space-y-4">
         {lines.map((line, lineIdx) => {
           const trimmedLine = line.trim()
           if (!trimmedLine) return null
@@ -17,17 +17,17 @@ export function FormattedText({ text }: { text: string }) {
             // Item de lista
             const content = trimmedLine.substring(1).trim()
             return (
-              <div key={lineIdx} className="flex gap-3 ml-4 mb-2">
-                <span className="text-accent font-bold mt-1 flex-shrink-0">•</span>
-                <span className="flex-1 leading-7">
+              <div key={lineIdx} className="flex gap-4 ml-2 py-2">
+                <span className="text-accent font-bold text-lg mt-0.5 flex-shrink-0">•</span>
+                <p className="flex-1 leading-8 text-base">
                   {formatInlineText(content)}
-                </span>
+                </p>
               </div>
             )
           } else {
             // Parágrafo normal
             return (
-              <p key={lineIdx} className="leading-7">
+              <p key={lineIdx} className="leading-8 text-base mb-4">
                 {formatInlineText(trimmedLine)}
               </p>
             )
@@ -43,12 +43,12 @@ export function FormattedText({ text }: { text: string }) {
   if (segments.length > 1) {
     // Texto com seções em negrito - renderiza com quebras
     return (
-      <div className="space-y-4">
+      <div className="space-y-6">
         {segments.map((segment, idx) => {
           if (segment.match(/^\*\*[^*]+:\*\*$/)) {
             // Título em negrito
             return (
-              <div key={idx} className="font-bold text-foreground mt-5 first:mt-0 text-base">
+              <div key={idx} className="font-bold text-foreground mt-6 first:mt-0 text-base bg-accent/10 px-4 py-2.5 rounded-md border-l-4 border-accent">
                 {formatInlineText(segment)}
               </div>
             )
@@ -60,9 +60,9 @@ export function FormattedText({ text }: { text: string }) {
             const sentences = trimmedSegment.match(/[^.!?]+[.!?]+/g) || [trimmedSegment]
             
             return (
-              <div key={idx} className="ml-4">
+              <div key={idx} className="ml-6 space-y-4">
                 {sentences.map((sentence, sIdx) => (
-                  <p key={sIdx} className="leading-7 text-muted-foreground mb-3">
+                  <p key={sIdx} className="leading-8 text-base text-muted-foreground">
                     {formatInlineText(sentence.trim())}
                   </p>
                 ))}
@@ -74,21 +74,8 @@ export function FormattedText({ text }: { text: string }) {
     )
   }
 
-  // Texto simples - quebra em sentenças
-  const sentences = text.match(/[^.!?]+[.!?]+/g) || [text]
-  if (sentences.length > 2) {
-    return (
-      <div className="space-y-3">
-        {sentences.map((sentence, idx) => (
-          <p key={idx} className="leading-7">
-            {formatInlineText(sentence.trim())}
-          </p>
-        ))}
-      </div>
-    )
-  }
-  
-  return <p className="leading-7">{formatInlineText(text)}</p>
+  // Texto simples
+  return <p className="leading-8 text-base mb-4">{formatInlineText(text)}</p>
 }
 
 // Função auxiliar para formatar texto inline (negrito)
