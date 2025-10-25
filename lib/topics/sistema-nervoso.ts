@@ -1,7 +1,6 @@
 import type { TopicContent } from "../topics-data"
 
 export const sistemaNervoso: TopicContent = {
-  id: "sistema-nervoso",
   title: "Sistema Nervoso",
   description: "Sistema nervoso central e periférico, nervos cranianos e espinhais",
   content: {

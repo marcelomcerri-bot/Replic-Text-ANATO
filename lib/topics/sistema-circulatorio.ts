@@ -1,7 +1,6 @@
 import type { TopicContent } from "../topics-data"
 
 export const sistemaCirculatorio: TopicContent = {
-  id: "sistema-circulatorio",
   title: "Sistema Circulatório",
   description: "Coração, artérias, veias e circulação sanguínea",
   content: {

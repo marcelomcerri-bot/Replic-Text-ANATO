@@ -48,6 +48,9 @@ export const sistemaArticular: TopicContent = {
             ],
           },
         ],
+      },
+      {
+        title: "Considerações sobre Classificação Estrutural",
         content: [
           "A discussão anatômica sobre articulações frequentemente organiza-se segundo esta classificação estrutural, com subsequente discussão das propriedades funcionais específicas de cada articulação.",
         ],
