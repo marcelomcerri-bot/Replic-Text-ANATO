@@ -2,6 +2,7 @@ import type { TopicContent } from "../topics-data"
 
 export const sistemaDigestorio: TopicContent = {
   title: "Sistema Digestório",
+  description: "Anatomia e fisiologia do tubo digestório e órgãos anexos",
   content: {
     sections: [
       {

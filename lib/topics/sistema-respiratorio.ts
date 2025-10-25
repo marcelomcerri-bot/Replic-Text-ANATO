@@ -1,7 +1,6 @@
 import type { TopicContent } from "../topics-data"
 
 export const sistemaRespiratorio: TopicContent = {
-  id: "sistema-respiratorio",
   title: "Sistema Respiratório",
   description: "Anatomia funcional e estrutural do sistema respiratório",
   content: {

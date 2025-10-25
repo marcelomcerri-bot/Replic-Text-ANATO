@@ -2,6 +2,7 @@ import type { TopicContent } from "../topics-data"
 
 export const sistemaUrinario: TopicContent = {
   title: "Sistema Urinário",
+  description: "Rins, néfrons e vias urinárias",
   content: {
     sections: [
       {
