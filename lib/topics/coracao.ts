@@ -1,7 +1,6 @@
 import type { TopicContent } from "../topics-data"
 
 export const coracao: TopicContent = {
-  id: "coracao",
   title: "Coração",
   description: "Estrutura, condução e circulação cardíaca",
   content: {

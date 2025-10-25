@@ -1,7 +1,6 @@
 import type { TopicContent } from "../topics-data"
 
 export const cranio: TopicContent = {
-  id: "cranio",
   title: "Crânio",
   description: "Anatomia, divisões e funções de proteção",
   content: {
@@ -77,7 +76,10 @@ export const cranio: TopicContent = {
       },
       {
         title: "Composição Óssea da Face (Viscerocrânio)",
-        content: ["O esqueleto facial é formado por **14 ossos**."],
+        content: [
+          "O esqueleto facial é formado por **14 ossos**.",
+          "O esqueleto facial fornece as aberturas para os olhos, as áreas respiratórias e as passagens digestórias, além de fornecer áreas para a inserção dos músculos faciais.",
+        ],
         subsections: [
           {
             title: "Ossos Pares da Face",
@@ -94,9 +96,6 @@ export const cranio: TopicContent = {
             title: "Ossos Ímpares da Face",
             content: ["• **Mandíbula** (1)", "• **Vômer** (1)"],
           },
-        ],
-        content: [
-          "O esqueleto facial fornece as aberturas para os olhos, as áreas respiratórias e as passagens digestórias, além de fornecer áreas para a inserção dos músculos faciais.",
         ],
       },
       {

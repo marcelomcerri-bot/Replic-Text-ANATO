@@ -1,7 +1,6 @@
 import type { TopicContent } from "../topics-data"
 
 export const vasosBase: TopicContent = {
-  id: "vasos-base",
   title: "Vasos da Base",
   description: "Grandes conduítes e relações neurovasculares",
   content: {
