@@ -1,0 +1,399 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Enhanced color scheme with nursing/anatomy theme - medical blue, teal, and soft pink accents */
+  --background: oklch(0.99 0 0);
+  --foreground: oklch(0.15 0.02 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0.02 250);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0.02 250);
+  --primary: oklch(0.55 0.22 260); /* Medical blue */
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.96 0.01 260);
+  --secondary-foreground: oklch(0.15 0.02 250);
+  --muted: oklch(0.96 0.01 260);
+  --muted-foreground: oklch(0.45 0.02 250);
+  --accent: oklch(0.65 0.2 180); /* Teal accent */
+  --accent-foreground: oklch(0.99 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.92 0.01 260);
+  --input: oklch(0.92 0.01 260);
+  --ring: oklch(0.55 0.22 260);
+  --chart-1: oklch(0.65 0.2 180);
+  --chart-2: oklch(0.6 0.18 200);
+  --chart-3: oklch(0.55 0.22 260);
+  --chart-4: oklch(0.7 0.18 160);
+  --chart-5: oklch(0.58 0.2 220);
+  --radius: 0.5rem;
+  --sidebar: oklch(1 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+
+  /* Enhanced gradient colors for more vibrant nursing/anatomy theme */
+  --gradient-start: oklch(0.75 0.15 180); /* Bright teal */
+  --gradient-mid: oklch(0.65 0.18 220); /* Vibrant blue */
+  --gradient-end: oklch(0.8 0.12 320); /* Soft pink */
+}
+
+.dark {
+  --background: oklch(0.12 0.02 250);
+  --foreground: oklch(0.96 0.01 250);
+  --card: oklch(0.15 0.02 250);
+  --card-foreground: oklch(0.96 0.01 250);
+  --popover: oklch(0.15 0.02 250);
+  --popover-foreground: oklch(0.96 0.01 250);
+  --primary: oklch(0.65 0.2 180); /* Teal for dark mode */
+  --primary-foreground: oklch(0.12 0.02 250);
+  --secondary: oklch(0.22 0.02 250);
+  --secondary-foreground: oklch(0.96 0.01 250);
+  --muted: oklch(0.22 0.02 250);
+  --muted-foreground: oklch(0.65 0.02 250);
+  --accent: oklch(0.65 0.2 180);
+  --accent-foreground: oklch(0.12 0.02 250);
+  --destructive: oklch(0.5 0.2 27);
+  --destructive-foreground: oklch(0.96 0.01 250);
+  --border: oklch(0.22 0.02 250);
+  --input: oklch(0.22 0.02 250);
+  --ring: oklch(0.65 0.2 180);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+
+  /* Dark mode gradient colors - more vibrant */
+  --gradient-start: oklch(0.45 0.2 180);
+  --gradient-mid: oklch(0.35 0.22 260);
+  --gradient-end: oklch(0.55 0.15 320);
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  /* Reduced font sizes and tighter spacing for more compact design */
+  html {
+    /* Base font size: 15px on mobile, 16px on desktop */
+    font-size: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: linear-gradient(
+      135deg,
+      oklch(0.92 0.08 180) 0%,
+      oklch(0.94 0.06 220) 25%,
+      oklch(0.93 0.07 260) 50%,
+      oklch(0.95 0.05 300) 75%,
+      oklch(0.96 0.04 320) 100%
+    );
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Tighter line height for more compact feel */
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+  }
+
+  .dark body {
+    background: linear-gradient(
+      135deg,
+      oklch(0.14 0.06 180) 0%,
+      oklch(0.12 0.05 220) 25%,
+      oklch(0.13 0.06 260) 50%,
+      oklch(0.12 0.05 300) 75%,
+      oklch(0.14 0.04 320) 100%
+    );
+    background-attachment: fixed;
+  }
+
+  .topic-page-bg {
+    background: linear-gradient(
+      160deg,
+      oklch(0.87 0.1 200) 0%,
+      oklch(0.89 0.09 240) 30%,
+      oklch(0.88 0.1 280) 60%,
+      oklch(0.9 0.08 310) 100%
+    );
+    background-attachment: fixed;
+  }
+
+  .dark .topic-page-bg {
+    background: linear-gradient(
+      160deg,
+      oklch(0.16 0.07 200) 0%,
+      oklch(0.14 0.06 240) 30%,
+      oklch(0.15 0.07 280) 60%,
+      oklch(0.17 0.05 310) 100%
+    );
+    background-attachment: fixed;
+  }
+
+  .mobile-sidebar-gradient {
+    background: linear-gradient(
+      160deg,
+      oklch(0.98 0.02 200) 0%,
+      oklch(0.99 0.015 240) 40%,
+      oklch(0.98 0.02 280) 70%,
+      oklch(0.99 0.015 310) 100%
+    );
+  }
+
+  .dark .mobile-sidebar-gradient {
+    background: linear-gradient(
+      160deg,
+      oklch(0.18 0.04 200) 0%,
+      oklch(0.16 0.035 240) 40%,
+      oklch(0.17 0.04 280) 70%,
+      oklch(0.18 0.03 310) 100%
+    );
+  }
+
+  /* More compact fluid typography scale */
+  h1 {
+    font-size: clamp(1.75rem, 1.5rem + 1.5vw, 2.75rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+    margin-bottom: 0.4em;
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 1.25rem + 1.25vw, 2.25rem);
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 1.125rem + 0.75vw, 1.75rem);
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+  }
+
+  h4 {
+    font-size: clamp(1.125rem, 1.0625rem + 0.375vw, 1.375rem);
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+  }
+
+  h5 {
+    font-size: clamp(1.0625rem, 1rem + 0.25vw, 1.25rem);
+    line-height: 1.4;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+  }
+
+  h6 {
+    font-size: clamp(1rem, 0.9375rem + 0.25vw, 1.125rem);
+    line-height: 1.45;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+  }
+
+  /* All headings get premium text treatment */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-wrap: balance;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "ss01" 1;
+  }
+
+  /* More compact body text with tighter spacing */
+  p {
+    text-wrap: pretty;
+    max-width: 70ch;
+    font-size: 1em;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    margin-bottom: 1em;
+    word-spacing: 0.03em;
+  }
+
+  /* Tighter list spacing */
+  ul,
+  ol {
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 70ch;
+    margin-bottom: 1em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+  }
+
+  /* Table typography */
+  table {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+
+  th {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  td {
+    line-height: 1.5;
+  }
+
+  /* Improved focus states for accessibility */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ring;
+  }
+}
+
+/* Enhanced gradient utilities with more vibrant colors */
+.gradient-hero {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 50%, var(--gradient-end) 100%);
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, oklch(0.96 0.03 180) 0%, oklch(0.97 0.02 220) 50%, oklch(0.96 0.03 260) 100%);
+}
+
+.dark .gradient-card {
+  background: linear-gradient(135deg, oklch(0.2 0.05 180) 0%, oklch(0.18 0.04 220) 50%, oklch(0.19 0.05 260) 100%);
+}
+
+@keyframes gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.gradient-animated {
+  background: linear-gradient(
+    135deg,
+    oklch(0.75 0.15 180),
+    oklch(0.65 0.18 220),
+    oklch(0.7 0.16 260),
+    oklch(0.8 0.12 320)
+  );
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, oklch(0.65 0.2 180), oklch(0.55 0.22 260), oklch(0.7 0.15 320));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@layer utilities {
+  .smooth-transition {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform, opacity, background-color;
+  }
+
+  .smooth-transform {
+    transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+  }
+
+  .smooth-colors {
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+[data-slot="sheet-content"] {
+  transition: transform 0.25s cubic-bezier(0.32, 0.72, 0, 1) !important;
+}
+
+[data-slot="sheet-overlay"] {
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
