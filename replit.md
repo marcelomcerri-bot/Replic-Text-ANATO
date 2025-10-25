@@ -7,6 +7,19 @@ AnatomiaViva is a Next.js 15 educational platform for anatomy designed for nursi
 Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import completed and running on October 25, 2025.
 
 ## Recent Changes
+- **2025-10-25**: Major expansion of Heart (Coração) topic with NCBI scientific sources
+  - Completely expanded heart topic from 262 to 557 lines (~112% increase) with comprehensive anatomical detail
+  - Added detailed anatomy of all 4 cardiac chambers (right/left atria and ventricles) with structural and functional descriptions
+  - Complete valve system coverage: tricuspid, mitral (bicuspid), pulmonary, and aortic valves with structural components (chordae tendineae, papillary muscles, fibrous skeleton)
+  - Full cardiac conduction system: SA node, AV node, Bundle of His, left/right bundle branches, Purkinje fibers with anatomical locations and functions
+  - Comprehensive coronary circulation: arterial anatomy (right and left coronary arteries, branches, dominance patterns), venous drainage, physiological characteristics
+  - Cardiac development and congenital defects (foramen ovale, ductus arteriosus, septal defects)
+  - Cardiac cycle, heart sounds, auscultation details
+  - Detailed autonomic innervation (parasympathetic/vagal and sympathetic systems)
+  - Aging-related cardiac changes
+  - **Scientific references**: Added 9 NCBI sources (StatPearls, PubMed, PMC) including Anderson et al., James TN, Lincoln & Yutzey
+  - Added `references` field to TopicContent interface to support bibliographic citations
+  - Applied academic formatting: technical-scientific language, articulated paragraphs, reduced bullet points, professional medical terminology
 - **2025-10-25**: Comprehensive content reformatting for maximum academic quality
   - Reformatted 4 flagship theoretical topics (Introduction to Anatomy, Skeletal System, Articular System, Muscular System) with enhanced academic prose
   - Reduced excessive bullet points, created fluid well-articulated paragraphs suitable for nursing students
