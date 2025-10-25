@@ -8,15 +8,15 @@ export const introducaoAnatomia: TopicContent = {
       {
         title: "1. Definição, Histórico e Anatomia Funcional",
         content: [
-          "A Anatomia é o estudo da estrutura do corpo humano. A Anatomia também é chamada Morfologia, que significa a ciência da forma. É uma ciência antiga e dinâmica, sendo um campo de investigação intelectual há pelo menos 2.300 anos. O termo anatomia vem do grego e significa 'cortar em partes'.",
+          "A **Anatomia** constitui o estudo sistemático da estrutura do corpo humano, também denominada **Morfologia** — a ciência da forma. Trata-se de uma disciplina antiga e dinâmica, consolidada como campo de investigação intelectual há pelo menos 2.300 anos. Etimologicamente, o termo deriva do grego antigo, significando \"cortar em partes\", refletindo a prática dissectiva fundamental ao estudo anatômico.",
         ],
         subsections: [
           {
             title: "1.1. Relação com a Fisiologia",
             content: [
-              "A Anatomia está intimamente relacionada à Fisiologia, que é o estudo das funções do organismo. As duas disciplinas são inseparáveis, pois a estrutura suporta a função.",
-              "Exemplos Funcionais: O formato dos ossos espessos e longos das pernas, por exemplo, permite que eles suportem o peso do corpo. Da mesma forma, a lente do olho é transparente e curva, cumprindo a função de focalizar a luz.",
-              "Anatomia Funcional: A abordagem que enfatiza como a forma e a composição das estruturas anatômicas permitem o desempenho das funções é chamada de anatomia funcional. Essa abordagem se concentra na 'análise do projeto'.",
+              "A Anatomia mantém relação indissociável com a **Fisiologia**, disciplina que investiga as funções orgânicas. Essas duas ciências são complementares e interdependentes, fundamentadas no princípio de que a estrutura suporta a função. Esta correlação estrutura-função permeia toda a compreensão anatômica moderna.",
+              "A observação funcional evidencia essa interdependência: os ossos espessos e alongados dos membros inferiores, por exemplo, são estruturalmente capacitados para suportar o peso corporal. Similarmente, a lente ocular apresenta transparência e curvatura adequadas para focalizar a luz incidente sobre a retina.",
+              "A abordagem que enfatiza como a forma e a composição das estruturas anatômicas viabilizam o desempenho funcional denomina-se **Anatomia Funcional**. Esta perspectiva concentra-se na \"análise do projeto\" anatômico, interpretando as estruturas sob a ótica de suas capacidades funcionais.",
             ],
           },
         ],
@@ -24,38 +24,37 @@ export const introducaoAnatomia: TopicContent = {
       {
         title: "2. Subdisciplinas da Anatomia",
         content: [
-          "A Anatomia é um campo vasto, consistindo em diversas disciplinas que estudam as estruturas do corpo de forma especializada.",
+          "A Anatomia constitui campo vasto e multifacetado, abrangendo diversas subdisciplinas especializadas que investigam as estruturas corporais sob diferentes perspectivas metodológicas e escalas de observação.",
         ],
         subsections: [
           {
             title: "2.1. Anatomia Macroscópica",
             content: [
-              "A anatomia macroscópica (macro = grande) é o estudo das estruturas que podem ser examinadas a olho nu, como ossos, pulmões e músculos.",
-              "As abordagens de estudo macroscópico incluem:",
-              "1. Anatomia Sistêmica: Todos os órgãos de funções correlatas são estudados em conjunto (por exemplo, o sistema muscular do corpo inteiro). Essa é a abordagem utilizada na maioria dos cursos de anatomia e no livro, por ser melhor para relacionar a estrutura à função.",
-              "2. Anatomia Regional (Topográfica): Todas as estruturas de uma única região do corpo (como o abdome ou a cabeça) são examinadas como um grupo. Esta abordagem é preferida em faculdades de medicina, pois muitas lesões e doenças envolvem regiões específicas, e cirurgiões precisam de conhecimento detalhado de cada região.",
-              "3. Anatomia de Superfície: Estuda formas e marcas (chamadas marcos) na superfície do corpo que revelam os órgãos subjacentes. Esse conhecimento é utilizado para localizar vasos sanguíneos (para cateteres, pulsação e coleta de sangue) e identificar músculos.",
+              "A **Anatomia Macroscópica** (do grego *macro* = grande) dedica-se ao estudo das estruturas observáveis a olho nu, incluindo ossos, pulmões, músculos e demais órgãos visíveis sem magnificação óptica.",
+              "O estudo macroscópico organiza-se segundo três abordagens metodológicas distintas, cada qual com aplicações específicas:",
+              "**Anatomia Sistêmica** — Estuda conjuntamente todos os órgãos com funções correlatas, como o sistema muscular em sua totalidade. Esta abordagem predomina nos cursos introdutórios de anatomia, favorecendo a correlação entre estrutura e função de maneira integrada.",
+              "**Anatomia Regional (Topográfica)** — Examina todas as estruturas presentes em uma região corporal específica, como o abdome ou a cabeça, independentemente do sistema a que pertencem. Esta metodologia é preferencial nas faculdades de medicina, pois muitas lesões e patologias manifestam-se regionalmente, e procedimentos cirúrgicos exigem conhecimento topográfico detalhado de cada área anatômica.",
+              "**Anatomia de Superfície** — Investiga formas e marcos (pontos de referência) na superfície corporal que revelam estruturas subjacentes. Este conhecimento aplicado é fundamental para localizar vasos sanguíneos (cateterização, palpação de pulsos, venopunção) e identificar relevos musculares durante exames físicos.",
             ],
           },
           {
             title: "2.2. Anatomia Microscópica (Histologia)",
             content: [
-              "A anatomia microscópica, também conhecida como histologia (estudo dos tecidos), é o estudo das estruturas que só podem ser vistas com o auxílio de um microscópio.",
-              "Isso inclui células, partes das células, grupos de células (tecidos) e detalhes microscópicos dos órgãos.",
-              "O conhecimento dessa área é vital porque os processos fisiológicos e o desenvolvimento das doenças ocorrem no nível celular.",
-              "Preparação de Tecidos: A visualização requer que a peça seja fixada (preservada química ou fisicamente), cortada em lâminas finas (seccionamento), e receba coloração para aumentar o contraste. Corantes ácidos marcam estruturas positivamente carregadas; corantes básicos marcam estruturas negativamente carregadas.",
-              "Artefatos: Os procedimentos de preparação alteram a condição original do tecido, introduzindo pequenas distorções chamadas artefatos.",
+              "A **Anatomia Microscópica**, também denominada **Histologia** (do grego *histos* = tecido), investiga estruturas observáveis exclusivamente mediante magnificação microscópica.",
+              "Este campo abrange células individuais, organelas celulares, agrupamentos celulares organizados em tecidos e detalhes microscópicos da arquitetura orgânica. O domínio histológico é fundamental, pois os processos fisiológicos e o desenvolvimento das doenças ocorrem primariamente no nível celular e molecular.",
+              "A visualização microscópica requer preparação técnica rigorosa do material biológico. O processo envolve **fixação** (preservação química ou física do tecido), **seccionamento** (obtenção de cortes ultrafinos) e **coloração** (aplicação de corantes para amplificar o contraste visual). Corantes ácidos têm afinidade por estruturas com carga positiva, enquanto corantes básicos marcam componentes negativamente carregados.",
+              "É fundamental reconhecer que os procedimentos preparatórios modificam inevitavelmente a condição original do tecido, introduzindo distorções denominadas **artefatos** — alterações induzidas artificialmente que não representam características do tecido vivo.",
             ],
           },
           {
-            title: "2.3. Outros Ramos",
+            title: "2.3. Outros Ramos Especializados",
             content: [
-              "Outros ramos da anatomia incluem:",
-              "Anatomia do Desenvolvimento: Acompanha as mudanças estruturais que ocorrem ao longo de toda a vida e os efeitos do envelhecimento.",
-              "Embriologia: Estuda como as estruturas do corpo se formam e se desenvolvem antes do nascimento. É importante para explicar os defeitos de nascimento (anormalidades anatômicas).",
-              "Anatomia Patológica: Lida com as mudanças estruturais nas células, tecidos e órgãos causadas pelas doenças.",
-              "Anatomia Radiológica (ou Radiográfica): Consiste no estudo das estruturas anatômicas por meio do raio X e outras técnicas de geração de imagem.",
-              "Anatomia Aplicada: Compreende o estudo da aplicação prática dos dados anatômicos, sendo indispensável para a prática médica competente, especialmente no diagnóstico ou tratamento de patologias.",
+              "Além das subdisciplinas fundamentais, a Anatomia ramifica-se em diversos campos especializados:",
+              "**Anatomia do Desenvolvimento** — Acompanha as transformações estruturais ao longo da vida, desde a formação embrionária até as alterações associadas ao envelhecimento.",
+              "**Embriologia** — Especializa-se no estudo da morfogênese pré-natal, investigando como as estruturas corporais se formam e se desenvolvem durante o período gestacional. É essencial para compreender malformações congênitas e anormalidades anatômicas.",
+              "**Anatomia Patológica** — Analisa as alterações estruturais em células, tecidos e órgãos provocadas por processos patológicos, correlacionando mudanças morfológicas com manifestações clínicas.",
+              "**Anatomia Radiológica (Radiográfica)** — Estuda as estruturas anatômicas mediante técnicas de imagiologia médica, incluindo radiografia, tomografia computadorizada e ressonância magnética.",
+              "**Anatomia Aplicada** — Compreende a aplicação prática dos conhecimentos anatômicos na prática clínica, sendo indispensável para o diagnóstico preciso e o tratamento adequado das patologias.",
             ],
           },
         ],
@@ -63,24 +62,23 @@ export const introducaoAnatomia: TopicContent = {
       {
         title: "3. Hierarquia da Organização Estrutural",
         content: [
-          "O corpo humano é organizado em uma hierarquia estrutural que vai do nível mais simples ao mais complexo.",
-          "Os níveis de organização são:",
-          "1. Nível Químico.",
-          "2. Nível Celular: As células são as unidades básicas estruturais e funcionais da vida.",
-          "3. Nível Tecidual: É uma coleção de células estruturalmente similares e com funções relacionadas.",
-          "4. Nível do Órgão: Uma estrutura distinta, composta de mais de um tecido. A maioria dos órgãos contém os quatro tecidos primários.",
-          "5. Nível do Sistema Orgânico: Grupos de órgãos que trabalham juntos para realizar uma função complexa.",
-          "6. Nível do Organismo: O corpo humano como um todo.",
+          "O corpo humano exibe organização hierárquica que se estende desde o nível molecular até a complexidade do organismo completo. Esta organização sequencial pode ser compreendida através de seis níveis progressivamente mais complexos:",
+          "**Nível Químico** — Compreende átomos e moléculas que constituem a base material de todas as estruturas.",
+          "**Nível Celular** — As células representam as unidades básicas estruturais e funcionais da vida, cada uma capaz de executar processos vitais fundamentais.",
+          "**Nível Tecidual** — Conjuntos de células estruturalmente similares e funcionalmente relacionadas organizam-se em tecidos especializados.",
+          "**Nível do Órgão** — Estruturas distintas compostas por múltiplos tecidos integrados. A maioria dos órgãos incorpora os quatro tipos teciduais primários.",
+          "**Nível do Sistema Orgânico** — Conjuntos de órgãos que colaboram sinergicamente para realizar funções complexas integradas.",
+          "**Nível do Organismo** — O corpo humano como totalidade funcional e integrada.",
         ],
         subsections: [
           {
             title: "3.1. Os Quatro Tecidos Primários",
             content: [
-              "O aprendizado dos tecidos confere uma base sólida para a compreensão dos órgãos. Os quatro tecidos primários são:",
-              "Tecido Epitelial: Recobre a superfície corporal e forra suas cavidades.",
-              "Tecido Conjuntivo: Suporta o corpo e protege seus órgãos.",
-              "Tecido Muscular: Propicia o movimento.",
-              "Tecido Nervoso: Responsável pela rápida comunicação interna, transmitindo impulsos elétricos.",
+              "O conhecimento aprofundado dos tecidos fundamenta a compreensão da estrutura e função orgânicas. O corpo humano organiza-se em quatro categorias teciduais primárias, cada qual com características e funções específicas:",
+              "**Tecido Epitelial** — Reveste superfícies corporais externas e cavidades internas, proporcionando proteção, absorção e secreção.",
+              "**Tecido Conjuntivo** — Confere suporte estrutural, conecta diferentes tecidos e órgãos, e desempenha funções de proteção, nutrição e defesa.",
+              "**Tecido Muscular** — Especializado em contração, viabiliza a movimentação corporal e o deslocamento de substâncias no organismo.",
+              "**Tecido Nervoso** — Responsável pela comunicação interna rápida mediante transmissão de impulsos elétricos, coordenando e integrando funções orgânicas.",
             ],
           },
         ],
@@ -88,28 +86,24 @@ export const introducaoAnatomia: TopicContent = {
       {
         title: "4. Terminologia Padrão e Posição Anatômica",
         content: [
-          "O corpo humano é descrito utilizando a Terminologia Anatômica, que é a nomenclatura padrão utilizada mundialmente pelos cientistas.",
+          "A descrição anatômica utiliza a **Terminologia Anatômica**, nomenclatura padronizada mundialmente aceita pela comunidade científica, garantindo precisão e uniformidade na comunicação entre profissionais.",
         ],
         subsections: [
           {
             title: "4.1. Princípios da Terminologia",
             content: [
-              "A terminologia é baseada em palavras do grego antigo e do latim. A nomenclatura procura adotar termos que tragam alguma informação ou descrição sobre a estrutura.",
-              "Os termos podem indicar a forma (músculo trapézio), a posição (nervo mediano), a função (m. levantador da escápula), o trajeto (artéria circunflexa da escápula), ou ter um critério misto.",
-              "A Terminologia Anatômica aboliu os epônimos (nome de pessoas para designar coisas).",
-              "Aprender o significado dos radicais das palavras (ex: hepata = fígado, itis = inflamação) ajuda na compreensão dos termos.",
+              "A nomenclatura anatômica fundamenta-se em radicais do grego antigo e do latim, línguas que conferem universalidade e precisão descritiva. Os termos anatômicos são preferencialmente descritivos, fornecendo informações sobre características da estrutura denominada.",
+              "Os critérios nomenclaturais podem indicar a forma da estrutura (como no músculo trapézio), sua posição relativa (nervo mediano), sua função (músculo levantador da escápula), seu trajeto (artéria circunflexa da escápula), ou combinar múltiplos critérios.",
+              "A Terminologia Anatômica aboliu sistematicamente os **epônimos** (denominações que homenageiam pessoas), privilegiando termos descritivos que comunicam características anatômicas objetivas.",
+              "O domínio dos radicais etimológicos facilita significativamente a compreensão e memorização terminológica. Por exemplo: *hepato-* refere-se ao fígado, enquanto o sufixo *-ite* indica processo inflamatório.",
             ],
           },
           {
             title: "4.2. Posição Anatômica",
             content: [
-              "Para evitar confusão, as descrições anatômicas são sempre feitas com o indivíduo em uma posição padrão chamada posição de descrição anatômica (ou posição anatômica).",
-              "Nessa posição, o indivíduo está:",
-              "• Ereto (de pé).",
-              "• Com os pés retos e apoiados no chão.",
-              "• Com o olhar fixo no horizonte e a face voltada para a frente.",
-              "• Os membros superiores ficam estendidos nos dois lados do corpo, com as palmas das mãos voltadas anteriormente e os polegares apontando para fora.",
-              "É crucial lembrar que os termos direita e esquerda sempre se referem aos respectivos lados da pessoa ou cadáver em análise, e nunca aos lados do observador.",
+              "Para assegurar uniformidade descritiva e prevenir ambiguidades, todas as descrições anatômicas referem-se ao indivíduo em uma configuração padronizada denominada **Posição Anatômica** (ou Posição de Descrição Anatômica).",
+              "Nesta posição de referência, o indivíduo apresenta-se em **postura ereta** (ortostática), com os pés paralelos apoiados no solo, o olhar dirigido horizontalmente para frente e a face orientada anteriormente. Os membros superiores estendem-se lateralmente ao tronco, com as palmas das mãos voltadas anteriormente e os polegares apontando lateralmente.",
+              "É fundamental compreender que os termos direita e esquerda referem-se invariavelmente aos lados correspondentes do indivíduo em análise (paciente ou cadáver), nunca aos lados do observador ou examinador.",
             ],
           },
         ],
@@ -117,24 +111,25 @@ export const introducaoAnatomia: TopicContent = {
       {
         title: "5. Planos e Secções do Corpo",
         content: [
-          "O corpo é seccionado (cortado) ao longo de uma superfície plana chamada plano. A habilidade de interpretar secções, especialmente as transversais, é cada vez mais importante nas ciências clínicas, pois aparelhos de imagiologia produzem imagens seccionais.",
-          "Os planos mais utilizados, que se encontram em ângulos retos, são:",
-          "Plano Sagital: Corre longitudinalmente e divide o corpo em porções direita e esquerda.",
-          "Plano Frontal (ou Coronal): Divide o corpo em porções anterior (ventral) e posterior (dorsal).",
-          "Plano Transversal (ou Horizontal): Corre horizontalmente (em ângulos retos) e divide o corpo em porções superior (cranial) e inferior (caudal).",
+          "O corpo pode ser seccionado segundo superfícies planas denominadas **planos anatômicos**, que servem como referências espaciais fundamentais. A interpretação de secções transversais tornou-se progressivamente mais importante nas ciências clínicas, especialmente com a disseminação de aparelhos de imagiologia que produzem imagens seccionais de alta resolução.",
+          "Os três planos principais, mutuamente perpendiculares, constituem o sistema de referência tridimensional:",
+          "**Plano Sagital** — Estende-se longitudinalmente, dividindo o corpo em porções direita e esquerda. O plano sagital mediano passa exatamente pela linha média, dividindo o corpo em metades simétricas.",
+          "**Plano Frontal (Coronal)** — Divide o corpo em porções anterior (ventral) e posterior (dorsal), paralelo à superfície frontal do corpo.",
+          "**Plano Transversal (Horizontal)** — Orienta-se perpendicularmente ao eixo longitudinal do corpo, dividindo-o em porções superior (cranial) e inferior (caudal).",
         ],
         subsections: [
           {
             title: "Termos de Direção Padrão",
             content: [
-              "Superior (Cranial): Na direção da cabeça ou mais acima.",
-              "Inferior (Caudal): Na direção dos pés ou mais abaixo.",
-              "Anterior (Ventral): Na parte da frente do corpo.",
-              "Posterior (Dorsal): Na parte de trás do corpo.",
-              "Medial: Mais próximo do plano mediano.",
-              "Lateral: Mais próximo do lado direito ou esquerdo do corpo.",
-              "Superficial: Mais próximo da superfície.",
-              "Profundo: Mais para dentro da superfície.",
+              "A terminologia direcional estabelece relações espaciais precisas entre estruturas anatômicas:",
+              "**Superior (Cranial)** — Posicionado em direção à cabeça ou mais elevado no corpo.",
+              "**Inferior (Caudal)** — Posicionado em direção aos pés ou mais baixo no corpo.",
+              "**Anterior (Ventral)** — Localizado na parte frontal do corpo ou mais próximo dela.",
+              "**Posterior (Dorsal)** — Localizado na parte posterior do corpo ou mais próximo dela.",
+              "**Medial** — Mais próximo do plano mediano do corpo.",
+              "**Lateral** — Mais distante do plano mediano, em direção aos lados do corpo.",
+              "**Superficial** — Mais próximo da superfície corporal.",
+              "**Profundo** — Mais distante da superfície corporal, em direção ao interior.",
             ],
           },
         ],
@@ -146,18 +141,18 @@ export const introducaoAnatomia: TopicContent = {
           {
             title: "6.1. O Conceito de Normal e Variação",
             content: [
-              "Em Anatomia, as descrições obedecem a um padrão que corresponde ao que ocorre na maioria dos casos.",
-              "Variação Anatômica: O corpo humano apresenta variações anatômicas. Nem todo detalhe estrutural é válido para todas as pessoas. Por exemplo, um vaso sanguíneo pode se ramificar mais proximalmente do que o normal, ou pode faltar um pequeno músculo.",
-              "A variação anatômica é considerada uma constante.",
-              "Variações Extremadas: Variações anatômicas extremadas são raras por serem geralmente incompatíveis com a vida (por exemplo, vasos que levam sangue ao cérebro não podem faltar).",
+              "As descrições anatômicas estabelecem padrões que correspondem às configurações mais frequentemente observadas na população. Entretanto, o corpo humano apresenta considerável **variação anatômica individual**.",
+              "Nem todo detalhe estrutural descrito nos compêndios manifesta-se identicamente em todos os indivíduos. Variações como ramificações vasculares em posições atípicas, ausência de pequenos músculos acessórios ou diferenças dimensionais são relativamente comuns e geralmente não comprometem a funcionalidade.",
+              "A variação anatômica constitui fenômeno esperado e deve ser considerada uma constante biológica, refletindo a diversidade genética e epigenética humana.",
+              "**Variações extremas** são raras, pois configurações anatomicamente incompatíveis com a vida não se perpetuam. Por exemplo, estruturas vasculares essenciais à irrigação cerebral não podem estar ausentes, pois tal variação seria letal.",
             ],
           },
           {
             title: "6.2. Cadáver e Observação In Vivo",
             content: [
-              "O estudo do material cadavérico deve ser sempre comparado ao do vivente (in vivo).",
-              "É fundamental ter a noção de que o que se vê nos cadáveres não corresponde exatamente ao que é encontrado in vivo, principalmente com referência à coloração, consistência, elasticidade, forma e posição dos elementos anatômicos.",
-              "O conhecimento da anatomia in vivo pode ser obtido por meio da radiografia, radioscopia e exames endoscópicos.",
+              "O estudo anatômico em material cadavérico deve ser sistematicamente correlacionado com observações **in vivo** (no indivíduo vivo), reconhecendo as diferenças inerentes entre estes dois contextos de estudo.",
+              "As características observadas em cadáveres não correspondem exatamente àquelas encontradas em indivíduos vivos, particularmente quanto a coloração tecidual, consistência, elasticidade, forma e posicionamento dos elementos anatômicos.",
+              "O conhecimento da anatomia in vivo pode ser obtido mediante técnicas não invasivas como radiografia convencional, radioscopia dinâmica e procedimentos endoscópicos, que permitem visualização das estruturas em seu estado funcional.",
             ],
           },
         ],
@@ -165,18 +160,18 @@ export const introducaoAnatomia: TopicContent = {
       {
         title: "7. Anatomia Clínica: Técnicas de Imagiologia Médica",
         content: [
-          "As técnicas de imagiologia médica são utilizadas para visualizar estruturas dentro do corpo e têm um papel fundamental no diagnóstico médico, oferecendo alternativas aos riscos de uma cirurgia exploratória. Todas essas técnicas utilizam computadores para construir imagens a partir de dados brutos.",
+          "As técnicas de imagiologia médica revolucionaram a prática clínica, permitindo a visualização não invasiva de estruturas internas. Estas metodologias desempenham papel fundamental no diagnóstico médico contemporâneo, oferecendo alternativas seguras à cirurgia exploratória. Todas essas técnicas utilizam processamento computacional para reconstruir imagens a partir de dados brutos adquiridos.",
         ],
         subsections: [
           {
             title: "Principais Técnicas",
             content: [
-              "Imagens de Raios X: Utilizam ondas eletromagnéticas. A imagem (radiografia) é negativa. As áreas mais densas, como ossos e tumores, absorvem mais raios e aparecem claras (brancas) no filme. Úteis para visualização de ossos. Meios de contraste são usados para visualizar órgãos de tecido mole.",
-              "Tomografia Computadorizada (TC): Tecnologia refinada de raios X. Obtém 12 imagens sucessivas de raios X confinadas a um único plano transversal (axial). Produz imagens detalhadas de secção, sendo um teste rápido e relativamente de baixo custo. Produz imagens excelentes dos tecidos moles, ossos e vasos sanguíneos.",
-              "Ressonância Magnética (RM): Submete o corpo a fortes campos magnéticos e ondas de rádio. Produz imagens de alto contraste das estruturas moles. É bastante útil para a visualização de estruturas cercadas de ossos, como tecidos nervosos e articulações.",
-              "Ultrassonografia: Utiliza ondas sonoras. Técnica preferível para examinar a vesícula biliar.",
-              "Tomografia por Emissão de Pósitrons (PET): Envolve inalação ou injeção de isótopos que emitem pósitrons. Permite estudar aspectos morfológicos ou funcionais de áreas cerebrais.",
-              "Angiografia: Produz imagens dos vasos sanguíneos. Envolve a inserção de um meio de contraste no vaso para diagnosticar aneurismas e aterosclerose.",
+              "**Radiografia Convencional** — Utiliza radiação eletromagnética (raios X) para produzir imagens em negativo. Estruturas mais densas, como tecido ósseo e massas tumorais, absorvem maior quantidade de radiação e aparecem radiopacas (claras/brancas) no filme radiográfico. Particularmente útil para visualização óssea. A visualização de órgãos de tecido mole requer administração de meios de contraste radiológicos.",
+              "**Tomografia Computadorizada (TC)** — Representa refinamento tecnológico da radiografia convencional. Obtém múltiplas aquisições de raios X confinadas a um único plano transversal (axial), processadas computacionalmente para gerar imagens seccionais de alta resolução. Constitui exame relativamente rápido e acessível economicamente. Produz excelentes imagens de tecidos moles, estruturas ósseas e vasculares.",
+              "**Ressonância Magnética (RM)** — Baseia-se na aplicação de campos magnéticos intensos e ondas de radiofrequência. Gera imagens de contraste superior para tecidos moles, sendo particularmente valiosa para visualização de estruturas circundadas por tecido ósseo, como o sistema nervoso central e articulações.",
+              "**Ultrassonografia** — Emprega ondas sonoras de alta frequência para criar imagens em tempo real. Técnica preferencial para exame da vesícula biliar e monitoramento fetal, além de aplicações em exames cardiovasculares e abdominais.",
+              "**Tomografia por Emissão de Pósitrons (PET)** — Requer inalação ou injeção de radiofármacos emissores de pósitrons. Permite estudo simultâneo de aspectos morfológicos e funcionais, sendo especialmente útil na investigação de atividade cerebral e detecção de processos neoplásicos.",
+              "**Angiografia** — Técnica especializada para visualização de vasos sanguíneos mediante introdução de meio de contraste intravascular. Utilizada para diagnosticar aneurismas, estenoses arterioescleróticas e malformações vasculares.",
             ],
           },
         ],
@@ -186,51 +181,51 @@ export const introducaoAnatomia: TopicContent = {
   summary: [
     {
       concept: "Anatomia / Morfologia",
-      definition: "Estudo da estrutura do corpo (ciência da forma).",
+      definition: "Estudo sistemático da estrutura do corpo humano (ciência da forma).",
     },
     {
       concept: "Anatomia Funcional",
-      definition: "A estrutura suporta a função.",
+      definition: "Abordagem que analisa como a estrutura suporta e viabiliza a função.",
     },
     {
       concept: "Anatomia Sistêmica",
-      definition: "Estuda órgãos de funções correlatas (ex: sistema muscular).",
+      definition: "Estuda conjuntamente órgãos com funções correlatas (ex: sistema muscular completo).",
     },
     {
       concept: "Histologia",
-      definition: "Anatomia microscópica (estudo dos tecidos).",
+      definition: "Anatomia microscópica dedicada ao estudo dos tecidos.",
     },
     {
       concept: "Quatro Tecidos Primários",
-      definition: "Epitelial, Conjuntivo, Muscular e Nervoso.",
+      definition: "Tecido Epitelial, Conjuntivo, Muscular e Nervoso.",
     },
     {
       concept: "Posição Anatômica",
-      definition: "Padrão para descrição: ereto, face à frente, palmas voltadas anteriormente.",
+      definition: "Posição padronizada de referência: indivíduo ereto, face anterior, palmas anteriores.",
     },
     {
       concept: "Plano Transversal",
-      definition: "Divide o corpo em porções superior e inferior.",
+      definition: "Divide o corpo em porções superior (cranial) e inferior (caudal).",
     },
     {
       concept: "Medial / Lateral",
-      definition: "Medial é mais próximo do plano mediano.",
+      definition: "Medial aproxima-se do plano mediano; lateral afasta-se dele.",
     },
     {
       concept: "Variação Anatômica",
-      definition: "Pequenas variações na estrutura são comuns, mas não perturbam a função.",
+      definition: "Diferenças estruturais individuais são comuns e geralmente não comprometem a função.",
     },
     {
-      concept: "TC (Tomografia)",
-      definition: "Imagem seccional (transversal/axial) que usa raios X.",
+      concept: "TC (Tomografia Computadorizada)",
+      definition: "Produz imagens seccionais (transversais/axiais) mediante processamento de raios X.",
     },
     {
       concept: "RM (Ressonância Magnética)",
-      definition: "Imagem de alto contraste para tecidos moles, ideal para tecidos nervosos.",
+      definition: "Gera imagens de alto contraste para tecidos moles, ideal para tecidos nervosos.",
     },
     {
-      concept: "Terminologia",
-      definition: "Baseada em grego/latim. Termos devem ser descritivos; epônimos foram abolidos.",
+      concept: "Terminologia Anatômica",
+      definition: "Nomenclatura padronizada baseada em grego/latim; termos descritivos; abolição de epônimos.",
     },
   ],
   questions: [
