@@ -1,7 +1,6 @@
 import type { TopicContent } from "../topics-data"
 
 export const sistemaArticular: TopicContent = {
-  id: "sistema-articular",
   title: "Sistema Articular",
   description: "Generalidades do sistema articular (junturas)",
   content: {
@@ -9,64 +8,67 @@ export const sistemaArticular: TopicContent = {
       {
         title: "Conceito e Importância da Articulação (Juntura)",
         content: [
-          "O estudo dos ossos é denominado **Osteologia**. Em sentido mais amplo, a Osteologia abrange o estudo das formações ligadas aos ossos que, em conjunto, constituem o esqueleto, definido como o arcabouço do corpo.",
-          "As **articulações**, também chamadas **junturas**, são as uniões entre os elementos do esqueleto.",
-          "A união dos ossos, feita pelas articulações, tem uma finalidade que transcende o simples contato: ela visa também a permitir **mobilidade**. O esqueleto articulado é aquele que apresenta todas as peças ósseas interligadas, em contraposição ao esqueleto desarticulado, que tem ossos isolados.",
+          "O estudo dos ossos constitui o domínio da **Osteologia**. Em sentido mais amplo, a Osteologia abrange também as formações intimamente ligadas aos ossos que, em conjunto, constituem o esqueleto — definido como o arcabouço estrutural do corpo.",
+          "As **articulações**, também denominadas **junturas**, representam as uniões entre os elementos esqueléticos. Estas conexões transcendem o simples contato ósseo, desempenhando função essencial ao permitir **mobilidade** ao esqueleto rígido.",
+          "O esqueleto articulado é aquele que apresenta todas as peças ósseas interligadas por articulações, em contraposição ao esqueleto desarticulado, no qual os ossos encontram-se isolados. Esta distinção é fundamental para a compreensão da anatomia funcional.",
         ],
       },
       {
         title: "O Sistema Articular como Parte do Aparelho Locomotor",
         content: [
-          "O **sistema articular**, juntamente com o **sistema esquelético** e o **sistema muscular**, constitui o **aparelho locomotor**.",
-          "Essa integração é crucial para as funções orgânicas, sendo o sistema esquelético e o articular as estruturas que se unem para realizar funções complexas. Os ossos são conectados e reforçados por **ligamentos**, que são elementos essenciais do sistema articular.",
+          "O **sistema articular**, juntamente com o **sistema esquelético** e o **sistema muscular**, constitui o **aparelho locomotor** — conjunto integrado responsável pela sustentação, estabilização e movimentação corporal.",
+          "Esta integração é crucial para as funções orgânicas. O sistema esquelético e o articular são estruturas intimamente relacionadas que colaboram para realizar funções complexas. Os ossos são conectados e reforçados por **ligamentos**, elementos fibrosos essenciais do sistema articular que conferem estabilidade mecânica às articulações.",
         ],
       },
       {
         title: "Classificação Estrutural: Material de União",
         content: [
-          "A classificação mais utilizada para as articulações é a **estrutural**, que se baseia em dois critérios principais:",
-          "1. O material que une os ossos.",
-          "2. A presença ou ausência de uma cavidade articular.",
-          "Estruturalmente, as articulações são classificadas em três tipos principais:",
+          "A classificação mais amplamente utilizada para as articulações é a **estrutural**, fundamentada em dois critérios anatomicamente objetivos:",
+          "**Primeiro critério** — O tipo de material que une os ossos adjacentes (tecido fibroso, cartilaginoso ou cavidade sinovial).",
+          "**Segundo critério** — A presença ou ausência de uma cavidade articular entre as superfícies ósseas.",
+          "Estruturalmente, as articulações são classificadas em três categorias principais:",
         ],
         subsections: [
           {
-            title: "1. Articulações Fibrosas",
+            title: "1. Articulações Fibrosas (Sinartroses Fibrosas)",
             content: [
-              "Os ossos são unidos por **tecido conjuntivo fibroso denso**. Geralmente são imóveis ou permitem movimentos muito limitados.",
+              "Nestas articulações, os ossos são unidos por **tecido conjuntivo fibroso denso**, rico em fibras colágenas. Geralmente são imóveis (sinartroses) ou permitem movimentos extremamente limitados, priorizando estabilidade sobre mobilidade. Exemplos incluem as suturas cranianas e a sindesmose tibiofibular distal.",
             ],
           },
           {
             title: "2. Articulações Cartilagíneas",
-            content: ["Os ossos são unidos por **cartilagem**. Permitem movimentos limitados."],
+            content: [
+              "Os ossos são unidos por **cartilagem** (hialina ou fibrocartilagem), sem cavidade articular. Permitem movimentos limitados mas funcionalmente importantes, absorvendo impactos e permitindo deformação controlada. Subdividem-se em sincondroses (cartilagem hialina) e sínfises (fibrocartilagem).",
+            ],
           },
           {
-            title: "3. Articulações Sinoviais",
+            title: "3. Articulações Sinoviais (Diartroses)",
             content: [
-              "Possuem uma **cavidade articular** preenchida por líquido sinovial. São as mais móveis do corpo.",
+              "Caracterizam-se pela presença de uma **cavidade articular** preenchida por líquido sinovial. São as articulações mais móveis do corpo, permitindo ampla variedade de movimentos. A maioria das articulações dos membros pertence a esta categoria.",
             ],
           },
         ],
         content: [
-          "A discussão sobre as articulações no campo da anatomia é frequentemente organizada de acordo com essa classificação estrutural, indicando-se as propriedades funcionais em regiões específicas.",
+          "A discussão anatômica sobre articulações frequentemente organiza-se segundo esta classificação estrutural, com subsequente discussão das propriedades funcionais específicas de cada articulação.",
         ],
       },
       {
         title: "Classificação Funcional: Mobilidade (Sinartroses, Anfiartroses e Diartroses)",
         content: [
-          "A mobilidade de uma articulação é determinada pela forma das superfícies que entram em contato, juntamente com os meios de união (ligamentos e outros tecidos) que podem limitar o movimento.",
-          "O critério funcional classifica as articulações com base na **amplitude de movimento** que elas permitem.",
-          "As articulações podem realizar movimentos em torno de:",
-          "• **Nenhum eixo:** Articulações imóveis.",
-          "• **Um, dois ou três eixos:** Articulações móveis, dependendo da sua complexidade geométrica.",
+          "A mobilidade articular é determinada pela conformação geométrica das superfícies que entram em contato, em conjunto com os meios de união (ligamentos, cápsulas e outros tecidos) que podem restringir o movimento.",
+          "O critério funcional classifica as articulações baseando-se na **amplitude de movimento** que permitem. As articulações podem realizar movimentos em torno de:",
+          "**Nenhum eixo** — Articulações imóveis (sinartroses), priorizando estabilidade absoluta.",
+          "**Um eixo** — Articulações uniaxiais, permitindo movimento em um único plano.",
+          "**Dois eixos** — Articulações biaxiais, permitindo movimentos em dois planos perpendiculares.",
+          "**Três eixos** — Articulações triaxiais ou multiaxiais, permitindo movimentos em todos os planos espaciais.",
         ],
         subsections: [
           {
             title: "Articulações Sinoviais (Diartroses)",
             content: [
-              "As articulações sinoviais são as mais móveis do corpo. Funcionalmente, todas as articulações sinoviais são classificadas como **diartroses** (livremente móveis).",
-              "• **Estrutura Central:** Cada articulação sinovial contém uma **cavidade articular** preenchida por líquido (líquido sinovial).",
-              "• **Localização:** A maioria das articulações do corpo se inclui nesta classe, principalmente as articulações dos membros.",
+              "As articulações sinoviais representam as articulações mais móveis do corpo humano. Funcionalmente, todas as articulações sinoviais são classificadas como **diartroses** (livremente móveis), embora a amplitude de movimento varie consideravelmente entre diferentes articulações sinoviais.",
+              "**Estrutura central característica** — Cada articulação sinovial contém uma **cavidade articular** preenchida por líquido sinovial, secretado pela membrana sinovial que reveste internamente a cápsula articular. Este líquido viscoso lubrifica as superfícies articulares e nutre a cartilagem articular avascular.",
+              "**Localização predominante** — A maioria das articulações do corpo, particularmente nos membros, pertence a esta categoria. Exemplos incluem articulações do ombro, cotovelo, punho, quadril, joelho e tornozelo.",
             ],
           },
         ],
@@ -74,29 +76,29 @@ export const sistemaArticular: TopicContent = {
       {
         title: "Fatores Determinantes do Movimento",
         content: [
-          "O movimento permitido nas articulações depende da forma das superfícies que se articulam e dos meios de união.",
-          "• **Movimento Ativo vs. Passivo:** O movimento ativo é aquele realizado pelo próprio indivíduo. O movimento passivo (realizado, por exemplo, por um examinador) pode obter uma amplitude maior do que a do movimento ativo normal.",
+          "A amplitude e o tipo de movimento permitido em cada articulação dependem de múltiplos fatores anatômicos integrados: a conformação geométrica das superfícies articulares, a presença e disposição de ligamentos, a tensão capsular, e a ação muscular.",
+          "**Movimento ativo versus passivo** — O movimento ativo é aquele realizado voluntariamente pelo próprio indivíduo mediante contração muscular. O movimento passivo (realizado, por exemplo, por um examinador durante avaliação clínica) pode frequentemente obter amplitude maior do que a do movimento ativo normal, pois elimina restrições impostas pela contração muscular antagonista.",
         ],
       },
       {
-        title: "Anatomia Funcional: Mobilidade vs. Estabilidade (Membros Superiores e Inferiores)",
+        title: "Anatomia Funcional: Mobilidade versus Estabilidade (Membros Superiores e Inferiores)",
         content: [
-          "A forma e a função da articulação estão intrinsecamente relacionadas (**Anatomia Funcional**).",
-          "A estrutura articular em cada membro reflete sua função principal:",
+          "A forma e a função articulares estão intrinsecamente relacionadas, exemplificando perfeitamente o princípio da **Anatomia Funcional** — a estrutura suporta e viabiliza a função.",
+          "A arquitetura articular em cada membro reflete sua função primária, estabelecendo compromissos diferentes entre mobilidade e estabilidade:",
         ],
         subsections: [
           {
-            title: "Membros Inferiores (Estabilidade)",
+            title: "Membros Inferiores (Priorização de Estabilidade)",
             content: [
-              "Destinados principalmente à **sustentação** e **locomoção** (ato de caminhar, locomover-se).",
-              "• A articulação do **quadril** (membro inferior) é bastante móvel, mas sua possibilidade de movimento é menor do que a do ombro, priorizando a **estabilidade** para suportar o peso do corpo.",
+              "Os membros inferiores destinam-se principalmente à **sustentação** do peso corporal e à **locomoção** (deambulação, corrida, saltos).",
+              "A articulação do **quadril** exemplifica esta priorização funcional. Embora seja uma articulação sinovial com considerável mobilidade, sua amplitude de movimento é deliberadamente menor que a do ombro, pois sua estrutura anatômica prioriza **estabilidade** para suportar eficientemente o peso corporal e as forças geradas durante a locomoção. O acetábulo profundo, os ligamentos robustos e a cápsula espessa contribuem para esta estabilidade.",
             ],
           },
           {
-            title: "Membros Superiores (Mobilidade)",
+            title: "Membros Superiores (Priorização de Mobilidade)",
             content: [
-              "Destinados principalmente à **apreensão** (pegar alimentos) e à **gesticulação**.",
-              "• O **ombro**, por exemplo, é uma articulação que prioriza a **mobilidade** em detrimento da estabilidade, o que permite o amplo leque de movimentos necessários à interação com o meio.",
+              "Os membros superiores destinam-se principalmente à **apreensão** (manipulação de objetos, alimentação) e à **gesticulação** (comunicação, interação com o ambiente).",
+              "O **ombro** exemplifica articulação que prioriza **mobilidade** em detrimento da estabilidade. Esta configuração permite o amplo espectro de movimentos necessários à interação versátil com o meio ambiente. A cavidade glenoidal rasa, a cápsula articular frouxa e a dependência de estabilização muscular (manguito rotador) refletem esta priorização funcional, embora predisponham a luxações.",
             ],
           },
         ],
@@ -108,15 +110,15 @@ export const sistemaArticular: TopicContent = {
           {
             title: "Imagiologia e Diagnóstico",
             content: [
-              "O conhecimento dos dados anatômicos é essencial para o diagnóstico ou tratamento de patologias (anatomia aplicada).",
-              "• **Artroscopia:** Este é o método de escolha para diagnosticar as lesões das articulações. É considerado mais eficiente do que a radiografia convencional.",
+              "O conhecimento aprofundado dos dados anatômicos é essencial para o diagnóstico preciso e o tratamento adequado de patologias articulares (**anatomia aplicada**).",
+              "**Artroscopia** — Constitui o método diagnóstico preferencial para avaliar lesões articulares internas. Este procedimento minimamente invasivo permite visualização direta das estruturas intra-articulares (cartilagem, meniscos, ligamentos), sendo considerado superior à radiografia convencional para diagnóstico de lesões de tecidos moles.",
             ],
           },
           {
             title: "Alterações com o Envelhecimento",
             content: [
-              "As articulações geralmente funcionam bem durante a vida.",
-              "• **Osteoartrite:** Articulações costumam funcionar bem até o final da meia-idade, momento em que a osteoartrite (inflamação do osso e da articulação) quase sempre aparece.",
+              "As articulações geralmente funcionam adequadamente durante a maior parte da vida, mantendo suas capacidades funcionais até a meia-idade.",
+              "**Osteoartrite (Artrose)** — As articulações tipicamente funcionam bem até o final da meia-idade, momento em que a osteoartrite (degeneração articular caracterizada por erosão da cartilagem, formação de osteófitos e inflamação sinovial) frequentemente se manifesta, particularmente em articulações de carga como joelhos, quadris e coluna vertebral.",
             ],
           },
         ],
@@ -126,37 +128,37 @@ export const sistemaArticular: TopicContent = {
   summary: [
     {
       concept: "Articulações (Junturas)",
-      definition: "Uniões entre os ossos do esqueleto.",
+      definition: "Uniões entre os elementos esqueléticos que permitem mobilidade ao esqueleto.",
     },
     {
       concept: "Função Principal",
-      definition: "Permitir mobilidade e compor o aparelho locomotor.",
+      definition: "Permitir mobilidade controlada e compor, juntamente com sistemas esquelético e muscular, o aparelho locomotor.",
     },
     {
       concept: "Classificação Estrutural",
       definition:
-        "Baseada no material de união (fibrosas, cartilagíneas, sinoviais) e na presença de cavidade articular.",
+        "Baseada no material de união (fibrosas, cartilagíneas, sinoviais) e na presença/ausência de cavidade articular.",
     },
     {
       concept: "Articulações Sinoviais",
-      definition: "Mais móveis do corpo, são classificadas funcionalmente como diartroses (livremente móveis).",
+      definition: "Articulações mais móveis do corpo, classificadas funcionalmente como diartroses (livremente móveis).",
     },
     {
       concept: "Estrutura Sinovial",
-      definition: "Contém cavidade articular preenchida por líquido.",
+      definition: "Caracterizadas por cavidade articular preenchida por líquido sinovial lubrificante.",
     },
     {
       concept: "Anatomia Funcional",
       definition:
-        "A estrutura do quadril (membro inferior) prioriza a sustentação/estabilidade, enquanto a do ombro (membro superior) prioriza a mobilidade.",
+        "Estrutura articular do quadril (membro inferior) prioriza sustentação/estabilidade; ombro (membro superior) prioriza mobilidade/versatilidade.",
     },
     {
       concept: "Artroscopia",
-      definition: "Método preferencial para diagnosticar lesões articulares.",
+      definition: "Método diagnóstico preferencial para avaliar lesões intra-articulares, superior à radiografia para tecidos moles.",
     },
     {
       concept: "Ligamentos",
-      definition: "Conectam e reforçam os ossos nas articulações.",
+      definition: "Estruturas fibrosas que conectam ossos e reforçam articulações, conferindo estabilidade mecânica.",
     },
   ],
   questions: [

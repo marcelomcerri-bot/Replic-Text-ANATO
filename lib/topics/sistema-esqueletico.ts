@@ -1,7 +1,6 @@
 import type { TopicContent } from "../topics-data"
 
 export const sistemaEsqueletico: TopicContent = {
-  id: "sistema-esqueletico",
   title: "Sistema Esquelético",
   description: "Generalidades do sistema esquelético",
   content: {
@@ -9,60 +8,60 @@ export const sistemaEsqueletico: TopicContent = {
       {
         title: "Conceito e Definição da Osteologia",
         content: [
-          "A **Osteologia** constitui o estudo dos ossos. Em sentido amplo, a Osteologia abrange o estudo das formações intimamente ligadas ou relacionadas aos ossos, formando o esqueleto.",
-          "O **esqueleto** pode ser definido como o conjunto de ossos e cartilagens que se interligam para formar o arcabouço corporal e desempenhar diversas funções.",
-          "Os **ossos**, por sua vez, são estruturas rígidas com número, coloração e forma variáveis, mas que compartilham origem, estrutura e função semelhantes, constituindo, em conjunto, o esqueleto.",
-          "É importante notar que os ossos do esqueleto são considerados **órgãos** porque contêm diversos tecidos distintos, embora o tecido ósseo seja o predominante. Os ossos também contêm tecido nervoso (em nervos), tecido sanguíneo (em vasos sanguíneos), cartilagem (em cartilagens articulares) e tecido epitelial (revestindo vasos sanguíneos).",
+          "A **Osteologia** constitui a disciplina anatômica dedicada ao estudo sistemático dos ossos. Em sentido amplo, a Osteologia abrange não apenas os ossos isolados, mas também as formações intimamente relacionadas que, em conjunto, constituem o esqueleto.",
+          "O **esqueleto** define-se como o conjunto integrado de ossos e cartilagens que se interligam para formar o arcabouço corporal, desempenhando múltiplas funções essenciais à homeostase e à movimentação.",
+          "Os **ossos** são estruturas rígidas caracterizadas por variabilidade em número, coloração e morfologia, embora compartilhem origem embriológica, estrutura histológica e funções fundamentais similares. Em conjunto, estes elementos constituem o esqueleto.",
+          "É fundamental reconhecer que os ossos são classificados como **órgãos** na hierarquia anatômica, pois incorporam diversos tecidos distintos integrados funcionalmente. Embora o tecido ósseo predomine, cada osso contém também tecido nervoso (nervos sensitivos e autônomos), tecido sanguíneo (vasos que nutrem o osso), cartilagem (revestindo superfícies articulares) e tecido epitelial (revestindo internamente os vasos sanguíneos).",
         ],
       },
       {
         title: "Funções Essenciais do Sistema Esquelético",
-        content: ["O sistema esquelético desempenha diversas funções cruciais para a manutenção do organismo:"],
+        content: ["O sistema esquelético desempenha funções múltiplas e integradas, cruciais para a manutenção da homeostase orgânica:"],
         subsections: [
           {
             title: "Suporte e Sustentação",
             content: [
-              "Os ossos formam a estrutura rígida que suporta o peso corporal e conferem a conformação ao corpo. Os ossos das pernas, por exemplo, são pilares que suportam o tronco quando a pessoa está em pé.",
+              "Os ossos formam a estrutura rígida que sustenta o peso corporal e confere a conformação característica do corpo humano. Os ossos dos membros inferiores, particularmente o fêmur e a tíbia, funcionam como pilares de sustentação que suportam o tronco durante a postura ortostática e a deambulação.",
             ],
           },
           {
             title: "Proteção",
             content: [
-              "Os ossos delimitam cavidades e fornecem proteção aos órgãos vitais nelas contidos, como o encéfalo, a medula espinal, o coração e os pulmões.",
+              "O esqueleto delimita cavidades que abrigam e protegem órgãos vitais contra traumas mecânicos. O crânio protege o encéfalo, a coluna vertebral resguarda a medula espinal, e a caixa torácica (formada por costelas e esterno) protege o coração e os pulmões.",
             ],
           },
           {
             title: "Movimento e Alavancas",
             content: [
-              "Os músculos esqueléticos fixam-se aos ossos pelos tendões e utilizam os ossos como alavancas para movimentar o corpo e suas partes. A estrutura das articulações e a organização dos ossos determinam os tipos de movimento possíveis. O suporte e o movimento são funções mutuamente dependentes.",
+              "Os músculos esqueléticos fixam-se aos ossos mediante tendões, utilizando-os como alavancas mecânicas para produzir movimento corporal. A arquitetura das articulações e a conformação óssea determinam os tipos e a amplitude dos movimentos possíveis. As funções de suporte e movimento são mutuamente dependentes e integradas.",
             ],
           },
           {
             title: "Armazenamento de Minerais",
-            content: ["O osso serve como local de armazenamento de minerais e íons, incluindo o cálcio e o fosfato."],
+            content: ["O tecido ósseo serve como reservatório dinâmico de minerais e íons, particularmente cálcio e fosfato, que podem ser mobilizados conforme as necessidades metabólicas do organismo."],
           },
           {
             title: "Hematopoese",
-            content: ["O esqueleto cumpre funções hematopoéticas, que é o processo de formação de células sanguíneas."],
+            content: ["O esqueleto desempenha funções hematopoéticas essenciais. A medula óssea vermelha, localizada no interior dos ossos esponjosos, constitui o principal sítio de formação de células sanguíneas (eritrócitos, leucócitos e plaquetas) no indivíduo adulto."],
           },
         ],
       },
       {
         title: "Organização Estrutural do Esqueleto",
         content: [
-          "O esqueleto humano é composto por 206 ossos identificados, que são agrupados em duas divisões principais: o esqueleto axial e o esqueleto apendicular.",
+          "O esqueleto humano adulto compõe-se de aproximadamente 206 ossos identificados, organizados em duas divisões anatômicas principais que refletem funções distintas: o esqueleto axial e o esqueleto apendicular.",
         ],
         subsections: [
           {
             title: "Esqueleto Axial",
             content: [
-              "Compõe o eixo principal do corpo (eixo longitudinal) e possui aproximadamente 80 ossos. Ele sustenta a cabeça, o pescoço e o tronco. As três regiões principais são: o crânio, a coluna vertebral e a caixa torácica (costelas e esterno).",
+              "Compõe o eixo longitudinal central do corpo, compreendendo aproximadamente 80 ossos. Esta divisão sustenta a cabeça, o pescoço e o tronco, conferindo estabilidade ao eixo corporal. As três regiões anatômicas principais são: o **crânio** (incluindo ossos do neurocrânio e viscerocrânio), a **coluna vertebral** (constituída por vértebras e discos intervertebrais) e a **caixa torácica** (formada pelas costelas e pelo esterno).",
             ],
           },
           {
             title: "Esqueleto Apendicular",
             content: [
-              "Consiste nos ossos dos membros (superiores e inferiores) e nos cíngulos (cinturas) que unem esses membros ao esqueleto axial (cíngulo superior/ombro e cíngulo inferior/quadril).",
+              "Consiste nos ossos dos membros (superiores e inferiores) e nas estruturas que os conectam ao esqueleto axial, denominadas **cíngulos** ou cinturas. O **cíngulo superior** (cintura escapular) conecta os membros superiores ao tronco, enquanto o **cíngulo inferior** (cintura pélvica) articula os membros inferiores com o eixo central.",
             ],
           },
         ],
@@ -70,53 +69,53 @@ export const sistemaEsqueletico: TopicContent = {
       {
         title: "Tipos de Esqueletos",
         content: [
-          "O esqueleto pode ser classificado com base na forma como as peças ósseas se apresentam para o estudo:",
-          "**Esqueleto Articulado**: Apresenta todas as peças ósseas interligadas.",
-          "**Esqueleto Desarticulado**: Apresenta os ossos isolados uns dos outros.",
-          "**Nota sobre o número de ossos e variações**: O número de ossos (206) pode variar entre os indivíduos devido a fatores como a fusão de ossos, a ocorrência de ossos extranumerários, como a persistência da divisão do osso frontal no adulto ou a presença de ossos sesamoides (inclusos em tendões musculares), e os ossículos da orelha média.",
+          "O esqueleto pode ser classificado didaticamente conforme a forma como as peças ósseas se apresentam para estudo anatômico:",
+          "**Esqueleto Articulado** — Apresenta todos os ossos interligados por articulações, simulando a configuração in vivo.",
+          "**Esqueleto Desarticulado** — Apresenta os ossos isolados uns dos outros, facilitando o estudo individual de cada peça óssea.",
+          "É importante considerar que o número total de ossos (206) pode variar entre indivíduos devido a fatores como fusão óssea variável, ocorrência de ossos extranumerários (como a persistência da sutura metópica dividindo o osso frontal no adulto), presença de ossos sesamoides adicionais (inclusos em tendões musculares), e variações nos ossículos da orelha média.",
         ],
       },
       {
         title: "Classificação dos Ossos pela Forma",
         content: [
-          "A classificação mais difundida dos ossos leva em consideração a forma. Os ossos são categorizados em quatro grupos principais, além dos sesamoides:",
+          "A classificação morfológica dos ossos, baseada em suas dimensões relativas, é amplamente utilizada por sua praticidade descritiva. Os ossos são categorizados em quatro grupos principais, além dos sesamoides:",
         ],
         subsections: [
           {
             title: "Ossos Longos",
             content: [
-              "Caracterizados por terem o comprimento maior do que a largura e a espessura. A maior parte dos ossos dos membros são longos.",
-              "**Estrutura Típica**: Possuem duas extremidades alargadas, chamadas epífises (proximal e distal), e um corpo cilíndrico central, a diáfise.",
-              "**Exemplos**: Fêmur, Úmero, Rádio.",
+              "Caracterizam-se por apresentar comprimento consideravelmente maior que largura e espessura. A maioria dos ossos dos membros pertence a esta categoria.",
+              "**Estrutura Típica** — Possuem duas extremidades expandidas denominadas **epífises** (proximal e distal), unidas por um corpo cilíndrico central, a **diáfise**. A junção entre epífise e diáfise é denominada metáfise.",
+              "**Exemplos característicos** — Fêmur, úmero, rádio, ulna, tíbia, fíbula.",
             ],
           },
           {
             title: "Ossos Curtos",
             content: [
-              "Possuem dimensões aproximadamente iguais em comprimento, largura e espessura, dando-lhes um formato cuboide.",
-              "**Exemplos**: Ossos do carpo (punho) e do tarso (tornozelo).",
+              "Apresentam dimensões aproximadamente equivalentes em comprimento, largura e espessura, conferindo-lhes formato cuboide ou irregular. São compostos predominantemente por tecido ósseo esponjoso revestido por fina camada de osso compacto.",
+              "**Exemplos característicos** — Ossos do carpo (punho) e do tarso (tornozelo).",
             ],
           },
           {
             title: "Ossos Planos",
             content: [
-              "São ossos finos, geralmente curvos, que têm o comprimento e a largura maiores do que a espessura.",
-              "**Função**: Sua principal função é a proteção (como os ossos do crânio) e fornecem amplas superfícies para a fixação de músculos.",
-              "**Exemplos**: Esterno, escápula, e a maioria dos ossos do crânio.",
+              "São ossos delgados, frequentemente curvos, nos quais o comprimento e a largura excedem significativamente a espessura.",
+              "**Função principal** — Proporcionam proteção a órgãos vitais (como os ossos do crânio protegendo o encéfalo) e oferecem amplas superfícies para fixação muscular.",
+              "**Exemplos característicos** — Esterno, escápula, ossos do calvário (abóbada craniana).",
             ],
           },
           {
             title: "Ossos Irregulares",
             content: [
-              "Apresentam formas complexas que não se encaixam em nenhuma das categorias anteriores.",
-              "**Exemplos**: Vértebras e os ossos do quadril.",
+              "Apresentam morfologia complexa que não se enquadra nas categorias anteriores, frequentemente com múltiplas projeções, depressões e forames.",
+              "**Exemplos característicos** — Vértebras, osso temporal, osso esfenoide, ossos do quadril (ílio, ísquio, púbis fusionados).",
             ],
           },
           {
             title: "Ossos Sesamoides",
             content: [
-              "São um tipo especial de osso curto que se forma dentro de um tendão muscular.",
-              "**Exemplo**: Patela (rótula).",
+              "Constituem categoria especial de ossos curtos que se desenvolvem no interior de tendões musculares, geralmente em locais de tensão mecânica elevada. Sua função é modificar o ângulo de tração do tendão, aumentando a eficiência mecânica do músculo.",
+              "**Exemplo característico** — Patela (rótula), o maior osso sesamoide do corpo humano.",
             ],
           },
         ],
@@ -124,32 +123,32 @@ export const sistemaEsqueletico: TopicContent = {
       {
         title: "Organização Interna do Tecido Ósseo",
         content: [
-          "O estudo microscópico (histologia) revela que o tecido ósseo se organiza em dois tipos principais de substância:",
+          "A análise microscópica (histológica) revela que o tecido ósseo organiza-se em dois padrões estruturais distintos, otimizados para diferentes funções mecânicas:",
         ],
         subsections: [
           {
             title: "Substância Óssea Compacta",
             content: [
-              "**Aparência Macroscópica**: Parece sólida a olho nu.",
-              "**Localização**: Forma a camada externa dura de todos os ossos e a diáfise (corpo) dos ossos longos.",
-              "**Estrutura Microscópica**: É crivada por passagens para vasos sanguíneos e nervos. A unidade estrutural importante é o **ósteon** (ou sistema haversiano), que consiste em lamelas concêntricas de matriz óssea que circundam um canal central.",
-              "**Função**: Confere rigidez e resistência à flexão.",
+              "**Aparência macroscópica** — Apresenta-se sólida e densa à observação a olho nu.",
+              "**Localização anatômica** — Constitui a camada externa rígida de todos os ossos e predomina na diáfise dos ossos longos, onde confere resistência mecânica máxima.",
+              "**Estrutura microscópica** — Embora pareça sólida macroscopicamente, é permeada por canais que acomodam vasos sanguíneos e nervos. A unidade estrutural fundamental é o **ósteon** (ou sistema haversiano), constituído por lamelas concêntricas de matriz óssea mineralizada que circundam um canal central (canal de Havers) contendo vasos e nervos.",
+              "**Função mecânica** — Confere rigidez estrutural e resistência à flexão e compressão axial.",
             ],
           },
           {
             title: "Substância Óssea Esponjosa",
             content: [
-              "**Aparência Macroscópica**: Consiste em uma rede de barras e placas de osso interconectadas, chamadas trabéculas. É porosa.",
-              "**Localização**: Encontrada no interior dos ossos planos e irregulares, e nas epífises (extremidades) dos ossos longos. O espaço entre as trabéculas é preenchido por medula óssea.",
-              "**Estrutura Microscópica**: Cada trabécula contém lamelas e osteócitos (células ósseas maduras), mas não é grande o suficiente para conter ósteons ou vasos sanguíneos próprios. As trabéculas se alinham ao longo das linhas de tensão.",
+              "**Aparência macroscópica** — Consiste em rede tridimensional de barras e placas ósseas interconectadas, denominadas **trabéculas**. Apresenta aspecto poroso característico.",
+              "**Localização anatômica** — Encontra-se no interior dos ossos planos e irregulares, e nas epífises dos ossos longos. Os espaços entre trabéculas são preenchidos por medula óssea (vermelha ou amarela, dependendo da idade e localização).",
+              "**Estrutura microscópica** — Cada trabécula contém lamelas ósseas e osteócitos (células ósseas maduras) aprisionados em lacunas, mas não possui dimensões suficientes para conter ósteons ou vasos sanguíneos próprios. As trabéculas alinham-se precisamente ao longo das linhas de tensão mecânica, otimizando a resistência estrutural com mínimo peso.",
             ],
           },
           {
             title: "Composição Química do Tecido Ósseo",
             content: [
-              "A matriz óssea, que é calcificada, possui dois componentes principais:",
-              "**Componentes Orgânicos**: Fibras colágenas, que conferem resistência e flexibilidade.",
-              "**Componentes Inorgânicos**: Sais minerais, principalmente fosfato de cálcio e carbonato de cálcio, que são responsáveis pela rigidez do osso.",
+              "A matriz óssea calcificada apresenta composição bioquímica complexa, com dois componentes principais que conferem propriedades mecânicas complementares:",
+              "**Componentes orgânicos** — Predominantemente fibras colágenas tipo I, que conferem resistência à tração e flexibilidade, evitando fraturas por tensão.",
+              "**Componentes inorgânicos** — Cristais de hidroxiapatita (fosfato de cálcio) e carbonato de cálcio, responsáveis pela rigidez e resistência à compressão. Constituem aproximadamente 65% da massa óssea.",
             ],
           },
         ],
@@ -161,19 +160,19 @@ export const sistemaEsqueletico: TopicContent = {
           {
             title: "Periósteo",
             content: [
-              "O periósteo é uma camada de tecido conjuntivo especializado que reveste os ossos.",
-              "**Localização**: Reveste todas as superfícies ósseas, com exceção das superfícies articulares.",
-              "**Cartilagem Articular**: As superfícies articulares (onde os ossos se unem) são revestidas por cartilagem hialina, chamada cartilagem articular.",
-              "**Folhetos**: O periósteo apresenta dois folhetos: um folheto superficial e um folheto profundo, chamado osteogênico, pois suas células podem se transformar em células formadoras de osso (osteoblastos).",
+              "O **periósteo** é uma membrana de tecido conjuntivo especializado, altamente vascularizada e inervada, que reveste externamente os ossos.",
+              "**Localização** — Reveste todas as superfícies ósseas externas, com exceção das superfícies articulares, que são revestidas por cartilagem hialina articular.",
+              "**Cartilagem Articular** — As superfícies onde os ossos se articulam são recobertas por cartilagem hialina especializada, denominada cartilagem articular, que é avascular e não possui periósteo.",
+              "**Estrutura histológica** — O periósteo apresenta dois folhetos distintos: um folheto superficial fibroso (mais externo) e um folheto profundo osteogênico, cujas células mesenquimais podem se diferenciar em osteoblastos (células formadoras de osso), sendo essencial para o crescimento, reparação e remodelação óssea.",
             ],
           },
           {
             title: "Elementos Descritivos (Marcas Ósseas)",
             content: [
-              "A superfície dos ossos apresenta saliências, depressões e aberturas, que são chamadas **marcas ósseas** (ou acidentes ósseos). Essas marcas fornecem informações sobre as funções do osso e sua relação com músculos e estruturas macias.",
-              "**Saliências (Projeções)**: Servem como locais de fixação para músculos e ligamentos, ou participam de articulações.",
-              "**Depressões**: Incluem fossas, fossetas, sulcos e recessos.",
-              "**Aberturas**: Em geral, destinam-se à passagem de nervos ou vasos.",
+              "As superfícies ósseas apresentam irregularidades características — saliências, depressões e aberturas — coletivamente denominadas **marcas ósseas** ou **acidentes ósseos**. Estas características fornecem informações valiosas sobre as funções do osso e suas relações anatômicas com músculos, tendões, ligamentos, vasos e nervos.",
+              "**Saliências (projeções)** — Servem como locais de fixação para músculos e ligamentos (tubérculos, tuberosidades, espinhas, cristas) ou participam de superfícies articulares (côndilos, cabeças).",
+              "**Depressões** — Incluem fossas (depressões amplas), fossetas (depressões pequenas), sulcos (depressões alongadas) e recessos, frequentemente acomodando estruturas anatômicas ou permitindo passagem de tendões.",
+              "**Aberturas** — Destinam-se tipicamente à passagem de vasos sanguíneos e nervos. Incluem forames (aberturas arredondadas), canais (passagens tubulares) e fissuras (aberturas estreitas e alongadas).",
             ],
           },
         ],
@@ -183,46 +182,46 @@ export const sistemaEsqueletico: TopicContent = {
   summary: [
     {
       concept: "Osteologia",
-      definition: "Estudo da estrutura óssea.",
+      definition: "Disciplina anatômica dedicada ao estudo sistemático dos ossos e estruturas relacionadas.",
     },
     {
       concept: "Funções do Esqueleto",
       definition:
-        "Suporte, Proteção (órgãos vitais), Movimento (alavancas), Armazenamento de minerais (Ca e P) e Hematopoese (formação sanguínea).",
+        "Suporte estrutural, Proteção de órgãos vitais, Movimento (alavancas), Armazenamento de minerais (Ca e P), e Hematopoese (formação sanguínea).",
     },
     {
       concept: "Esqueleto Axial",
-      definition: "Eixo central: Crânio, Coluna Vertebral e Caixa Torácica.",
+      definition: "Eixo central corporal: Crânio, Coluna Vertebral e Caixa Torácica (aproximadamente 80 ossos).",
     },
     {
       concept: "Esqueleto Apendicular",
-      definition: "Membros (superiores e inferiores) e seus respectivos cíngulos.",
+      definition: "Membros superiores e inferiores com seus respectivos cíngulos de conexão.",
     },
     {
       concept: "Ossos Longos",
       definition:
-        "Comprimento maior que largura/espessura. Possuem diáfise (corpo) e epífises (extremidades). Ex: Fêmur.",
+        "Comprimento excede largura/espessura. Estrutura: diáfise (corpo) e epífises (extremidades). Exemplo: Fêmur.",
     },
     {
       concept: "Ossos Planos",
-      definition: "Finos e curvos, primariamente para proteção e fixação muscular. Ex: Escápula.",
+      definition: "Delgados e frequentemente curvos, primariamente para proteção e fixação muscular. Exemplo: Escápula.",
     },
     {
       concept: "Substância Compacta",
-      definition: "Camada externa sólida, estruturada em ósteons. Confere rigidez.",
+      definition: "Camada externa densa, estruturada em ósteons. Confere rigidez e resistência à flexão.",
     },
     {
       concept: "Substância Esponjosa",
-      definition: "Interna, formada por trabéculas (alinhadas em linhas de tensão). Aloja a medula óssea.",
+      definition: "Interna, formada por trabéculas alinhadas em linhas de tensão. Aloja medula óssea.",
     },
     {
       concept: "Periósteo",
-      definition: "Camada de tecido conjuntivo que reveste o osso. O folheto profundo é osteogênico.",
+      definition: "Membrana de tecido conjuntivo que reveste ossos. Folheto profundo é osteogênico (formador de osso).",
     },
     {
       concept: "Anatomia Funcional",
       definition:
-        "A estrutura suporta a função; os ossos são rígidos devido aos sais minerais (rigidez) e flexíveis devido ao colágeno (resistência).",
+        "Estrutura suporta função: ossos são rígidos (sais minerais) e flexíveis (colágeno) simultaneamente.",
     },
   ],
   questions: [
