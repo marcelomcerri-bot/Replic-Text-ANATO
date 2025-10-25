@@ -16,10 +16,8 @@ export const sistemaNervoso: TopicContent = {
           {
             title: "Funções Essenciais do SN",
             content: [
-              "O sistema nervoso tem três funções principais que se sobrepõem e trabalham em conjunto:",
-              "1. Entrada (Aferência) Sensitiva: Utiliza milhões de receptores sensitivos para monitorar as mudanças (estímulos) que ocorrem dentro e fora do corpo. Essa informação reunida é a entrada sensitiva.",
-              "2. Integração: Ocorre no Sistema Nervoso Central (SNC). É o processo de interpretar e processar a entrada sensitiva para tomar decisões sobre o que fazer.",
-              "3. Saída (Eferência) Motora: É a resposta, que se dá pela ativação dos órgãos efetores (músculos ou glândulas).",
+              "O sistema nervoso tem três funções principais que se sobrepõem e trabalham em conjunto de maneira integrada. A primeira função corresponde à **entrada (aferência) sensitiva**, mecanismo pelo qual milhões de receptores sensitivos distribuídos por todo o organismo monitoram continuamente as mudanças (estímulos) que ocorrem tanto dentro quanto fora do corpo. Essa informação reunida constitui a entrada sensitiva.",
+              "A segunda função essencial é a **integração**, processo que ocorre exclusivamente no Sistema Nervoso Central (SNC) e consiste em interpretar e processar toda a informação sensitiva recebida para determinar a resposta adequada. Por fim, a terceira função corresponde à **saída (eferência) motora**, que representa a resposta efetiva do sistema, materializada pela ativação dos órgãos efetores (músculos ou glândulas).",
             ],
           },
         ],
@@ -50,11 +48,8 @@ export const sistemaNervoso: TopicContent = {
           {
             title: "Subdivisões Funcionais do SNP",
             content: [
-              "As entradas (aferências) sensitivas e as saídas (eferências) motoras são subdivididas com base nas regiões que atendem (somática ou visceral):",
-              "• Sensitiva Somática (SS): Leva informações sensoriais (toque, dor, pressão, vibração, temperatura, propriocepção) do tubo externo (pele, músculos esqueléticos, articulações) ao SNC.",
-              "• Sensitiva Visceral (SV): Leva informações sensoriais (estiramento, dor, temperatura, náusea, fome) das vísceras ao SNC.",
-              "• Motora Somática (MS): Estimula a contração dos músculos esqueléticos. Controle voluntário (Sistema Nervoso Voluntário).",
-              "• Motora Visceral (MV) ou SNA: Regula a contração do músculo liso, músculo cardíaco e a secreção das glândulas. Controle involuntário (Sistema Nervoso Involuntário).",
+              "As entradas (aferências) sensitivas e as saídas (eferências) motoras são subdivididas com base nas regiões anatômicas que atendem, podendo ser classificadas como somáticas ou viscerais. A divisão **sensitiva somática** (SS) é responsável por conduzir informações sensoriais oriundas do tubo externo do corpo — incluindo pele, músculos esqueléticos e articulações — até o SNC, abrangendo modalidades como toque, dor, pressão, vibração, temperatura e propriocepção.",
+              "Por outro lado, a divisão **sensitiva visceral** (SV) leva ao SNC informações sensoriais provenientes das vísceras, englobando sensações de estiramento, dor, temperatura, náusea e fome. Quanto à divisão motora, a **motora somática** (MS) estimula a contração dos músculos esqueléticos, operando sob controle voluntário e constituindo o Sistema Nervoso Voluntário. Por sua vez, a **motora visceral** (MV) ou Sistema Nervoso Autônomo (SNA) regula a contração do músculo liso e cardíaco, além da secreção glandular, operando sob controle involuntário.",
             ],
           },
         ],
@@ -77,10 +72,8 @@ export const sistemaNervoso: TopicContent = {
           {
             title: "Neuróglia (Células da Glia ou Células de Suporte)",
             content: [
-              "A neuróglia são células não excitáveis que circundam e envolvem os neurônios. Elas agem como o tecido conjuntivo do SN.",
-              "Funções: Proporcionam sustentação (apoio), nutrem, protegem e isolam os delicados neurônios.",
-              "Tipos no SNC: Astrócitos, Células da Micróglia (fagocitárias), Células Ependimárias (revestem a cavidade central) e Oligodendrócitos (formam mielina no SNC).",
-              "Tipos no SNP: Células de Schwann (formam mielina no SNP) e Células-satélite.",
+              "A neuróglia compreende células não excitáveis que circundam e envolvem os neurônios, desempenhando funções análogas ao tecido conjuntivo do sistema nervoso. Suas funções essenciais incluem proporcionar sustentação estrutural (apoio), nutrir, proteger e isolar eletricamente os delicados neurônios.",
+              "No SNC, identifica-se quatro tipos principais de neuróglia: **astrócitos** (que sustentam e regulam o ambiente químico neuronal), **células da micróglia** (com função fagocitária de defesa), **células ependimárias** (que revestem a cavidade central da medula espinal e os ventrículos cerebrais) e **oligodendrócitos** (responsáveis pela formação da bainha de mielina no SNC). No SNP, por sua vez, encontram-se as **células de Schwann** (que formam a mielina ao redor dos axônios periféricos) e as **células-satélite** (que envolvem os corpos celulares nos gânglios).",
             ],
           },
         ],
@@ -88,10 +81,8 @@ export const sistemaNervoso: TopicContent = {
       {
         title: "Estrutura Básica e Classificação dos Neurônios",
         content: [
-          "A maioria dos neurônios possui três regiões estruturais responsáveis por funções especializadas:",
-          "1. Corpo Celular (Pericário ou Soma): É o centro metabólico do neurônio. É responsável pela síntese de todas as proteínas e pela renovação dos constituintes celulares.",
-          "2. Dendritos: São regiões receptoras no neurônio. Eles recebem estímulos e conduzem impulsos em direção ao corpo celular.",
-          "3. Axônio: É um processo celular longo e único. É a região condutora que inicia e transmite impulsos nervosos para longe do corpo celular.",
+          "A maioria dos neurônios possui três regiões estruturais distintas, cada uma responsável por funções especializadas que sustentam a comunicação neural. O **corpo celular** (também denominado pericário ou soma) constitui o centro metabólico do neurônio, sendo responsável pela síntese de todas as proteínas necessárias ao funcionamento celular, além de promover a renovação contínua dos constituintes celulares.",
+          "Os **dendritos** representam as regiões receptoras do neurônio, formando extensões ramificadas que recebem estímulos provenientes de outros neurônios ou receptores sensoriais, conduzindo os impulsos nervosos em direção ao corpo celular. Por fim, o **axônio** constitui um processo celular longo e único, cuja função primordial é iniciar e transmitir impulsos nervosos para longe do corpo celular, propagando a informação neural até o ponto de contato com outras células.",
         ],
         subsections: [
           {
@@ -105,19 +96,15 @@ export const sistemaNervoso: TopicContent = {
           {
             title: "Classificação Estrutural dos Neurônios",
             content: [
-              "Os neurônios são classificados anatomicamente pela quantidade de processos que se estendem do corpo celular:",
-              "• Neurônio Multipolar: Possui mais de dois processos (vários dendritos e um axônio). É o tipo mais abundante no corpo e o principal tipo no SNC.",
-              "• Neurônio Pseudounipolar (ou Unipolar): Possui apenas um processo curto que se divide em dois ramos (como um T). É o tipo comum nos gânglios sensitivos do SNP.",
-              "• Neurônio Bipolar: Possui apenas dois processos que se estendem de lados opostos. É raro e está restrito a alguns órgãos sensitivos especiais (retina, orelha interna, mucosa olfatória).",
+              "Os neurônios são classificados anatomicamente de acordo com a quantidade de processos celulares que se estendem do corpo celular. O **neurônio multipolar** possui mais de dois processos, tipicamente apresentando vários dendritos e um único axônio. Este tipo constitui o mais abundante no corpo humano, sendo o tipo predominante no SNC.",
+              "O **neurônio pseudounipolar** (ou unipolar) caracteriza-se por possuir apenas um processo curto que emerge do corpo celular e rapidamente se divide em dois ramos, assemelhando-se à forma de um T. Este tipo é comum nos gânglios sensitivos do SNP. Por fim, o **neurônio bipolar** apresenta apenas dois processos que se estendem de lados opostos do corpo celular. É um tipo raro, encontrado exclusivamente em alguns órgãos sensitivos especiais, como a retina, a orelha interna e a mucosa olfatória.",
             ],
           },
           {
             title: "Classificação Funcional dos Neurônios",
             content: [
-              "Os neurônios são agrupados funcionalmente pela direção percorrida pelo impulso nervoso em relação ao SNC:",
-              "• Neurônios Sensitivos (Aferentes): Transmitem impulsos para o SNC.",
-              "• Neurônios Motores (Eferentes): Conduzem impulsos para longe do SNC até os órgãos efetores (músculos ou glândulas).",
-              "• Interneurônios (de Associação): Situam-se inteiramente confinados no SNC. Eles ligam-se em cadeias que formam vias neurais complexas.",
+              "Os neurônios são agrupados funcionalmente de acordo com a direção percorrida pelo impulso nervoso em relação ao SNC. Os **neurônios sensitivos** (ou aferentes) transmitem impulsos dos receptores sensoriais periféricos em direção ao SNC, levando informações sobre o ambiente externo e interno.",
+              "Os **neurônios motores** (ou eferentes) conduzem impulsos para longe do SNC em direção aos órgãos efetores (músculos ou glândulas), promovendo respostas motoras ou secretórias. Os **interneurônios** (ou neurônios de associação) situam-se inteiramente confinados no SNC, estabelecendo conexões entre neurônios sensitivos e motores. Eles ligam-se em cadeias complexas que formam vias neurais elaboradas, sendo fundamentais para os processos de integração e processamento da informação.",
             ],
           },
         ],
@@ -139,26 +126,22 @@ export const sistemaNervoso: TopicContent = {
           {
             title: "Substância Cinzenta (Grey Matter)",
             content: [
-              "Composição: Consiste principalmente em corpos celulares neuronais, dendritos, axônios não mielinizados e neuróglia.",
-              "Sinapses: As sinapses ocorrem na substância cinzenta.",
-              "Localização no SNC: Na medula espinal, a substância cinzenta tem a forma de borboleta (H). No encéfalo e cerebelo, a substância cinzenta superficial forma o córtex. Agrupamentos de corpos celulares no SNC (como no tronco encefálico) são chamados núcleos.",
+              "A substância cinzenta consiste principalmente em corpos celulares neuronais, dendritos, axônios não mielinizados e neuróglia. Funcionalmente, as sinapses ocorrem predominantemente na substância cinzenta, constituindo os locais de processamento e integração da informação neural.",
+              "Na medula espinal, a substância cinzenta apresenta uma configuração característica em forma de borboleta (H). No encéfalo e cerebelo, a substância cinzenta superficial forma o **córtex**, camada responsável pelas funções cerebrais superiores. Agrupamentos profundos de corpos celulares no SNC (como os encontrados no tronco encefálico) são denominados **núcleos**.",
             ],
           },
           {
             title: "Substância Branca (White Matter)",
             content: [
-              "Composição: Consiste em axônios mielinizados e não mielinizados. Sua cor clara (branca) é devida às bainhas de mielina.",
-              "Função: Atua como via de comunicação (condução) de mão dupla.",
-              "Tratos: Os axônios que seguem para destinos similares formam feixes de axônio chamados tratos (ou fascículos).",
+              "A substância branca consiste em axônios mielinizados e não mielinizados, cuja coloração clara característica é conferida pelas bainhas de mielina. Funcionalmente, atua como via de comunicação bidirecional (condução de mão dupla) entre diferentes regiões do SNC.",
+              "Os axônios que seguem para destinos similares organizam-se em feixes denominados **tratos** (ou fascículos), estruturas que constituem as vias neurais específicas responsáveis pela transmissão de informações motoras, sensitivas ou associativas.",
             ],
           },
           {
             title: "Nervos",
             content: [
-              "Um nervo é um órgão similar a um cabo no SNP.",
-              "Composição: É uma coleção de axônios (fibras nervosas) organizados em feixes paralelos, envolvidos por tecido conjuntivo.",
-              "Nervos Mistos: A maioria dos nervos cranianos e todos os nervos espinais contêm fibras sensitivas e motoras.",
-              "Envoltórios: Possuem três camadas de tecido conjuntivo: Epineuro (envolve o nervo inteiro), Perineuro (envolve os fascículos) e Endoneuro (envolve cada axônio/fibra nervosa).",
+              "Um nervo é um órgão do SNP similar a um cabo, constituindo uma coleção de axônios (fibras nervosas) organizados em feixes paralelos e envolvidos por tecido conjuntivo. A maioria dos nervos cranianos e todos os nervos espinais são classificados como **nervos mistos**, pois contêm simultaneamente fibras sensitivas e motoras.",
+              "Estruturalmente, os nervos possuem três camadas concêntricas de tecido conjuntivo que proporcionam proteção e organização: o **epineuro** (camada mais externa que envolve o nervo inteiro), o **perineuro** (que envolve os fascículos individuais) e o **endoneuro** (que envolve cada axônio ou fibra nervosa individual).",
             ],
           },
         ],
@@ -174,9 +157,8 @@ export const sistemaNervoso: TopicContent = {
           {
             title: "Diferença Crucial (SNA vs. SN Somático Motor)",
             content: [
-              "A principal diferença anatômica reside no número de neurônios que ligam o SNC ao órgão efetuador:",
-              "• SN Motor Somático (Voluntário): Utiliza uma cadeia de um único neurônio motor que sai do SNC (coluna anterior da medula) e se estende até o músculo esquelético (efetor).",
-              "• SN Autônomo (Involuntário): Utiliza uma cadeia de dois neurônios: Neurônio Pré-ganglionar (corpo celular no SNC) e Neurônio Pós-ganglionar (corpo celular em um gânglio periférico).",
+              "A principal diferença anatômica entre o Sistema Nervoso Autônomo e o Sistema Nervoso Somático Motor reside no número de neurônios que ligam o SNC ao órgão efetuador. O **SN Motor Somático** (voluntário) utiliza uma cadeia de um único neurônio motor que emerge do SNC (especificamente da coluna anterior da medula espinal) e se estende diretamente até o músculo esquelético efetor.",
+              "Em contraste, o **SN Autônomo** (involuntário) utiliza uma cadeia de dois neurônios em série: o **neurônio pré-ganglionar** (com corpo celular localizado no SNC) e o **neurônio pós-ganglionar** (cujo corpo celular situa-se em um gânglio periférico). Esta organização em dois estágios constitui uma característica distintiva fundamental do SNA.",
             ],
           },
         ],
@@ -190,19 +172,15 @@ export const sistemaNervoso: TopicContent = {
           {
             title: "Parte Simpática (Toracolombar)",
             content: [
-              "Função: Mobiliza o corpo para a atividade ou situações extremas ('lutar ou fugir').",
-              "Origem Anatômica: Seus neurônios pré-ganglionares localizam-se na medula espinal torácica e lombar superior (segmentos T1 a L2). Por isso é chamada divisão toracolombar.",
-              "Cadeia Neuronal: Caracteriza-se por axônios pré-ganglionares curtos e axônios pós-ganglionares longos.",
-              "Gânglios: Os corpos celulares pós-ganglionares localizam-se nos gânglios do tronco simpático (perto da coluna vertebral) ou nos gânglios pré-vertebrais.",
+              "A parte simpática tem por função mobilizar o corpo para a atividade ou situações extremas, sendo comumente associada à resposta de 'lutar ou fugir'. Anatomicamente, seus neurônios pré-ganglionares localizam-se na medula espinal torácica e lombar superior (segmentos T1 a L2), razão pela qual é denominada **divisão toracolombar**.",
+              "Esta divisão caracteriza-se por possuir axônios pré-ganglionares curtos e axônios pós-ganglionares longos. Os corpos celulares dos neurônios pós-ganglionares localizam-se nos gânglios do tronco simpático (situados paravertebralmente, próximos à coluna vertebral) ou nos gânglios pré-vertebrais (localizados anteriormente à coluna).",
             ],
           },
           {
             title: "Parte Parassimpática (Craniossacral)",
             content: [
-              "Função: Habilita o corpo a relaxar e trabalha para conservar a energia ('repousar e digerir'). Controla as funções de manutenção de rotina.",
-              "Origem Anatômica: Seus neurônios pré-ganglionares localizam-se no tronco encefálico (efluência craniana, NC III, VII, IX, X) e na medula espinal sacral (segmentos S2, S3, S4). Por isso é chamada divisão craniossacral.",
-              "Cadeia Neuronal: Caracteriza-se por axônios pré-ganglionares longos e axônios pós-ganglionares curtos.",
-              "Gânglios: A maioria dos corpos celulares pós-ganglionares está localizada dentro das paredes dos órgãos inervados (gânglios intramurais) ou muito perto deles. O nervo vago (NC X) é essencial, pois suas fibras inervam órgãos do pescoço, tórax e maior parte do abdome.",
+              "A parte parassimpática habilita o corpo a relaxar e conservar energia, sendo comumente associada à resposta de 'repousar e digerir'. Controla as funções de manutenção de rotina e homeostase. Anatomicamente, seus neurônios pré-ganglionares localizam-se no tronco encefálico (efluência craniana através dos nervos cranianos III, VII, IX, X) e na medula espinal sacral (segmentos S2, S3, S4), razão pela qual é denominada **divisão craniossacral**.",
+              "Esta divisão caracteriza-se por possuir axônios pré-ganglionares longos e axônios pós-ganglionares curtos. A maioria dos corpos celulares pós-ganglionares está localizada dentro das paredes dos órgãos inervados (gânglios intramurais) ou muito próxima a eles. O **nervo vago** (NC X) é essencial nesta divisão, pois suas extensas fibras inervam órgãos do pescoço, tórax e maior parte do abdome.",
             ],
           },
         ],
