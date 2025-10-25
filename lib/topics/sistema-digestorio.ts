@@ -46,24 +46,102 @@ export const sistemaDigestorio: TopicContent = {
         content: [],
         subsections: [
           {
-            title: "Boca e Faringe",
+            title: "5.1. Língua e Cavidade Oral",
             content: [
-              "Boca (Cavidade Oral): O alimento é mastigado e umedecido pela saliva. O epitélio de revestimento da mucosa oral e da faringe é epitélio estratificado pavimentoso.",
-              "Faringe: É uma passagem em forma de funil que serve como via de passagem comum para o alimento e o ar. Deglutição (1ª Fase): O bolo alimentar é levado para a faringe pela ação dos músculos milo-hióideo e estiloglosso. A respiração é suspensa e o istmo das fauces é ocluído.",
+              "A cavidade bucal é o ponto de origem do sistema digestivo. A língua, em particular, possui um armazón osteofibroso, é revestida por mucosa e é dotada de numerosos músculos.",
+              "**V Lingual e Forame Cego:** A V lingual é uma marca anatômica importante na superfície posterior da língua. O forame cego é uma pequena depressão localizada no ápice da V lingual.",
+              "**Tonsilas Linguais:** As tonsilas linguais são estruturas do sistema digestivo localizadas na base posterior da língua. Fazem parte do anel linfático de Waldeyer, contribuindo para a defesa imunológica.",
+              "**Prega Glossoepiglótica Mediana e Lateral:** A raiz da língua está solidamente unida à epiglote por meio de estruturas mucosas denominadas pregas glossoepiglóticas médias e laterais. Estas pregas conectam a língua à epiglote e delimitam as valéculas epiglóticas.",
+              "**Valécula Epiglótica:** Localizada na raiz da língua, a valécula epiglótica corresponde à depressão ou sulco entre a raiz da língua e a epiglote. É uma importante referência anatômica durante a laringoscopia e intubação.",
+              "**Tonsila Palatina (Amígdala Palatina):** A tonsila palatina é uma formação que se projeta sobre a parede faríngea na região paratonsilar. Ela está contida em uma cavidade topográfica específica chamada cela da amígdala palatina. As tonsilas palatinas fazem parte do anel linfático de Waldeyer.",
+              "**Arco Palatoglosso:** O arco palatoglosso é o elemento que une a raiz da língua ao palato mole (ou palato brando). O músculo palatoglosso é um dos cinco músculos do palato brando que solidariza o palato brando com a língua.",
+              "**Arco Palatofaríngeo:** O músculo palatofaríngeo atua para solidarizar o palato brando com a faringe, dirigindo-se para baixo a partir do palato mole. Os arcos palatoglosso e palatofaríngeo delimitam lateralmente a fossa tonsilar.",
             ],
           },
           {
-            title: "Esôfago e Estômago",
+            title: "5.2. Faringe",
             content: [
-              "Esôfago: É um tubo muscular que impele o alimento da faringe para o estômago. No tórax, o esôfago possui uma adventícia como camada externa, pois não está associado à cavidade peritoneal. O esôfago é inervado pelo vago e pelos troncos simpáticos.",
-              "Estômago: É um local de armazenamento temporário onde o alimento é agitado e transformado em quimo. Função: Inicia a decomposição de proteínas secretando pepsina (enzima digestora) e ácido clorídrico (HCl). Absorção: Absorve água, eletrólitos e alguns fármacos (aspirina e álcool), mas a absorção de nutrientes é pequena.",
+              "A faringe atua como uma via digestiva e aérea, estendendo-se desde a base externa do crânio até o bordo inferior da 6ª ou 7ª vértebra cervical. A faringe é um tubo musculofibroso, e a sua camada muscular é constituída pelos músculos constritores.",
+              "A faringe é uma passagem em forma de funil que serve como via de passagem comum para o alimento e o ar. O epitélio de revestimento da mucosa oral e da faringe é epitélio estratificado pavimentoso.",
+              "Deglutição (1ª Fase): O bolo alimentar é levado para a faringe pela ação dos músculos milo-hióideo e estiloglosso. A respiração é suspensa e o istmo das fauces é ocluído.",
+              "**Músculo Constritor Superior da Faringe:** Este músculo se insere superiormente no tubérculo faríngeo, que se situa na linha média da porção basilar do osso occipital. Suas inserções laterais incluem: bordo posterior da lâmina medial da apófise pterigoide (porção pterigofaríngea), rafe pterigomandibular (porção bucofaríngea), parte posterior da linha milo-hioidea da mandíbula (porção milo-faríngea) e musculatura intrínseca da língua (porção glossofaríngea). Medialmente, ele se une ao seu homólogo no rafe faríngeo.",
+              "**Músculo Constritor Médio da Faringe:** O nervo glossofaríngeo (NC IX) transita pela parede faríngea atravessando o hiato que se forma entre os músculos constritores superior e médio. A parede medial da região carotídea, em sua porção inferior, é formada pelos músculos constritores médio e inferior.",
+              "**Músculo Constritor Inferior da Faringe:** Este músculo contribui para a parede medial da região carotídea, juntamente com o constritor médio e o lobo da glândula tireoide. O músculo constritor inferior é o mais caudal dos três constritores da faringe.",
             ],
           },
           {
-            title: "Intestinos (Delgado e Grosso)",
+            title: "5.3. Esôfago e Músculo Diafragma",
             content: [
-              "Intestino Delgado: É a parte mais longa do tubo digestório e o sítio da maior parte da atividade enzimática e de praticamente toda a absorção dos nutrientes. Segmentos: Duodeno, jejuno e íleo. O quimo é propelido por peristaltismo e misturado por segmentação ativa. Sua túnica mucosa é adaptada para a absorção.",
-              "Intestino Grosso: É mais calibroso que o intestino delgado, mas nem sempre (o colo descendente vazio pode ser menos calibroso). Musculatura Longitudinal: A musculatura longitudinal está condensada em três faixas chamadas tênias do colo. Epitélio: Revestido por epitélio simples prismático com células absortivas e muitas células caliciformes (secreção de muco). Tecido Linfático: Contém mais tecido linfático do que o intestino delgado. O apêndice tem grandes massas de tecido linfático e pode funcionar como um porto seguro para as bactérias benéficas.",
+              "O esôfago é um tubo muscular que impele o alimento da faringe para o estômago. É inervado pelo nervo vago e pelos troncos simpáticos.",
+              "**Porção Torácica do Esôfago:** A porção torácica do esôfago inicia-se na 2ª vértebra torácica (após a porção cervical). Ela é coberta pela pleura e separada dela por tecido conjuntivo. O esôfago desce no mediastino posterior. A Aorta Torácica está lateral e à esquerda do esôfago. O esôfago é acompanhado pelos nervos vagos - o vago esquerdo adiante e à esquerda, e o vago direito atrás e à direita. Os vagos podem apresentar um sistema plexiforme em vez de troncos. No tórax, o esôfago possui uma adventícia como camada externa, pois não está associado à cavidade peritoneal.",
+              "**Porção Abdominal do Esôfago:** O esôfago penetra no abdome através do hiato esofágico do diafragma. Esta porção abdominal do esôfago é curta (cerca de 1-2 cm). Esta porção está em contato com o peritônio que cobre somente a sua cara anterior. O peritônio anterior se reflete para constituir a folha anterior do epiplón menor (omento menor). A cara posterior do esôfago abdominal é desprovida de peritônio. O seu bordo direito se relaciona com o vestíbulo da transcavidade dos epiplões. O nervo vago direito se insinua profundamente por trás do esôfago, dirigindo-se ao plexo celíaco.",
+              "**Músculo Diafragma:** O diafragma é a cúpula superior da cavidade abdominal, sendo uma estrutura muscular fortemente côncava para baixo. É o músculo chave na ventilação pulmonar. As fibras musculares se originam das inserções lumbares (pilares), costais e condrais, convergindo para o centro tendinoso. O pilar direito e o pilar esquerdo são as porções lumbares. O hiato esofágico é a abertura pela qual o esôfago atravessa o diafragma - é inteiramente muscular, e seus bordos são grossos. Projeta-se tipicamente sobre o flanco esquerdo da coluna vertebral, à frente de T10. O hiato esofágico está situado acima e adiante da travessia da aorta (hiato aórtico). A cúpula diafragmática esquerda se amolda sobre o fundo gástrico e a direita sobre o fígado. A veia cava inferior atravessa o diafragma pelo forame que se encontra no folíolo direito do centro tendinoso. A contração do diafragma aumenta o volume da cavidade torácica, fazendo a pressão intrapleural cair e permitindo a inspiração.",
+            ],
+          },
+          {
+            title: "5.4. Estômago",
+            content: [
+              "O estômago (gaster) é um reservatório muscular que se interpõe entre o esôfago e o duodeno. É um local de armazenamento temporário onde o alimento é agitado e transformado em quimo.",
+              "Função: Inicia a decomposição de proteínas secretando pepsina (enzima digestora) e ácido clorídrico (HCl). A mucosa do estômago secreta um suco digestivo potente.",
+              "Absorção: Absorve água, eletrólitos e alguns fármacos (aspirina e álcool), mas a absorção de nutrientes é pequena.",
+              "**Cárdia:** É o orifício pelo qual o esôfago se abre no estômago. O bordo esquerdo do esôfago abdominal se continua com a vertente direita da curvatura gástrica maior, formando a incisura do cárdia, que é aberta para cima.",
+              "**Fundo (Fundus):** É a porção mais elevada do estômago. O fundus gástrico está situado sob a cúpula diafragmática esquerda e adere-se ao diafragma pela sua cara posterior. A cara posterior do fundo gástrico é desprovida de peritônio em sua área de contato com o diafragma (ligamento gastrofrênico).",
+              "**Corpo:** O corpo é a porção média e vertical do estômago. É a maior parte do estômago, situada entre o fundo e a porção pilórica.",
+              "**Porção Pilórica (Antro e Canal Pilórico):** A porção pilórica é de direção horizontal (ou oblíqua para cima e para a direita), configurando um funil que se estreita. A porção pilórica começa distalmente à incisura angular. A primeira parte desta porção é o antro pilórico, que é mais dilatada. A segunda parte é o canal pilórico, que é mais estreita e termina no esfíncter pilórico.",
+              "**Esfíncter Pilórico:** O esfíncter pilórico é um espessamento muscular que assegura o fechamento do orifício pilórico. Controla a passagem do quimo do estômago para o duodeno.",
+              "**Pregas Gástricas:** A mucosa do estômago apresenta pregas gástricas (rugas gástricas) quando o estômago está vazio. Estas pregas se aplanam quando o estômago se distende.",
+            ],
+          },
+          {
+            title: "5.5. Duodeno",
+            content: [
+              "O duodeno é a primeira das três porções do intestino delgado. É em forma de C e circunda a cabeça do pâncreas. É o local onde ocorre a maior parte da digestão química.",
+              "**Papila Maior do Duodeno (de Vater):** A ampola hepatopancreática (de Vater) é uma estrutura que se abre na porção descendente do duodeno, na papila duodenal maior (papila de Vater). É formada pela união do ducto colédoco (bile) com o ducto pancreático principal. O seu esfíncter é o Esfíncter da Ampola Hepatopancreática (Esfíncter de Oddi), que controla a liberação de bile e suco pancreático no duodeno.",
+              "**Pregas Circulares:** As pregas circulares (válvulas de Kerckring) são dobras permanentes da mucosa e submucosa do intestino delgado. São especialmente proeminentes no duodeno e jejuno, aumentando a superfície de absorção.",
+            ],
+          },
+          {
+            title: "5.6. Jejuno e Íleo",
+            content: [
+              "O jejuno e o íleo são as porções média e terminal do intestino delgado, respectivamente. São a parte mais longa do tubo digestório e o sítio da maior parte da atividade enzimática e de praticamente toda a absorção dos nutrientes.",
+              "O quimo é propelido por peristaltismo e misturado por segmentação ativa. A túnica mucosa é adaptada para a absorção.",
+              "**Mesentério (Jejuno e Íleo):** O mesentério é uma ampla folha peritoneal que une o jejuno e o íleo à parede abdominal posterior. É descrito como um tabique em leque. O mesentério fornece uma via de passagem para vasos sanguíneos, linfáticos e nervos que suprem o jejuno e íleo. A raiz do mesentério atravessa obliquamente a parede posterior do abdome, desde a flexura duodenojejunal até a junção ileocecal.",
+            ],
+          },
+          {
+            title: "5.7. Ceco",
+            content: [
+              "O ceco é o segmento inicial do intestino grosso. É uma bolsa cega localizada inferiormente à junção ileocecal. O íleo terminal (porção final do íleo) se abre nele pelo orifício ileal.",
+              "**Válvula Ileocecal (de Bauhin):** Esta estrutura, localizada na junção do íleo terminal com o ceco, é formada por duas pregas (lábios superior e inferior) que se projetam na luz do ceco. Função: Controla a passagem do conteúdo ileal para o ceco e previne o refluxo do conteúdo cecal para o íleo.",
+              "**Haustros:** São as saculações características do intestino grosso, formadas pela contração das tênias do colo.",
+              "**Apêndices Epiplóicos (ou Apêndices Omentais):** São pequenas projeções de tecido adiposo revestido por peritônio que se projetam da superfície do cólon. Estão ausentes no ceco e no apêndice vermiforme.",
+            ],
+          },
+          {
+            title: "5.8. Apêndice Vermiforme",
+            content: [
+              "O apêndice vermiforme é um tubo estreito e alongado que se projeta do ceco. Está situado atrás do ponto ileocecal (ilioapêndice). O seu orifício se abre no ceco.",
+              "Função Imunológica: O apêndice tem grandes massas de tecido linfático e pode funcionar como um porto seguro para as bactérias benéficas.",
+              "**Mesoapêndice:** O mesoapêndice é o meso (dobra peritoneal) do apêndice. Conecta o apêndice ao mesentério do íleo terminal. Contém os vasos sanguíneos e nervos que suprem o apêndice.",
+            ],
+          },
+          {
+            title: "5.9. Cólon Ascendente, Transverso e Descendente",
+            content: [
+              "O intestino grosso é mais calibroso que o intestino delgado, embora nem sempre (o cólon descendente vazio pode ser menos calibroso).",
+              "Musculatura Longitudinal: A musculatura longitudinal está condensada em três faixas chamadas tênias do cólon.",
+              "Epitélio: Revestido por epitélio simples prismático com células absortivas e muitas células caliciformes (secreção de muco).",
+              "Tecido Linfático: Contém mais tecido linfático do que o intestino delgado.",
+              "**Cólon Ascendente e Descendente:** O cólon ascendente e o descendente são considerados retroperitoneais após o desenvolvimento fetal. Devido às fáscias de coalescência (fáscia coloparietal), estes segmentos do cólon ficam fixados à parede abdominal posterior. Apenas suas superfícies anteriores são cobertas por peritônio.",
+              "**Cólon Transverso e Mesocólon Transverso:** O cólon transverso e o seu mesocólon transverso (dobra peritoneal) estabelecem uma divisão na cavidade abdominal em dois pisos: Piso Superior ou Supracólico (contém estômago, fígado, baço) e Piso Inferior ou Infracólico (contém intestino delgado e cólon ascendente/descendente). O epiplón maior (omento maior) se adosa (funde) à cara superior do mesocólon transverso.",
+            ],
+          },
+          {
+            title: "5.10. Cólon Sigmoide e Reto",
+            content: [
+              "O cólon sigmoide é a porção terminal do cólon, localizada na fossa ilíaca esquerda e na pelve menor. O reto é o segmento final do intestino grosso.",
+              "**Mesocólon Sigmoide:** O mesocólon sigmoide é uma dobra peritoneal que une o cólon sigmoide à parede abdominal posterior. É descrito como um tabique em abanico. Inserido posteriormente na linha mediana e no estreito superior esquerdo da pelve. O nervo presacro (plexo hipogástrico superior) é separado da raiz primária do mesocólon sigmoide. Este mesocólon contribui para a divisão da região infracólica.",
+              "**Reto:** O reto é o segmento terminal do sistema digestivo. Estende-se do cólon sigmoide até o canal anal. A sua vascularização venosa é drenada pelas veias retais médias (ramos da veia ilíaca interna) e veias retais superiores. A sua porção terminal é dilatada, formando a ampola retal, que armazena fezes temporariamente. O plexo hipogástrico superior inerva o cólon esquerdo e o reto. O peritônio do fundo da pelve forma os recessos pararrectais e o fundo de saco retouterino (de Douglas) no sexo feminino.",
             ],
           },
         ],
