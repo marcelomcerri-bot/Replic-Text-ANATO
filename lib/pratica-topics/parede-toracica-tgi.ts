@@ -271,6 +271,147 @@ export const paredeToracicaTGI: PraticaTopicContent = {
           },
         ],
       },
+      {
+        title: "PAREDE ÂNTEROLATERAL DO ABDOME",
+        content: [
+          "A parede ânterolateral do abdome é uma estrutura musculoaponeurótica complexa que delimita anteriormente e lateralmente a cavidade abdominal, estendendo-se superiormente desde o processo xifoide e cartilagens costais inferiores até inferiormente aos ossos do quadril (crista ilíaca, ligamento inguinal e sínfise púbica). Esta parede é constituída por músculos dispostos em camadas (superficial a profunda), sistema aponeurótico elaborado que forma bainhas musculares, e tecidos subcutâneo e cutâneo superficiais.",
+          "A musculatura da parede ânterolateral compreende cinco músculos pares bilaterais: um músculo vertical mediano (músculo reto do abdome), três músculos largos laterais dispostos em camadas sobrepostas (oblíquo externo, oblíquo interno e transverso do abdome - superficial a profundo), e um pequeno músculo triangular inconstante (músculo piramidal, ausente em aproximadamente 20% dos indivíduos). As aponeuroses (expansões tendíneas) destes músculos convergem medialmente formando a linha alba (linha branca) - estrutura fibrosa mediana avascular que se estende do processo xifoide à sínfise púbica.",
+        ],
+        subsections: [
+          {
+            title: "Músculo Oblíquo Externo do Abdome",
+            content: [
+              "O músculo oblíquo externo é o músculo mais superficial e mais extenso dos três músculos largos da parede abdominal lateral, formando a camada muscular mais externa. Seu nome deriva da orientação oblíqua de suas fibras musculares.",
+              "**Origem:** O músculo origina-se através de digitações carnosas da face lateral externa e borda inferior das oito costelas inferiores (5ª a 12ª costelas). Estas digitações interdigitam-se superiormente com as inserções do músculo serrátil anterior e inferiormente com as inserções do músculo grande dorsal, criando padrão característico visível em indivíduos com baixo percentual de gordura corporal.",
+              "**Direção das Fibras:** As fibras musculares apresentam orientação variável dependendo de sua localização: fibras superiores são predominantemente horizontais, fibras posteriores e inferiores são verticais ou quase verticais, e fibras médias (maioria) são oblíquas descendentes em direção ínfero-medial. Esta orientação é classicamente descrita como 'mãos nos bolsos' - similar à direção das mãos quando colocadas nos bolsos laterais de calça.",
+              "**Inserção:** As fibras musculares posteriores inserem-se carnosas (diretamente) na metade anterior do lábio externo da crista ilíaca. As fibras anteriores e inferiores transformam-se em aponeurose do oblíquo externo ao nível aproximado da linha axilar anterior (linha vertical imaginária que desce do ápice da axila).",
+            ],
+            subsections: [
+              {
+                title: "Aponeurose do Músculo Oblíquo Externo",
+                content: [
+                  "A aponeurose do oblíquo externo é lâmina tendínea ampla e resistente que se estende desde a transição musculoaponeurótica lateral até medialmente à linha alba, onde suas fibras entrecruzam-se com as da aponeurose contralateral.",
+                  "**Participação na Bainha do Reto:** Superiormente (acima da linha arqueada), a aponeurose do oblíquo externo forma a lâmina anterior (superficial) da bainha do músculo reto do abdome, passando anteriormente a este músculo até alcançar a linha alba. Inferiormente (abaixo da linha arqueada), toda aponeurose passa anteriormente ao reto.",
+                  "**Formação do Ligamento Inguinal:** Na porção ínfero-medial, entre a espinha ilíaca ântero-superior (EIAS) e o tubérculo púbico, as fibras aponeuróticas mais inferiores dobram-se posterior e inferiormente sobre si mesmas, formando estrutura espessada denominada ligamento inguinal (ligamento de Poupart). Este ligamento marca a transição entre parede abdominal e região inguinofemoral, servindo como assoalho do canal inguinal superiormente e teto do trígono femoral inferiormente.",
+                  "**Ligamento Lacunar (de Gimbernat):** As fibras aponeuróticas mais mediais do ligamento inguinal, ao alcançarem o tubérculo e crista do púbis, refletem-se posteriormente e lateralmente formando estrutura triangular com borda livre côncava lateral denominada ligamento lacunar. Este ligamento forma a margem medial do anel femoral (abertura superior do canal femoral), sendo estrutura importante na gênese de hérnias femorais. O ligamento lacunar insere-se na espinha púbica, face anterior da superfície pectínea do púbis, e crista pectínea.",
+                  "**Anel Inguinal Superficial:** Imediatamente superior e lateral ao tubérculo púbico, a aponeurose do oblíquo externo apresenta abertura triangular ou em forma de fenda oblíqua denominada anel (ânulo) inguinal superficial. Esta abertura, delimitada por pilares superior (medial) e inferior (lateral), representa a saída superficial do canal inguinal, através da qual emerge o funículo espermático no homem ou o ligamento redondo do útero na mulher.",
+                ],
+              },
+            ],
+          },
+          {
+            title: "Músculo Oblíquo Interno do Abdome",
+            content: [
+              "O músculo oblíquo interno situa-se profundamente (internamente) ao oblíquo externo e superficialmente (externamente) ao transverso do abdome, constituindo a camada muscular intermediária dos músculos largos. Suas fibras apresentam orientação oblíqua ascendente em direção súpero-medial, cruzando perpendicularmente (em forma de X) as fibras do oblíquo externo.",
+              "**Origem:** O músculo origina-se de três localizações contíguas na região póstero-lateral do abdome e pelve: (1) dois terços anteriores do lábio intermediário da crista ilíaca, (2) folha anterior da fáscia toracolombar (aponeurose profunda que reveste músculos eretores da espinha na região lombar), e (3) terço lateral do ligamento inguinal.",
+              "**Inserção:** As fibras musculares divergem radialmente a partir de suas origens: fibras posteriores dirigem-se verticalmente superior para inserir-se carnosas nas bordas inferiores das três ou quatro costelas inferiores (10ª a 12ª costelas, ocasionalmente 9ª), entrelaçando-se com inserções do diafragma; fibras médias e anteriores dirigem-se súpero-medialmente, transformando-se em aponeurose do oblíquo interno que participa da formação da bainha do reto; fibras inferiores (originadas do ligamento inguinal) arqueiam-se ínfero-medialmente, acompanhando o funículo espermático/ligamento redondo, contribuindo para formar o tendão conjunto.",
+            ],
+            subsections: [
+              {
+                title: "Aponeurose do Músculo Oblíquo Interno",
+                content: [
+                  "A aponeurose do oblíquo interno apresenta comportamento variável dependendo de sua localização vertical em relação à linha arqueada (linha arcuata):",
+                  "**Acima da Linha Arqueada (Aproximadamente 2/3 Superiores do Abdome):** A aponeurose divide-se em duas lâminas (folhas) ao alcançar a margem lateral do músculo reto do abdome: a lâmina anterior passa superficialmente (anteriormente) ao reto, fusionando-se com a aponeurose do oblíquo externo para formar a camada anterior da bainha do reto; a lâmina posterior passa profundamente (posteriormente) ao reto, fusionando-se com a aponeurose do transverso para formar a camada posterior da bainha do reto. Ambas as lâminas convergem medialmente na linha alba.",
+                  "**Abaixo da Linha Arqueada (Aproximadamente 1/3 Inferior):** A aponeurose não se divide, passando inteiramente anterior ao músculo reto junto com as aponeuroses do oblíquo externo e transverso, formando camada anterior espessada da bainha do reto. Posteriormente ao reto, existe apenas fáscia transversal sem componente aponeurótico.",
+                  "**Tendão Conjunto (Falx Inguinalis):** As fibras aponeuróticas inferiores do oblíquo interno fusionam-se com fibras correspondentes da aponeurose do transverso, formando estrutura tendínea comum denominada tendão conjunto ou foice inguinal. Este tendão arqueia-se inferiormente, passando posterior ao funículo espermático/ligamento redondo, para inserir-se na crista pectínea e crista púbica, reforçando posteriormente a parede do canal inguinal.",
+                ],
+              },
+              {
+                title: "Músculo Cremáster",
+                content: [
+                  "No sexo masculino, as fibras musculares mais inferiores do oblíquo interno (originadas do ligamento inguinal) destacam-se formando fascículos musculares delgados denominados músculo cremáster. Este músculo acompanha o funículo espermático através do canal inguinal, formando camada cremastérica do funículo e estendendo-se inferiormente até o escroto, onde envolve o testículo e epidídimo.",
+                  "**Função:** A contração do cremáster eleva o testículo aproximando-o da parede abdominal, mecanismo importante para termorregulação testicular (manutenção de temperatura ligeiramente inferior à temperatura corporal central, essencial para espermatogênese eficiente) e proteção testicular (reflexo cremastérico - elevação rápida do testículo em resposta a estímulo tátil da face medial superior da coxa). Na mulher, fibras correspondentes são rudimentares, acompanhando o ligamento redondo.",
+                ],
+              },
+            ],
+          },
+          {
+            title: "Músculo Transverso do Abdome",
+            content: [
+              "O músculo transverso do abdome é o músculo mais profundo (interno) dos três músculos largos da parede abdominal lateral, situado profundamente ao oblíquo interno. Suas fibras musculares apresentam orientação predominantemente transversal (horizontal) ou discretamente oblíqua, circundando a cavidade abdominal como se fosse cinta ou faixa.",
+              "**Origem:** O músculo origina-se de estrutura contínua em formato de ferradura que envolve posteriormente e lateralmente a cavidade abdominal: (1) face interna (superfície endotorácica) das cartilagens costais das seis costelas inferiores (7ª a 12ª), onde suas digitações interdigitam-se com as inserções costais do diafragma, (2) processos transversos e fáscia toracolombar das vértebras lombares (L1-L5) posteriormente, (3) lábio interno da crista ilíaca, e (4) terço lateral do ligamento inguinal inferiormente.",
+              "**Inserção:** As fibras musculares dirigem-se transversalmente (ou discretamente ascendentes superiormente, descendentes inferiormente) em direção medial, transformando-se em aponeurose do transverso que participa da formação da bainha do reto e insere-se na linha alba. A transição musculoaponeurótica ocorre aproximadamente na linha semilunar (linha curva vertical que se estende do 9º cartilagem costal ao tubérculo púbico, marcando a margem lateral do músculo reto).",
+            ],
+            subsections: [
+              {
+                title: "Aponeurose do Músculo Transverso",
+                content: [
+                  "Similar à aponeurose do oblíquo interno, a aponeurose do transverso apresenta comportamento distinto acima e abaixo da linha arqueada:",
+                  "**Acima da Linha Arqueada:** A aponeurose do transverso passa posteriormente (profundamente) ao músculo reto do abdome, fusionando-se com a lâmina posterior da aponeurose do oblíquo interno para formar a camada posterior da bainha do reto. Esta camada posterior fornece suporte estrutural ao músculo reto e separa-o do peritônio parietal e vísceras abdominais subjacentes.",
+                  "**Abaixo da Linha Arqueada:** A aponeurose passa anteriormente ao músculo reto, juntando-se às aponeuroses dos oblíquos externo e interno para formar camada anterior espessada da bainha do reto. A transição abrupta no comportamento das aponeuroses ao nível da linha arqueada cria margem arqueada livre inferior onde termina a camada posterior da bainha, deixando o músculo reto posteriormente em contato apenas com fáscia transversal. Esta configuração anatômica representa área de relativa fraqueza, sendo sítio potencial de hérnias (hérnias de Spiegel quando laterais à bainha).",
+                  "**Tendão Conjunto:** Inferiormente, as fibras mediais da aponeurose do transverso fusionam-se com fibras correspondentes do oblíquo interno formando o tendão conjunto, que se insere na crista pectínea e púbica, reforçando a parede posterior do canal inguinal medialmente.",
+                ],
+              },
+              {
+                title: "Fáscia Transversal",
+                content: [
+                  "Profundamente (internamente) ao músculo transverso do abdome, existe camada fascial denominada fáscia transversal (fáscia transversalis), representando a fáscia de revestimento profundo da parede abdominal. Esta fáscia separa a musculatura parietal do peritônio parietal e gordura extraperitoneal.",
+                  "A fáscia transversal é particularmente importante na região inguinal, onde forma a parede posterior profunda do canal inguinal. Na região do anel inguinal profundo (abertura interna do canal inguinal), a fáscia transversal evagina-se formando a camada fascial interna do funículo espermático/ligamento redondo. Defeitos ou fragilidade desta fáscia contribuem para formação de hérnias inguinais indiretas (laterais).",
+                ],
+              },
+            ],
+          },
+          {
+            title: "Músculo Reto do Abdome",
+            content: [
+              "O músculo reto do abdome é músculo longitudinal acintado (longo e relativamente estreito) disposto verticalmente de cada lado da linha mediana, estendendo-se desde a margem costal superior até a sínfise púbica inferiormente. É o músculo vertical proeminente responsável pela aparência de 'abdome definido' ou 'tanquinho' quando bem desenvolvido e com baixo percentual de gordura subcutânea.",
+              "**Origem (Inserção Inferior):** O músculo origina-se através de tendão robusto curto da crista púbica (entre tubérculo púbico e sínfise púbica) e ligamentos púbicos adjacentes (ligamento púbico superior que cobre a sínfise).",
+              "**Inserção (Inserção Superior):** O músculo alarga-se progressivamente durante sua ascensão, terminando superiormente através de três linguetas ou fascículos carnosos curtos que se fixam nas faces anteriores e bordas inferiores das cartilagens costais da 5ª, 6ª e 7ª costelas. Uma quarta inserção menor e inconstante pode ocorrer no processo xifoide do esterno.",
+              "**Intersecções Tendíneas (Tendinous Intersections):** Característica marcante do músculo reto é a presença de três (ocasionalmente quatro) intersecções tendíneas transversais que segmentam o músculo em compartimentos distintos. Estas intersecções são faixas tendíneas transversais que aderem firmemente à lâmina anterior da bainha do reto (mas não à lâmina posterior), atravessando parcialmente a espessura do músculo. Localizam-se tipicamente ao nível do processo xifoide, umbigo e ponto médio entre ambos. As intersecções representam vestígios da segmentação metamérica embrionária e são responsáveis pela aparência compartimentalizada ('tanquinho' ou 'six-pack') do músculo em indivíduos com baixo percentual de gordura.",
+            ],
+            subsections: [
+              {
+                title: "Bainha do Músculo Reto (Rectus Sheath)",
+                content: [
+                  "O músculo reto do abdome é envolvido anteriormente e posteriormente (exceto em sua porção mais inferior) por bainha fibrosa resistente denominada bainha do reto, formada pela convergência e entrecruzamento das aponeuroses dos três músculos largos (oblíquos externo e interno, transverso).",
+                  "**Configuração Acima da Linha Arqueada (Aproximadamente 2/3 Superiores):** A bainha apresenta camadas anterior e posterior distintas. A camada anterior (lâmina anterior) é formada pela aponeurose do oblíquo externo + lâmina anterior da aponeurose do oblíquo interno. A camada posterior (lâmina posterior) é formada pela lâmina posterior da aponeurose do oblíquo interno + aponeurose do transverso. Posteriormente à lâmina posterior, situa-se a fáscia transversal.",
+                  "**Linha Arqueada (Linea Arcuata ou Linha Semicircular de Douglas):** Linha curva transversal localizada aproximadamente a meio caminho entre umbigo e sínfise púbica (correspondendo geralmente ao terço inferior do abdome), marcando transição abrupta na configuração da bainha do reto. Representa o ponto onde terminam inferiormente as lâminas posteriores das aponeuroses do oblíquo interno e transverso, que passam a cursar anteriormente ao reto. A linha arqueada é visível como margem livre côncava inferior ao dissecar a parede abdominal.",
+                  "**Configuração Abaixo da Linha Arqueada (Aproximadamente 1/3 Inferior):** A bainha apresenta apenas camada anterior espessada, formada por todas as três aponeuroses (oblíquo externo, oblíquo interno e transverso) passando anteriormente ao músculo reto. Não existe camada posterior aponeurótica; o músculo reto repousa posteriormente apenas sobre fáscia transversal, que o separa da gordura extraperitoneal e peritônio parietal. Esta configuração cria área de relativa fragilidade.",
+                  "**Linha Alba:** Medialmente, as lâminas anterior e posterior da bainha do reto de cada lado convergem e entrecruzam-se com as aponeuroses contralaterais formando a linha alba (linha branca) - rafe fibrosa mediana avascular que se estende do processo xifoide à sínfise púbica. A linha alba é relativamente estreita superiormente, alarga-se ao nível do umbigo (onde pode medir 1-2 cm de largura), e estreita-se novamente inferiormente. Cirurgicamente, a linha alba é local preferencial para incisões mediana abdominais devido à sua natureza avascular.",
+                ],
+              },
+              {
+                title: "Conteúdo da Bainha do Reto",
+                content: [
+                  "Além do músculo reto do abdome propriamente dito, a bainha do reto contém estruturas neurovasculares que suprem o músculo:",
+                  "**Vascularização:** Artéria epigástrica superior (ramo terminal da artéria torácica interna) entra na bainha superiormente, descendo posterior ao reto. Artéria epigástrica inferior (ramo da artéria ilíaca externa) entra na bainha inferiormente através da face posterior abaixo da linha arqueada, ascendendo posteriormente ao reto. Estas artérias anastomosam-se extensivamente na porção média do músculo, estabelecendo via colateral importante entre circulações torácica e pélvica. Drenagem venosa acompanha as artérias (veias epigástricas superior e inferior). Vasos perfurantes atravessam as intersecções tendíneas suprindo pele e tecido subcutâneo sobrejacentes.",
+                  "**Inervação:** O músculo reto é inervado pelos seis últimos nervos toracoabdominais (intercostais inferiores T7-T11 e nervo subcostal T12) e pelo nervo iliohipogástrico (L1). Estes nervos penetram lateralmente a bainha do reto, cursando no plano entre as lâminas anterior e posterior da bainha (acima da linha arqueada) ou entre o músculo e a lâmina anterior (abaixo da linha arqueada), distribuindo-se de maneira metamérica (segmentar) ao músculo. Esta disposição metamérica explica a preservação de função nos segmentos superiores do músculo mesmo quando segmentos inferiores são desnervados por lesões nervosas ou incisões cirúrgicas transversais.",
+                ],
+              },
+            ],
+          },
+          {
+            title: "Músculo Piramidal",
+            content: [
+              "O músculo piramidal é pequeno músculo triangular inconstante (ausente em aproximadamente 20% dos indivíduos, podendo estar ausente unilateral ou bilateralmente) localizado anteriormente à porção inferior do músculo reto do abdome, dentro da bainha do reto.",
+              "**Anatomia:** Origina-se do corpo do púbis e ligamento púbico anterior, ascendendo superior e medialmente em formato triangular ou piramidal (base inferior, ápice superior), e insere-se na linha alba a meio caminho entre sínfise púbica e umbigo. O músculo é inervado pelo nervo subcostal (T12).",
+              "**Função:** A função do piramidal é tensionar a linha alba, auxiliando minimamente na compressão do abdome inferior. Dada sua inconsistência anatômica e pequeno tamanho, sua contribuição funcional é considerada negligível, sendo frequentemente considerado músculo vestigial.",
+              "**Relevância Clínica:** Embora funcionalmente pouco significativo, o piramidal serve como marco anatômico durante cirurgias pélvicas e herniorrafias, indicando localização da linha alba. Sua presença deve ser considerada durante reconstruções de parede abdominal inferior.",
+            ],
+          },
+          {
+            title: "Função e Biomecânica da Parede Abdominal",
+            content: [
+              "Os músculos da parede ânterolateral do abdome desempenham múltiplas funções coordenadas essenciais para movimento, estabilização, respiração e proteção:",
+              "**Movimento do Tronco:** Contração bilateral do reto do abdome produz flexão da coluna lombar (aproximação do tórax à pelve). Contração unilateral do reto, combinada com oblíquos ipsilaterais, produz flexão lateral. Contração combinada de oblíquos (externo de um lado com interno contralateral) produz rotação do tronco - por exemplo, oblíquo externo direito + oblíquo interno esquerdo = rotação para esquerda. O transverso, devido à orientação transversal de suas fibras, contribui minimamente para movimento, atuando primariamente como músculo estabilizador.",
+              "**Estabilização do Tronco e Núcleo (Core Stability):** O transverso do abdome é músculo fundamental para estabilidade do núcleo (core), atuando como cinta ou faixa natural que comprime e estabiliza a coluna vertebral e pelve. Sua ativação precede movimentos dos membros, preparando o tronco para forças reacionárias. Pesquisas demonstram que o transverso é frequentemente o primeiro músculo abdominal a ativar-se durante movimentos dos membros superiores e inferiores, independentemente da direção do movimento, evidenciando seu papel estabilizador prioritário. Disfunção ou fraqueza do transverso está associada a lombalgia crônica.",
+              "**Aumento de Pressão Intra-abdominal:** Contração coordenada de todos os músculos abdominais (especialmente transverso) comprime vísceras abdominais, aumentando pressão intra-abdominal. Este mecanismo é essencial para funções como defecação (contração abdominal aumenta pressão colorretal), micção (compressão vesical), parto (auxílio na expulsão fetal durante fase expulsiva), vômito (compressão gástrica), e estabilização vertebral (aumento da pressão intra-abdominal cria 'cilindro rígido' que suporta coluna vertebral, reduzindo carga sobre discos intervertebrais durante levantamento de peso).",
+              "**Assistência Respiratória:** Durante expiração forçada, tosse ou espirro, os músculos abdominais (especialmente oblíquos e transverso) contraem-se elevando pressão intra-abdominal e empurrando diafragma superiormente, resultando em compressão torácica e expulsão forçada de ar. Durante respiração tranquila, os músculos abdominais relaxam durante inspiração, permitindo descida diafragmática sem resistência.",
+              "**Proteção de Vísceras:** A musculatura abdominal em camadas fornece proteção mecânica às vísceras abdominais contra traumas externos, absorvendo e distribuindo forças de impacto.",
+            ],
+          },
+          {
+            title: "Relevância Clínica e Cirúrgica",
+            content: [
+              "**Hérnias da Parede Abdominal:** Defeitos ou fragilidades na musculatura ou aponeuroses da parede abdominal permitem protrusão de peritônio parietal e conteúdo abdominal (vísceras, omento), formando hérnias. Hérnias inguinais (indiretas e diretas) são as mais comuns, seguidas por hérnias umbilicais, epigástricas (linha alba), incisionais (pós-cirúrgicas) e de Spiegel (lateral à bainha do reto).",
+              "**Diástase dos Retos:** Separação ou afastamento excessivo dos músculos retos do abdome ao longo da linha alba, resultando em alargamento da linha alba. Ocorre frequentemente em gestações (estiramento progressivo da linha alba por crescimento uterino) e obesidade. Manifesta-se como protuberância longitudinal mediana durante esforços abdominais.",
+              "**Incisões Cirúrgicas Abdominais:** O conhecimento preciso da anatomia da parede abdominal guia a escolha de incisões cirúrgicas. Incisões medianas (através da linha alba) são preferenciais por serem avasculares, permitirem amplo acesso e preservarem inervação muscular. Incisões transversas (Pfannenstiel, subcostal) seguem linhas de tensão cutânea, resultando em melhor resultado estético, mas podem desnerver segmentos musculares. Incisões pararretas (lateral ao reto) evitam desnervação mas comprometem vascularização.",
+              "**Bloqueios Anestésicos Regionais:** Bloqueios dos planos neurovasculares da parede abdominal (bloqueio do plano transverso do abdome - TAP block; bloqueio da bainha do reto) são técnicas analgésicas utilizadas para controle de dor pós-operatória após cirurgias abdominais, partos cesarianos e herniorrafias.",
+              "**Reconstruções de Parede Abdominal:** Em defeitos extensos (hérnias incisionais gigantes, defeitos traumáticos), técnicas de separação de componentes (component separation) utilizam a liberação cirúrgica do transverso do abdome de suas inserções laterais (TAR - Transversus Abdominis Release) ou do oblíquo externo, permitindo avanço medial de 8-12 cm por lado para fechamento sem tensão de grandes defeitos.",
+            ],
+          },
+        ],
+      },
     ],
   },
   summary: [
@@ -285,6 +426,10 @@ export const paredeToracicaTGI: PraticaTopicContent = {
     {
       concept: "Hiatos do Diafragma",
       definition: "Três aberturas principais: hiato esofágico (T10, muscular, passa esôfago e vagos), hiato aórtico (T12, entre pilares, passa aorta e ducto torácico), e forame da veia cava (T8, no centro tendíneo). Inervação pelo nervo frênico (C3-C5).",
+    },
+    {
+      concept: "Músculos da Parede Abdominal",
+      definition: "Cinco músculos pares: reto (vertical mediano), oblíquo externo (superficial, fibras ínfero-mediais), oblíquo interno (médio, fibras súpero-mediais), transverso (profundo, fibras transversas - estabilização core), e piramidal (inconstante). Aponeuroses formam bainha do reto e linha alba.",
     },
   ],
   questions: [
