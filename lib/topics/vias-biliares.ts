@@ -2,6 +2,7 @@ import type { TopicContent } from "../topics-data"
 
 export const viasBiliares: TopicContent = {
   title: "Vias Biliares e Relação Fígado-Duodeno",
+  description: "Anatomia das vias biliares: fígado, vesícula biliar, ductos e secreção enzimática pancreática",
   content: {
     sections: [
       {

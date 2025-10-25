@@ -2,6 +2,7 @@ import type { TopicContent } from "../topics-data"
 
 export const canalInguinal: TopicContent = {
   title: "Canal Inguinal: Trajeto, Conteúdo e Relações Vasculares",
+  description: "Anatomia integrada do canal inguinal: trajeto, conteúdo e relações vasculares",
   content: {
     sections: [
       {

@@ -2,6 +2,7 @@ import type { TopicContent } from "../topics-data"
 
 export const glandulasAnexas: TopicContent = {
   title: "Glândulas Anexas do Sistema Digestório",
+  description: "Glândulas salivares, fígado e pâncreas: estrutura, função e secreções digestórias",
   content: {
     sections: [
       {

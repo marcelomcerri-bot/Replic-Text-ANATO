@@ -2,6 +2,7 @@ import type { TopicContent } from "../topics-data"
 
 export const sistemaGenitalMasculino: TopicContent = {
   title: "Sistema Genital Masculino",
+  description: "Anatomia dos órgãos reprodutores masculinos: testículos, ductos e glândulas acessórias",
   content: {
     sections: [
       {

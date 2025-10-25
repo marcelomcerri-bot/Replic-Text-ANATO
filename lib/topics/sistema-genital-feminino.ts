@@ -2,6 +2,7 @@ import type { TopicContent } from "../topics-data"
 
 export const sistemaGenitalFeminino: TopicContent = {
   title: "Sistema Genital Feminino",
+  description: "Anatomia dos órgãos reprodutores femininos: ovários, tubas, útero e genitais externos",
   content: {
     sections: [
       {
