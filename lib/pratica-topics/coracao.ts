@@ -12,24 +12,24 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/coracao/morfologia-externa/gray490-coracao-anterior.png",
-            legend: "Gray's Anatomy: Coração - vista anterior (esternocostal), mostrando ventrículo direito, átrio direito, aorta, tronco pulmonar e sulcos cardíacos",
-            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
-            alt: "Coração - vista anterior - Gray's Anatomy",
+            src: "/anatomia-images/coracao/gray490-heart-lungs-anterior.gif",
+            legend: "FIG. 490 - Front view of heart and lungs.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Vista anterior do coração e pulmões - Gray's Anatomy",
             type: "historical"
           },
           {
-            src: "/anatomia-images/coracao/morfologia-externa/diagrama-coracao-externo.svg",
-            legend: "Diagrama Moderno: Anatomia de superfície do coração, mostrando localização e orientação do órgão no tórax",
-            credit: "Mikael Häggström - Domínio Público | Wikimedia Commons",
-            alt: "Coração - anatomia de superfície - diagrama moderno",
-            type: "modern"
+            src: "/anatomia-images/coracao/gray492-heart-sternocostal.gif",
+            legend: "FIG. 492 - Sternocostal surface of heart.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Superfície esternocostal do coração - Gray's Anatomy",
+            type: "historical"
           },
           {
-            src: "/anatomia-images/coracao/morfologia-externa/gray491-coracao-posterior.png",
-            legend: "Gray's Anatomy: Coração - vista posterior, evidenciando átrio esquerdo, ventrículo esquerdo, veias pulmonares e sulco coronário",
-            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
-            alt: "Coração - vista posterior - Gray's Anatomy",
+            src: "/anatomia-images/coracao/gray491-heart-base-diaphragmatic.gif",
+            legend: "FIG. 491 - Base and diaphragmatic surface of heart.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Base e superfície diafragmática do coração - Gray's Anatomy",
             type: "historical"
           }
         ],
@@ -50,22 +50,6 @@ export const coracao: PraticaTopicContent = {
               "**Pericárdio Seroso:** A lâmina visceral do pericárdio seroso adere intimamente à superfície cardíaca, constituindo o epicárdio. A lâmina parietal reveste internamente o pericárdio fibroso. Entre as duas lâminas existe a cavidade pericárdica, contendo pequena quantidade de líquido seroso que permite o deslizamento cardíaco.",
               "**Seios Pericárdicos:** Reflexões do pericárdio seroso formam os seios pericárdicos: seio transverso (posterior à aorta e tronco pulmonar, anterior aos átrios) e seio oblíquo (posterior ao átrio esquerdo).",
             ],
-            images: [
-              {
-                src: "/anatomia-images/coracao/pericardio/gray968-pericardio.png",
-                legend: "Gray's Anatomy: Pericárdio - corte demonstrando as camadas do pericárdio fibroso e seroso (parietal e visceral)",
-                credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
-                alt: "Pericárdio - camadas - Gray's Anatomy",
-                type: "historical"
-              },
-              {
-                src: "/anatomia-images/coracao/pericardio/diagrama-camadas-pericardio.png",
-                legend: "Diagrama Moderno: Camadas da parede cardíaca - mostrando pericárdio fibroso, pericárdio seroso (parietal e visceral/epicárdio), miocárdio e endocárdio",
-                credit: "Blausen Medical, CC BY 3.0 | Wikimedia Commons",
-                alt: "Camadas do coração e pericárdio - diagrama moderno",
-                type: "modern"
-              }
-            ],
           },
         ],
       },
@@ -76,24 +60,24 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/coracao/camaras-internas/gray492-atrio-direito.png",
-            legend: "Gray's Anatomy: Átrio direito - vista interna, mostrando músculos pectíneos, fossa oval, óstios das veias cavas e do seio coronário",
-            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
-            alt: "Átrio direito - anatomia interna - Gray's Anatomy",
+            src: "/anatomia-images/coracao/gray493-right-heart-interior.gif",
+            legend: "FIG. 493 - Interior of right side of heart.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Interior do lado direito do coração - Gray's Anatomy",
             type: "historical"
           },
           {
-            src: "/anatomia-images/coracao/camaras-internas/diagrama-coracao-interno.svg",
-            legend: "Diagrama Moderno: Anatomia interna do coração - corte coronal mostrando as quatro câmaras, valvas e principais vasos sanguíneos",
-            credit: "Wapcaplet, CC BY-SA 3.0 | Wikimedia Commons",
-            alt: "Coração - anatomia interna - diagrama moderno",
-            type: "modern"
+            src: "/anatomia-images/coracao/gray496-left-heart-interior.gif",
+            legend: "FIG. 496 - Interior of left side of heart.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Interior do lado esquerdo do coração - Gray's Anatomy",
+            type: "historical"
           },
           {
-            src: "/anatomia-images/coracao/camaras-internas/gray493-ventriculo-direito.png",
-            legend: "Gray's Anatomy: Ventrículo direito - vista interna, evidenciando trabéculas cárneas, músculos papilares, cordas tendíneas e valva tricúspide",
-            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
-            alt: "Ventrículo direito - anatomia interna - Gray's Anatomy",
+            src: "/anatomia-images/coracao/gray494-heart-superior-view.gif",
+            legend: "FIG. 494 - Heart seen from above.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Coração visto de cima - Gray's Anatomy",
             type: "historical"
           }
         ],
@@ -144,11 +128,18 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/coracao/valvas/diagrama-valvas.png",
-            legend: "Diagrama Moderno: Valvas cardíacas - vista superior mostrando as quatro valvas (tricúspide, mitral, pulmonar e aórtica) e suas relações anatômicas",
-            credit: "OpenStax, CC BY 4.0 | Wikimedia Commons",
-            alt: "Valvas cardíacas - vista superior - diagrama moderno",
-            type: "modern"
+            src: "/anatomia-images/coracao/gray495-ventricles-base.gif",
+            legend: "FIG. 495 - Base of ventricles exposed by removal of the atria.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Base dos ventrículos exposta pela remoção dos átrios - Gray's Anatomy",
+            type: "historical"
+          },
+          {
+            src: "/anatomia-images/coracao/gray497-aortic-valve.gif",
+            legend: "FIG. 497 - Aorta laid open to show the semilunar valves.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Aorta aberta mostrando as valvas semilunares - Gray's Anatomy",
+            type: "historical"
           }
         ],
         subsections: [
@@ -195,18 +186,11 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/coracao/coronarias/gray497-valva-aortica.png",
-            legend: "Gray's Anatomy: Valva aórtica - vista superior mostrando as três cúspides semilunares, seios de Valsalva e origem das artérias coronárias direita e esquerda",
-            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
-            alt: "Valva aórtica e origem das coronárias - Gray's Anatomy",
+            src: "/anatomia-images/coracao/gray497-aortic-valve.gif",
+            legend: "FIG. 497 - Aorta laid open to show the semilunar valves.",
+            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+            alt: "Aorta aberta mostrando as valvas semilunares - Gray's Anatomy",
             type: "historical"
-          },
-          {
-            src: "/anatomia-images/coracao/coronarias/diagrama-coronarias.svg",
-            legend: "Diagrama Moderno: Artérias coronárias e seus ramos - vista anterior mostrando artéria coronária direita, artéria coronária esquerda (tronco, interventricular anterior e circunflexa) e seus principais ramos",
-            credit: "Mikael Häggström, CC BY-SA 3.0 | Wikimedia Commons",
-            alt: "Artérias coronárias - diagrama moderno",
-            type: "modern"
           }
         ],
         subsections: [
@@ -253,15 +237,6 @@ export const coracao: PraticaTopicContent = {
         title: "Sistema de Condução Cardíaca",
         content: [
           "O sistema de condução elétrica do coração é formado por células musculares cardíacas especializadas que geram e conduzem impulsos elétricos de forma coordenada.",
-        ],
-        images: [
-          {
-            src: "/anatomia-images/coracao/sistema-conducao/diagrama-sistema-conducao.png",
-            legend: "Diagrama Moderno: Sistema de condução elétrica cardíaca - mostrando nó sinoatrial, nó atrioventricular, feixe de His, ramos direito e esquerdo e fibras de Purkinje",
-            credit: "Blausen Medical, CC BY 3.0 | Wikimedia Commons",
-            alt: "Sistema de condução cardíaca - diagrama moderno",
-            type: "modern"
-          }
         ],
         subsections: [
           {
