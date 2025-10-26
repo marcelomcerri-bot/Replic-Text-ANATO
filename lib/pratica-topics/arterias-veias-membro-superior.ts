@@ -12,21 +12,15 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Gray526.png",
+            src: "https://upload.wikimedia.org/wikipedia/commons/9/92/Gray526.png",
             legend: "Artéria axilar e seus ramos, mostrando toracoacromial, torácica lateral, subescapular e circunflexas umerais",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
+            credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
             alt: "Artéria axilar e ramos"
           },
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gray527.png",
-            legend: "Artéria braquial e seus ramos no braço, evidenciando bifurcação em artérias radial e ulnar na fossa cubital",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
-            alt: "Artéria braquial"
-          },
-          {
-            src: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gray528.png",
-            legend: "Artérias radial e ulnar no antebraço, mostrando arcos palmares superficial e profundo na mão",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
+            src: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gray527.png",
+            legend: "Artérias radial e ulnar no antebraço, mostrando arco palmar superficial e músculos flexores",
+            credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
             alt: "Artérias radial e ulnar"
           }
         ],
@@ -41,7 +35,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/d/db/Gray525.png",
+                src: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Gray525.png",
                 legend: "Artéria subclávia e seus principais ramos colaterais - vista anatômica detalhada mostrando origem, trajeto e relações com músculo escaleno anterior",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
                 alt: "Gray's Anatomy - Artéria subclávia - ramos e trajeto"
@@ -59,7 +53,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Gray526.png",
+                src: "https://upload.wikimedia.org/wikipedia/commons/9/92/Gray526.png",
                 legend: "Artéria axilar - trajeto completo e ramos colaterais incluindo artéria toracoacromial, torácica lateral, subescapular e circunflexas umerais. Divisão anatômica em três porções pelo músculo peitoral menor",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
                 alt: "Gray's Anatomy - Artéria axilar e seus ramos"
@@ -76,8 +70,8 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gray527.png",
-                legend: "Artéria braquial - trajeto no braço e bifurcação na fossa cubital em artérias radial e ulnar. Relações com nervo mediano e ramos colaterais formando rede anastomótica do cotovelo",
+                src: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gray527.png",
+                legend: "Artérias braquial, radial e ulnar - trajeto no braço e antebraço evidenciando bifurcação na fossa cubital e arco palmar superficial na mão",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
                 alt: "Gray's Anatomy - Artéria braquial e bifurcação"
               }
@@ -94,10 +88,10 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gray528.png",
-                legend: "Artéria radial - trajeto no antebraço, passagem pela tabaqueira anatômica e formação do arco palmar profundo na mão. Ponto de palpação do pulso radial entre os tendões do braquiorradial e flexor radial do carpo",
+                src: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gray527.png",
+                legend: "Artéria radial - trajeto no antebraço entre músculos flexores, ponto de palpação do pulso radial e participação no arco palmar superficial",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
-                alt: "Gray's Anatomy - Artéria radial e arco palmar profundo"
+                alt: "Gray's Anatomy - Artéria radial"
               }
             ],
           },
@@ -112,8 +106,8 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gray528.png",
-                legend: "Artéria ulnar - trajeto no antebraço, artéria interóssea comum e formação do arco palmar superficial na mão. Artérias digitais palmares comuns distribuindo-se para os dedos",
+                src: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gray527.png",
+                legend: "Artéria ulnar - trajeto no antebraço e formação do arco palmar superficial na mão, com artérias digitais palmares comuns distribuindo-se para os dedos",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
                 alt: "Gray's Anatomy - Artéria ulnar e arco palmar superficial"
               }
@@ -128,15 +122,15 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gray575.png",
+            src: "https://upload.wikimedia.org/wikipedia/commons/8/80/Gray575.png",
             legend: "Veias superficiais do membro superior, mostrando veias cefálica e basílica e suas tributárias",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
+            credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
             alt: "Veias superficiais do membro superior"
           },
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gray577.png",
-            legend: "Veias profundas do membro superior, evidenciando veias axilar, braquial, radial e ulnar",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
+            src: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Gray577.png",
+            legend: "Veias profundas do membro superior com veia cava superior e suas tributárias",
+            credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
             alt: "Veias profundas do membro superior"
           }
         ],
@@ -152,8 +146,8 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gray577.png",
-                legend: "Sistema venoso profundo do membro superior - veias radial, ulnar, braquial, axilar e subclávia. Padrão de veias satélites (comitantes) acompanhando as artérias correspondentes",
+                src: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Gray577.png",
+                legend: "Sistema venoso profundo do membro superior - veias braquial, axilar e subclávia desembocando na veia cava superior. Padrão de veias satélites (comitantes) acompanhando as artérias correspondentes",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
                 alt: "Gray's Anatomy - Veias profundas do membro superior"
               }
@@ -176,7 +170,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gray575.png",
+                src: "https://upload.wikimedia.org/wikipedia/commons/8/80/Gray575.png",
                 legend: "Veia cefálica - origem na rede venosa dorsal da mão, trajeto ascendente pela face lateral do antebraço e braço, terminação no sulco deltopeitoral desembocando na veia axilar",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
                 alt: "Gray's Anatomy - Veia cefálica - origem e trajeto"
@@ -194,7 +188,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gray575.png",
+                src: "https://upload.wikimedia.org/wikipedia/commons/8/80/Gray575.png",
                 legend: "Veia basílica - origem na rede venosa dorsal da mão, trajeto ascendente pela face medial do antebraço e braço, perfuração da fáscia profunda e terminação na veia axilar",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
                 alt: "Gray's Anatomy - Veia basílica - origem e terminação"
@@ -211,7 +205,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gray575.png",
+                src: "https://upload.wikimedia.org/wikipedia/commons/8/80/Gray575.png",
                 legend: "Veia mediana cubital e padrão venoso da fossa cubital - conexão entre veias basílica e cefálica, variações anatômicas em M, N ou Y. Local preferencial para punções venosas",
                 credit: "Gray's Anatomy (1918) - Henry Vandyke Carter - Domínio Público via Wikimedia Commons",
                 alt: "Gray's Anatomy - Veia mediana cubital e fossa cubital"

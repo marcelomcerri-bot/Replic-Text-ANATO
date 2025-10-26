@@ -7,6 +7,19 @@ AnatomiaViva is a Next.js 15 educational platform for anatomy designed for nursi
 Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import completed and running on October 25, 2025.
 
 ## Recent Changes
+- **2025-10-26**: Fixed critical bug in upper limb arteries/veins images - all Gray's Anatomy URLs restored
+  - **Problem**: All 5 Gray's Anatomy image URLs in arterias-veias-membro-superior.ts were broken (HTTP 404) since project inception
+  - **Root cause**: Incorrect Wikimedia Commons hash paths in URLs (used 0/00/, 5/5e/, d/d1/, c/cd/, a/ae/, f/f6/ instead of correct hashes)
+  - **Solution**: Manually searched Wikimedia Commons and retrieved correct URLs with proper hash paths
+  - **Fixed images**:
+    - Gray525 (subclavian artery): `7/7d/Gray525.png` - 117 KB ✅
+    - Gray526 (axillary artery): `9/92/Gray526.png` - 65 KB ✅
+    - Gray527 (radial/ulnar arteries): `f/f2/Gray527.png` - 87 KB ✅
+    - Gray575 (superficial veins): `8/80/Gray575.png` - 44 KB ✅
+    - Gray577 (deep veins/vena cava): `4/4d/Gray577.png` - 63 KB ✅
+  - **Validation**: All URLs tested (HTTP 200, proper file sizes), server restarted, visual confirmation via screenshot
+  - **Status**: All Gray's Anatomy historical plates now loading correctly throughout arterial and venous sections
+  - **Remaining**: Modern educational diagram companions still pending (originally planned as paired-diagram system)
 - **2025-10-26**: Completed anatomical image system with comprehensive coverage of major topics
   - **Phase 1**: Implemented interactive anatomical image system with zoom functionality
     - Installed `react-medium-image-zoom` package for interactive image zooming
