@@ -412,6 +412,156 @@ export const paredeToracicaTGI: PraticaTopicContent = {
           },
         ],
       },
+      {
+        title: "ESTÔMAGO E TRATO GASTROINTESTINAL INFRADIAFRAGMÁTICO",
+        content: [
+          "O estômago (gaster) é um reservatório muscular dilatado do trato gastrointestinal que se interpõe anatomicamente entre o esôfago (superiormente) e o duodeno (inferiormente), localizado predominantemente no quadrante superior esquerdo do abdome, subjacente ao hemidiafragma esquerdo. Sua principal função é armazenamento temporário, mistura mecânica e digestão química inicial do bolo alimentar através de secreção gástrica (ácido clorídrico, pepsinogênio, fator intrínseco).",
+          "O intestino delgado, constituído por duodeno, jejuno e íleo, é responsável pela digestão enzimática final e absorção de nutrientes. O intestino grosso (ceco, cólons e reto) concentra-se na absorção de água e eletrólitos, formação de fezes e armazenamento fecal temporário.",
+        ],
+        subsections: [
+          {
+            title: "Estômago: Regiões Anatômicas",
+            content: [
+              "O estômago apresenta divisão anatômica em quatro regiões principais com características morfológicas e funcionais distintas:",
+              "**Cárdia:** Região proximal que circunda imediatamente o óstio cárdico (junção esofagogástrica), correspondendo à transição do epitélio esofágico estratificado pavimentoso para o epitélio gástrico colunar simples (linha Z). A borda esquerda do esôfago abdominal continua-se com a curvatura maior gástrica formando ângulo agudo denominado incisura do cárdia (ou ângulo de His), que se abre superiormente e contribui para mecanismo antirrefluxo. A região cárdica contém glândulas cárdicas mucosas que secretam muco alcalino protetor.",
+              "**Fundo Gástrico (Fundus):** Porção mais superior e dilatada do estômago, configurando cúpula arredondada que se projeta superiormente e à esquerda do plano do óstio cárdico. O fundo posiciona-se diretamente subjacente à cúpula diafragmática esquerda, relacionando-se superiormente com o diafragma ao qual adere através da face posterior desprovida de peritônio (zona nua gástrica), fixada pelo ligamento gastrofrênico (reflexão peritoneal). Esta íntima relação anatômica explica porque ar deglutido (aerofagia) acumula-se preferencialmente no fundo gástrico (visível como bolha gástrica em radiografias torácicas). Anteriormente, o fundo relaciona-se com costelas 5ª a 7ª e espaços intercostais adjacentes (protegido pela caixa torácica), e posteriormente com rim esquerdo e glândula suprarrenal esquerda.",
+              "**Corpo Gástrico:** Maior região do estômago, estendendo-se verticalmente desde o fundo superiormente até a incisura angular inferiormente (chanfradura aguda na curvatura menor que marca transição para porção pilórica). O corpo contém glândulas gástricas oxínticas com células parietais secretoras de ácido clorídrico e fator intrínseco, e células principais secretoras de pepsinogênio. É no corpo que ocorre a maior parte da digestão proteica inicial.",
+              "**Porção Pilórica:** Segmento distal afunilado do estômago que se estende horizontalmente (oblíquo súpero-lateralmente) da incisura angular até o óstio pilórico (junção gastroduodenal). Subdivide-se em: (1) Antro pilórico - porção proximal dilatada contendo células G secretoras de gastrina (hormônio que estimula secreção ácida), e (2) Canal pilórico - porção tubular distal estreitada que termina no óstio pilórico. O esfíncter pilórico é espessamento anelar da camada muscular circular (músculo liso) que regula esvaziamento gástrico para duodeno, contraindo-se tonicamente para impedir refluxo duodeno-gástrico e relaxando intermitentemente para permitir passagem controlada de quimo.",
+            ],
+          },
+          {
+            title: "Morfologia Interna do Estômago",
+            content: [
+              "**Pregas Gástricas (Rugas Gástricas):** A mucosa gástrica organiza-se em pregas longitudinais proeminentes (rugas) quando o estômago está vazio ou parcialmente distendido, especialmente evidentes ao longo da curvatura menor formando canal gástrico (via preferencial para líquidos). Durante distensão gástrica progressiva por ingestão alimentar, as pregas se achatam e desaparecem, permitindo expansão volumétrica significativa (capacidade gástrica: 1.000 a 1.500 mL em adultos). Histologicamente, as pregas contêm núcleo de submucosa recoberto por mucosa, distinguindo-as de simples dobras mucosas.",
+              "**Áreas Gástricas e Fovéolas:** Ao exame endoscópico ou com lente de aumento, a superfície mucosa apresenta depressões puntiformes (fovéolas gástricas ou fossetas gástricas) circundadas por pequenas elevações (áreas gástricas poligonais de 1-6 mm). As fovéolas são invaginações do epitélio superficial onde desembocam ductos das glândulas gástricas subjacentes.",
+            ],
+          },
+          {
+            title: "Duodeno",
+            content: [
+              "O duodeno é o segmento proximal do intestino delgado, estendendo-se do óstio pilórico até a flexura duodenojejunal, medindo aproximadamente 25 a 30 centímetros. Caracteriza-se por formato em 'C' que abraça a cabeça do pâncreas, e por ser predominantemente retroperitoneal (exceto a porção superior inicial - cap duodenal). É dividido anatomicamente em quatro porções: superior, descendente, horizontal e ascendente.",
+            ],
+            subsections: [
+              {
+                title: "Papila Maior do Duodeno (Papila de Vater)",
+                content: [
+                  "A papila duodenal maior (ou papila de Vater) é elevação mucosa arredondada ou cônica localizada na face posteromedial da porção descendente do duodeno, aproximadamente 8 a 10 cm distalmente ao piloro. Representa o orifício de drenagem comum das secreções biliopancreáticas para o lúmen duodenal, sendo ponto de convergência dos sistemas biliar e pancreático.",
+                  "**Ampola Hepatopancreática (Ampola de Vater):** Estruturalmente, a papila contém internamente a ampola hepatopancreática, câmara de confluência formada pela união do ducto colédoco (biliar) com o ducto pancreático principal (de Wirsung) em configuração variável. Em aproximadamente 70% dos indivíduos, estes ductos unem-se formando canal comum curto (1-12 mm) antes de desembocar no duodeno. Em casos restantes, podem desembocar separadamente ou com canal comum longo.",
+                  "**Esfíncter de Oddi:** Circundando a ampola e ductos terminais, encontra-se complexo esfincteriano muscular liso denominado esfíncter da ampola hepatopancreática (ou esfíncter de Oddi), composto por três componentes: esfíncter do ducto colédoco, esfíncter do ducto pancreático, e esfíncter da ampola hepatopancreática. Este esfíncter regula fluxo de bile e suco pancreático para duodeno, relaxando durante fase digestiva (estimulado por colecistocinina) e contraindo-se em jejum, direcionando bile para vesícula biliar para armazenamento e concentração.",
+                  "**Relevância Clínica:** A papila de Vater é sítio anatômico crítico, sendo alvo de procedimentos endoscópicos terapêuticos como colangiopancreatografia retrógrada endoscópica (CPRE) para extração de cálculos biliares impactados, papilotomia endoscópica para tratamento de estenoses papilares, e colocação de próteses biliares. Patologias incluem adenomas e adenocarcinomas periampulares, coledocolitíase impactada com icterícia obstrutiva, e papilite estenosante.",
+                ],
+              },
+              {
+                title: "Pregas Circulares de Kerckring",
+                content: [
+                  "As pregas circulares (válvulas de Kerckring ou pregas circulares de Kerckring) são dobras permanentes da mucosa e submucosa duodenojejunoileal que se projetam transversa ou obliquamente no lúmen intestinal, conferindo aspecto pregueado característico à superfície interna. Diferentemente das pregas gástricas (que desaparecem com distensão), as pregas circulares são permanentes devido ao núcleo submucoso, persistindo mesmo durante distensão intestinal.",
+                  "**Distribuição:** Iniciam-se na porção descendente do duodeno (distalmente à papila maior), tornam-se progressivamente mais numerosas e proeminentes no duodeno distal e jejuno proximal (onde são mais altas e próximas), e diminuem gradualmente em número e altura no íleo distal (onde são esparsas ou ausentes).",
+                  "**Função:** Aumentam significativamente a área de superfície absortiva da mucosa intestinal (estimado aumento de 3 vezes), reduzem velocidade de trânsito do quimo (permitindo maior tempo de contato para digestão e absorção enzimática), e promovem mistura turbilhonar do conteúdo intestinal com secreções digestivas. Associadas às vilosidades e microvilosidades, as pregas circulares contribuem para a enorme área de superfície absortiva total do intestino delgado (aproximadamente 200 m²).",
+                ],
+              },
+            ],
+          },
+          {
+            title: "Jejuno e Íleo",
+            content: [
+              "O jejuno e o íleo constituem as porções média e distal do intestino delgado, estendendo-se coletivamente por aproximadamente 6 a 7 metros da flexura duodenojejunal até a válvula ileocecal. Não existe demarcação anatômica abrupta entre jejuno e íleo; a transição é gradual. Por convenção, os 2/5 proximais do intestino delgado mesentérico são denominados jejuno, e os 3/5 distais são denominados íleo.",
+            ],
+            subsections: [
+              {
+                title: "Mesentério do Jejuno e Íleo",
+                content: [
+                  "O mesentério é ampla dobra peritoneal em formato de leque que conecta o jejuno e íleo à parede abdominal posterior, suspendendo as alças intestinais na cavidade peritoneal e permitindo mobilidade limitada. É composto por dois folhetos peritoneais (visceral e parietal) entre os quais cursa tecido conjuntivo frouxo, gordura, vasos sanguíneos, linfáticos, nervos e linfonodos mesentéricos.",
+                  "**Raiz do Mesentério:** A inserção parietal posterior do mesentério (raiz do mesentério) é oblíqua, estendendo-se de superior-esquerda para inferior-direita através da parede abdominal posterior, medindo apenas 15 a 20 centímetros. Inicia-se superiormente à esquerda da segunda vértebra lombar (L2), próximo à flexura duodenojejunal, e desce obliquamente cruzando sequencialmente: porção horizontal do duodeno, aorta abdominal, veia cava inferior, ureter direito, e músculo psoas direito, terminando na fossa ilíaca direita ao nível da articulação sacroilíaca direita. Esta curta linha de fixação contrasta com a borda intestinal livre do mesentério que mede aproximadamente 6 metros, conferindo configuração em leque ou tabique pregueado.",
+                  "**Conteúdo Mesentérico:** Entre os folhetos peritoneais mesentéricos transitam: artérias jejunais e ileais (15 a 18 ramos da artéria mesentérica superior formando arcadas arteriais), veias jejunais e ileais (tributárias da veia mesentérica superior), vasos linfáticos e 100 a 150 linfonodos mesentéricos (drenando linfa intestinal para cisterna do quilo), nervos autônomos (plexos mesentéricos com fibras simpáticas e parassimpáticas), e tecido adiposo (mais abundante próximo à raiz, tornando-se escasso próximo à borda intestinal).",
+                  "**Relevância Clínica:** Torções ou volv os do mesentério comprometem suprimento vascular com isquemia intestinal aguda potencialmente catastrófica. Defeitos ou aberturas mesentéricas podem permitir hérnias internas com encarceramento de alças intestinais. O mesentério é via de disseminação de processos inflamatórios (apendicite, diverticulite) e neoplásicos, justificando linfadenectomia mesentérica em cirurgias oncológicas intestinais.",
+                ],
+              },
+            ],
+          },
+          {
+            title: "Ceco e Apêndice Vermiforme",
+            content: [
+              "O ceco é o segmento inicial dilatado em fundo cego do intestino grosso, localizado na fossa ilíaca direita. O íleo terminal desemboca na parede medial do ceco através do óstio ileal, situado aproximadamente 2 a 3 cm superiormente à junção cecocólica. O ceco apresenta-se como saco peritoneal completo, sendo tipicamente intraperitoneal, embora ocasionalmente possa apresentar fixação retroperitoneal posterior variável.",
+            ],
+            subsections: [
+              {
+                title: "Válvula Ileocecal (Válvula de Bauhin)",
+                content: [
+                  "A válvula ileocecal (ou válvula de Bauhin) é estrutura anatômica localizada na junção entre íleo terminal e ceco, consistindo em dois lábios ou pregas horizontais (superior e inferior) que se projetam no lúmen cecal formando fenda transversal. Estruturalmente, cada lábio contém espessamento da camada muscular circular do íleo terminal recoberto por mucosa, configurando esfíncter funcional.",
+                  "**Função:** A válvula ileocecal regula fluxo de conteúdo ileal para o ceco, permitindo progressão unidirecional e prevenindo refluxo retrógrado de conteúdo cecal colonizado por bactérias para íleo (que apresenta menor carga bacteriana). O tônus esfincteriano é modulado por distensão cecal (aumenta contração valvular) e distensão ileal (promove relaxamento). A válvula também retarda esvaziamento ileal, prolongando tempo de absorção no intestino delgado.",
+                ],
+              },
+              {
+                title: "Apêndice Vermiforme",
+                content: [
+                  "O apêndice vermiforme é estrutura tubular estreita de fundo cego que se projeta da parede posteromedial do ceco, aproximadamente 2 a 3 cm inferiormente à válvula ileocecal. Mede tipicamente 6 a 10 centímetros de comprimento (variando de 2 a 20 cm), com diâmetro de 7 a 8 mm. Sua posição anatômica é altamente variável: retrocecal (65% - posterior ao ceco), pélvica (31% - descendente para pelve menor), subcecal, pré-ileal ou retro-ileal.",
+                  "**Mesoapêndice:** O apêndice é suspenso por mesoapêndice, dobra triangular peritoneal que conecta o apêndice ao mesocólon e mesentério do íleo terminal. O mesoapêndice contém artéria apendicular (ramo terminal da artéria ileocólica), veias apendiculares, linfáticos e nervos autônomos. A artéria apendicular é arterial terminal sem anastomoses significativas, explicando rápida evolução para necrose isquêmica e perfuração em apendicite aguda quando trombose arterial ocorre.",
+                  "**Função:** Embora classicamente considerado órgão vestigial sem função significativa, evidências recentes sugerem que o apêndice funciona como reservatório de bactérias comensais benéficas (\"casa segura\" bacteriana), auxiliando na recolonização do cólon após episódios de diarreia que depletam microbiota. Adicionalmente, contém tecido linfoide organizado (folículos linfoides), participando da imunidade local intestinal.",
+                ],
+              },
+              {
+                title: "Haustros e Apêndices Epiplóicos",
+                content: [
+                  "**Haustros (Haustrações) do Cólon:** São saculações ou abaulamentos globulares característicos da parede do cólon, conferindo aspecto segmentado irregular distintivo que contrasta com superfície lisa do intestino delgado. Os haustros são formados pela alternância de contrações tônicas das tênias cólicas (três faixas longitudinais de músculo que percorrem o cólon), resultando em formação de pregas semilunares (dobras transversais internas) e saculações externas. Diferentemente das pregas circulares do delgado, os haustros não são fixos, alterando-se com motilidade colônica.",
+                  "**Apêndices Epiplóicos (ou Apêndices Omentais):** São pequenas projeções peritoneais pendulares preenchidas por tecido adiposo que se projetam externamente da superfície serosa do cólon (ausentes no ceco e reto). Medem 1 a 5 cm de comprimento e distribuem-se em duas fileiras ao longo das tênias livres (omental e mesolateral). Contêm pequenos vasos sanguíneos e podem sofrer torção com infarto (apendagite epiplóica), causando dor abdominal aguda focal simulando apendicite ou diverticulite.",
+                ],
+              },
+            ],
+          },
+          {
+            title: "Cólon (Ascendente, Transverso, Descendente)",
+            content: [
+              "O cólon é segmento do intestino grosso que se estende do ceco até o sigmóide, medindo aproximadamente 1,5 metros. É anatomicamente dividido em cólons ascendente, transverso e descendente conforme seu trajeto na cavidade abdominal. Diferencia-se morfologicamente do intestino delgado por: calibre maior (6-7 cm), presença de tênias cólicas, haustros e apêndices epiplóicos.",
+            ],
+            subsections: [
+              {
+                title: "Cólon Ascendente e Descendente - Fáscias de Coalescência",
+                content: [
+                  "**Anatomia do Cólon Ascendente:** Estende-se superiormente na goteira parietocólica direita desde o ceco (fossa ilíaca direita) até a flexura cólica direita (hepática), situada inferiormente ao lobo direito hepático. Mede aproximadamente 15 cm. **Anatomia do Cólon Descendente:** Desce pela goteira parietocólica esquerda desde a flexura cólica esquerda (esplênica), localizada sob o baço, até a fossa ilíaca esquerda onde continua como cólon sigmóide ao nível da crista ilíaca. Mede aproximadamente 25 cm.",
+                  "**Status Peritoneal e Fáscias de Coalescência (Coloparietal):** Os cólons ascendente e descendente são predominantemente retroperitoneais secundários. Embriologicamente, desenvolvem-se como estruturas intraperitoneais com mesocólons durante vida fetal. No entanto, durante desenvolvimento pós-natal, seus mesocólons (mesocólons ascendente e descendente primitivos) fundem-se e coalescem com o peritônio parietal posterior (fascia de Toldt), obliterando o espaço mesentérico posterior. Este processo resulta em fixação retroperitoneal dos cólons à parede abdominal posterior através das fáscias de coalescência (ou fáscias coloparietais de Toldt).",
+                  "**Planos de Clivagem Cirúrgica:** As fáscias de coalescência são planos avasculares ou relativamente avasculares que podem ser dissecados cirurgicamente durante mobilizações cólicas (colectomias), liberando os cólons da parede posterior e permitindo mobilização medial. A dissecção no plano correto (entre fáscia de Toldt e fáscia de Gerota anterior renal) minimiza sangramento e preserva estruturas retroperitoneais (ureteres, vasos gonadais, nervos genitofemoral).",
+                  "**Relações Retroperitoneais:** Posteriormente aos cólons ascendente e descendente (profundamente às fáscias de coalescência), situam-se estruturas retroperitoneais verdadeiras: músculos quadrado lombar, psoas e transverso abdominal, nervos ílio-hipogástrico e ílio-inguinal, e porções inferiores dos rins direito e esquerdo respectivamente.",
+                ],
+              },
+              {
+                title: "Cólon Transverso e Mesocólon Transverso",
+                content: [
+                  "O cólon transverso é o segmento mais longo e móvel do cólon, estendendo-se transversalmente através do abdome superior desde a flexura cólica direita até a flexura cólica esquerda, medindo 40 a 50 centímetros. Diferentemente dos cólons ascendente e descendente, o transverso é completamente intraperitoneal, suspenso da parede abdominal posterior por mesocólon transverso.",
+                  "**Mesocólon Transverso:** É ampla dobra peritoneal em forma de leque que conecta o cólon transverso à parede abdominal posterior. Sua raiz (inserção parietal posterior) é orientada transversalmente, estendendo-se da flexura cólica direita à esquerda, cruzando anteriormente: porção descendente do duodeno, cabeça do pâncreas (margem inferior), corpo do pâncreas, e cauda do pâncreas. Entre seus dois folhetos peritoneais transitam: artérias cólicas média e direita e esquerda (irrigação), veias correspondentes (drenagem para veia mesentérica superior e inferior), linfáticos e linfonodos mesentéricos, e nervos autônomos.",
+                  "**Divisão da Cavidade Peritoneal:** O mesocólon transverso é estrutura anatômica divisória fundamental que compartimenta a cavidade peritoneal em dois compartimentos ou andares: (1) Piso ou Andar Supracólico (Suprameso cólico) - localizado superiormente ao mesocólon, contendo estômago, fígado, baço, e epíplons, e (2) Piso ou Andar Infracólico (Inframeso cólico) - localizado inferiormente ao mesocólon, contendo intestino delgado (jejuno e íleo), cólon ascendente e descendente, e cólon sigmóide. Esta compartimentalização tem implicações clínicas relevantes na disseminação de processos inflamatórios e coleções líquidas intraperitoneais (abscessos, ascite).",
+                  "**Relação com Omento Maior:** O omento maior (epíploon maior), após descender anteriormente desde curvatura maior gástrica, reflete-se inferiormente e ascende posteriormente, aderindo-se e fusionando-se à superfície superior (anterior) do mesocólon transverso e cólon transverso. Esta fusão omental confere camada adicional de gordura protetora ao cólon transverso e participa do isolamento de processos inflamatórios abdominais.",
+                ],
+              },
+            ],
+          },
+          {
+            title: "Cólon Sigmóide e Reto",
+            content: [
+              "O cólon sigmóide é o segmento terminal do cólon, apresentando configuração tortuosa em forma de 'S' (sigmoid = em forma de sigma - letra grega Σ), localizado na fossa ilíaca esquerda e pelve menor. Mede aproximadamente 40 cm (variando de 15 a 50 cm) e é completamente intraperitoneal, suspenso por mesocólon sigmóide. O reto é o segmento terminal do intestino grosso, estendendo-se do cólon sigmóide até o canal anal, medindo 12 a 15 cm.",
+            ],
+            subsections: [
+              {
+                title: "Mesocólon Sigmóide",
+                content: [
+                  "O mesocólon sigmóide é dobra peritoneal em formato de leque ou tabique invertido que suspende o cólon sigmóide da parede pélvica posterior, permitindo considerável mobilidade ao segmento. Esta mobilidade predispõe a vólvulo sigmóide (torção sobre seu eixo mesentérico) em indivíduos com mesocólon longo redundante.",
+                  "**Raiz do Mesocólon Sigmóide:** A inserção parietal posterior apresenta formato de 'V' invertido, com dois braços: braço descendente esquerdo inicia-se ao nível da crista ilíaca esquerda, descendo sobre o músculo psoas esquerdo e vasos ilíacos externos esquerdos, e braço ascendente medial cruza anteriormente os vasos ilíacos comuns esquerdos e promontório sacral (S3), dirigindo-se superiormente e medialmente para a linha mediana. O vértice inferior do V localiza-se anterior à articulação sacroilíaca esquerda. A raiz mede aproximadamente 10 cm.",
+                  "**Relação com Plexo Hipogástrico Superior (Nervo Presacro):** O plexo hipogástrico superior (anteriormente denominado \"nervo presacro\", embora seja plexo e não nervo isolado) é estrutura nervosa simpática retroperitoneal localizada na bifurcação aórtica e promontório sacral. Este plexo relaciona-se intimamente com a raiz primária (mediana) do mesocólon sigmóide, sendo separado dela por fina camada de tecido areolar retroperitoneal. Lesões iatrogênicas do plexo durante mobilização cirúrgica do sigmóide (retossigmoidectomias, colectomias) podem resultar em disfunções sexuais (disfunção erétil, ejaculação retrógrada em homens) e vesicais (retenção urinária, bexiga neurogênica).",
+                ],
+              },
+              {
+                title: "Reto: Anatomia e Relações",
+                content: [
+                  "**Ampola Retal:** A porção terminal dilatada do reto imediatamente proximal ao canal anal é denominada ampola retal, onde fezes são armazenadas temporariamente antes da defecação. A distensão da ampola por fezes desencadeia reflexo de defecação através de estimulação de mecanorreceptores parietais.",
+                  "**Relações Peritoneais:** O reto apresenta revestimento peritoneal incompleto e progressivamente reduzido: terço superior é recoberto por peritônio anterior e lateralmente, terço médio apenas anteriormente, e terço inferior é completamente extraperitoneal (abaixo da reflexão peritoneal). Esta configuração cria importantes recessos peritoneais:",
+                  "**Recessos Pararrectais:** São depressões peritoneais laterais ao reto superior, localizadas entre reto e paredes pélvicas laterais. Estes recessos podem ser sítios de acúmulo de coleções líquidas (abscessos pélvicos, ascite) e disseminação de processos inflamatórios ou neoplásicos.",
+                  "**Fundo de Saco Retouterino (Escavação de Douglas):** É o recesso peritoneal mais inferior da cavidade peritoneal em mulheres, localizado entre parede anterior do reto posteriormente e parede posterior do útero (corpo e colo) anteriormente. Em homens, o recesso correspondente é retovesical (entre reto e bexiga), embora menos profundo. O fundo de saco de Douglas é sítio preferencial de acúmulo gravitacional de líquido livre intraperitoneal (ascite, sangue, pus) em posição ortostática ou sentada, sendo acessível à punção diagnóstica ou terapêutica via posterior do fundo vaginal (culdocentese) ou guiada por ultrassom transretal.",
+                  "**Vascularização e Drenagem Venosa:** O reto é irrigado por artérias retais superior (ramo da mesentérica inferior), retais médias (ramos das ilíacas internas bilateralmente), e retais inferiores (ramos das pudendas internas). A drenagem venosa estabelece importante anastomose portocava: veia retal superior drena para sistema porta (via mesentérica inferior), enquanto veias retais médias e inferiores drenam para sistema cava (via ilíacas internas). Esta conexão é relevante em hipertensão porta (varizes retais).",
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   summary: [
@@ -430,6 +580,80 @@ export const paredeToracicaTGI: PraticaTopicContent = {
     {
       concept: "Músculos da Parede Abdominal",
       definition: "Cinco músculos pares: reto (vertical mediano), oblíquo externo (superficial, fibras ínfero-mediais), oblíquo interno (médio, fibras súpero-mediais), transverso (profundo, fibras transversas - estabilização core), e piramidal (inconstante). Aponeuroses formam bainha do reto e linha alba.",
+    },
+    {
+      concept: "Regiões do Estômago",
+      definition: "Cárdia (junção esofagogástrica com incisura do cárdia/ângulo de His), fundo (cúpula superior sob diafragma com ligamento gastrofrênico), corpo (maior região com glândulas oxínticas), e porção pilórica (antro + canal pilórico com esfíncter pilórico).",
+    },
+    {
+      concept: "Papila de Vater e Esfíncter de Oddi",
+      definition: "Papila duodenal maior localiza-se na face posteromedial do duodeno descendente (8-10 cm do piloro). Contém ampola hepatopancreática (confluência do colédoco e ducto pancreático) circundada pelo esfíncter de Oddi que regula fluxo biliopancreático.",
+    },
+    {
+      concept: "Mesentério e Mesocólons",
+      definition: "Mesentério: leque peritoneal suspendendo jejuno/íleo, raiz oblíqua de 15-20 cm (L2 a fossa ilíaca direita). Mesocólon transverso divide cavidade peritoneal em andares supracólico e infracólico. Fáscias de coalescência (Toldt) fixam cólons ascendente/descendente retroperitonealmente.",
+    },
+    {
+      concept: "Válvula Ileocecal e Fundo de Saco de Douglas",
+      definition: "Válvula de Bauhin: dois lábios na junção ileocecal impedindo refluxo. Fundo de saco retouterino (Douglas): recesso peritoneal mais inferior entre reto e útero (mulheres) ou bexiga (homens), sítio de acúmulo de líquido livre.",
+    },
+  ],
+  references: [
+    {
+      title: "Anatomy of the Pharynx and Esophagus",
+      authors: "Drake RL, Vogl AW, Mitchell AWM",
+      source: "Gray's Anatomy for Students. 4th ed. Philadelphia: Elsevier; 2020.",
+      pubmedLink: "https://pubmed.ncbi.nlm.nih.gov/",
+      note: "Referência clássica de anatomia descritiva e aplicada das vias aerodigestivas superiores.",
+    },
+    {
+      title: "Diaphragm: Anatomical, Pathophysiological and Surgical Aspects",
+      authors: "Merrell AJ, Kardon G",
+      source: "Nat Rev Mol Cell Biol. 2013;14(11):683-695.",
+      pubmedLink: "https://pubmed.ncbi.nlm.nih.gov/24131602/",
+      note: "Revisão molecular e anatômica sobre desenvolvimento, estrutura e função do diafragma.",
+    },
+    {
+      title: "Anatomy of the Stomach and Duodenum",
+      authors: "Standring S",
+      source: "Gray's Anatomy: The Anatomical Basis of Clinical Practice. 42nd ed. Philadelphia: Elsevier; 2021.",
+      pubmedLink: "https://pubmed.ncbi.nlm.nih.gov/",
+      note: "Anatomia detalhada do estômago e duodeno com correlações clínicas e radiológicas.",
+    },
+    {
+      title: "The Mesentery: Structure, Function, and Role in Disease",
+      authors: "Coffey JC, O'Leary DP",
+      source: "Lancet Gastroenterol Hepatol. 2016;1(3):238-247.",
+      pubmedLink: "https://pubmed.ncbi.nlm.nih.gov/28404095/",
+      note: "Revisão moderna sobre anatomia mesentérica, função imunológica e papel em doenças gastrointestinais.",
+    },
+    {
+      title: "Surgical Anatomy of the Colon, Rectum, and Anus",
+      authors: "Skandalakis JE, Gray SW, Rowe JS Jr",
+      source: "Am Surg. 1993;59(9):523-534.",
+      pubmedLink: "https://pubmed.ncbi.nlm.nih.gov/8363095/",
+      note: "Anatomia cirúrgica aplicada do cólon e reto com ênfase em fáscias de coalescência e planos de dissecção.",
+    },
+    {
+      title: "Anatomy of Waldeyer's Ring and Its Role in Immune Function",
+      authors: "Perry M, Whyte A",
+      source: "Postgrad Med J. 1998;74(877):657-663.",
+      pubmedLink: "https://pubmed.ncbi.nlm.nih.gov/10197192/",
+      note: "Anatomia e função imunológica das tonsilas do anel de Waldeyer com correlações clínicas.",
+    },
+    {
+      title: "Embryology and Surgical Anatomy of the Liver, Porta Hepatis, and Biliary Tree",
+      authors: "Champaneria MC, Ajayi NO, Sandiford NA, Soper NJ",
+      source: "Surg Clin North Am. 2010;90(4):665-677.",
+      pubmedLink: "https://pubmed.ncbi.nlm.nih.gov/20637940/",
+      note: "Anatomia embriológica e cirúrgica das vias biliares incluindo esfíncter de Oddi e papila de Vater.",
+    },
+    {
+      title: "Functional Anatomy of the Ileocecal Valve",
+      authors: "Phillips SF",
+      source: "Gastroenterology. 1983;84(2):231-233.",
+      pubmedLink: "https://pubmed.ncbi.nlm.nih.gov/6848398/",
+      note: "Fisiologia e anatomia funcional da válvula ileocecal e seu papel na regulação do trânsito intestinal.",
     },
   ],
   questions: [
