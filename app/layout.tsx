@@ -5,6 +5,7 @@ import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { Suspense } from "react"
+import { AIChatAssistant } from "@/components/ai-chat-assistant"
 
 export const metadata: Metadata = {
   title: "AnatomiaViva - Anatomia Humana para Enfermagem",
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <Suspense fallback={null}>{children}</Suspense>
+        <AIChatAssistant />
         <Analytics />
       </body>
     </html>
