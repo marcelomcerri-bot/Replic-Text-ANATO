@@ -8,18 +8,21 @@ Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import c
 
 ## Recent Changes
 - **2025-10-26**: Integrated Google Gemini AI assistant for student support
-  - **Feature**: AI-powered chat assistant to answer anatomy questions
+  - **Feature**: AI-powered chat assistant to answer anatomy questions using scientific knowledge
   - **Implementation**: 
     - Created `/api/chat` endpoint that processes questions with full site context
     - Built `lib/gemini.ts` using @google/genai SDK with gemini-2.5-flash model
-    - Developed `AIChatAssistant` component with floating, minimizable UI
+    - Developed `AIChatAssistant` component with floating UI (close only, no minimize)
     - Integrated assistant globally in app layout
-  - **Context-aware**: Assistant uses all site content (theoretical topics, practical topics, glossary) to answer questions
-  - **Language**: Responds in Portuguese with technical but accessible language for nursing students
-  - **UX**: Floating button in bottom-right corner, expandable chat window, minimize/close options
+  - **Knowledge sources**: 
+    - Prioritizes site content (theoretical topics, practical topics, glossary)
+    - Supplements with scientific sources from National Library of Medicine (NCBI), StatPearls, and anatomy literature when needed
+    - Provides technical but accessible explanations for nursing students
+  - **Language**: Responds in Portuguese with complete anatomical details (origin, insertion, function, innervation, vascularization)
+  - **UX**: Floating button in bottom-right corner, expandable chat window, close button only
   - **Security**: API key managed via Replit Secrets (GEMINI_API_KEY)
-  - **Validation**: Tested via curl - confirmed real Gemini responses in Portuguese
-  - **Quality Assurance**: Architect review confirmed functional implementation, no security issues
+  - **Validation**: Tested extensively - confirmed comprehensive, scientifically accurate responses
+  - **Quality Assurance**: Architect review confirmed all requirements met, functional implementation, no security issues
 - **2025-10-26**: Fixed critical bug in upper limb arteries/veins images - all Gray's Anatomy URLs restored
   - **Problem**: All 5 Gray's Anatomy image URLs in arterias-veias-membro-superior.ts were broken (HTTP 404) since project inception
   - **Root cause**: Incorrect Wikimedia Commons hash paths in URLs (used 0/00/, 5/5e/, d/d1/, c/cd/, a/ae/, f/f6/ instead of correct hashes)
