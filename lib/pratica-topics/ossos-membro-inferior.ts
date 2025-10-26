@@ -11,8 +11,8 @@ export const ossosMembroInferior: PraticaTopicContent = {
           "A cintura pélvica é formada pelo osso do quadril (osso coxal ou ilíaco), que se articula posteriormente com o sacro e anteriormente com o osso contralateral na sínfise púbica.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/7/72/Gray235.png",
-          "https://upload.wikimedia.org/wikipedia/commons/5/53/Gray236.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray235.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray236.png",
         ],
         subsections: [
           {
@@ -68,9 +68,9 @@ export const ossosMembroInferior: PraticaTopicContent = {
           "A coxa contém um único osso longo - o fêmur - o maior e mais forte osso do corpo humano.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/5/54/Gray242.png",
-          "https://upload.wikimedia.org/wikipedia/commons/1/1d/Gray243.png",
-          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Gray244.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray242.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray243.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray244.png",
         ],
         subsections: [
           {
@@ -101,9 +101,9 @@ export const ossosMembroInferior: PraticaTopicContent = {
           "A perna contém dois ossos paralelos: tíbia (medial, suporta peso) e fíbula (lateral, não suporta peso significativo).",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gray257.png",
-          "https://upload.wikimedia.org/wikipedia/commons/8/87/Gray258.png",
-          "https://upload.wikimedia.org/wikipedia/commons/0/03/Gray259.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray257.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray258.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray259.png",
         ],
         subsections: [
           {

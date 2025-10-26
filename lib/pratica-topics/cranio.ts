@@ -11,8 +11,8 @@ export const cranio: PraticaTopicContent = {
           "O crânio constitui o arcabouço ósseo da cabeça, dividindo-se funcionalmente em neurocrânio (caixa craniana que protege o encéfalo) e viscerocrânio (esqueleto facial). É composto por 22 ossos unidos por suturas, exceto a mandíbula que se articula por sinovial.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/f/f1/Gray134.png",
-          "https://upload.wikimedia.org/wikipedia/commons/5/50/Gray135.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray134.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray135.png",
         ],
         subsections: [
           {
@@ -30,9 +30,9 @@ export const cranio: PraticaTopicContent = {
           "Os ossos do neurocrânio formam a caixa craniana, dividida em calvária (abóbada) e base craniana.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gray145.png",
-          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gray146.png",
-          "https://upload.wikimedia.org/wikipedia/commons/4/4a/Gray150.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray145.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray146.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray150.png",
         ],
         subsections: [
           {

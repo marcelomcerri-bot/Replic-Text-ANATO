@@ -11,8 +11,8 @@ export const coracao: PraticaTopicContent = {
           "O coração constitui um órgão muscular oco, de formato aproximadamente cônico, responsável pela propulsão sanguínea através dos sistemas circulatórios pulmonar e sistêmico. Localiza-se no mediastino médio, envolvido pelo pericárdio.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/f/f1/Gray490.png",
-          "https://upload.wikimedia.org/wikipedia/commons/d/dd/Gray491.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray490.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray491.png",
         ],
         subsections: [
           {
@@ -40,9 +40,9 @@ export const coracao: PraticaTopicContent = {
           "O coração apresenta quatro câmaras: dois átrios (câmaras receptoras) e dois ventrículos (câmaras propulsoras), separados por septos interatriais e interventriculares.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/d/d0/Gray492.png",
-          "https://upload.wikimedia.org/wikipedia/commons/7/7f/Gray493.png",
-          "https://upload.wikimedia.org/wikipedia/commons/9/9f/Gray495.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray492.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray493.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray495.png",
         ],
         subsections: [
           {

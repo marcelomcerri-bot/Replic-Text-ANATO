@@ -11,9 +11,9 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
           "A organização vascular arterial do membro superior apresenta um eixo principal que se inicia na região torácica como artéria subclávia, atravessa a axila como artéria axilar, percorre o braço como artéria braquial e se ramifica no antebraço em artérias radial e ulnar. Este sistema garante irrigação adequada a todas as estruturas do membro superior.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/9/95/Gray526.png",
-          "https://upload.wikimedia.org/wikipedia/commons/d/dd/Gray527.png",
-          "https://upload.wikimedia.org/wikipedia/commons/3/35/Gray528.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray526.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray527.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray528.png",
         ],
         subsections: [
           {
@@ -72,8 +72,8 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
           "O sistema venoso do membro superior organiza-se em duas redes interconectadas: uma rede profunda que acompanha os trajetos arteriais (geralmente com duas veias por artéria) e uma rede superficial altamente desenvolvida, situada no tecido subcutâneo.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/a/a1/Gray575.png",
-          "https://upload.wikimedia.org/wikipedia/commons/5/58/Gray577.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray575.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray577.png",
         ],
         subsections: [
           {

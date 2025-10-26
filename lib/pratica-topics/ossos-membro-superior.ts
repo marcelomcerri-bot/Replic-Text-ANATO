@@ -11,9 +11,9 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "A cintura escapular é composta pela clavícula e escápula, conectando o membro superior ao esqueleto axial. Permite ampla mobilidade do ombro.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/3/35/Gray202.png",
-          "https://upload.wikimedia.org/wikipedia/commons/0/06/Gray205.png",
-          "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gray206.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray202.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray205.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray206.png",
         ],
         subsections: [
           {
@@ -49,8 +49,8 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "O braço contém um único osso longo - o úmero - que se estende do ombro ao cotovelo.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/8/80/Gray207.png",
-          "https://upload.wikimedia.org/wikipedia/commons/5/59/Gray209.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray207.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray209.png",
         ],
         subsections: [
           {
@@ -71,8 +71,8 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "O antebraço contém dois ossos paralelos: rádio (lateral) e ulna (medial), que se articulam proximalmente e distalmente, permitindo pronação e supinação.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/c/c9/Gray213.png",
-          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Gray214.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray213.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray214.png",
         ],
         subsections: [
           {
@@ -109,8 +109,8 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "A mão contém 27 ossos organizados em carpo (8), metacarpo (5) e falanges (14).",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/0/0f/Gray219.png",
-          "https://upload.wikimedia.org/wikipedia/commons/5/5f/Gray220.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray219.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray220.png",
         ],
         subsections: [
           {

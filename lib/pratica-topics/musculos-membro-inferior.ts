@@ -11,8 +11,8 @@ export const musculosMembroInferior: PraticaTopicContent = {
           "A região glútea contém os músculos responsáveis pela extensão, abdução e rotação do quadril, fundamentais para a marcha e postura.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/4/48/Gray430.png",
-          "https://upload.wikimedia.org/wikipedia/commons/8/88/Gray432.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray430.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray432.png",
         ],
         subsections: [
           {
@@ -95,8 +95,8 @@ export const musculosMembroInferior: PraticaTopicContent = {
           "O compartimento anterior da coxa contém os músculos flexores do quadril e extensores do joelho.",
         ],
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/a/af/Gray433.png",
-          "https://upload.wikimedia.org/wikipedia/commons/3/39/Gray434.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray433.png",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray434.png",
         ],
         subsections: [
           {
