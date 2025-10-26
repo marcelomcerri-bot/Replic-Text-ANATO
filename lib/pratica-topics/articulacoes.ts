@@ -10,6 +10,20 @@ export const articulacoes: PraticaTopicContent = {
         content: [
           "As articulações do membro superior garantem mobilidade e estabilidade desde a cintura escapular até a mão.",
         ],
+        images: [
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Gray326.png",
+            legend: "Articulação do ombro (glenoumeral) - vista anterior, mostrando cápsula articular, ligamentos glenoumerais e manguito rotador",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Articulação glenoumeral"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Gray329.png",
+            legend: "Articulação do cotovelo - corte sagital, evidenciando articulações umerocubital, umerorradial e radiocubital proximal",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Articulação do cotovelo"
+          }
+        ],
         subsections: [
           {
             title: "Articulação Acromioclavicular",
@@ -44,6 +58,20 @@ export const articulacoes: PraticaTopicContent = {
         title: "ARTICULAÇÕES DO MEMBRO INFERIOR",
         content: [
           "As articulações do membro inferior suportam o peso corporal e garantem mobilidade para a marcha.",
+        ],
+        images: [
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gray339.png",
+            legend: "Articulação coxofemoral (quadril) - corte frontal, mostrando acetábulo, cabeça femoral, ligamentos e cápsula articular",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Articulação coxofemoral"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Gray348.png",
+            legend: "Articulação do joelho - vista anterior, evidenciando meniscos, ligamentos cruzados, ligamento patelar e estruturas de suporte",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Articulação do joelho"
+          }
         ],
         subsections: [
           {

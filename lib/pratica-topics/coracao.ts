@@ -11,8 +11,18 @@ export const coracao: PraticaTopicContent = {
           "O coração constitui um órgão muscular oco, de formato aproximadamente cônico, responsável pela propulsão sanguínea através dos sistemas circulatórios pulmonar e sistêmico. Localiza-se no mediastino médio, envolvido pelo pericárdio.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray490.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray491.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/4/47/Gray490.png",
+            legend: "Coração - vista anterior (esternocostal), mostrando ventrículo direito, átrio direito, aorta, tronco pulmonar e sulcos cardíacos",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Coração - vista anterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gray491.png",
+            legend: "Coração - vista posterior, evidenciando átrio esquerdo, ventrículo esquerdo, veias pulmonares e sulco coronário",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Coração - vista posterior"
+          }
         ],
         subsections: [
           {
@@ -40,9 +50,24 @@ export const coracao: PraticaTopicContent = {
           "O coração apresenta quatro câmaras: dois átrios (câmaras receptoras) e dois ventrículos (câmaras propulsoras), separados por septos interatriais e interventriculares.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray492.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray493.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray495.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/3/31/Gray492.png",
+            legend: "Átrio direito - vista interna, mostrando músculos pectíneos, fossa oval, óstios das veias cavas e do seio coronário",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Átrio direito - anatomia interna"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gray493.png",
+            legend: "Ventrículo direito - vista interna, evidenciando trabéculas cárneas, músculos papilares, cordas tendíneas e valva tricúspide",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Ventrículo direito - anatomia interna"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray495.png",
+            legend: "Ventrículo esquerdo e valvas cardíacas - vista interna, mostrando valva mitral, músculos papilares e espessura da parede ventricular",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Ventrículo esquerdo - anatomia interna"
+          }
         ],
         subsections: [
           {
