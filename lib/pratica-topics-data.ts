@@ -2,6 +2,7 @@ interface Subsection {
   title: string
   content: string[] | string
   subsections?: Subsection[]
+  images?: (string | AnatomicalImage)[]
 }
 
 export interface AnatomicalImage {
@@ -9,6 +10,7 @@ export interface AnatomicalImage {
   legend?: string
   credit?: string
   alt?: string
+  type?: 'historical' | 'modern'
 }
 
 export interface PraticaTopicContent {
