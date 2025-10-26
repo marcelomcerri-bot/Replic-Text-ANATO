@@ -8,6 +8,11 @@ export const musculosMembroSuperior = {
         content: [
           "Os músculos do tórax e ombro formam a base da movimentação do membro superior, proporcionando estabilidade e mobilidade à articulação glenoumeral.",
         ],
+        images: [
+          "/anatomia-images/musculos-membro-superior/muscles-move-humerus.png",
+          "/anatomia-images/musculos-membro-superior/gray411-shoulder-anterior.png",
+          "/anatomia-images/musculos-membro-superior/upper-extremity-muscles.jpg",
+        ],
         subsections: [
           {
             title: "Músculo Peitoral Maior (M. Pectoralis Major)",
@@ -66,6 +71,10 @@ export const musculosMembroSuperior = {
         content: [
           "O manguito rotador é formado por quatro músculos que estabilizam e movem a articulação glenoumeral (ombro). O mnemônico 'SITS' ajuda a lembrar: Supraespinal, Infraespinal, Redondo Menor e Subescapular. Estes músculos criam um colar musculotendinoso que envolve os aspectos posterior, superior e anterior da articulação glenoumeral.",
         ],
+        images: [
+          "/anatomia-images/musculos-membro-superior/gray412-shoulder-posterior.png",
+          "/anatomia-images/musculos-membro-superior/gray410-shoulder-muscles.png",
+        ],
         subsections: [
           {
             title: "Músculo Supraespinal (M. Supraspinatus)",
@@ -121,6 +130,9 @@ export const musculosMembroSuperior = {
         title: "Músculos do Braço",
         content: [
           "Os músculos do braço são organizados em compartimentos anterior (flexores) e posterior (extensores), separados por septos intermusculares.",
+        ],
+        images: [
+          "/anatomia-images/musculos-membro-superior/gray413-arm-muscles.png",
         ],
         subsections: [
           {
@@ -182,6 +194,10 @@ export const musculosMembroSuperior = {
         content: [
           "O antebraço contém dois compartimentos primários separados por limites fasciais: compartimento anterior (flexor) e compartimento posterior (extensor).",
         ],
+        images: [
+          "/anatomia-images/musculos-membro-superior/gray417-forearm-anterior.png",
+          "/anatomia-images/musculos-membro-superior/muscles-move-forearm.jpg",
+        ],
         subsections: [
           {
             title: "Compartimento Anterior (Flexores)",
@@ -232,6 +248,9 @@ export const musculosMembroSuperior = {
         title: "Músculos da Mão",
         content: [
           "Os músculos intrínsecos da mão são divididos em 4 grupos: tenares, hipotenares, interósseos e lumbricais. Estes músculos originam-se e inserem-se nos ossos, ligamentos e fáscia da mão, produzindo movimentos motores finos.",
+        ],
+        images: [
+          "/anatomia-images/musculos-membro-superior/gray427-hand-muscles.png",
         ],
         subsections: [
           {

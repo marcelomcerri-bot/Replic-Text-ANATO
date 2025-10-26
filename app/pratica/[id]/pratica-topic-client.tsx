@@ -66,6 +66,23 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                     ))}
                   </div>
 
+                  {section.images && section.images.length > 0 && (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                      {section.images.map((image, imgIndex) => (
+                        <div key={imgIndex} className="bg-white p-4 rounded-lg shadow-md border border-accent/20">
+                          <img
+                            src={image}
+                            alt={`Ilustração anatômica - ${section.title}`}
+                            className="w-full h-auto rounded"
+                          />
+                          <p className="text-xs text-muted-foreground mt-2 text-center">
+                            Fonte: Gray's Anatomy (1918) - Domínio Público
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
                   {section.subsections && (
                     <div className="space-y-10 mt-10">
                       {section.subsections.map((subsection, subIndex) => (
