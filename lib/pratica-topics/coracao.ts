@@ -50,6 +50,15 @@ export const coracao: PraticaTopicContent = {
               "**Pericárdio Seroso:** A lâmina visceral do pericárdio seroso adere intimamente à superfície cardíaca, constituindo o epicárdio. A lâmina parietal reveste internamente o pericárdio fibroso. Entre as duas lâminas existe a cavidade pericárdica, contendo pequena quantidade de líquido seroso que permite o deslizamento cardíaco.",
               "**Seios Pericárdicos:** Reflexões do pericárdio seroso formam os seios pericárdicos: seio transverso (posterior à aorta e tronco pulmonar, anterior aos átrios) e seio oblíquo (posterior ao átrio esquerdo).",
             ],
+            images: [
+              {
+                src: "/anatomia-images/coracao/gray489-pericardium-posterior.gif",
+                legend: "FIG. 489 - Posterior wall of the pericardial sac, showing the lines of reflection of the serous pericardium on the great vessels.",
+                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
+                alt: "Parede posterior do saco pericárdico - Gray's Anatomy",
+                type: "historical"
+              }
+            ],
           },
         ],
       },
@@ -182,16 +191,7 @@ export const coracao: PraticaTopicContent = {
       {
         title: "Vascularização Coronariana",
         content: [
-          "O miocárdio recebe suprimento sanguíneo através das artérias coronárias, que se originam dos seios aórticos e percorrem os sulcos cardíacos.",
-        ],
-        images: [
-          {
-            src: "/anatomia-images/coracao/gray497-aortic-valve.gif",
-            legend: "FIG. 497 - Aorta laid open to show the semilunar valves.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Aorta aberta mostrando as valvas semilunares - Gray's Anatomy",
-            type: "historical"
-          }
+          "O miocárdio recebe suprimento sanguíneo através das artérias coronárias, que se originam dos seios aórticos e percorrem os sulcos cardíacos. As artérias coronárias direita e esquerda correm nos sulcos coronário e interventriculares, visíveis nas figuras anteriores da morfologia externa do coração (FIG. 490-492).",
         ],
         subsections: [
           {
