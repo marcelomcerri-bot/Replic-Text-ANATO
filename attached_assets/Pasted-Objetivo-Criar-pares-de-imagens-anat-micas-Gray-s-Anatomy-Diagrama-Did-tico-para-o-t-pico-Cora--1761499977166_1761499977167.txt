@@ -1,0 +1,128 @@
+Objetivo:
+Criar pares de imagens anatômicas (Gray’s Anatomy + Diagrama Didático) para o tópico Coração e todos os seus subtópicos, garantindo cobertura completa, zero links quebrados, correspondência anatômica exata e layout responsivo.
+
+🔹 1. Estrutura de verificação em múltiplas etapas
+
+Antes de gerar ou inserir qualquer imagem:
+
+Listar todos os subtópicos e subestruturas do card “Coração” (cavidades, valvas, vasos, septos, faces, irrigação etc.).
+
+Verificar se já existe imagem associada ao subtópico; se sim e válida (>50KB, carregando), não substituir.
+
+Checar existência real da imagem antes de salvar:
+
+Requisição HEAD ou curl -I → deve retornar HTTP 200.
+
+Se retornar 404, 301 ou arquivo <50KB, NÃO USAR.
+
+Fallback automático: buscar link alternativo funcional com o mesmo subtópico em ordem de prioridade:
+
+Wikimedia Commons – Gray’s Anatomy
+(Categoria: Gray's Anatomy plates of cardiovascular system)
+
+OpenStax Anatomy & Physiology (diagramas didáticos confiáveis)
+
+CDC PHIL (Public Health Image Library)
+
+Netter ou Sobotta (se disponível em domínio público ou CC)
+
+⚠️ Se não houver imagem funcional em um site, continuar buscando no próximo da lista até encontrar uma imagem válida. Nunca deixar subtópico sem imagem.
+
+🔹 2. Critérios de seleção anatômica
+
+Cada par de imagens deve corresponder exatamente ao subtópico e perspectiva anatômica:
+
+Gray’s Anatomy → mostrar estrutura na vista correta: externa, interna, coronal, posterior etc.
+
+Diagrama didático → mesma estrutura e mesma vista, com labels anatômicos claros e cores educativas.
+
+Proibido:
+
+Substituir vista externa por corte interno.
+
+Substituir estrutura específica (ex: “ventrículo esquerdo”) por genérica (“coração”).
+
+Usar imagens de baixa definição ou de outra espécie.
+
+🔹 3. Regras de fallback detalhadas
+
+Se uma imagem estiver ausente, quebrada ou inválida:
+
+Buscar outra imagem do mesmo autor e mesma vista.
+
+Buscar mesmo plano anatômico (ex: “anterolateral” em vez de “anterior”).
+
+Buscar diagrama confiável: OpenStax, PHIL ou outro site listado acima.
+
+Registrar no log .json cada substituição:
+
+{
+  "subtopico": "Ventrículo esquerdo",
+  "imagem_ausente": "Gray496.png",
+  "substituida_por": "OpenStax_Heart_Section_LeftVentricle.png",
+  "motivo": "arquivo Gray496 removido do Wikimedia"
+}
+
+
+🔹 Nunca deixar subtópico sem par de imagens.
+
+🔹 4. Padrão de nomenclatura e armazenamento
+
+Pasta de armazenamento:
+
+public/anatomia-images/coracao/[subtopico]/[fonte]-[estrutura]-[vista].png
+
+
+Cada subtópico deve ter exatamente dois arquivos válidos:
+
+*-gray.png
+
+*-diagrama.png
+
+Exemplo:
+
+public/anatomia-images/coracao/ventriculo-esquerdo/grays-anatomy-ventriculo-esquerdo-vista-interna.png
+
+🔹 5. Validação final antes da inserção
+
+Confirmar que ambas as imagens carregam corretamente (>50KB).
+
+Verificar coerência anatômica: legenda, nome do subtópico e plano anatômico devem coincidir.
+
+Resolução mínima: 500×500 px, proporção máxima 4:3.
+
+🔹 6. Geração de HTML limpo e responsivo
+
+Cada subtópico deve conter:
+
+<figure class="anatomia-pair">
+  <img src="/anatomia-images/coracao/ventriculo-esquerdo/grays-anatomy-ventriculo-esquerdo-vista-interna.png" alt="Gray’s Anatomy - Ventrículo esquerdo - vista interna" loading="lazy" />
+  <img src="/anatomia-images/coracao/ventriculo-esquerdo/diagrama-ventriculo-esquerdo.png" alt="Diagrama didático - Ventrículo esquerdo - corte coronal" loading="lazy" />
+  <figcaption>
+    <strong>Ventrículo esquerdo</strong>  
+    <br>Imagem 1: Gray’s Anatomy (Henry Vandyke Carter, 1918, domínio público).  
+    <br>Imagem 2: Diagrama didático (OpenStax Anatomy & Physiology, CC BY 4.0).  
+  </figcaption>
+</figure>
+
+
+Responsivo: lado a lado em telas largas; empilhado em mobile.
+
+Compatível com zoom interativo (CSS/JS do site).
+
+🔹 7. Regras de integridade
+
+Toda imagem inválida, quebrada ou <50KB → descartar e substituir.
+
+Nenhum subtópico pode ficar sem imagem.
+
+Cada imagem deve ser diretamente visualizável (sem redirecionamentos).
+
+Registrar log .json com: subtópico, URLs usadas, resultado da verificação (válida, substituída, inválida).
+
+🔹 8. Resultado esperado
+
+✅ Nenhum link quebrado
+✅ Nenhuma imagem fora do plano anatômico correto
+✅ Todas as imagens carregáveis, didáticas e verificadas
+✅ HTML pronto para inserção direta no site
