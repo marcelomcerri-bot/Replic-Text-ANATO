@@ -10,6 +10,11 @@ export const arteriasVeiasMembroInferior: PraticaTopicContent = {
         content: [
           "A organização vascular arterial do membro inferior apresenta uma arquitetura característica onde o tronco principal atravessa o compartimento anterior da coxa até alcançar a fossa poplítea, convertendo-se então em eixo poplíteo. Na região da perna, o sistema se ramifica em trajetos anteriores e posteriores, garantindo suprimento sanguíneo adequado a todas as estruturas anatômicas.",
         ],
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/2/28/Gray549.png",
+          "https://upload.wikimedia.org/wikipedia/commons/5/59/Gray550.png",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray551.png",
+        ],
         subsections: [
           {
             title: "Artéria Femoral",
@@ -78,6 +83,10 @@ export const arteriasVeiasMembroInferior: PraticaTopicContent = {
         title: "Sistema Venoso do Membro Inferior",
         content: [
           "O sistema venoso do membro inferior organiza-se em duas redes interdependentes: uma rede profunda que acompanha os trajetos arteriais e uma rede superficial altamente desenvolvida, ambas conectadas por veias perfurantes.",
+        ],
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/6/63/Gray579.png",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4f/Gray580.png",
         ],
         subsections: [
           {

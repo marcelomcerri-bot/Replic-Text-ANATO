@@ -10,6 +10,11 @@ export const nervosMembros: PraticaTopicContent = {
         content: [
           "O plexo braquial é uma complexa rede nervosa formada pelas raízes anteriores de C5-T1, responsável pela inervação motora e sensitiva de todo o membro superior.",
         ],
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Gray808.png",
+          "https://upload.wikimedia.org/wikipedia/commons/6/65/Gray809.png",
+          "https://upload.wikimedia.org/wikipedia/commons/7/78/Gray813.png",
+        ],
         subsections: [
           {
             title: "Organização do Plexo Braquial",
@@ -81,6 +86,11 @@ export const nervosMembros: PraticaTopicContent = {
         title: "Plexo Lombossacral e Nervos do Membro Inferior",
         content: [
           "A inervação do membro inferior deriva do plexo lombar (L1-L4) e do plexo sacral (L4-S4), coletivamente chamados plexo lombossacral.",
+        ],
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/Gray826.png",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3c/Gray827.png",
+          "https://upload.wikimedia.org/wikipedia/commons/d/da/Gray832.png",
         ],
         subsections: [
           {
