@@ -11,8 +11,18 @@ export const musculosMembroInferior: PraticaTopicContent = {
           "A região glútea contém os músculos responsáveis pela extensão, abdução e rotação do quadril, fundamentais para a marcha e postura.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray430.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray432.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/7/75/Gray430.png",
+            legend: "Músculos superficiais da região glútea e posterior da coxa, mostrando glúteo máximo, glúteo médio, tensor da fáscia lata e tracto iliotibial",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Músculos glúteos - vista posterior superficial"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/9/95/Gray432.png",
+            legend: "Músculos profundos da região glútea, evidenciando glúteo médio, glúteo mínimo, piriforme, obturador interno, gêmeos e quadrado femoral",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Músculos glúteos - vista posterior profunda"
+          }
         ],
         subsections: [
           {
@@ -95,8 +105,18 @@ export const musculosMembroInferior: PraticaTopicContent = {
           "O compartimento anterior da coxa contém os músculos flexores do quadril e extensores do joelho.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray433.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray434.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Gray433.png",
+            legend: "Músculos da face anterior e medial da coxa, mostrando sartório, tensor da fáscia lata, reto femoral, vasto lateral, vasto medial e adutores",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Músculos da coxa - vista anterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/2/29/Gray434.png",
+            legend: "Músculos profundos da região anterior da coxa, evidenciando iliopsoas, pectíneo, adutores e quadríceps femoral",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Músculos da coxa - vista anterior profunda"
+          }
         ],
         subsections: [
           {

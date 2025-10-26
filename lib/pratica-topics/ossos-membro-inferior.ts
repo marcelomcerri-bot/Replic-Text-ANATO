@@ -11,8 +11,18 @@ export const ossosMembroInferior: PraticaTopicContent = {
           "A cintura pélvica é formada pelo osso do quadril (osso coxal ou ilíaco), que se articula posteriormente com o sacro e anteriormente com o osso contralateral na sínfise púbica.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray235.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray236.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Gray235.png",
+            legend: "Osso do quadril direito - vista externa (lateral), mostrando ílio, ísquio, púbis, acetábulo, crista ilíaca, espinhas ilíacas e túber isquiático",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Osso do quadril - vista lateral"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/1/17/Gray236.png",
+            legend: "Osso do quadril direito - vista interna (medial), evidenciando fossa ilíaca, face auricular para articulação com sacro e forame obturado",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Osso do quadril - vista medial"
+          }
         ],
         subsections: [
           {
@@ -68,9 +78,24 @@ export const ossosMembroInferior: PraticaTopicContent = {
           "A coxa contém um único osso longo - o fêmur - o maior e mais forte osso do corpo humano.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray242.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray243.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray244.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Gray242.png",
+            legend: "Fêmur direito - vista anterior, mostrando cabeça, colo, trocanteres maior e menor, linha intertrocantérica, corpo e extremidade distal com côndilos e face patelar",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Fêmur - vista anterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/d/d2/Gray243.png",
+            legend: "Fêmur direito - vista posterior, evidenciando crista intertrocantérica, linha áspera, fossa intercondilar e côndilos medial e lateral",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Fêmur - vista posterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Gray244.png",
+            legend: "Patela direita - vistas anterior e posterior, mostrando a superfície articular dividida em facetas medial e lateral",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Patela - vistas anterior e posterior"
+          }
         ],
         subsections: [
           {
@@ -101,9 +126,18 @@ export const ossosMembroInferior: PraticaTopicContent = {
           "A perna contém dois ossos paralelos: tíbia (medial, suporta peso) e fíbula (lateral, não suporta peso significativo).",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray257.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray258.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray259.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Gray257.png",
+            legend: "Tíbia e fíbula direitas - vista anterior, mostrando côndilos tibiais, tuberosidade da tíbia, eminência intercondilar, crista anterior, maléolos medial e lateral",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Tíbia e fíbula - vista anterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Gray258.png",
+            legend: "Tíbia e fíbula direitas - vista posterior, evidenciando linha do sóleo, membrana interóssea e faceta articular para o tálus",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Tíbia e fíbula - vista posterior"
+          }
         ],
         subsections: [
           {
