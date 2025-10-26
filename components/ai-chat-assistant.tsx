@@ -6,6 +6,8 @@ import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { MessageCircle, X, Send, Sparkles } from "lucide-react"
 import { cn } from "@/lib/utils"
+import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 
 interface Message {
   role: "user" | "assistant"
@@ -124,7 +126,15 @@ export function AIChatAssistant() {
                     : "bg-muted text-foreground"
                 )}
               >
-                <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                {message.role === "user" ? (
+                  <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                ) : (
+                  <div className="ai-chat-message">
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      {message.content}
+                    </ReactMarkdown>
+                  </div>
+                )}
               </div>
             </div>
           ))}
