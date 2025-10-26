@@ -11,8 +11,18 @@ export const cranio: PraticaTopicContent = {
           "O crânio constitui o arcabouço ósseo da cabeça, dividindo-se funcionalmente em neurocrânio (caixa craniana que protege o encéfalo) e viscerocrânio (esqueleto facial). É composto por 22 ossos unidos por suturas, exceto a mandíbula que se articula por sinovial.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray134.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray135.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gray134.png",
+            legend: "Crânio - vista lateral, mostrando suturas coronal, escamosa e lambdóidea, ossos frontal, parietal, temporal, occipital, esfenoide e zigomático",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Crânio - vista lateral"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/5/56/Gray135.png",
+            legend: "Crânio - vista frontal (anterior), evidenciando órbitas, cavidade nasal, maxila, zigomático e mandíbula",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Crânio - vista frontal"
+          }
         ],
         subsections: [
           {
@@ -30,9 +40,24 @@ export const cranio: PraticaTopicContent = {
           "Os ossos do neurocrânio formam a caixa craniana, dividida em calvária (abóbada) e base craniana.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray145.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray146.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray150.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/9/95/Gray145.png",
+            legend: "Base do crânio - vista superior interna, mostrando fossas cranianas anterior, média e posterior com seus forames",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Base do crânio - vista interna"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gray146.png",
+            legend: "Base do crânio - vista inferior externa, evidenciando forames magno, occipital, esfenoidal, palato duro e côndilos occipitais",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Base do crânio - vista externa"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/9/91/Gray150.png",
+            legend: "Osso esfenoide isolado, mostrando corpo, asas menores, asas maiores, processos pterigoides e sela túrcica",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Osso esfenoide"
+          }
         ],
         subsections: [
           {

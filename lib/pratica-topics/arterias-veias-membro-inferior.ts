@@ -11,9 +11,24 @@ export const arteriasVeiasMembroInferior: PraticaTopicContent = {
           "A organização vascular arterial do membro inferior apresenta uma arquitetura característica onde o tronco principal atravessa o compartimento anterior da coxa até alcançar a fossa poplítea, convertendo-se então em eixo poplíteo. Na região da perna, o sistema se ramifica em trajetos anteriores e posteriores, garantindo suprimento sanguíneo adequado a todas as estruturas anatômicas.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray549.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray550.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray551.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/3/37/Gray549.png",
+            legend: "Artéria femoral e seus ramos na coxa, mostrando artéria femoral profunda e suas perfurantes",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Artéria femoral e ramos"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/5/58/Gray550.png",
+            legend: "Artéria poplítea e seus ramos articulares ao redor do joelho",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Artéria poplítea"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Gray551.png",
+            legend: "Artérias tibial anterior, tibial posterior e fibular na perna, mostrando artéria dorsal do pé",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Artérias da perna"
+          }
         ],
         subsections: [
           {
@@ -85,8 +100,18 @@ export const arteriasVeiasMembroInferior: PraticaTopicContent = {
           "O sistema venoso do membro inferior organiza-se em duas redes interdependentes: uma rede profunda que acompanha os trajetos arteriais e uma rede superficial altamente desenvolvida, ambas conectadas por veias perfurantes.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray579.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray580.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gray579.png",
+            legend: "Veias superficiais do membro inferior, mostrando veia safena magna (longa) e safena parva (curta)",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Veias safenas - sistema venoso superficial"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Gray580.png",
+            legend: "Veias profundas do membro inferior, evidenciando veias femoral, poplítea e tibiais",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Veias profundas do membro inferior"
+          }
         ],
         subsections: [
           {

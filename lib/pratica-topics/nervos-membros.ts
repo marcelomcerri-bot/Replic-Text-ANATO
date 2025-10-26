@@ -11,9 +11,24 @@ export const nervosMembros: PraticaTopicContent = {
           "O plexo braquial é uma complexa rede nervosa formada pelas raízes anteriores de C5-T1, responsável pela inervação motora e sensitiva de todo o membro superior.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray808.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray809.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray813.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Gray808.png",
+            legend: "Plexo braquial - organização completa mostrando raízes, troncos, divisões, fascículos e nervos terminais",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Plexo braquial"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/6/60/Gray809.png",
+            legend: "Nervos do membro superior - distribuição dos nervos musculocutâneo, mediano, ulnar e radial no braço e antebraço",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Nervos do membro superior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Gray813.png",
+            legend: "Inervação cutânea do membro superior, mostrando dermatomas e territórios dos nervos periféricos",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Inervação cutânea do membro superior"
+          }
         ],
         subsections: [
           {
@@ -88,9 +103,24 @@ export const nervosMembros: PraticaTopicContent = {
           "A inervação do membro inferior deriva do plexo lombar (L1-L4) e do plexo sacral (L4-S4), coletivamente chamados plexo lombossacral.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray826.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray827.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray832.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gray826.png",
+            legend: "Plexo lombar - organização e principais nervos (femoral, obturador, genitofemoral)",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Plexo lombar"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/5/55/Gray827.png",
+            legend: "Plexo sacral - organização e principais nervos (ciático, glúteo superior e inferior, pudendo)",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Plexo sacral"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gray832.png",
+            legend: "Nervo ciático e seus ramos na coxa e perna, mostrando divisão em nervos tibial e fibular comum",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Nervo ciático e distribuição"
+          }
         ],
         subsections: [
           {

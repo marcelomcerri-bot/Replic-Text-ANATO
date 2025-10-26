@@ -11,9 +11,24 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
           "A organização vascular arterial do membro superior apresenta um eixo principal que se inicia na região torácica como artéria subclávia, atravessa a axila como artéria axilar, percorre o braço como artéria braquial e se ramifica no antebraço em artérias radial e ulnar. Este sistema garante irrigação adequada a todas as estruturas do membro superior.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray526.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray527.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray528.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Gray526.png",
+            legend: "Artéria axilar e seus ramos, mostrando toracoacromial, torácica lateral, subescapular e circunflexas umerais",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Artéria axilar e ramos"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gray527.png",
+            legend: "Artéria braquial e seus ramos no braço, evidenciando bifurcação em artérias radial e ulnar na fossa cubital",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Artéria braquial"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gray528.png",
+            legend: "Artérias radial e ulnar no antebraço, mostrando arcos palmares superficial e profundo na mão",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Artérias radial e ulnar"
+          }
         ],
         subsections: [
           {
@@ -72,8 +87,18 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
           "O sistema venoso do membro superior organiza-se em duas redes interconectadas: uma rede profunda que acompanha os trajetos arteriais (geralmente com duas veias por artéria) e uma rede superficial altamente desenvolvida, situada no tecido subcutâneo.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray575.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray577.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gray575.png",
+            legend: "Veias superficiais do membro superior, mostrando veias cefálica e basílica e suas tributárias",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Veias superficiais do membro superior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gray577.png",
+            legend: "Veias profundas do membro superior, evidenciando veias axilar, braquial, radial e ulnar",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Veias profundas do membro superior"
+          }
         ],
         subsections: [
           {
