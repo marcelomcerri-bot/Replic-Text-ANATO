@@ -7,6 +7,13 @@ AnatomiaViva is a Next.js 15 educational platform for anatomy designed for nursi
 Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import completed and running on October 25, 2025.
 
 ## Recent Changes
+- **2025-10-26**: Added Gray's Anatomy illustrations to practice anatomy cards
+  - Integrated high-quality anatomical illustrations from Gray's Anatomy (1918 edition, public domain) via Wikimedia Commons
+  - Added images to 8 major practice anatomy cards: Ossos do Membro Superior/Inferior, Artérias e Veias do Membro Superior/Inferior, Músculos do Membro Inferior, Nervos dos Membros, Crânio, Coração
+  - Used stable Wikimedia Commons Special:FilePath URLs for reliable image delivery
+  - Each section includes 2-3 relevant Gray's Anatomy plates (e.g., Gray202-220 for upper limb bones, Gray430-434 for lower limb muscles, Gray490-495 for heart anatomy)
+  - All images properly attributed with "Fonte: Gray's Anatomy (1918) - Domínio Público" caption
+  - Enhanced visual learning experience for nursing students with classical anatomical illustrations
 - **2025-10-25**: Major expansion of Heart (Coração) topic with NCBI scientific sources
   - Completely expanded heart topic from 262 to 557 lines (~112% increase) with comprehensive anatomical detail
   - Added detailed anatomy of all 4 cardiac chambers (right/left atria and ventricles) with structural and functional descriptions
