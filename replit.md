@@ -7,6 +7,16 @@ AnatomiaViva is a Next.js 15 educational platform for anatomy designed for nursi
 Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import completed and running on October 25, 2025.
 
 ## Recent Changes
+- **2025-10-26**: Implemented interactive anatomical image system with zoom functionality
+  - Installed `react-medium-image-zoom` package for interactive image zooming
+  - Created `AnatomicalImage` and `AnatomicalImageGrid` components in `components/anatomical-image.tsx`
+  - Updated `app/pratica/[id]/pratica-topic-client.tsx` to use new image components
+  - Added zoom CSS imports to `app/globals.css`
+  - **Features**: Click-to-zoom on all anatomical images, automatic credits display, descriptive captions support, responsive grid layout (2-3 columns)
+  - **Supports two formats**: Simple string URLs (default Gray's Anatomy credit) OR detailed objects with `src`, `legend`, `credit`, and `alt` fields
+  - **Recommended sources**: Gray's Anatomy (1918), Bassett Collection (Stanford), OpenStax Anatomy & Physiology, AnatomyTool.org, Visible Human Project, Radiopaedia
+  - Created comprehensive documentation in `docs/ANATOMICAL_IMAGES_GUIDE.md` with examples and best practices
+  - Tested successfully on `/pratica/coracao` - images display beautifully with zoom functionality
 - **2025-10-26**: Added Gray's Anatomy illustrations to practice anatomy cards
   - Integrated high-quality anatomical illustrations from Gray's Anatomy (1918 edition, public domain) via Wikimedia Commons
   - Added images to 8 major practice anatomy cards: Ossos do Membro Superior/Inferior, Artérias e Veias do Membro Superior/Inferior, Músculos do Membro Inferior, Nervos dos Membros, Crânio, Coração
@@ -60,8 +70,9 @@ Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import c
 ## Technology Stack
 - **Framework**: Next.js 15.2.4
 - **Runtime**: Node.js 20
-- **Package Manager**: pnpm
+- **Package Manager**: npm
 - **UI Libraries**: Radix UI components, Tailwind CSS
+- **Image Zoom**: react-medium-image-zoom
 - **Forms**: React Hook Form with Zod validation
 - **Analytics**: Vercel Analytics
 
@@ -88,6 +99,7 @@ Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import c
 - **components/**: Reusable React components
   - `ui/tabs.tsx`: Radix UI tab component for navigation
   - `formatted-text.tsx`: Renders formatted text with markdown-like styling
+  - `anatomical-image.tsx`: Interactive image components with zoom, captions, and credits
 - **lib/**: Utility functions and shared code
   - `topics/`: Theoretical anatomy content organized by body system
   - `pratica-topics/`: Practical anatomy content (muscles, detailed anatomy)

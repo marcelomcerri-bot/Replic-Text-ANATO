@@ -53,6 +53,7 @@
     "react-day-picker": "latest",
     "react-dom": "^19",
     "react-hook-form": "latest",
+    "react-medium-image-zoom": "^5.4.0",
     "react-resizable-panels": "latest",
     "recharts": "latest",
     "sonner": "latest",
