@@ -87,6 +87,12 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                               <FormattedText text={subsection.content} />
                             )}
                           </div>
+
+                          <AnatomicalImageGrid 
+                            images={subsection.images || []} 
+                            sectionTitle={subsection.title}
+                            columns={2}
+                          />
                         </div>
                       ))}
                     </div>
