@@ -1,0 +1,154 @@
+Perfeito.
+Você quer um **prompt “definitivo”**, que dê ao **Replit AI** instruções cirúrgicas — sem margem para erro — para:
+
+* adicionar imagens **em todos os tópicos de Anatomia Prática** do seu site,
+* buscar em **bases anatômicas reais e licenciadas**,
+* inserir as imagens no **formato certo do código (HTML/React)**,
+* permitir **zoom interativo**, **legenda com créditos automáticos** e **layout impecável**,
+* e garantir que cada imagem **corresponda exatamente ao conteúdo anatômico** do card.
+
+Abaixo está o **prompt mais robusto e detalhado possível**, feito sob medida para o seu site **AnatoViva (Netlify/Replit)**.
+Ele é longo de propósito — cada bloco é uma camada de precisão para evitar erro da IA.
+
+---
+
+## 🧠 PROMPT “ULTRA-DEFINITIVO” — ANATOMIA PRÁTICA COMPLETA COM IMAGENS REAIS E INTERATIVAS
+
+> **Prompt:**
+>
+> Você é um assistente especializado em anatomia humana e desenvolvimento web.
+> Sua tarefa é **preencher automaticamente todos os cards da seção "Anatomia Prática" do site [AnatoViva](https://anatoviva.netlify.app/pratica)** com **imagens anatômicas reais, licenciadas e didáticas**, correspondentes a **cada tópico** do site (ex: Coração, Pulmões, Fígado, Sistema Nervoso, etc.).
+>
+> ---
+>
+> ### 🎯 **Objetivo final**
+>
+> Criar uma experiência visual impecável e científica:
+>
+> * **Cada card deve conter uma imagem anatômica fiel ao tema.**
+> * As imagens devem ser **reais, precisas e licenciadas (CC ou domínio público)**.
+> * Cada imagem deve incluir **zoom interativo, legenda anatômica e crédito de fonte**.
+> * O layout deve permanecer **responsivo, limpo e elegante** (padrão profissional).
+>
+> ---
+>
+> ### 🧩 **Fontes obrigatórias de imagem (mínimo 3 por sessão)**
+>
+> Use **no mínimo três** das seguintes fontes, sempre priorizando a melhor qualidade visual e licença livre:
+>
+> 1. **Gray’s Anatomy (1918)** — Domínio Público
+>    🔗 [https://wellcomecollection.org/images](https://wellcomecollection.org/images)
+>    🔗 [https://commons.wikimedia.org/wiki/Category:Gray%27s_Anatomy_plates](https://commons.wikimedia.org/wiki/Category:Gray%27s_Anatomy_plates)
+> 2. **Bassett Collection – Stanford Medicine** — CC BY-SA 4.0
+>    🔗 [https://lane.stanford.edu/biomed-resources/bassett](https://lane.stanford.edu/biomed-resources/bassett)
+> 3. **OpenStax – Anatomy and Physiology 2e** — CC BY 4.0
+>    🔗 [https://openstax.org/books/anatomy-and-physiology-2e/pages/preface](https://openstax.org/books/anatomy-and-physiology-2e/pages/preface)
+> 4. **AnatomyTool.org** — CC BY-NC-SA 4.0 (uso educacional)
+>    🔗 [https://anatomytool.org](https://anatomytool.org)
+> 5. **Visible Human Project – U.S. National Library of Medicine**
+>    🔗 [https://lhncbc.nlm.nih.gov/project/visible-human-project](https://lhncbc.nlm.nih.gov/project/visible-human-project)
+> 6. **Radiopaedia.org** — CC BY-NC-SA 3.0 (para anatomia clínica)
+>    🔗 [https://radiopaedia.org](https://radiopaedia.org)
+> 7. **Wellcome Collection – Ilustrações médicas**
+>    🔗 [https://wellcomecollection.org/images](https://wellcomecollection.org/images)
+>
+> ---
+>
+> ### 🧱 **Regras para as imagens**
+>
+> * Cada **tópico anatômico** (ex: *Morfologia externa do coração*, *Vascularização coronariana*, *Valvas cardíacas*, etc.) deve conter **1 a 3 imagens** complementares.
+> * As imagens devem ser:
+>
+>   * Em **alta resolução (mínimo 1200px de largura)**;
+>   * Com **fundo neutro ou anatômico limpo**;
+>   * **Correspondentes ao conteúdo** (sem erros anatômicos);
+>   * **Com legenda explicativa curta** (ex: “Vista anterior do coração mostrando aurículas e ventrículos”);
+>   * **Com citação de fonte e licença** visível logo abaixo (ex: “Gray’s Anatomy, 1918 — Domínio Público”).
+> * Se a imagem for 3D (de OpenAnatomy ou AnatomyTool), gerar **screenshot de boa qualidade**.
+> * **Evite duplicação** entre cards; cada imagem deve representar um ângulo ou estrutura diferente.
+>
+> ---
+>
+> ### 🧩 **Funcionalidades obrigatórias**
+>
+> 1. **Zoom interativo:**
+>
+>    * Implementar zoom com `react-medium-image-zoom` ou função CSS/JS nativa.
+>    * O usuário deve poder clicar na imagem para ampliá-la e fechar com clique fora.
+> 2. **Legendas dinâmicas:**
+>
+>    * Inserir a legenda abaixo da imagem com descrição anatômica curta.
+> 3. **Créditos automáticos:**
+>
+>    * Exibir: *Fonte, licença e link original.*
+> 4. **Design responsivo:**
+>
+>    * As imagens devem se ajustar automaticamente à largura da tela (mobile e desktop).
+>
+> ---
+>
+> ### 🧬 **Modelo de card (formato React / Next.js com Tailwind)**
+>
+> Use este formato como base:
+>
+> ```jsx
+> import Zoom from "react-medium-image-zoom";
+> import "react-medium-image-zoom/dist/styles.css";
+>
+> export default function CardAnatomia({ title, description, imageSrc, legend, credit }) {
+>   return (
+>     <div className="p-4 bg-white rounded-2xl shadow-md space-y-3">
+>       <h2 className="text-xl font-bold">{title}</h2>
+>       <p className="text-gray-700">{description}</p>
+>       <Zoom>
+>         <img
+>           src={imageSrc}
+>           alt={title}
+>           className="rounded-xl object-cover w-full hover:shadow-lg transition-all duration-300"
+>         />
+>       </Zoom>
+>       <p className="text-sm text-gray-600 italic">{legend}</p>
+>       <p className="text-xs text-gray-500">
+>         <strong>Fonte:</strong> {credit}
+>       </p>
+>     </div>
+>   );
+> }
+> ```
+>
+> ---
+>
+> ### 🩻 **Instruções finais para cada tópico**
+>
+> Para **cada card de Anatomia Prática**, siga este fluxo:
+>
+> 1. Identifique o título e o conteúdo (ex: “Morfologia externa do coração”).
+> 2. Busque imagens relacionadas **em no mínimo três fontes** (Gray’s, Bassett, OpenStax, etc).
+> 3. Escolha as imagens mais didáticas e de melhor qualidade.
+> 4. Preencha o card com:
+>
+>    * `title`: nome do tópico
+>    * `description`: resumo anatômico conciso
+>    * `imageSrc`: URL direta da imagem (alta resolução)
+>    * `legend`: breve legenda descritiva
+>    * `credit`: fonte e licença (ex: “Bassett Collection / Stanford Medicine – CC BY-SA 4.0”)
+> 5. Gere todo o código formatado no padrão acima, sem deixar nenhum card sem imagem.
+>
+> ---
+>
+> ### 💡 **Padrão de consistência**
+>
+> * Todas as imagens devem manter **estilo científico unificado**.
+> * Nenhuma imagem genérica, sem licença, artística ou de baixa qualidade.
+> * Cada imagem deve parecer **parte de um atlas anatômico digital profissional**.
+> * Teste o zoom em todas as imagens antes de finalizar.
+>
+> ---
+>
+> **Resumo final:**
+> Gere cards completos e interativos de Anatomia Prática para o site *AnatoViva*, com imagens anatômicas **fidedignas, licenciadas, responsivas e com zoom**, usando **no mínimo três fontes oficiais (Gray’s Anatomy, Bassett Collection, OpenStax)**.
+> Mantenha o conteúdo impecável, equilibrado e cientificamente correto.
+
+---
+
+Quer que eu monte uma **versão condensada desse prompt** (mais curta, mas com a mesma precisão) para colocar direto dentro da aba “Instruções” do Replit AI, caso ele limite o tamanho do prompt?
