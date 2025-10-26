@@ -1,0 +1,105 @@
+{
+  "topic": "Artérias e Veias do Membro Superior",
+  "timestamp": "2025-10-26T18:24:26.793Z",
+  "subtopics": [
+    {
+      "subtopico": "Sistema Arterial Geral",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Gray526.png: HTTP 403",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gray527.png: HTTP 403",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gray528.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Artéria Subclávia",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/db/Gray525.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Artéria Axilar",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Gray526.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Artéria Braquial",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gray527.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Artéria Radial",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gray528.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Artéria Ulnar",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gray528.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Sistema Venoso Geral",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gray575.png: HTTP 403",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gray577.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Veias Profundas",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gray577.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Veia Cefálica",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gray575.png: HTTP 403"
+      ],
+      "substitutions": []
+    },
+    {
+      "subtopico": "Veia Basílica",
+      "images": [],
+      "status": "failed",
+      "errors": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gray575.png: HTTP 403"
+      ],
+      "substitutions": []
+    }
+  ],
+  "summary": {
+    "total": 13,
+    "validated": 0,
+    "failed": 13,
+    "substituted": 0
+  }
+}
