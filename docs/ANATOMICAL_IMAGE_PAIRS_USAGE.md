@@ -327,22 +327,91 @@ Padrão: `[fonte]-[estrutura]-[vista].[ext]`
 - [ ] Verificar no navegador (desktop + mobile)
 - [ ] Testar funcionalidade de zoom
 
+## Integração no PraticaTopicClient
+
+Para usar o componente de pares de imagens na página de tópicos práticos, você tem duas opções:
+
+### Opção 1: Usar o novo componente diretamente (Recomendado para visualização de pares)
+
+```tsx
+// app/pratica/[id]/pratica-topic-client.tsx
+
+import { AnatomicalImagePairs } from "@/components/anatomical-image-pair"
+import { organizeImagePairs } from "@/lib/utils/image-pair-utils"
+
+// Dentro do componente:
+const imagePairs = organizeImagePairs(section.images, section.title)
+
+<AnatomicalImagePairs 
+  imagePairs={imagePairs}
+  title={section.title}
+/>
+```
+
+### Opção 2: Manter AnatomicalImageGrid (Backward compatibility)
+
+O componente `AnatomicalImageGrid` existente continua funcionando para exibição em grid. Use-o quando não quiser a visualização em pares.
+
+```tsx
+<AnatomicalImageGrid 
+  images={section.images || []} 
+  sectionTitle={section.title}
+  columns={2}
+/>
+```
+
+## Melhorias Sugeridas
+
+### 1. Fallback Aprimorado (Prioridade: Média)
+
+Atualizar `organizeImagePairs` para emitir warnings quando reutilizar diagramas:
+
+```typescript
+// Adicionar em lib/utils/image-pair-utils.ts
+if (!modern && modernImages.length > 0) {
+  console.warn(`⚠️ Missing modern image for "${subtopic}", reusing first modern diagram`)
+}
+```
+
+### 2. Validação de Dimensões SVG (Prioridade: Baixa)
+
+Adicionar verificação de dimensões mínimas para SVGs:
+
+```typescript
+// Em scripts/validate-heart-images.ts
+if (filePath.endsWith('.svg')) {
+  // Parse SVG e verificar viewBox/width/height
+  // Considerar inválido se < 500x500px
+}
+```
+
+### 3. Testes de Renderização (Prioridade: Alta)
+
+Adicionar testes para verificar que os pares são exibidos corretamente.
+
 ## Próximos Passos
 
 1. **Substituir Imagens Corrompidas**
    - Ver `docs/HEART_IMAGES_REPLACEMENT_GUIDE.md` para lista completa
    - Executar comandos de download listados
+   - Validar com `npx tsx scripts/validate-heart-images.ts`
 
-2. **Expandir para Outros Sistemas**
+2. **Integrar Componente na UI**
+   - Decidir entre AnatomicalImagePairs ou manter AnatomicalImageGrid
+   - Atualizar pratica-topic-client.tsx conforme escolha
+   - Testar responsividade e zoom
+
+3. **Expandir para Outros Sistemas**
    - Sistema Respiratório
    - Sistema Digestório
    - Sistema Nervoso
-   - etc.
+   - Criar scripts de validação específicos
 
-3. **Melhorias Futuras**
-   - Comparação lado a lado com slider
+4. **Melhorias Futuras**
+   - Comparação lado a lado com slider interativo
    - Anotações interativas nas imagens
    - Quiz visual com imagens
+   - Legendas multilíngues (PT/EN)
 
 ---
 
