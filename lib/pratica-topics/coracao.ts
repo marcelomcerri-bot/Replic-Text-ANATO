@@ -57,6 +57,13 @@ export const coracao: PraticaTopicContent = {
                 credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
                 alt: "Pericárdio - camadas - Gray's Anatomy",
                 type: "historical"
+              },
+              {
+                src: "/anatomia-images/coracao/pericardio/diagrama-camadas-pericardio.png",
+                legend: "Diagrama Moderno: Camadas da parede cardíaca - mostrando pericárdio fibroso, pericárdio seroso (parietal e visceral/epicárdio), miocárdio e endocárdio",
+                credit: "Blausen Medical, CC BY 3.0 | Wikimedia Commons",
+                alt: "Camadas do coração e pericárdio - diagrama moderno",
+                type: "modern"
               }
             ],
           },
@@ -187,6 +194,13 @@ export const coracao: PraticaTopicContent = {
           "O miocárdio recebe suprimento sanguíneo através das artérias coronárias, que se originam dos seios aórticos e percorrem os sulcos cardíacos.",
         ],
         images: [
+          {
+            src: "/anatomia-images/coracao/coronarias/gray497-valva-aortica.png",
+            legend: "Gray's Anatomy: Valva aórtica - vista superior mostrando as três cúspides semilunares, seios de Valsalva e origem das artérias coronárias direita e esquerda",
+            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
+            alt: "Valva aórtica e origem das coronárias - Gray's Anatomy",
+            type: "historical"
+          },
           {
             src: "/anatomia-images/coracao/coronarias/diagrama-coronarias.svg",
             legend: "Diagrama Moderno: Artérias coronárias e seus ramos - vista anterior mostrando artéria coronária direita, artéria coronária esquerda (tronco, interventricular anterior e circunflexa) e seus principais ramos",
