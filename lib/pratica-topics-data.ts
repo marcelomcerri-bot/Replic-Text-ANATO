@@ -4,6 +4,13 @@ interface Subsection {
   subsections?: Subsection[]
 }
 
+export interface AnatomicalImage {
+  src: string
+  legend?: string
+  credit?: string
+  alt?: string
+}
+
 export interface PraticaTopicContent {
   title: string
   description: string
@@ -12,7 +19,7 @@ export interface PraticaTopicContent {
       title: string
       content: string[]
       subsections?: Subsection[]
-      images?: string[]
+      images?: (string | AnatomicalImage)[]
     }>
   }
   summary: Array<{

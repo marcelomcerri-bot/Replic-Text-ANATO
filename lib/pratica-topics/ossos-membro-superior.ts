@@ -11,9 +11,24 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "A cintura escapular é composta pela clavícula e escápula, conectando o membro superior ao esqueleto axial. Permite ampla mobilidade do ombro.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray202.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray205.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray206.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Gray202.png",
+            legend: "Escápula esquerda - face costal (anterior), mostrando a fossa subescapular côncava e o processo coracoide",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Escápula - vista anterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/2/21/Gray203.png",
+            legend: "Escápula esquerda - face dorsal (posterior), evidenciando a espinha da escápula dividindo as fossas supraespinal e infraespinal",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Escápula - vista posterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/5/51/Gray205.png",
+            legend: "Ossos do membro superior esquerdo completo, mostrando clavícula, escápula, úmero, rádio, ulna e ossos da mão",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Membro superior completo - ossos"
+          }
         ],
         subsections: [
           {
@@ -49,8 +64,18 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "O braço contém um único osso longo - o úmero - que se estende do ombro ao cotovelo.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray207.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray209.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/9/93/Gray207.png",
+            legend: "Úmero esquerdo - vista anterior, mostrando cabeça, tubérculos maior e menor, sulco intertubercular, tuberosidade deltoide e extremidade distal com tróclea e capítulo",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Úmero - vista anterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gray208.png",
+            legend: "Úmero esquerdo - vista posterior, evidenciando o sulco do nervo radial e a fossa olecrânica",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Úmero - vista posterior"
+          }
         ],
         subsections: [
           {
@@ -71,8 +96,18 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "O antebraço contém dois ossos paralelos: rádio (lateral) e ulna (medial), que se articulam proximalmente e distalmente, permitindo pronação e supinação.",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray213.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray214.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Gray213.png",
+            legend: "Ulna e rádio esquerdos - vista anterior, mostrando olécrano, processo coronoide, incisura troclear da ulna e cabeça, colo e tuberosidade do rádio",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Ulna e rádio - vista anterior"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/0/08/Gray214.png",
+            legend: "Ulna e rádio esquerdos - vista posterior, evidenciando a membrana interóssea e os processos estiloides",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Ulna e rádio - vista posterior"
+          }
         ],
         subsections: [
           {
@@ -109,8 +144,18 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "A mão contém 27 ossos organizados em carpo (8), metacarpo (5) e falanges (14).",
         ],
         images: [
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray219.png",
-          "https://commons.wikimedia.org/wiki/Special:FilePath/Gray220.png",
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/1/10/Gray219.png",
+            legend: "Ossos da mão esquerda - vista dorsal (posterior), mostrando os oito ossos do carpo dispostos em duas fileiras, cinco metacarpais e quatorze falanges",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Ossos da mão - vista dorsal"
+          },
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gray220.png",
+            legend: "Ossos da mão esquerda - vista palmar (anterior), evidenciando as articulações carpometacarpais e interfalângicas",
+            credit: "Gray's Anatomy (1918) - Domínio Público",
+            alt: "Ossos da mão - vista palmar"
+          }
         ],
         subsections: [
           {
