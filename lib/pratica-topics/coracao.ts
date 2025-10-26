@@ -12,16 +12,25 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/4/47/Gray490.png",
-            legend: "Coração - vista anterior (esternocostal), mostrando ventrículo direito, átrio direito, aorta, tronco pulmonar e sulcos cardíacos",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
-            alt: "Coração - vista anterior"
+            src: "/anatomia-images/coracao/morfologia-externa/gray490-coracao-anterior.png",
+            legend: "Gray's Anatomy: Coração - vista anterior (esternocostal), mostrando ventrículo direito, átrio direito, aorta, tronco pulmonar e sulcos cardíacos",
+            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
+            alt: "Coração - vista anterior - Gray's Anatomy",
+            type: "historical"
           },
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gray491.png",
-            legend: "Coração - vista posterior, evidenciando átrio esquerdo, ventrículo esquerdo, veias pulmonares e sulco coronário",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
-            alt: "Coração - vista posterior"
+            src: "/anatomia-images/coracao/morfologia-externa/diagrama-coracao-externo.svg",
+            legend: "Diagrama Moderno: Anatomia de superfície do coração, mostrando localização e orientação do órgão no tórax",
+            credit: "Mikael Häggström - Domínio Público | Wikimedia Commons",
+            alt: "Coração - anatomia de superfície - diagrama moderno",
+            type: "modern"
+          },
+          {
+            src: "/anatomia-images/coracao/morfologia-externa/gray491-coracao-posterior.png",
+            legend: "Gray's Anatomy: Coração - vista posterior, evidenciando átrio esquerdo, ventrículo esquerdo, veias pulmonares e sulco coronário",
+            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
+            alt: "Coração - vista posterior - Gray's Anatomy",
+            type: "historical"
           }
         ],
         subsections: [
@@ -41,6 +50,15 @@ export const coracao: PraticaTopicContent = {
               "**Pericárdio Seroso:** A lâmina visceral do pericárdio seroso adere intimamente à superfície cardíaca, constituindo o epicárdio. A lâmina parietal reveste internamente o pericárdio fibroso. Entre as duas lâminas existe a cavidade pericárdica, contendo pequena quantidade de líquido seroso que permite o deslizamento cardíaco.",
               "**Seios Pericárdicos:** Reflexões do pericárdio seroso formam os seios pericárdicos: seio transverso (posterior à aorta e tronco pulmonar, anterior aos átrios) e seio oblíquo (posterior ao átrio esquerdo).",
             ],
+            images: [
+              {
+                src: "/anatomia-images/coracao/pericardio/gray968-pericardio.png",
+                legend: "Gray's Anatomy: Pericárdio - corte demonstrando as camadas do pericárdio fibroso e seroso (parietal e visceral)",
+                credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
+                alt: "Pericárdio - camadas - Gray's Anatomy",
+                type: "historical"
+              }
+            ],
           },
         ],
       },
@@ -51,22 +69,25 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/3/31/Gray492.png",
-            legend: "Átrio direito - vista interna, mostrando músculos pectíneos, fossa oval, óstios das veias cavas e do seio coronário",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
-            alt: "Átrio direito - anatomia interna"
+            src: "/anatomia-images/coracao/camaras-internas/gray492-atrio-direito.png",
+            legend: "Gray's Anatomy: Átrio direito - vista interna, mostrando músculos pectíneos, fossa oval, óstios das veias cavas e do seio coronário",
+            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
+            alt: "Átrio direito - anatomia interna - Gray's Anatomy",
+            type: "historical"
           },
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gray493.png",
-            legend: "Ventrículo direito - vista interna, evidenciando trabéculas cárneas, músculos papilares, cordas tendíneas e valva tricúspide",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
-            alt: "Ventrículo direito - anatomia interna"
+            src: "/anatomia-images/coracao/camaras-internas/diagrama-coracao-interno.svg",
+            legend: "Diagrama Moderno: Anatomia interna do coração - corte coronal mostrando as quatro câmaras, valvas e principais vasos sanguíneos",
+            credit: "Wapcaplet, CC BY-SA 3.0 | Wikimedia Commons",
+            alt: "Coração - anatomia interna - diagrama moderno",
+            type: "modern"
           },
           {
-            src: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray495.png",
-            legend: "Ventrículo esquerdo e valvas cardíacas - vista interna, mostrando valva mitral, músculos papilares e espessura da parede ventricular",
-            credit: "Gray's Anatomy (1918) - Domínio Público",
-            alt: "Ventrículo esquerdo - anatomia interna"
+            src: "/anatomia-images/coracao/camaras-internas/gray493-ventriculo-direito.png",
+            legend: "Gray's Anatomy: Ventrículo direito - vista interna, evidenciando trabéculas cárneas, músculos papilares, cordas tendíneas e valva tricúspide",
+            credit: "Gray's Anatomy (1918) - Domínio Público | Wikimedia Commons",
+            alt: "Ventrículo direito - anatomia interna - Gray's Anatomy",
+            type: "historical"
           }
         ],
         subsections: [
@@ -114,6 +135,15 @@ export const coracao: PraticaTopicContent = {
         content: [
           "O coração possui quatro valvas que garantem fluxo unidirecional: duas valvas atrioventriculares (tricúspide e mitral) e duas valvas semilunares (pulmonar e aórtica).",
         ],
+        images: [
+          {
+            src: "/anatomia-images/coracao/valvas/diagrama-valvas.png",
+            legend: "Diagrama Moderno: Valvas cardíacas - vista superior mostrando as quatro valvas (tricúspide, mitral, pulmonar e aórtica) e suas relações anatômicas",
+            credit: "OpenStax, CC BY 4.0 | Wikimedia Commons",
+            alt: "Valvas cardíacas - vista superior - diagrama moderno",
+            type: "modern"
+          }
+        ],
         subsections: [
           {
             title: "Valva Tricúspide",
@@ -155,6 +185,15 @@ export const coracao: PraticaTopicContent = {
         title: "Vascularização Coronariana",
         content: [
           "O miocárdio recebe suprimento sanguíneo através das artérias coronárias, que se originam dos seios aórticos e percorrem os sulcos cardíacos.",
+        ],
+        images: [
+          {
+            src: "/anatomia-images/coracao/coronarias/diagrama-coronarias.svg",
+            legend: "Diagrama Moderno: Artérias coronárias e seus ramos - vista anterior mostrando artéria coronária direita, artéria coronária esquerda (tronco, interventricular anterior e circunflexa) e seus principais ramos",
+            credit: "Mikael Häggström, CC BY-SA 3.0 | Wikimedia Commons",
+            alt: "Artérias coronárias - diagrama moderno",
+            type: "modern"
+          }
         ],
         subsections: [
           {
@@ -200,6 +239,15 @@ export const coracao: PraticaTopicContent = {
         title: "Sistema de Condução Cardíaca",
         content: [
           "O sistema de condução elétrica do coração é formado por células musculares cardíacas especializadas que geram e conduzem impulsos elétricos de forma coordenada.",
+        ],
+        images: [
+          {
+            src: "/anatomia-images/coracao/sistema-conducao/diagrama-sistema-conducao.png",
+            legend: "Diagrama Moderno: Sistema de condução elétrica cardíaca - mostrando nó sinoatrial, nó atrioventricular, feixe de His, ramos direito e esquerdo e fibras de Purkinje",
+            credit: "Blausen Medical, CC BY 3.0 | Wikimedia Commons",
+            alt: "Sistema de condução cardíaca - diagrama moderno",
+            type: "modern"
+          }
         ],
         subsections: [
           {
