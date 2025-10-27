@@ -24,19 +24,21 @@ Seu projeto já está configurado e pronto para deploy! ✅
 
 ⚠️ **IMPORTANTE**: Para o chat com IA funcionar, você precisa adicionar a chave da API do Gemini:
 
-1. No painel do Netlify, vá em "Site settings" → "Environment variables"
-2. Clique em "Add a variable"
+### Guia Rápido:
+
+1. No painel do Netlify, vá em **"Site settings" → "Environment variables"**
+2. Clique em **"Add a variable"**
 3. Adicione:
    - **Key**: `GEMINI_API_KEY`
-   - **Value**: sua chave da API do Google Gemini
+   - **Value**: A mesma chave que você usa aqui no Replit
    
-4. Para obter a chave do Gemini:
-   - Acesse: https://aistudio.google.com/apikey
-   - Faça login com sua conta Google
-   - Clique em "Create API Key"
-   - Copie a chave gerada
+4. **MUITO IMPORTANTE**: Após adicionar a variável, você PRECISA fazer um novo deploy:
+   - Vá em "Deploys" → "Trigger deploy" → "Clear cache and deploy site"
+   - Ou faça um novo commit/push se estiver usando Git
 
-5. Após adicionar a variável, faça um novo deploy (ou clique em "Trigger deploy" → "Clear cache and deploy site")
+### Precisa de Ajuda Visual?
+
+Veja o arquivo **`NETLIFY_PASSO_A_PASSO.md`** para um guia detalhado com instruções passo a passo!
 
 ## 4. Verificar Deploy
 
