@@ -1,0 +1,129 @@
+{
+  "ossos-membro-superior": {
+    "description": "Unique bone images from OpenStax - no duplicates",
+    "mappings": {
+      "cintura_escapular_main": [
+        {
+          "filename": "bone_pectoral_girdle_5.jpg",
+          "alt": "Cintura escapular - escápula e clavícula",
+          "legend": "Visões anterior e posterior da escápula mostrando o acrômio, processo coracoide e cavidade glenoidal"
+        }
+      ],
+      "escapula": [
+        {
+          "filename": "bone_pectoral_girdle_5.jpg",
+          "alt": "Escápula detalhada",
+          "legend": "Anatomia da escápula mostrando processo coracoide, acrômio, espinha escapular e cavidade glenoidal"
+        }
+      ],
+      "umero": [
+        {
+          "filename": "bone_upper_limb_bones_3.jpg",
+          "alt": "Úmero - vistas anterior e posterior",
+          "legend": "Osso do braço mostrando cabeça do úmero, tubérculos, sulco intertubercular, tróclea e capítulo"
+        }
+      ],
+      "antebraco_main": [
+        {
+          "filename": "bone_upper_limb_bones_4.jpg",
+          "alt": "Ossos do antebraço - rádio e ulna",
+          "legend": "Rádio e ulna mostrando cabeça radial, tuberosidade radial, olécrano e processo estiloide"
+        }
+      ],
+      "ulna": [
+        {
+          "filename": "bone_upper_limb_bones_4.jpg",
+          "alt": "Ulna",
+          "legend": "Ulna com olécrano, processo coronoide e incisura troclear"
+        }
+      ],
+      "radio": [
+        {
+          "filename": "bone_upper_limb_bones_4.jpg",
+          "alt": "Rádio",
+          "legend": "Rádio mostrando cabeça, colo, tuberosidade radial e processo estiloide"
+        }
+      ],
+      "mao_main": [
+        {
+          "filename": "bone_upper_limb_bones_5.jpg",
+          "alt": "Ossos da mão e punho",
+          "legend": "Visões anterior e posterior dos ossos do carpo, metacarpo e falanges"
+        }
+      ],
+      "carpo": [
+        {
+          "filename": "bone_upper_limb_bones_5.jpg",
+          "alt": "Ossos do carpo",
+          "legend": "Ossos carpais: escafoide, semilunar, piramidal, pisiforme, trapézio, trapezoide, capitato e hamato"
+        }
+      ],
+      "metacarpo_falanges": [
+        {
+          "filename": "bone_upper_limb_bones_6.jpg",
+          "alt": "Radiografia da mão",
+          "legend": "Radiografia mostrando metacarpos e falanges"
+        }
+      ]
+    }
+  },
+  "musculos-membro-superior": {
+    "description": "Unique muscle images from OpenStax - no duplicates",
+    "mappings": {
+      "torax_ombro_main": [
+        {
+          "filename": "muscle_pectoral_muscles_3.jpg",
+          "alt": "Músculos da cintura escapular",
+          "legend": "Visões anterior-lateral e posterior dos músculos da cintura escapular"
+        }
+      ],
+      "deltoide_ombro": [
+        {
+          "filename": "muscle_pectoral_muscles_4.jpg",
+          "alt": "Músculos do ombro incluindo deltoide",
+          "legend": "Músculos peitorais, deltóide e músculos profundos do ombro (manguito rotador)"
+        }
+      ],
+      "antebraco_musculos": [
+        {
+          "filename": "muscle_pectoral_muscles_6.jpg",
+          "alt": "Músculos do antebraço",
+          "legend": "Músculos que movem o antebraço - compartimentos anterior e posterior"
+        }
+      ],
+      "mao_musculos": [
+        {
+          "filename": "muscle_pectoral_muscles_9.jpg",
+          "alt": "Músculos intrínsecos da mão",
+          "legend": "Músculos intrínsecos da mão mostrando os principais grupos musculares"
+        }
+      ]
+    }
+  },
+  "arterias-veias-membro-superior": {
+    "description": "Upper limb vessel images ONLY from OpenStax",
+    "mappings": {
+      "arterias_main": [
+        {
+          "filename": "vessel_upper_limb_circulation_12.jpg",
+          "alt": "Artérias do membro superior",
+          "legend": "Artérias do braço mostrando subclávia, axilar, braquial, radial e ulnar"
+        }
+      ],
+      "arterias_diagrama": [
+        {
+          "filename": "vessel_upper_limb_circulation_13.jpg",
+          "alt": "Diagrama das artérias do membro superior",
+          "legend": "Esquema das artérias presentes no membro superior e torácico"
+        }
+      ],
+      "veias_main": [
+        {
+          "filename": "vessel_upper_limb_circulation_17.jpg",
+          "alt": "Veias do membro superior",
+          "legend": "Sistema venoso do membro superior mostrando veias superficiais (cefálica, basílica) e profundas"
+        }
+      ]
+    }
+  }
+}
