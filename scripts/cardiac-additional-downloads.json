@@ -1,0 +1,20 @@
+[
+  {
+    "figure": 1,
+    "filename": "os-cardiac-muscle-structure.jpg",
+    "usage": "Estrutura do músculo cardíaco com discos intercalados",
+    "alt": "The top left panel of this figure shows the cross structure of cardiac muscle with the major parts labeled. The top right panel shows a micrograph of cardiac muscle. The bottom panel shows the structure of intercalated discs."
+  },
+  {
+    "figure": 2,
+    "filename": "os-heart-frontal-section.jpg",
+    "usage": "Vista frontal do coração com partes principais",
+    "alt": "This image shows the anterior view of the frontal section of the heart with the major parts labeled."
+  },
+  {
+    "figure": 4,
+    "filename": "os-cardiac-action-potential.jpg",
+    "usage": "Potencial de ação cardíaco - mudança no potencial de membrana",
+    "alt": "This graph shows the change in membrane potential as a function of time."
+  }
+]

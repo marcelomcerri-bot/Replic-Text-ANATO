@@ -48,12 +48,14 @@ interface AnatomicalImageGridProps {
   images: (string | { src: string; legend?: string; credit?: string; alt?: string })[]
   sectionTitle?: string
   columns?: 1 | 2 | 3
+  contentType?: 'images' | 'tables'
 }
 
 export function AnatomicalImageGrid({ 
   images, 
   sectionTitle,
-  columns = 2
+  columns = 2,
+  contentType
 }: AnatomicalImageGridProps) {
   if (!images || images.length === 0) return null
 
@@ -62,13 +64,25 @@ export function AnatomicalImageGrid({
     2: "grid-cols-1 md:grid-cols-2",
     3: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
   }[columns]
+  
+  // Auto-detect if content is a table based on filename or legend
+  const hasTableContent = images.some(img => {
+    if (typeof img === 'string') {
+      return img.includes('table') || img.includes('tabela')
+    }
+    return img.src.includes('table') || img.src.includes('tabela') || 
+           (img.legend && (img.legend.toLowerCase().includes('table') || img.legend.toLowerCase().includes('tabela')))
+  })
+  
+  const finalContentType = contentType || (hasTableContent ? 'tables' : 'images')
+  const titleText = finalContentType === 'tables' ? 'Tabelas Descritivas' : 'Imagens Anatômicas'
 
   return (
     <div className="my-8 space-y-4">
       {sectionTitle && (
         <h5 className="text-lg font-semibold text-accent/90 mb-4 flex items-center gap-2">
           <span className="w-1 h-6 bg-accent rounded-full"></span>
-          Imagens Anatômicas
+          {titleText}
         </h5>
       )}
       

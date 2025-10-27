@@ -254,6 +254,18 @@ export const coracao: PraticaTopicContent = {
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
             alt: "Sistema de condução cardíaca completo mostrando o ciclo de condução do impulso elétrico"
           },
+          {
+            src: "/anatomia-images/coracao/os-heart-frontal-section.jpg",
+            legend: "Vista frontal do coração mostrando as principais estruturas internas e o sistema de condução",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Vista frontal seccionada do coração com partes principais"
+          },
+          {
+            src: "/anatomia-images/coracao/os-cardiac-action-potential.jpg",
+            legend: "Potencial de ação cardíaco - mudança no potencial de membrana ao longo do tempo",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Gráfico do potencial de ação cardíaco"
+          },
         ],
         subsections: [
           {
