@@ -1,0 +1,60 @@
+The Netlify deploy errored, with the following guidance provided:
+
+- Relevant log lines
+  - [line 22](#L22) shows Netlify picked Node v20.19.5.
+  - [line 31](#L31) shows the build process is running npm.
+  - [line 32](#L32) shows the build failed with a non‑zero exit code: 2.
+
+Diagnosis
+- The build failed because the project's build script exited with a non‑zero status (exit code 2). The log excerpt only shows the failure, not the underlying stack trace, so the root cause can be one of:
+  - the "build" npm script failed (runtime error, missing dependency, compilation error),
+  - a missing or misnamed build script so Netlify ran the wrong command,
+  - a Node version mismatch causing a runtime/build tool error,
+  - or a dependency / file that wasn't committed to the repo.
+- Because Netlify is using Node v20.19.5 ([line 22](#L22)), a Node version mismatch is a plausible cause. You must inspect the full build log (or run the build locally) to see the specific error output.
+
+Solution — steps to identify and fix the failure
+1. Inspect the full build log to get the actual error stack trace.
+   - In the Netlify deploy details click "Show all logs" and copy the section after npm starts installing and running scripts. That will show the real error lines (compilation errors, missing files, syntax errors).
+2. Reproduce locally (fastest way to find cause).
+   - In the repo root run:
+```bash
+# install exactly as Netlify does
+npm ci
+# run the build command Netlify runs (usually `npm run build`)
+npm run build
+```
+   - Fix whatever error appears locally (missing import, syntax, TypeScript compile errors, missing env vars, etc.). The local run will show the same stack trace Netlify saw.
+
+3. Common quick checks and fixes
+   - Verify package.json has the correct build script Netlify expects. If Netlify uses the default "build command" (npm run build) make sure package.json contains a "build" script. If not, either add it or set the build command in Netlify settings to the correct script.
+   - Verify all required files are committed. If a build error complains about missing files/assets, commit them and push.
+   - If build errors indicate a missing dependency, verify the package is listed in package.json and committed, then run npm install / npm ci and commit lockfile if needed.
+
+4. If you suspect Node version incompatibility
+   - Check package.json "engines" or the project's README for a required Node version. If the project needs a different Node version than 20.x, set the Node version Netlify uses by committing a .nvmrc or setting "engines" in package.json. Example .nvmrc contents to force Node 18:
+```text
+18
+```
+   - After adding .nvmrc (or engines), commit and push. Netlify will pick that Node version for future builds.
+   - Documentation for changing Node versions on Netlify: https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript
+
+5. If the error mentions bundlers and externals (e.g., Rollup/Vite complaining about unresolved external imports)
+   - First verify the package is present in package.json or the file is committed to the repo.
+   - If the import is intentionally external and needs to be excluded from the bundle, add it to your bundler’s external configuration (e.g., build.rollupOptions.external). Only do that after confirming the package/file exists in the repo/package.json.
+
+If you paste the expanded build log lines that appear after npm starts (the first error stack trace), I will pinpoint the exact failing file/line and give the precise code fix.
+
+The relevant error logs are:
+
+Line 22: Now using node v20.19.5 (npm v10.8.2)
+Line 23: Enabling Node.js Corepack
+Line 24: Started restoring cached build plugins
+Line 25: Finished restoring cached build plugins
+Line 26: Started restoring cached corepack dependencies
+Line 27: Finished restoring cached corepack dependencies
+Line 28: No npm workspaces detected
+Line 29: Started restoring cached node modules
+Line 30: Finished restoring cached node modules
+Line 31: Installing npm packages using npm version 10.8.2
+Line 32: Failed during stage 'building site': Build script returned non-zero exit code: 2

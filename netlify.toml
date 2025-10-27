@@ -2,13 +2,11 @@
 package = "@netlify/plugin-nextjs"
 
 [build]
-  command = "npm ci && npm run build"
+  command = "npm install --legacy-peer-deps && npm run build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "20"
-  NPM_FLAGS = "--legacy-peer-deps"
-  NPM_USE_PRODUCTION = "false"
 
 [[redirects]]
   from = "/*"
