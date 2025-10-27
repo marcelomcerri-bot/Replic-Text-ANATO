@@ -22,10 +22,6 @@ export const musculosMembroSuperior = {
             alt: "Músculos do ombro"
           },
         ],
-images: [
-          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
-          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
-        ],
         subsections: [
           {
             title: "Músculo Peitoral Maior (M. Pectoralis Major)",
@@ -92,9 +88,6 @@ images: [
             alt: "Manguito rotador"
           },
         ],
-images: [
-          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
-        ],
         subsections: [
           {
             title: "Músculo Supraespinal (M. Supraspinatus)",
@@ -158,9 +151,6 @@ images: [
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
             alt: "Músculos do braço"
           },
-        ],
-images: [
-          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
         ],
         subsections: [
           {
@@ -230,10 +220,6 @@ images: [
             alt: "Músculos do antebraço"
           },
         ],
-images: [
-          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-5.jpg",
-          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
-        ],
         subsections: [
           {
             title: "Compartimento Anterior (Flexores)",
@@ -292,9 +278,6 @@ images: [
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
             alt: "Músculos da mão"
           },
-        ],
-images: [
-          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-7.jpg",
         ],
         subsections: [
           {
