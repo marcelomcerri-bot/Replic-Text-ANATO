@@ -2,7 +2,7 @@ import type { PraticaTopicContent } from "../pratica-topics-data"
 
 export const coracao: PraticaTopicContent = {
   title: "Coração",
-  description: "Anatomia detalhada do coração e estruturas cardiovasculares - Baseado em Latarjet",
+  description: "Anatomia detalhada do coração e estruturas cardiovasculares",
   content: {
     sections: [
       {
@@ -12,25 +12,18 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/coracao/gray490-heart-lungs-anterior.gif",
-            legend: "FIG. 490 - Front view of heart and lungs.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Vista anterior do coração e pulmões - Gray's Anatomy",
-            type: "historical"
+            src: "/anatomia-images/coracao/openstax-heart-location-thorax.jpg",
+            legend: "Localização do coração no tórax - Vista demonstrando o posicionamento do coração na cavidade torácica entre os pulmões, no mediastino médio.",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Diagrama mostrando a localização do coração no tórax",
+            type: "modern"
           },
           {
-            src: "/anatomia-images/coracao/gray492-heart-sternocostal.gif",
-            legend: "FIG. 492 - Sternocostal surface of heart.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Superfície esternocostal do coração - Gray's Anatomy",
-            type: "historical"
-          },
-          {
-            src: "/anatomia-images/coracao/gray491-heart-base-diaphragmatic.gif",
-            legend: "FIG. 491 - Base and diaphragmatic surface of heart.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Base e superfície diafragmática do coração - Gray's Anatomy",
-            type: "historical"
+            src: "/anatomia-images/coracao/openstax-heart-anterior-posterior.jpg",
+            legend: "Vista anterior e posterior do coração - Painel superior mostra a vista anterior (esternocostal) do coração. Painel inferior mostra a vista posterior (base) do coração com todas as estruturas externas rotuladas.",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Vista anterior e posterior do coração humano com estruturas anatômicas rotuladas",
+            type: "modern"
           }
         ],
         subsections: [
@@ -52,11 +45,11 @@ export const coracao: PraticaTopicContent = {
             ],
             images: [
               {
-                src: "/anatomia-images/coracao/gray489-pericardium-posterior.gif",
-                legend: "FIG. 489 - Posterior wall of the pericardial sac, showing the lines of reflection of the serous pericardium on the great vessels.",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Parede posterior do saco pericárdico - Gray's Anatomy",
-                type: "historical"
+                src: "/anatomia-images/coracao/openstax-heart-wall-layers.jpg",
+                legend: "Camadas da parede cardíaca - Vista ampliada mostrando a estrutura da parede do coração, incluindo o pericárdio fibroso externo, pericárdio seroso (lâminas parietal e visceral/epicárdio), miocárdio e endocárdio.",
+                credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+                alt: "Vista ampliada da estrutura da parede do coração mostrando todas as camadas",
+                type: "modern"
               }
             ],
           },
@@ -69,25 +62,18 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/coracao/gray493-right-heart-interior.gif",
-            legend: "FIG. 493 - Interior of right side of heart.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Interior do lado direito do coração - Gray's Anatomy",
-            type: "historical"
+            src: "/anatomia-images/coracao/openstax-heart-internal-chambers.jpg",
+            legend: "Interior do coração com câmaras cardíacas - Fotografia mostrando o interior do coração com os principais músculos e estruturas das câmaras cardíacas rotuladas, incluindo átrios, ventrículos e septos.",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Fotografia mostrando o interior do coração com os principais músculos rotulados",
+            type: "modern"
           },
           {
-            src: "/anatomia-images/coracao/gray496-left-heart-interior.gif",
-            legend: "FIG. 496 - Interior of left side of heart.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Interior do lado esquerdo do coração - Gray's Anatomy",
-            type: "historical"
-          },
-          {
-            src: "/anatomia-images/coracao/gray494-heart-superior-view.gif",
-            legend: "FIG. 494 - Heart seen from above.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Coração visto de cima - Gray's Anatomy",
-            type: "historical"
+            src: "/anatomia-images/coracao/openstax-heart-musculature.jpg",
+            legend: "Musculatura cardíaca detalhada - Painel superior mostra a imagem do coração com as principais partes rotuladas. Painel inferior esquerdo mostra uma fotografia do coração com a camada superficial removida. Imagens no painel inferior direito mostram a musculatura detalhada dentro do coração.",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Múltiplas vistas da musculatura cardíaca interna com detalhamento anatômico",
+            type: "modern"
           }
         ],
         subsections: [
@@ -137,18 +123,25 @@ export const coracao: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/coracao/gray495-ventricles-base.gif",
-            legend: "FIG. 495 - Base of ventricles exposed by removal of the atria.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Base dos ventrículos exposta pela remoção dos átrios - Gray's Anatomy",
-            type: "historical"
+            src: "/anatomia-images/coracao/openstax-heart-valves.jpg",
+            legend: "Valvas cardíacas - Vista anterior do coração mostrando as diferentes valvas cardíacas rotuladas: valvas atrioventriculares (tricúspide e mitral) e valvas semilunares (pulmonar e aórtica).",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Diagrama mostrando vista anterior do coração com as diferentes valvas cardíacas rotuladas",
+            type: "modern"
           },
           {
-            src: "/anatomia-images/coracao/gray497-aortic-valve.gif",
-            legend: "FIG. 497 - Aorta laid open to show the semilunar valves.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Aorta aberta mostrando as valvas semilunares - Gray's Anatomy",
-            type: "historical"
+            src: "/anatomia-images/coracao/openstax-mitral-valve-open.jpg",
+            legend: "Valva mitral em posição aberta - Painel esquerdo mostra a vista anterior do coração com as diferentes valvas. Painel direito mostra a localização da valva mitral na posição aberta no coração, permitindo o fluxo sanguíneo do átrio esquerdo para o ventrículo esquerdo.",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Vista da valva mitral em posição aberta durante diástole ventricular",
+            type: "modern"
+          },
+          {
+            src: "/anatomia-images/coracao/openstax-mitral-valve-closed.jpg",
+            legend: "Valva mitral em posição fechada - Painel esquerdo mostra a vista anterior do coração com as diferentes valvas. Painel direito mostra a localização da valva mitral na posição fechada no coração durante a sístole ventricular, impedindo o refluxo sanguíneo.",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Vista da valva mitral em posição fechada durante sístole ventricular",
+            type: "modern"
           }
         ],
         subsections: [
@@ -191,7 +184,23 @@ export const coracao: PraticaTopicContent = {
       {
         title: "Vascularização Coronariana",
         content: [
-          "O miocárdio recebe suprimento sanguíneo através das artérias coronárias, que se originam dos seios aórticos e percorrem os sulcos cardíacos. As artérias coronárias direita e esquerda correm nos sulcos coronário e interventriculares, visíveis nas figuras anteriores da morfologia externa do coração (FIG. 490-492).",
+          "O miocárdio recebe suprimento sanguíneo através das artérias coronárias, que se originam dos seios aórticos e percorrem os sulcos cardíacos. As artérias coronárias direita e esquerda correm nos sulcos coronário e interventriculares, fornecendo irrigação essencial para o músculo cardíaco.",
+        ],
+        images: [
+          {
+            src: "/anatomia-images/coracao/openstax-coronary-circulation.jpg",
+            legend: "Circulação coronariana - Painel superior mostra a vista anterior do coração com os vasos sanguíneos rotulados. Painel inferior mostra a vista posterior do coração com os diferentes vasos sanguíneos identificados, incluindo artérias coronárias e veias cardíacas.",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Vista anterior e posterior do coração mostrando os diferentes vasos sanguíneos rotulados",
+            type: "modern"
+          },
+          {
+            src: "/anatomia-images/coracao/openstax-heart-circulation-system.jpg",
+            legend: "Sistema circulatório do coração - Painel superior mostra o coração humano com as artérias e veias rotuladas. Painel inferior mostra o sistema circulatório humano completo, demonstrando a circulação pulmonar e sistêmica.",
+            credit: "OpenStax, Anatomy and Physiology 2e. OpenStax CNX. CC BY 4.0. https://openstax.org/books/anatomy-and-physiology-2e/",
+            alt: "Coração humano com artérias e veias rotuladas e sistema circulatório completo",
+            type: "modern"
+          }
         ],
         subsections: [
           {
