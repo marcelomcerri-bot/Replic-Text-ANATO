@@ -43,6 +43,14 @@ export const musculosMembroSuperior = {
               "**Vascularização:** Ramos peitorais da artéria toracoacromial (da artéria axilar) e ramos perfurantes da artéria torácica interna.",
               "**Relevância Clínica:** Rupturas do peitoral maior, transferências cirúrgicas para lesões crônicas do subescapular, síndrome de Poland (agenesia do peitoral maior).",
             ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
+                legend: "Músculos peitorais maior e menor - vista anterior",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Peitoral maior"
+              },
+            ],
           },
           {
             title: "Músculo Peitoral Menor (M. Pectoralis Minor)",
@@ -72,6 +80,14 @@ export const musculosMembroSuperior = {
               "**Vascularização:** Ramo toracoacromial da artéria axilar (suprimento principal), artéria circunflexa umeral posterior, ramo deltoide da artéria profunda braquial.",
               "**Relevância Clínica:** Lesão do nervo axilar (luxação do ombro ou fratura do colo umeral) resulta em paralisia do deltoide, perda do contorno do ombro e abdução prejudicada. Local comum para injeções intramusculares.",
             ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
+                legend: "Músculo deltoide e outros músculos do ombro",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Deltoide"
+              },
+            ],
           },
         ],
       },
@@ -99,6 +115,14 @@ export const musculosMembroSuperior = {
               "**Função:** Inicia os primeiros 15° de abdução do braço. É o ÚNICO músculo do manguito rotador que NÃO é rotador do úmero. Estabiliza a cabeça umeral.",
               "**Vascularização:** Artéria supraescapular (100%).",
               "**Relevância Clínica:** Músculo do manguito rotador mais comumente lesionado; vulnerável ao impacto subacromial. Avaliado usando teste de Jobe (teste da 'lata vazia').",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-3.jpg",
+                legend: "Músculos do manguito rotador incluindo supraespinal",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Supraespinal e manguito rotador"
+              },
             ],
           },
           {
@@ -181,6 +205,14 @@ export const musculosMembroSuperior = {
               "• Inervação: Nervo musculocutâneo (C5-C6)",
               "• Função: Flexor puro do cotovelo (principal flexor)",
             ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
+                legend: "Compartimento anterior do braço - bíceps braquial, coracobraquial e braquial",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Músculos do compartimento anterior do braço"
+              },
+            ],
           },
           {
             title: "Compartimento Posterior",
@@ -203,6 +235,14 @@ export const musculosMembroSuperior = {
               "• Estabilização do cotovelo durante movimentos motores finos",
               "**Vascularização:** Artéria braquial profunda (primária), artéria colateral ulnar superior, artéria circunflexa umeral posterior",
               "**Relevância Clínica:** Reflexo tricipital testa nervos espinhais C6-C7, predominantemente C7",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
+                legend: "Compartimento posterior do braço - tríceps braquial com suas três cabeças",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Tríceps braquial"
+              },
             ],
           },
         ],
@@ -241,6 +281,14 @@ export const musculosMembroSuperior = {
               "• Nervo interósseo anterior (ramo do mediano) → músculos da camada profunda",
               "**Vascularização:** Ramos da artéria ulnar e artéria interóssea anterior",
             ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-5.jpg",
+                legend: "Compartimento anterior do antebraço - músculos flexores",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Músculos flexores do antebraço"
+              },
+            ],
           },
           {
             title: "Compartimento Posterior (Extensores)",
@@ -262,6 +310,14 @@ export const musculosMembroSuperior = {
               "5. **M. Extensor do Indicador** - estende dedo indicador",
               "**Inervação:** Nervo radial → todos os músculos extensores; Nervo interósseo posterior (ramo do radial) → maioria dos extensores profundos",
               "**Vascularização:** Artéria interóssea posterior",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-6.jpg",
+                legend: "Compartimento posterior do antebraço - músculos extensores",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Músculos extensores do antebraço"
+              },
             ],
           },
         ],
@@ -290,6 +346,14 @@ export const musculosMembroSuperior = {
               "**Inervação:** Ramo motor recorrente do nervo mediano",
               "**Vascularização:** Arco palmar superficial",
               "**Nota Clínica:** O adutor do polegar NÃO faz parte da eminência tenar e é inervado pelo ramo profundo do nervo ulnar.",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-7.jpg",
+                legend: "Músculos intrínsecos da mão - eminência tenar e hipotenar",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Músculos da eminência tenar"
+              },
             ],
           },
           {
