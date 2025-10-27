@@ -45,6 +45,12 @@ export function SiteHeader() {
               Glossário
             </Link>
             <Link
+              href="/contemporanea"
+              className="px-3 py-1.5 text-sm font-medium rounded-md hover:bg-accent/10 hover:text-accent transition-all"
+            >
+              Contemporânea
+            </Link>
+            <Link
               href="/referencias"
               className="px-3 py-1.5 text-sm font-medium rounded-md hover:bg-accent/10 hover:text-accent transition-all"
             >
@@ -112,6 +118,13 @@ export function SiteHeader() {
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Glossário
+                  </Link>
+                  <Link
+                    href="/contemporanea"
+                    className="flex items-center px-4 py-3 text-sm font-medium rounded-lg border border-accent/20 bg-white/90 dark:bg-card/90 backdrop-blur-sm hover:bg-accent/10 hover:border-accent/40 hover:text-accent transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Contemporânea
                   </Link>
                   <Link
                     href="/referencias"
