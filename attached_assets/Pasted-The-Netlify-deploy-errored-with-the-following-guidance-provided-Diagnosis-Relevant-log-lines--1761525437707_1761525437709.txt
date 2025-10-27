@@ -1,0 +1,76 @@
+The Netlify deploy errored, with the following guidance provided:
+
+Diagnosis
+- Relevant log lines: [line 33](#L33) installs with pnpm, [line 34](#L34) shows the error about a frozen lockfile, [line 37](#L37) explains the cause (specifiers in the lockfile don't match package.json), and [line 39](#L39) is the resulting failure.
+- Error type and cause: pnpm refused to install because CI uses the "frozen-lockfile" setting and your pnpm-lock.yaml is out of sync with package.json. The log even notes that new dependencies were detected (e.g. @google/genai@^1.27.0 and others) that are present in package.json but not reflected in pnpm-lock.yaml.
+
+Solution (recommended)
+1) Verify the repo has the correct package.json changes and that pnpm-lock.yaml is committed:
+   - Check package.json contains the expected new dependencies (e.g. @google/genai):
+```bash
+# from repo root
+cat package.json | grep -E '"@google/genai"|"react-' || true
+```
+   - Ensure pnpm-lock.yaml is tracked:
+```bash
+git ls-files | grep pnpm-lock.yaml || echo "pnpm-lock.yaml not committed"
+```
+2) Update and commit the lockfile (recommended fix):
+```bash
+# Locally
+pnpm install        # regenerates/updates pnpm-lock.yaml to match package.json
+git add pnpm-lock.yaml package.json
+git commit -m "Update pnpm-lock.yaml to match package.json"
+git push origin main
+```
+After pushing, Netlify will run the build and the frozen-lockfile error should be resolved.
+
+Alternative (not recommended for long-term)
+- Allow the build to proceed without a frozen lockfile by passing the no-frozen-lockfile flag to pnpm in the Netlify build environment. First verify pnpm-lock.yaml is present in the repo (see step 1). Then either set an environment variable in your site settings:
+  - In Netlify UI: Site settings → Build & deploy → Environment → New variable
+    - Key: PNPM_FLAGS
+    - Value: --no-frozen-lockfile
+  - Or add to netlify.toml:
+```toml
+[build.environment]
+  PNPM_FLAGS = "--no-frozen-lockfile"
+```
+This will let Netlify run pnpm install even if pnpm-lock.yaml is out-of-date, but it is better to commit the updated lockfile so builds are reproducible.
+
+Notes
+- If you did not intend to add those dependencies, inspect package.json for accidental edits and remove them before regenerating the lockfile.
+- After updating and committing the lockfile, re-trigger a deploy; the install step should succeed.
+
+The relevant error logs are:
+
+Line 0: build-image version: 7aa2b696d8640ee8ab8ada4b1f870982d7bd596d (noble)
+Line 1: buildbot version: 11482adeb7bc8b39b970c0c529cdaed99bb59394
+Line 2: Fetching cached dependencies
+Line 3: Starting to download cache of 502.0MB (Last modified: 2025-10-26 11:50:28 +0000 UTC)
+Line 4: Finished downloading cache in 1.878s
+Line 5: Starting to extract cache
+Line 6: Failed during stage 'Install dependencies': dependency_installation script returned non-zero exit code: 1
+Line 7: Finished extracting cache in 21.424s
+Line 8: Finished fetching cache in 23.392s
+Line 9: Starting to prepare the repo for build
+Line 10: Preparing Git Reference refs/heads/main
+Line 11: Starting to install dependencies
+Line 12: Started restoring cached python cache
+Line 13: Finished restoring cached python cache
+Line 14: Started restoring cached ruby cache
+Line 15: Finished restoring cached ruby cache
+Line 16: Started restoring cached go cache
+Line 28: Started restoring cached pnpm cache
+Line 29: Finished restoring cached pnpm cache
+Line 30: No pnpm workspaces detected
+Line 31: Started restoring cached node modules
+Line 32: Finished restoring cached node modules
+Line 33: Installing npm packages using pnpm version 10.19.0
+Line 34:  ERR_PNPM_OUTDATED_LOCKFILE  Cannot install with "frozen-lockfile" because pnpm-lock.yaml is not up to date with <ROOT>/package.
+Line 35: Note that in CI environments this setting is true by default. If you still need to run install in such cases, use "pnpm install 
+Line 36:   Failure reason:
+Line 37:   specifiers in the lockfile don't match specifiers in package.json:
+* 4 dependencies were added: @google/genai@^1.27.0, react-m
+Line 38: Error during pnpm install
+Line 39: Failing build: Failed to install dependencies
+Line 40: Finished processing build request in 34.111s
