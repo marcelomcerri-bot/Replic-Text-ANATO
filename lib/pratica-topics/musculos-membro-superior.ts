@@ -9,6 +9,20 @@ export const musculosMembroSuperior = {
           "Os músculos do tórax e ombro formam a base da movimentação do membro superior, proporcionando estabilidade e mobilidade à articulação glenoumeral.",
         ],
         images: [
+          {
+            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
+            legend: "Músculos da cintura escapular - vistas anterior-lateral e posterior",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Músculos da cintura escapular"
+          },
+          {
+            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
+            legend: "Músculos do tórax, ombro e cintura escapular em detalhes",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Músculos do ombro"
+          },
+        ],
+images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
         ],
@@ -71,6 +85,14 @@ export const musculosMembroSuperior = {
           "O manguito rotador é formado por quatro músculos que estabilizam e movem a articulação glenoumeral (ombro). O mnemônico 'SITS' ajuda a lembrar: Supraespinal, Infraespinal, Redondo Menor e Subescapular. Estes músculos criam um colar musculotendinoso que envolve os aspectos posterior, superior e anterior da articulação glenoumeral.",
         ],
         images: [
+          {
+            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
+            legend: "Músculos do manguito rotador - estabilizadores da articulação glenoumeral",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Manguito rotador"
+          },
+        ],
+images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
         ],
         subsections: [
@@ -130,6 +152,14 @@ export const musculosMembroSuperior = {
           "Os músculos do braço são organizados em compartimentos anterior (flexores) e posterior (extensores), separados por septos intermusculares.",
         ],
         images: [
+          {
+            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
+            legend: "Músculos do braço que movem o antebraço",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Músculos do braço"
+          },
+        ],
+images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
         ],
         subsections: [
@@ -193,6 +223,14 @@ export const musculosMembroSuperior = {
           "O antebraço contém dois compartimentos primários separados por limites fasciais: compartimento anterior (flexor) e compartimento posterior (extensor).",
         ],
         images: [
+          {
+            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-5.jpg",
+            legend: "Músculos do antebraço - compartimentos anterior e posterior",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Músculos do antebraço"
+          },
+        ],
+images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-5.jpg",
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
         ],
@@ -248,6 +286,14 @@ export const musculosMembroSuperior = {
           "Os músculos intrínsecos da mão são divididos em 4 grupos: tenares, hipotenares, interósseos e lumbricais. Estes músculos originam-se e inserem-se nos ossos, ligamentos e fáscia da mão, produzindo movimentos motores finos.",
         ],
         images: [
+          {
+            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-7.jpg",
+            legend: "Músculos intrínsecos da mão",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Músculos da mão"
+          },
+        ],
+images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-7.jpg",
         ],
         subsections: [
