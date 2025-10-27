@@ -45,10 +45,10 @@ export const musculosMembroSuperior = {
             ],
             images: [
               {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
-                legend: "Músculos peitorais maior e menor - vista anterior",
+                src: "/anatomia-images/musculos-membro-superior/os-pectoral-girdle-muscles.jpg",
+                legend: "Músculos peitorais maior e menor - vistas anterior e posterior da cintura escapular",
                 credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Peitoral maior"
+                alt: "Peitoral maior e cintura escapular"
               },
             ],
           },
@@ -61,14 +61,6 @@ export const musculosMembroSuperior = {
               "**Inervação:** Nervo peitoral medial (C8, T1).",
               "**Função:** Estabiliza a escápula puxando-a anterior e inferiormente contra a parede torácica.",
               "**Vascularização:** Artéria toracoacromial e artéria torácica lateral.",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
-                legend: "Músculo peitoral menor localizado profundamente ao peitoral maior",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Peitoral menor"
-              },
             ],
           },
           {
@@ -90,10 +82,10 @@ export const musculosMembroSuperior = {
             ],
             images: [
               {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
-                legend: "Músculo deltoide e outros músculos do ombro",
+                src: "/anatomia-images/musculos-membro-superior/os-deltoid-shoulder-muscles.jpg",
+                legend: "Músculo deltoide e músculos profundos do ombro - vistas lateral, posterior e anterior",
                 credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Deltoide"
+                alt: "Deltoide e músculos profundos do ombro"
               },
             ],
           },
@@ -106,10 +98,10 @@ export const musculosMembroSuperior = {
         ],
         images: [
           {
-            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
-            legend: "Músculos do manguito rotador - estabilizadores da articulação glenoumeral",
+            src: "/anatomia-images/musculos-membro-superior/os-rotator-cuff-table.jpg",
+            legend: "Músculos do manguito rotador (SITS) - Supraespinal, Infraespinal, Redondo Menor e Subescapular",
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-            alt: "Manguito rotador"
+            alt: "Manguito rotador completo - SITS"
           },
         ],
         subsections: [
@@ -124,14 +116,6 @@ export const musculosMembroSuperior = {
               "**Vascularização:** Artéria supraescapular (100%).",
               "**Relevância Clínica:** Músculo do manguito rotador mais comumente lesionado; vulnerável ao impacto subacromial. Avaliado usando teste de Jobe (teste da 'lata vazia').",
             ],
-            images: [
-              {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-3.jpg",
-                legend: "Músculos do manguito rotador incluindo supraespinal",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Supraespinal e manguito rotador"
-              },
-            ],
           },
           {
             title: "Músculo Infraespinal (M. Infraspinatus)",
@@ -143,14 +127,6 @@ export const musculosMembroSuperior = {
               "**Função:** Potente rotação lateral (externa) do úmero (~60% da força de rotação externa). Auxilia na abdução do plano escapular. Estabilizador posterior contra subluxação.",
               "**Vascularização:** Artéria supraescapular (94%) e artéria circunflexa escapular (81%).",
               "**Relevância Clínica:** Testado via rotação lateral contra resistência com cotovelo fletido. Às vezes fundido com redondo menor.",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-3.jpg",
-                legend: "Músculo infraespinal - parte do manguito rotador",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Infraespinal"
-              },
             ],
           },
           {
@@ -164,14 +140,6 @@ export const musculosMembroSuperior = {
               "**Vascularização:** Artéria circunflexa escapular (100%).",
               "**Relevância Clínica:** Difícil de diferenciar do infraespinal. Avaliado usando o teste do 'hornblower'.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-3.jpg",
-                legend: "Músculo redondo menor - componente do manguito rotador",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Redondo menor"
-              },
-            ],
           },
           {
             title: "Músculo Subescapular (M. Subscapularis)",
@@ -184,14 +152,6 @@ export const musculosMembroSuperior = {
               "**Vascularização:** Artéria subescapular, artéria toracodorsal (39%), artéria torácica lateral (14%).",
               "**Relevância Clínica:** Avaliado usando testes 'lift-off' e 'bear hug'.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
-                legend: "Músculo subescapular - vista anterior do manguito rotador",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Subescapular"
-              },
-            ],
           },
         ],
       },
@@ -202,10 +162,10 @@ export const musculosMembroSuperior = {
         ],
         images: [
           {
-            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
-            legend: "Músculos do braço que movem o antebraço",
+            src: "/anatomia-images/musculos-membro-superior/os-arm-muscles-forearm.jpg",
+            legend: "Músculos do braço - compartimentos anterior (flexores) e posterior (extensores)",
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-            alt: "Músculos do braço"
+            alt: "Músculos do braço - bíceps, tríceps e compartimentos"
           },
         ],
         subsections: [
@@ -237,14 +197,6 @@ export const musculosMembroSuperior = {
               "• Inervação: Nervo musculocutâneo (C5-C6)",
               "• Função: Flexor puro do cotovelo (principal flexor)",
             ],
-            images: [
-              {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
-                legend: "Compartimento anterior do braço - bíceps braquial, coracobraquial e braquial",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Músculos do compartimento anterior do braço"
-              },
-            ],
           },
           {
             title: "Compartimento Posterior",
@@ -267,14 +219,6 @@ export const musculosMembroSuperior = {
               "• Estabilização do cotovelo durante movimentos motores finos",
               "**Vascularização:** Artéria braquial profunda (primária), artéria colateral ulnar superior, artéria circunflexa umeral posterior",
               "**Relevância Clínica:** Reflexo tricipital testa nervos espinhais C6-C7, predominantemente C7",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
-                legend: "Compartimento posterior do braço - tríceps braquial com suas três cabeças",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Tríceps braquial"
-              },
             ],
           },
         ],
@@ -361,10 +305,10 @@ export const musculosMembroSuperior = {
         ],
         images: [
           {
-            src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-7.jpg",
-            legend: "Músculos intrínsecos da mão",
+            src: "/anatomia-images/musculos-membro-superior/os-hand-intrinsic-muscles.jpg",
+            legend: "Músculos intrínsecos da mão - eminências tenar e hipotenar, lumbricais e interósseos",
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-            alt: "Músculos da mão"
+            alt: "Músculos intrínsecos da mão completos"
           },
         ],
         subsections: [
@@ -378,14 +322,6 @@ export const musculosMembroSuperior = {
               "**Inervação:** Ramo motor recorrente do nervo mediano",
               "**Vascularização:** Arco palmar superficial",
               "**Nota Clínica:** O adutor do polegar NÃO faz parte da eminência tenar e é inervado pelo ramo profundo do nervo ulnar.",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-7.jpg",
-                legend: "Músculos intrínsecos da mão - eminência tenar e hipotenar",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Músculos da eminência tenar"
-              },
             ],
           },
           {

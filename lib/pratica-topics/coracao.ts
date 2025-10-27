@@ -247,6 +247,14 @@ export const coracao: PraticaTopicContent = {
         content: [
           "O sistema de condução elétrica do coração é formado por células musculares cardíacas especializadas que geram e conduzem impulsos elétricos de forma coordenada.",
         ],
+        images: [
+          {
+            src: "/anatomia-images/coracao/os-cardiac-conduction-system.jpg",
+            legend: "Sistema de condução cardíaca - Nó SA, vias internodais, Nó AV, Feixe de His e Fibras de Purkinje",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Sistema de condução cardíaca completo mostrando o ciclo de condução do impulso elétrico"
+          },
+        ],
         subsections: [
           {
             title: "Nó Sinoatrial (Nó SA)",

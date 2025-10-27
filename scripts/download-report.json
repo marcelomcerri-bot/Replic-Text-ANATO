@@ -1,0 +1,44 @@
+[
+  {
+    "category": "muscles",
+    "figure": 1,
+    "filename": "os-pectoral-girdle-muscles.jpg",
+    "usage": "Peitoral Maior e Peitoral Menor (imagem geral)",
+    "alt": "The left panel shows the anterior lateral view of the pectoral girdle muscle, and the right panel shows the posterior view of the pectoral girdle muscle."
+  },
+  {
+    "category": "muscles",
+    "figure": 2,
+    "filename": "os-deltoid-shoulder-muscles.jpg",
+    "usage": "Deltoide (específico)",
+    "alt": "The top left panel shows the lateral view of the pectoral and back muscles. The top right panel shows the posterior view of the right deltoid and the left back muscle. The bottom left panel shows the anterior view of the deep muscles of the left shoulder, and the bottom right panel shows the deep muscles of the left shoulder."
+  },
+  {
+    "category": "muscles",
+    "figure": 3,
+    "filename": "os-rotator-cuff-table.jpg",
+    "usage": "Manguito Rotador completo (Supraespinal, Infraespinal, Redondo Menor, Subescapular)",
+    "alt": "This table describes the muscles that move the humerus. The pectoralis major is an axial muscle that brings the elbows together and moves the elbows up (as during an uppercut punch). It originates in the clavicle, sternum, cartilage of ribs 1 through 6 or 1 through 7, and the aponeurosis of the external oblique muscle. The latissimus dorsi is an axial muscle that moves the elbow back (as in elbowing someone standing behind you) or spreads the elbows apart. It originates in the thoracic vertebrae (T7 through T12), the lower vertebrae, ribs 9 through 12, and the iliac crest. The deltoid is a scapular muscle that lifts arms at the shoulder. It originates in the trapezius, clavicle, acromion, and spine of scapula. The subscapularis is a scapular muscle that assists the pectoralis major in bringing the elbows together and stabilizes the shoulder joint during movement of the pectoral girdle. It originates in the subscapular fossa of the scapula. The supraspinatus is a scapular muscle that rotates the elbow outwards, as during a tennis swing. It originates in the supraspinous fossa of the scapula. The infraspinatus is a scapular muscle that rotates the elbow outwards, as during a tennis swing. It originates in the infraspinous fossa of the scapula. The teres major is a scapular muscle that assists with medial rotation at the shoulder. It originates in the posterior surface of the scapula. The teres minor is a scapular muscle that assists the infraspinatus in rotating the elbow outwards. It originates in the lateral border of the dorsal scapular surface. The coracobra chialis is a scapular muscle that moves the elbow up and across the body, as when putting a hand on the chest. It originates in the coracoid process of the scapula."
+  },
+  {
+    "category": "muscles",
+    "figure": 4,
+    "filename": "os-arm-muscles-forearm.jpg",
+    "usage": "Músculos do Braço (Bíceps, Tríceps, Compartimentos Anterior e Posterior)",
+    "alt": "This multipart figure shows the different muscles that move the forearm. The major muscle groups are labeled."
+  },
+  {
+    "category": "muscles",
+    "figure": 7,
+    "filename": "os-hand-intrinsic-muscles.jpg",
+    "usage": "Músculos da Mão (Tenar, Hipotenar, Lumbricais, Interósseos)",
+    "alt": "This multipart figure shows the intrinsic muscles of the hand with the major muscle groups labeled."
+  },
+  {
+    "category": "cardiac",
+    "figure": 3,
+    "filename": "os-cardiac-conduction-system.jpg",
+    "usage": "Sistema de Condução Cardíaca completo",
+    "alt": "This image shows the different stages in the conduction cycle of the heart."
+  }
+]
