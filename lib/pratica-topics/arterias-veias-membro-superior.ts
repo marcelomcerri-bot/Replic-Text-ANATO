@@ -12,16 +12,16 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-10.jpg",
-            legend: "Artérias do membro superior mostrando o trajeto completo da artéria subclávia até as artérias radial e ulnar",
+            src: "/anatomia-images/arterias-veias-membro-superior/vessel_upper_limb_circulation_12.jpg",
+            legend: "Artérias do membro superior mostrando o trajeto completo desde a artéria subclávia até as artérias radial e ulnar no antebraço",
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-            alt: "Artérias do braço - OpenStax"
+            alt: "Artérias do braço"
           },
           {
-            src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-11.jpg",
-            legend: "Diagrama esquemático das artérias da extremidade superior torácica e membro superior",
+            src: "/anatomia-images/arterias-veias-membro-superior/vessel_upper_limb_circulation_13.jpg",
+            legend: "Diagrama esquemático das artérias do membro superior e região torácica",
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-            alt: "Diagrama de artérias do membro superior - OpenStax"
+            alt: "Diagrama de artérias do membro superior"
           },
         ],
         subsections: [
@@ -33,14 +33,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Relações Anatômicas:** Na porção mais elevada de seu trajeto, a artéria estabelece íntimo contato com o ápice pleural e pulmonar, cruzando anteriormente essas estruturas. O músculo escaleno anterior constitui importante ponto de referência anatômico, delimitando três segmentos da artéria: porção pré-escalênica (medial ao músculo), porção retroescalênica (posterior ao músculo) e porção pós-escalênica (lateral ao músculo). Na porção retroescalênica, a artéria posiciona-se inferiormente ao plexo braquial.",
               "**Ramos Colaterais:** A artéria subclávia emite importantes ramos colaterais: artéria vertebral (que ascende pelos forames transversos cervicais), tronco tireocervical (que se ramifica em artérias tireóidea inferior, cervical ascendente e supraescapular) e artéria torácica interna (que desce pela parede torácica anterior).",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-11.jpg",
-                legend: "Artéria subclávia e seus ramos principais",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Artéria subclávia"
-              },
-            ],
           },
           {
             title: "Artéria Axilar",
@@ -51,14 +43,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Relações com Plexo Braquial:** As relações entre a artéria axilar e os fascículos do plexo braquial modificam-se ao longo do trajeto. Na primeira porção, o fascículo lateral posiciona-se lateralmente, o fascículo posterior posteriormente e o fascículo medial medialmente à artéria. Na segunda porção, os fascículos reorganizam-se ao redor do vaso. Na terceira porção, os nervos terminais já formados estabelecem relações características: o nervo mediano (formado por raízes lateral e medial) abraça anteriormente a artéria em formato de V invertido; o nervo ulnar situa-se medialmente; e o nervo radial posiciona-se posteriormente.",
               "**Ramos Principais:** A artéria toracoacromial emerge da primeira porção, as artérias torácica lateral e toracodorsal originam-se da segunda porção, e as artérias circunflexas umerais (anterior e posterior) e a artéria subescapular ramificam-se da terceira porção.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-10.jpg",
-                legend: "Artéria axilar e seus ramos principais na região axilar",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Artéria axilar"
-              },
-            ],
           },
           {
             title: "Artéria Braquial",
@@ -67,14 +51,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Relações no Braço:** No terço proximal do braço, a artéria braquial posiciona-se medialmente ao músculo coracobraquial. No terço médio, situa-se anteriormente ao músculo braquial. O nervo mediano estabelece relação característica com a artéria: inicialmente posicionado lateralmente no terço superior, cruza anteriormente o vaso (geralmente sem tocá-lo) para se posicionar medialmente nos terços médio e inferior. O nervo ulnar acompanha a artéria braquial apenas em sua porção superior, afastando-se posteriormente ao perfurar o septo intermuscular medial.",
               "**Relações na Fossa Cubital:** A artéria braquial constitui o elemento central desta região triangular. É flanqueada medialmente pelo tendão do músculo bíceps braquial e lateralmente pelo músculo braquiorradial. O nervo mediano mantém-se medial à artéria nesta localização. A aponeurose bicipital (lacertus fibrosus) cruza anteriormente os vasos braquiais na fossa.",
               "**Ramos Colaterais:** Emite a artéria braquial profunda (que acompanha o nervo radial no sulco do nervo radial), artéria colateral ulnar superior (que acompanha o nervo ulnar) e artérias colaterais ulnares inferior. Estes ramos participam da rica rede anastomótica periarticular do cotovelo.",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-10.jpg",
-                legend: "Artéria braquial e sua bifurcação em artérias radial e ulnar",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Artéria braquial"
-              },
             ],
           },
           {
@@ -86,14 +62,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Trajeto no Punho e Mão:** A artéria radial contorna a face lateral do punho, passando pela tabaqueira anatômica (onde cruza os tendões do abdutor longo e extensores curto e longo do polegar). Penetra no primeiro espaço interósseo dorsal para alcançar a palma da mão, onde forma o arco palmar profundo.",
               "**Arco Palmar Profundo:** Anastomosa-se com o ramo profundo da artéria ulnar para formar o arco palmar profundo, situado profundamente aos tendões flexores, ao nível dos ossos metacarpais.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-10.jpg",
-                legend: "Artéria radial percorrendo o antebraço e formando arco palmar profundo",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Artéria radial"
-              },
-            ],
           },
           {
             title: "Artéria Ulnar",
@@ -103,14 +71,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Ramos Importantes:** Logo após sua origem, emite a artéria interóssea comum, que se divide em artérias interósseas anterior e posterior. A artéria interóssea anterior percorre a face anterior da membrana interóssea, enquanto a posterior atravessa a membrana para percorrer o compartimento posterior do antebraço.",
               "**Trajeto no Punho e Mão:** No punho, a artéria ulnar passa superficialmente ao retináculo dos flexores (não através do túnel do carpo), penetrando na mão lateralmente ao osso pisiforme e ao nervo ulnar. Na palma, forma o arco palmar superficial.",
               "**Arco Palmar Superficial:** Anastomosa-se com ramo superficial da artéria radial (ou diretamente com a radial) para formar o arco palmar superficial, situado superficialmente aos tendões flexores, ao nível da linha média dos metacarpais. Este arco emite as artérias digitais palmares comuns.",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-10.jpg",
-                legend: "Artéria ulnar e artéria interóssea, formando arco palmar superficial",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Artéria ulnar"
-              },
             ],
           },
         ],
@@ -122,8 +82,8 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
         ],
         images: [
           {
-            src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-12.jpg",
-            legend: "Sistema venoso do membro superior - veias superficiais e profundas",
+            src: "/anatomia-images/arterias-veias-membro-superior/vessel_upper_limb_circulation_17.jpg",
+            legend: "Sistema venoso do membro superior - veias superficiais (cefálica, basílica) e profundas",
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
             alt: "Veias do membro superior"
           },
@@ -138,27 +98,11 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Veia Axilar:** Veia única e calibrosa que acompanha a artéria axilar na bainha axilar. Recebe as veias profundas do ombro e a veia basílica (superficial). Continua-se como veia subclávia após ultrapassar a primeira costela.",
               "**Veia Subclávia:** Representa a continuação da veia axilar, acompanhando a artéria subclávia. Recebe a veia jugular interna para formar a veia braquiocefálica.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-12.jpg",
-                legend: "Veias profundas do membro superior acompanhando as artérias",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Veias profundas"
-              },
-            ],
           },
           {
             title: "Veias Superficiais",
             content: [
               "**Rede Venosa Dorsal da Mão:** Constitui uma rede venosa superficial localizada no dorso da mão, formada pela confluência de pequenas veias digitais dorsais. Desta rede originam-se as principais veias superficiais do membro superior.",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-12.jpg",
-                legend: "Veias superficiais do membro superior - cefálica, basílica e rede dorsal",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Veias superficiais"
-              },
             ],
           },
           {
@@ -170,14 +114,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Terminação:** No sulco deltopeitoral (entre os músculos deltoide e peitoral maior), a veia penetra profundamente através da fáscia clavipeitoral para desembocar na veia axilar. Esta porção terminal profunda é denominada arco da veia cefálica.",
               "**Importância Clínica:** Veia comumente utilizada para punções venosas, acesso vascular e confecção de fístulas arteriovenosas.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-12.jpg",
-                legend: "Veia cefálica percorrendo a face lateral do antebraço e braço",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Veia cefálica"
-              },
-            ],
           },
           {
             title: "Veia Basílica",
@@ -188,14 +124,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Terminação:** Após tornar-se profunda, a veia basílica desemboca na veia axilar (ou em uma das veias braquiais).",
               "**Importância Clínica:** Veia de maior calibre entre as superficiais, frequentemente escolhida para acessos venosos e fístulas arteriovenosas. Sua porção superficial é de fácil acesso.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-12.jpg",
-                legend: "Veia basílica percorrendo a face medial do antebraço e braço",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Veia basílica"
-              },
-            ],
           },
           {
             title: "Veia Mediana do Antebraço e Veia Mediana Cubital",
@@ -204,14 +132,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Veia Mediana Cubital:** Na região da fossa cubital, a veia mediana do antebraço geralmente se divide formando conexões oblíquas com as veias basílica e cefálica. A conexão mais proeminente, geralmente dirigida lateral e superiormente, constitui a veia mediana cubital, que conecta as veias basílica e cefálica na fossa do cotovelo.",
               "**Variações Anatômicas:** O padrão de distribuição venosa na fossa cubital apresenta grande variabilidade individual. Pode formar padrão em M, N ou Y, dependendo das conexões estabelecidas.",
               "**Importância Clínica:** A veia mediana cubital é a veia de primeira escolha para punções venosas e coletas de sangue devido ao seu trajeto superficial, fixação pela fáscia e calibre adequado.",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-12.jpg",
-                legend: "Veia mediana cubital na fossa do cotovelo conectando veias basílica e cefálica",
-                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
-                alt: "Veia mediana cubital"
-              },
             ],
           },
         ],
