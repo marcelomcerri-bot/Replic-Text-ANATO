@@ -152,6 +152,14 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             content: [
               "**Rede Venosa Dorsal da Mão:** Constitui uma rede venosa superficial localizada no dorso da mão, formada pela confluência de pequenas veias digitais dorsais. Desta rede originam-se as principais veias superficiais do membro superior.",
             ],
+            images: [
+              {
+                src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-12.jpg",
+                legend: "Veias superficiais do membro superior - cefálica, basílica e rede dorsal",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Veias superficiais"
+              },
+            ],
           },
           {
             title: "Veia Cefálica",

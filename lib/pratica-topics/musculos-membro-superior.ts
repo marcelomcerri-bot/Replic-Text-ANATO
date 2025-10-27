@@ -62,6 +62,14 @@ export const musculosMembroSuperior = {
               "**Função:** Estabiliza a escápula puxando-a anterior e inferiormente contra a parede torácica.",
               "**Vascularização:** Artéria toracoacromial e artéria torácica lateral.",
             ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
+                legend: "Músculo peitoral menor localizado profundamente ao peitoral maior",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Peitoral menor"
+              },
+            ],
           },
           {
             title: "Músculo Deltoide (M. Deltoideus)",
@@ -136,6 +144,14 @@ export const musculosMembroSuperior = {
               "**Vascularização:** Artéria supraescapular (94%) e artéria circunflexa escapular (81%).",
               "**Relevância Clínica:** Testado via rotação lateral contra resistência com cotovelo fletido. Às vezes fundido com redondo menor.",
             ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-3.jpg",
+                legend: "Músculo infraespinal - parte do manguito rotador",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Infraespinal"
+              },
+            ],
           },
           {
             title: "Músculo Redondo Menor (M. Teres Minor)",
@@ -148,6 +164,14 @@ export const musculosMembroSuperior = {
               "**Vascularização:** Artéria circunflexa escapular (100%).",
               "**Relevância Clínica:** Difícil de diferenciar do infraespinal. Avaliado usando o teste do 'hornblower'.",
             ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-3.jpg",
+                legend: "Músculo redondo menor - componente do manguito rotador",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Redondo menor"
+              },
+            ],
           },
           {
             title: "Músculo Subescapular (M. Subscapularis)",
@@ -159,6 +183,14 @@ export const musculosMembroSuperior = {
               "**Função:** Potente rotação medial (interna) do ombro. Suporta o braço durante abdução e adução. Estabilizador anterior da articulação glenoumeral.",
               "**Vascularização:** Artéria subescapular, artéria toracodorsal (39%), artéria torácica lateral (14%).",
               "**Relevância Clínica:** Avaliado usando testes 'lift-off' e 'bear hug'.",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
+                legend: "Músculo subescapular - vista anterior do manguito rotador",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Subescapular"
+              },
             ],
           },
         ],
