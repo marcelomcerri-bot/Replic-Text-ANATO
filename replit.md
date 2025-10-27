@@ -7,7 +7,14 @@ AnatomiaViva is a Next.js 15 educational platform for anatomy designed for nursi
 Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import completed and running on October 25, 2025.
 
 ## Recent Changes
-- **2025-10-27**: Implemented "Anatomia Contemporânea" section with PubMed scientific articles
+- **2025-10-27**: UI improvements and PubMed API rate limiting fix
+  - **Fixed**: Increased PubMed API request delay from 400ms to 1200ms to prevent HTTP 429 rate limiting errors
+  - **Renamed**: Changed "Anatomia Contemporânea" to "Pesquisa Científica em Anatomia" throughout the application
+    - Updated navigation menu (desktop and mobile) in site header
+    - Updated page title in /contemporanea
+  - **Cleanup**: Removed "- Latarjet" suffix from all 13 practical anatomy card descriptions in topics page
+  - **Quality Assurance**: Architect review confirmed rate limiting fix is appropriate (stays below PubMed's 3 req/sec limit), naming changes are consistent across all touchpoints, and all Latarjet references successfully removed
+- **2025-10-27**: Implemented "Pesquisa Científica" section with PubMed scientific articles
   - **Feature**: New section displaying recent scientific articles (last 7 days) from PubMed across 10 anatomy categories
   - **Implementation**:
     - Created `/api/contemporary` endpoint with PubMed E-utilities API integration
