@@ -12,6 +12,18 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
         ],
         images: [
           {
+            src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-10.jpg",
+            legend: "Artérias do membro superior mostrando o trajeto completo da artéria subclávia até as artérias radial e ulnar",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Artérias do braço - OpenStax"
+          },
+          {
+            src: "/anatomia-images/arterias-veias-membro-superior/openstax-upper-limb-vessels-figure-11.jpg",
+            legend: "Diagrama esquemático das artérias da extremidade superior torácica e membro superior",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Diagrama de artérias do membro superior - OpenStax"
+          },
+          {
             src: "/anatomia-images/arterias-veias-membro-superior/gray523-axillary-artery.gif",
             legend: "FIG. 523 - The axillary artery and its branches.",
             credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",

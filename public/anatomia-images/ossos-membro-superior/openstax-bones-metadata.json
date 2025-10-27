@@ -1,0 +1,58 @@
+[
+  {
+    "filename": "openstax-bones-figure-1.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-bones-figure-1.jpg",
+    "caption": "Figure 1",
+    "alt": "This diagram shows the bones of the upper arm and the elbow joint. The left panel shows the anterior view, and the right panel shows the posterior view.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-bones-figure-2.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-bones-figure-2.jpg",
+    "caption": "Figure 2",
+    "alt": "This figure shows the bones of the lower arm.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-bones-figure-3.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-bones-figure-3.jpg",
+    "caption": "Figure 3",
+    "alt": "This figure shows the bones in the hand and wrist joints. The left panel shows the anterior view, and the right panel shows the posterior view.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-bones-figure-4.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-bones-figure-4.jpg",
+    "caption": "Figure 4",
+    "alt": "This image shows a radiograph of a human hand.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-bones-figure-5.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-bones-figure-5.jpg",
+    "caption": "Figure 5",
+    "alt": "This figure shows a hand and a cross-section image of the nerves at the wrist.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-bones-figure-6.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-bones-figure-6.jpg",
+    "caption": "Figure 6",
+    "alt": "The left panel of this figure shows a hand gripping a motorcycle handle loosely, and the right panel shows a hand gripping a motorcycle handle tightly.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-bones-figure-7.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-bones-figure-7.jpg",
+    "caption": "Figure 7",
+    "alt": "The top panel of this figure shows the different types of fracture in the humerus, and the bottom panel shows the different types of fracture in the radius.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  }
+]

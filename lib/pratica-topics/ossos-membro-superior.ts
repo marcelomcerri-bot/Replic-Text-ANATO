@@ -65,6 +65,12 @@ export const ossosMembroSuperior: PraticaTopicContent = {
         ],
         images: [
           {
+            src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-1.jpg",
+            legend: "Úmero e articulação do cotovelo - vistas anterior e posterior, mostrando as estruturas ósseas do braço superior",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Ossos do braço superior e cotovelo (anterior e posterior)"
+          },
+          {
             src: "https://upload.wikimedia.org/wikipedia/commons/9/93/Gray207.png",
             legend: "Úmero esquerdo - vista anterior, mostrando cabeça, tubérculos maior e menor, sulco intertubercular, tuberosidade deltoide e extremidade distal com tróclea e capítulo",
             credit: "Gray's Anatomy (1918) - Domínio Público",
@@ -96,6 +102,12 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "O antebraço contém dois ossos paralelos: rádio (lateral) e ulna (medial), que se articulam proximalmente e distalmente, permitindo pronação e supinação.",
         ],
         images: [
+          {
+            src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-2.jpg",
+            legend: "Ossos do antebraço (rádio e ulna) mostrando as estruturas anatômicas detalhadas",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Ossos do antebraço"
+          },
           {
             src: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Gray213.png",
             legend: "Ulna e rádio esquerdos - vista anterior, mostrando olécrano, processo coronoide, incisura troclear da ulna e cabeça, colo e tuberosidade do rádio",
@@ -144,6 +156,18 @@ export const ossosMembroSuperior: PraticaTopicContent = {
           "A mão contém 27 ossos organizados em carpo (8), metacarpo (5) e falanges (14).",
         ],
         images: [
+          {
+            src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-3.jpg",
+            legend: "Ossos da mão e articulações do punho - vistas anterior e posterior, mostrando carpos, metacarpos e falanges",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Ossos da mão e punho (anterior e posterior)"
+          },
+          {
+            src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-4.jpg",
+            legend: "Radiografia da mão humana mostrando todos os ossos e articulações",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Radiografia da mão humana"
+          },
           {
             src: "https://upload.wikimedia.org/wikipedia/commons/1/10/Gray219.png",
             legend: "Ossos da mão esquerda - vista dorsal (posterior), mostrando os oito ossos do carpo dispostos em duas fileiras, cinco metacarpais e quatorze falanges",

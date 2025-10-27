@@ -9,6 +9,8 @@ export const musculosMembroSuperior = {
           "Os músculos do tórax e ombro formam a base da movimentação do membro superior, proporcionando estabilidade e mobilidade à articulação glenoumeral.",
         ],
         images: [
+          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
+          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
           "/anatomia-images/musculos-membro-superior/muscles-move-humerus.png",
           "/anatomia-images/musculos-membro-superior/gray411-shoulder-anterior.png",
           "/anatomia-images/musculos-membro-superior/upper-extremity-muscles.jpg",
@@ -72,6 +74,7 @@ export const musculosMembroSuperior = {
           "O manguito rotador é formado por quatro músculos que estabilizam e movem a articulação glenoumeral (ombro). O mnemônico 'SITS' ajuda a lembrar: Supraespinal, Infraespinal, Redondo Menor e Subescapular. Estes músculos criam um colar musculotendinoso que envolve os aspectos posterior, superior e anterior da articulação glenoumeral.",
         ],
         images: [
+          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
           "/anatomia-images/musculos-membro-superior/gray412-shoulder-posterior.png",
           "/anatomia-images/musculos-membro-superior/gray410-shoulder-muscles.png",
         ],
@@ -132,6 +135,7 @@ export const musculosMembroSuperior = {
           "Os músculos do braço são organizados em compartimentos anterior (flexores) e posterior (extensores), separados por septos intermusculares.",
         ],
         images: [
+          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
           "/anatomia-images/musculos-membro-superior/gray413-arm-muscles.png",
         ],
         subsections: [
@@ -195,6 +199,8 @@ export const musculosMembroSuperior = {
           "O antebraço contém dois compartimentos primários separados por limites fasciais: compartimento anterior (flexor) e compartimento posterior (extensor).",
         ],
         images: [
+          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-5.jpg",
+          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
           "/anatomia-images/musculos-membro-superior/gray417-forearm-anterior.png",
           "/anatomia-images/musculos-membro-superior/muscles-move-forearm.jpg",
         ],
