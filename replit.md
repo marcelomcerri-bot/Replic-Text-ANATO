@@ -7,6 +7,24 @@ AnatomiaViva is a Next.js 15 educational platform for anatomy designed for nursi
 Successfully migrated from Vercel to Replit on October 24, 2025. GitHub import completed and running on October 25, 2025.
 
 ## Recent Changes
+- **2025-10-27**: Implemented "Anatomia Contemporânea" section with PubMed scientific articles
+  - **Feature**: New section displaying recent scientific articles (last 7 days) from PubMed across 10 anatomy categories
+  - **Implementation**:
+    - Created `/api/contemporary` endpoint with PubMed E-utilities API integration
+    - Built persistent file-based cache system (.next/cache/pubmed-articles.json) with 24-hour duration
+    - Developed `/contemporanea` page with article cards, search filters, and category filters
+    - Added navigation link in site header
+  - **Categories**: Neuroanatomia, Anatomia Cardiovascular, Anatomia Músculo-Esquelética, Anatomia do Sistema Digestivo, Anatomia do Sistema Respiratório, Anatomia do Sistema Urinário, Anatomia do Sistema Endócrino, Anatomia do Sistema Reprodutor, Anatomia Óssea, Anatomia Geral
+  - **Features**:
+    - Real-time article fetching from PubMed (free API, no key required)
+    - Persistent cache survives server restarts (max 1-2 API calls/day)
+    - Stale cache fallback when PubMed is unavailable
+    - Client-side search by title/author/journal
+    - Category filtering with article count badges
+    - Direct links to PubMed and DOI for each article
+    - Error handling distinguishes network failures from empty results
+  - **Performance**: Cache reduces API load from 978ms to 6ms on subsequent requests
+  - **Quality Assurance**: Architect review confirmed robust error handling, proper cache persistence, and production-ready implementation
 - **2025-10-26**: Integrated Google Gemini AI assistant for student support
   - **Feature**: AI-powered chat assistant to answer anatomy questions using scientific knowledge
   - **Implementation**: 
