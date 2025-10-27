@@ -10,7 +10,20 @@ export const ossosMembroSuperior: PraticaTopicContent = {
         content: [
           "A cintura escapular é composta pela clavícula e escápula, conectando o membro superior ao esqueleto axial. Permite ampla mobilidade do ombro.",
         ],
-        images: [],
+        images: [
+          {
+            src: "/anatomia-images/ossos-membro-superior/openstax-pectoral-girdle-figure-1.jpg",
+            legend: "Cintura escapular completa mostrando clavícula e escápula",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Cintura escapular (pectoral girdle)"
+          },
+          {
+            src: "/anatomia-images/ossos-membro-superior/openstax-pectoral-girdle-figure-2.jpg",
+            legend: "Clavícula - anatomia detalhada",
+            credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+            alt: "Clavícula"
+          },
+        ],
         subsections: [
           {
             title: "Clavícula",
@@ -21,6 +34,14 @@ export const ossosMembroSuperior: PraticaTopicContent = {
               "**Extremidade Lateral (Acromial):** Achatada, articula-se com acrômio da escápula (articulação acromioclavicular). Apresenta faceta articular.",
               "**Inserções Musculares:** Peitoral maior (metade medial anterior), deltoide (terço lateral anterior), esternocleidomastoideo (extremidade medial superior), trapézio (terço lateral posterior).",
               "**Importância Clínica:** Osso mais frequentemente fraturado. Fraturas geralmente no terço médio. Palpável em toda extensão subcutaneamente.",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-pectoral-girdle-figure-2.jpg",
+                legend: "Clavícula - detalhes anatômicos",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Clavícula"
+              },
             ],
           },
           {
@@ -35,6 +56,20 @@ export const ossosMembroSuperior: PraticaTopicContent = {
               "**Processo Coracoide:** Projeção óssea anterior em formato de dedo curvado. Origina-se da porção superior-lateral da escápula, curva-se anterior e lateralmente. Palpável inferiormente à clavícula. Inserção de músculos e ligamentos (coracobraquial, bíceps cabeça curta, peitoral menor).",
               "**Cavidade Glenoidal:** Depressão articular rasa no ângulo lateral. Articula-se com cabeça do úmero (articulação glenoumeral). Formato oval/piriforme. Tubérculo supraglenoidal (superior - origem bíceps cabeça longa) e tubérculo infraglenoidal (inferior - origem tríceps cabeça longa).",
               "**Colo da Escápula:** Constrição entre cavidade glenoidal e corpo da escápula.",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-pectoral-girdle-figure-3.jpg",
+                legend: "Escápula - anatomia detalhada mostrando cavidade glenoidal, acrômio e processo coracoide",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Escápula"
+              },
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-1.jpg",
+                legend: "Vista superior do úmero e articulação do ombro",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Articulação do ombro"
+              },
             ],
           },
         ],
@@ -62,6 +97,14 @@ export const ossosMembroSuperior: PraticaTopicContent = {
               "**Extremidade Distal:** Achatada ântero-posteriormente. Côndilo do úmero (porção articular distal): tróclea (medial, articula com ulna - formato de polia), capítulo (lateral, articula com rádio - hemiesférico). Epicôndilo medial (proeminência medial, origem de flexores do antebraço) e epicôndilo lateral (proeminência lateral, origem de extensores). Fossas: fossa coronoide (anterior, recebe processo coronoide da ulna em flexão), fossa radial (anterior lateral, recebe cabeça radial em flexão), fossa olecrânica (posterior, recebe olécrano em extensão). Sulco do nervo ulnar (posterior ao epicôndilo medial).",
               "**Importância Clínica:** Fraturas do colo cirúrgico comuns em idosos. Sulco do nervo radial - risco de lesão em fraturas da diáfise. Nervo ulnar palpável no sulco ulnar (cotovelo).",
             ],
+            images: [
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-1.jpg",
+                legend: "Úmero - vistas anterior e posterior mostrando todas as estruturas anatômicas",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Úmero anterior e posterior"
+              },
+            ],
           },
         ],
       },
@@ -87,6 +130,14 @@ export const ossosMembroSuperior: PraticaTopicContent = {
               "**Corpo (Diáfise):** Triangular em corte transversal. Três faces (anterior, posterior, medial) e três bordas (anterior, posterior, interóssea). Borda interóssea (lateral) para inserção da membrana interóssea.",
               "**Extremidade Distal:** Cabeça da ulna (pequena, arredondada, articula com incisura ulnar do rádio), processo estiloide (projeção posterior-medial da cabeça).",
             ],
+            images: [
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-2.jpg",
+                legend: "Rádio e ulna mostrando as relações anatômicas entre ambos os ossos",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Rádio e ulna"
+              },
+            ],
           },
           {
             title: "Rádio",
@@ -96,6 +147,14 @@ export const ossosMembroSuperior: PraticaTopicContent = {
               "**Corpo (Diáfise):** Triangular. Três faces (anterior, posterior, lateral) e três bordas. Borda interóssea (medial, aguda) para membrana interóssea. Curvatura lateral convexa.",
               "**Extremidade Distal:** Expandida. Face inferior (articular do carpo): faceta escafoide (lateral) e faceta semilunar (medial). Incisura ulnar (medial, articula com cabeça da ulna). Processo estiloide (projeção lateral, mais distal que estiloide ulnar). Túberculo dorsal de Lister (face posterior, tendão extensor longo do polegar passa lateralmente). Sulcos para tendões extensores na face posterior.",
               "**Importância Clínica:** Fratura de Colles (extremidade distal) muito comum em quedas. Cabeça radial palpável durante pronação-supinação.",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-2.jpg",
+                legend: "Rádio e ulna - detalhes das extremidades proximal e distal",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Rádio e ulna"
+              },
             ],
           },
           {
@@ -136,6 +195,20 @@ export const ossosMembroSuperior: PraticaTopicContent = {
               "**Mnemônico (Proximal→Distal, Lateral→Medial):** 'Ela Sempre Pediu Para Tomar Três Copos de Hidromel'.",
               "**Características Importantes:** Escafoide (osso mais frequentemente fraturado do carpo, irrigação precária). Pisiforme (sesamoide, palpável). Hamato (processo unciforme - hâmulo). Túnel do carpo (delimitado pelos ossos carpais e retináculo dos flexores).",
             ],
+            images: [
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-3.jpg",
+                legend: "Ossos do carpo (punho), metacarpos e falanges - vistas anterior e posterior",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Ossos da mão"
+              },
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-5.jpg",
+                legend: "Corte transversal do punho mostrando o túnel do carpo",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Túnel do carpo"
+              },
+            ],
           },
           {
             title: "Metacarpo",
@@ -145,12 +218,40 @@ export const ossosMembroSuperior: PraticaTopicContent = {
               "**Primeiro Metacarpal (Polegar):** Mais curto e robusto. Base articula com trapézio (articulação em sela, permite oposição). Mais móvel.",
               "**Metacarpais II-V:** Bases articulam-se com carpais distais e entre si. Cabeças formam os nós dos dedos.",
             ],
+            images: [
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-3.jpg",
+                legend: "Metacarpos e suas articulações com o carpo e falanges",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Metacarpos"
+              },
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-4.jpg",
+                legend: "Radiografia mostrando os metacarpos e falanges",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Radiografia dos metacarpos"
+              },
+            ],
           },
           {
             title: "Falanges",
             content: [
               "**Organização:** Quatorze falanges. Polegar tem 2 (proximal e distal). Dedos II-V têm 3 cada (proximal, média, distal).",
               "**Estrutura:** Cada falange possui base (proximal), corpo e cabeça (distal). Falanges distais têm tuberosidade distal (suporte da polpa digital).",
+            ],
+            images: [
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-3.jpg",
+                legend: "Falanges dos dedos - proximal, média e distal",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Falanges"
+              },
+              {
+                src: "/anatomia-images/ossos-membro-superior/openstax-bones-figure-4.jpg",
+                legend: "Radiografia mostrando todas as falanges da mão",
+                credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
+                alt: "Radiografia das falanges"
+              },
             ],
           },
         ],

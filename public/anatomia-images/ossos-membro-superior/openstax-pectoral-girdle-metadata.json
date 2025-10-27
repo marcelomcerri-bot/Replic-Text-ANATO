@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "openstax-pectoral-girdle-figure-1.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-pectoral-girdle-figure-1.jpg",
+    "caption": "Figure 1",
+    "alt": "This figure shows the human skeleton. The left panel shows the anterior view, and the right panel shows the posterior view.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-pectoral-girdle-figure-2.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-pectoral-girdle-figure-2.jpg",
+    "caption": "Figure 2",
+    "alt": "This figure shows the rib change. The top left panel shows the anterior view, and the top right panel shows the posterior view. The bottom panel shows two bones.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-pectoral-girdle-figure-3.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-pectoral-girdle-figure-3.jpg",
+    "caption": "Figure 3",
+    "alt": "This diagram shows the anterior and posterior view of the scapula.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  }
+]

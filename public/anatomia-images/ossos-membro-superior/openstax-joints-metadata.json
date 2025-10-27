@@ -1,0 +1,34 @@
+[
+  {
+    "filename": "openstax-joints-figure-1.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-joints-figure-1.jpg",
+    "caption": "Figure 1",
+    "alt": "This figure shows a synovial joint. The cavity between two bones contains the synovial fluid which lubricates the two joints.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-joints-figure-2.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-joints-figure-2.jpg",
+    "caption": "Figure 2",
+    "alt": "This diagram shows the location of the bursae which are fluid filled sacs in a bone joint. The major parts of the joint are labeled.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-joints-figure-3.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-joints-figure-3.jpg",
+    "caption": "Figure 3",
+    "alt": "This composite image shows the different types of synovial joints in the body. In the center of the figure is a skeleton, and call outs from each joint show their names and locations.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  },
+  {
+    "filename": "openstax-joints-figure-4.jpg",
+    "path": "public/anatomia-images/ossos-membro-superior/openstax-joints-figure-4.jpg",
+    "caption": "Figure 4",
+    "alt": "The top panel in this figure shows a normal hip joint, and the bottom panel shows a hip joint with osteoarthritis.",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints",
+    "credit": "OpenStax Anatomy and Physiology 2e, CC BY 4.0"
+  }
+]
