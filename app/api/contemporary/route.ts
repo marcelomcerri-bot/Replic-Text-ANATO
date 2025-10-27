@@ -117,8 +117,8 @@ async function fetchAllArticles(): Promise<PubMedArticle[]> {
     
     allArticles.push(...categorizedArticles);
     
-    // Pequeno delay para respeitar rate limits
-    await new Promise(resolve => setTimeout(resolve, 400));
+    // Delay aumentado para respeitar rate limits do PubMed
+    await new Promise(resolve => setTimeout(resolve, 1200));
   }
   
   // Remover duplicatas baseado no PMID

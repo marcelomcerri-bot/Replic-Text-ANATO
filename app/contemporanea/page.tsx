@@ -126,7 +126,7 @@ export default function ContemporaneaPage() {
           <div className="flex items-center gap-3 mb-3">
             <BookOpen className="h-8 w-8 text-accent" />
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Anatomia Contemporânea
+              Pesquisa Científica em Anatomia
             </h1>
           </div>
           <p className="text-lg text-muted-foreground mb-6">
