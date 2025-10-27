@@ -1,0 +1,65 @@
+# Como fazer Deploy no Netlify
+
+## 1. Preparação
+
+Seu projeto já está configurado e pronto para deploy! ✅
+
+## 2. Passo a Passo no Netlify
+
+### Opção A: Deploy via Git (Recomendado)
+
+1. Faça commit de todas as alterações no seu repositório Git
+2. Acesse [Netlify](https://app.netlify.com/)
+3. Clique em "Add new site" → "Import an existing project"
+4. Conecte seu repositório do GitHub/GitLab/Bitbucket
+5. As configurações já estão no arquivo `netlify.toml`, então apenas clique em "Deploy"
+
+### Opção B: Deploy Manual
+
+1. Execute `npm run build` localmente
+2. Acesse [Netlify](https://app.netlify.com/)
+3. Arraste a pasta `.next` para a área de deploy
+
+## 3. Configurar Variável de Ambiente
+
+⚠️ **IMPORTANTE**: Para o chat com IA funcionar, você precisa adicionar a chave da API do Gemini:
+
+1. No painel do Netlify, vá em "Site settings" → "Environment variables"
+2. Clique em "Add a variable"
+3. Adicione:
+   - **Key**: `GEMINI_API_KEY`
+   - **Value**: sua chave da API do Google Gemini
+   
+4. Para obter a chave do Gemini:
+   - Acesse: https://aistudio.google.com/apikey
+   - Faça login com sua conta Google
+   - Clique em "Create API Key"
+   - Copie a chave gerada
+
+5. Após adicionar a variável, faça um novo deploy (ou clique em "Trigger deploy" → "Clear cache and deploy site")
+
+## 4. Verificar Deploy
+
+Após o deploy:
+- ✅ O site deve estar funcionando normalmente
+- ✅ Todas as páginas (Início, Tópicos, Glossário, Referências) devem carregar
+- ✅ O chat com IA só funcionará se a variável `GEMINI_API_KEY` estiver configurada
+
+## Arquivos de Configuração Criados
+
+- ✅ `netlify.toml` - Configurações de build e deploy
+- ✅ `.env.example` - Exemplo das variáveis de ambiente necessárias
+- ✅ Ajustes no código para suportar build sem a chave da API
+
+## Troubleshooting
+
+### Build falha
+- Verifique se o Node.js está na versão 20 (já configurado no netlify.toml)
+- Execute `npm run build` localmente para verificar erros
+
+### Chat com IA não funciona
+- Verifique se adicionou a variável `GEMINI_API_KEY` nas configurações do Netlify
+- Faça um novo deploy após adicionar a variável
+
+### Imagens não aparecem
+- As imagens estão na pasta `public/anatomia-images` e devem funcionar automaticamente

@@ -21,8 +21,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ answer });
   } catch (error) {
     console.error("Erro na API de chat:", error);
+    
+    const errorMessage = error instanceof Error 
+      ? error.message 
+      : "Erro ao processar a pergunta";
+    
     return NextResponse.json(
-      { error: "Erro ao processar a pergunta" },
+      { error: errorMessage },
       { status: 500 }
     );
   }
