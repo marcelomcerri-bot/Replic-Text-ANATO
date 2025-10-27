@@ -23,18 +23,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
             credit: "OpenStax Anatomy and Physiology 2e, CC BY 4.0",
             alt: "Diagrama de artérias do membro superior - OpenStax"
           },
-          {
-            src: "/anatomia-images/arterias-veias-membro-superior/gray523-axillary-artery.gif",
-            legend: "FIG. 523 - The axillary artery and its branches.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Artéria axilar e seus ramos - Gray's Anatomy"
-          },
-          {
-            src: "/anatomia-images/arterias-veias-membro-superior/gray527-radial-ulnar.gif",
-            legend: "FIG. 527 - The radial and ulnar arteries.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Artérias radial e ulnar - Gray's Anatomy"
-          }
         ],
         subsections: [
           {
@@ -44,14 +32,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Trajeto:** Percorre trajeto arqueado ascendente, elevando-se acima da primeira costela até atingir seu ápice, situando-se superiormente à clavícula. Posteriormente, inicia descida em direção à axila.",
               "**Relações Anatômicas:** Na porção mais elevada de seu trajeto, a artéria estabelece íntimo contato com o ápice pleural e pulmonar, cruzando anteriormente essas estruturas. O músculo escaleno anterior constitui importante ponto de referência anatômico, delimitando três segmentos da artéria: porção pré-escalênica (medial ao músculo), porção retroescalênica (posterior ao músculo) e porção pós-escalênica (lateral ao músculo). Na porção retroescalênica, a artéria posiciona-se inferiormente ao plexo braquial.",
               "**Ramos Colaterais:** A artéria subclávia emite importantes ramos colaterais: artéria vertebral (que ascende pelos forames transversos cervicais), tronco tireocervical (que se ramifica em artérias tireóidea inferior, cervical ascendente e supraescapular) e artéria torácica interna (que desce pela parede torácica anterior).",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray520-subclavian-artery.gif",
-                legend: "FIG. 520 - Superficial dissection of the right side of the neck, showing the carotid and subclavian arteries.",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Artéria subclávia e carótida - Gray's Anatomy"
-              }
             ],
           },
           {
@@ -63,14 +43,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Relações com Plexo Braquial:** As relações entre a artéria axilar e os fascículos do plexo braquial modificam-se ao longo do trajeto. Na primeira porção, o fascículo lateral posiciona-se lateralmente, o fascículo posterior posteriormente e o fascículo medial medialmente à artéria. Na segunda porção, os fascículos reorganizam-se ao redor do vaso. Na terceira porção, os nervos terminais já formados estabelecem relações características: o nervo mediano (formado por raízes lateral e medial) abraça anteriormente a artéria em formato de V invertido; o nervo ulnar situa-se medialmente; e o nervo radial posiciona-se posteriormente.",
               "**Ramos Principais:** A artéria toracoacromial emerge da primeira porção, as artérias torácica lateral e toracodorsal originam-se da segunda porção, e as artérias circunflexas umerais (anterior e posterior) e a artéria subescapular ramificam-se da terceira porção.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray523-axillary-artery.gif",
-                legend: "FIG. 523 - The axillary artery and its branches.",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Artéria axilar e seus ramos - Gray's Anatomy"
-              }
-            ],
           },
           {
             title: "Artéria Braquial",
@@ -79,14 +51,6 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Relações no Braço:** No terço proximal do braço, a artéria braquial posiciona-se medialmente ao músculo coracobraquial. No terço médio, situa-se anteriormente ao músculo braquial. O nervo mediano estabelece relação característica com a artéria: inicialmente posicionado lateralmente no terço superior, cruza anteriormente o vaso (geralmente sem tocá-lo) para se posicionar medialmente nos terços médio e inferior. O nervo ulnar acompanha a artéria braquial apenas em sua porção superior, afastando-se posteriormente ao perfurar o septo intermuscular medial.",
               "**Relações na Fossa Cubital:** A artéria braquial constitui o elemento central desta região triangular. É flanqueada medialmente pelo tendão do músculo bíceps braquial e lateralmente pelo músculo braquiorradial. O nervo mediano mantém-se medial à artéria nesta localização. A aponeurose bicipital (lacertus fibrosus) cruza anteriormente os vasos braquiais na fossa.",
               "**Ramos Colaterais:** Emite a artéria braquial profunda (que acompanha o nervo radial no sulco do nervo radial), artéria colateral ulnar superior (que acompanha o nervo ulnar) e artérias colaterais ulnares inferior. Estes ramos participam da rica rede anastomótica periarticular do cotovelo.",
-            ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray525-brachial-artery.gif",
-                legend: "FIG. 525 - The brachial artery.",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Artéria braquial - Gray's Anatomy"
-              }
             ],
           },
           {
@@ -98,14 +62,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Trajeto no Punho e Mão:** A artéria radial contorna a face lateral do punho, passando pela tabaqueira anatômica (onde cruza os tendões do abdutor longo e extensores curto e longo do polegar). Penetra no primeiro espaço interósseo dorsal para alcançar a palma da mão, onde forma o arco palmar profundo.",
               "**Arco Palmar Profundo:** Anastomosa-se com o ramo profundo da artéria ulnar para formar o arco palmar profundo, situado profundamente aos tendões flexores, ao nível dos ossos metacarpais.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray527-radial-ulnar.gif",
-                legend: "FIG. 527 - The radial and ulnar arteries.",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Artérias radial e ulnar - Gray's Anatomy"
-              }
-            ],
+
           },
           {
             title: "Artéria Ulnar",
@@ -116,14 +73,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Trajeto no Punho e Mão:** No punho, a artéria ulnar passa superficialmente ao retináculo dos flexores (não através do túnel do carpo), penetrando na mão lateralmente ao osso pisiforme e ao nervo ulnar. Na palma, forma o arco palmar superficial.",
               "**Arco Palmar Superficial:** Anastomosa-se com ramo superficial da artéria radial (ou diretamente com a radial) para formar o arco palmar superficial, situado superficialmente aos tendões flexores, ao nível da linha média dos metacarpais. Este arco emite as artérias digitais palmares comuns.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray527-radial-ulnar.gif",
-                legend: "FIG. 527 - The radial and ulnar arteries.",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Artérias radial e ulnar - Gray's Anatomy"
-              }
-            ],
+
           },
         ],
       },
@@ -132,20 +82,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
         content: [
           "O sistema venoso do membro superior organiza-se em duas redes interconectadas: uma rede profunda que acompanha os trajetos arteriais (geralmente com duas veias por artéria) e uma rede superficial altamente desenvolvida, situada no tecido subcutâneo.",
         ],
-        images: [
-          {
-            src: "/anatomia-images/arterias-veias-membro-superior/gray576-axillary-veins.gif",
-            legend: "FIG. 576 - The veins of the right axilla, viewed from in front. (Spalteholz.)",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Veias da axila - Gray's Anatomy"
-          },
-          {
-            src: "/anatomia-images/arterias-veias-membro-superior/gray577-venae-cavae.gif",
-            legend: "FIG. 577 - The venæ cavæ and azygos veins, with their tributaries.",
-            credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-            alt: "Veias cavas e tributárias - Gray's Anatomy"
-          }
-        ],
+        images: [],
         subsections: [
           {
             title: "Veias Profundas",
@@ -156,14 +93,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Veia Axilar:** Veia única e calibrosa que acompanha a artéria axilar na bainha axilar. Recebe as veias profundas do ombro e a veia basílica (superficial). Continua-se como veia subclávia após ultrapassar a primeira costela.",
               "**Veia Subclávia:** Representa a continuação da veia axilar, acompanhando a artéria subclávia. Recebe a veia jugular interna para formar a veia braquiocefálica.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray575-deep-veins.gif",
-                legend: "FIG. 575 - The deep veins of the upper extremity. (Bourgery.)",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Veias profundas do membro superior - Gray's Anatomy"
-              }
-            ],
+
           },
           {
             title: "Veias Superficiais",
@@ -180,14 +110,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Terminação:** No sulco deltopeitoral (entre os músculos deltoide e peitoral maior), a veia penetra profundamente através da fáscia clavipeitoral para desembocar na veia axilar. Esta porção terminal profunda é denominada arco da veia cefálica.",
               "**Importância Clínica:** Veia comumente utilizada para punções venosas, acesso vascular e confecção de fístulas arteriovenosas.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray576-axillary-veins.gif",
-                legend: "FIG. 576 - The veins of the right axilla, viewed from in front. (Spalteholz.)",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Veias da axila incluindo veia cefálica - Gray's Anatomy"
-              }
-            ],
+
           },
           {
             title: "Veia Basílica",
@@ -198,14 +121,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Terminação:** Após tornar-se profunda, a veia basílica desemboca na veia axilar (ou em uma das veias braquiais).",
               "**Importância Clínica:** Veia de maior calibre entre as superficiais, frequentemente escolhida para acessos venosos e fístulas arteriovenosas. Sua porção superficial é de fácil acesso.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray576-axillary-veins.gif",
-                legend: "FIG. 576 - The veins of the right axilla, viewed from in front. (Spalteholz.)",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Veias da axila incluindo veia basílica - Gray's Anatomy"
-              }
-            ],
+
           },
           {
             title: "Veia Mediana do Antebraço e Veia Mediana Cubital",
@@ -215,14 +131,7 @@ export const arteriasVeiasMembroSuperior: PraticaTopicContent = {
               "**Variações Anatômicas:** O padrão de distribuição venosa na fossa cubital apresenta grande variabilidade individual. Pode formar padrão em M, N ou Y, dependendo das conexões estabelecidas.",
               "**Importância Clínica:** A veia mediana cubital é a veia de primeira escolha para punções venosas e coletas de sangue devido ao seu trajeto superficial, fixação pela fáscia e calibre adequado.",
             ],
-            images: [
-              {
-                src: "/anatomia-images/arterias-veias-membro-superior/gray576-axillary-veins.gif",
-                legend: "FIG. 576 - The veins of the right axilla, viewed from in front. (Spalteholz.)",
-                credit: "Henry Gray (1825–1861). Anatomy of the Human Body. 1918 | Bartleby.com",
-                alt: "Veias da axila e padrão venoso - Gray's Anatomy"
-              }
-            ],
+
           },
         ],
       },

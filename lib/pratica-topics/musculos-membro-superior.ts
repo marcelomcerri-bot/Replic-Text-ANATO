@@ -11,9 +11,6 @@ export const musculosMembroSuperior = {
         images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-1.jpg",
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
-          "/anatomia-images/musculos-membro-superior/muscles-move-humerus.png",
-          "/anatomia-images/musculos-membro-superior/gray411-shoulder-anterior.png",
-          "/anatomia-images/musculos-membro-superior/upper-extremity-muscles.jpg",
         ],
         subsections: [
           {
@@ -75,8 +72,6 @@ export const musculosMembroSuperior = {
         ],
         images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-2.jpg",
-          "/anatomia-images/musculos-membro-superior/gray412-shoulder-posterior.png",
-          "/anatomia-images/musculos-membro-superior/gray410-shoulder-muscles.png",
         ],
         subsections: [
           {
@@ -136,7 +131,6 @@ export const musculosMembroSuperior = {
         ],
         images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
-          "/anatomia-images/musculos-membro-superior/gray413-arm-muscles.png",
         ],
         subsections: [
           {
@@ -201,8 +195,6 @@ export const musculosMembroSuperior = {
         images: [
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-5.jpg",
           "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-4.jpg",
-          "/anatomia-images/musculos-membro-superior/gray417-forearm-anterior.png",
-          "/anatomia-images/musculos-membro-superior/muscles-move-forearm.jpg",
         ],
         subsections: [
           {
@@ -256,7 +248,7 @@ export const musculosMembroSuperior = {
           "Os músculos intrínsecos da mão são divididos em 4 grupos: tenares, hipotenares, interósseos e lumbricais. Estes músculos originam-se e inserem-se nos ossos, ligamentos e fáscia da mão, produzindo movimentos motores finos.",
         ],
         images: [
-          "/anatomia-images/musculos-membro-superior/gray427-hand-muscles.png",
+          "/anatomia-images/musculos-membro-superior/openstax-muscles-figure-7.jpg",
         ],
         subsections: [
           {
