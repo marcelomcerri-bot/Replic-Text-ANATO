@@ -141,7 +141,7 @@ export function AIChatAssistant() {
               <div
                 className={cn(
                   "rounded-lg px-4 py-2",
-                  isExpanded ? "w-full" : "max-w-[85%]",
+                  message.role === "user" ? "max-w-[85%]" : (isExpanded ? "w-full" : "max-w-[85%]"),
                   message.role === "user"
                     ? "bg-accent text-white"
                     : "bg-muted text-foreground"
@@ -151,7 +151,7 @@ export function AIChatAssistant() {
                   <p className="text-sm whitespace-pre-wrap">{message.content}</p>
                 ) : (
                   <div className={cn(
-                    "ai-chat-message overflow-hidden break-words",
+                    "ai-chat-message break-words w-full",
                     isExpanded ? "text-base" : "text-sm"
                   )}>
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
