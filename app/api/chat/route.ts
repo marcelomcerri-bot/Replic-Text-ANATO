@@ -4,9 +4,14 @@ import { topicsData } from "@/lib/topics-data";
 import { praticaTopicsData } from "@/lib/pratica-topics-data";
 import { glossaryByCategory } from "@/lib/glossary-data";
 
+interface Message {
+  role: "user" | "assistant";
+  content: string;
+}
+
 export async function POST(request: NextRequest) {
   try {
-    const { question } = await request.json();
+    const { question, history } = await request.json();
 
     if (!question || typeof question !== "string") {
       return NextResponse.json(
@@ -16,7 +21,8 @@ export async function POST(request: NextRequest) {
     }
 
     const context = buildSiteContext();
-    const answer = await askAnatomyQuestion(question, context);
+    const messageHistory: Message[] = Array.isArray(history) ? history : [];
+    const answer = await askAnatomyQuestion(question, context, messageHistory);
 
     return NextResponse.json({ answer });
   } catch (error) {

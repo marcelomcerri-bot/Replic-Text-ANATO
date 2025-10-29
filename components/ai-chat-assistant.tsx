@@ -38,7 +38,8 @@ export function AIChatAssistant() {
 
     const userMessage = inputValue.trim()
     setInputValue("")
-    setMessages((prev) => [...prev, { role: "user", content: userMessage }])
+    const newMessages = [...messages, { role: "user" as const, content: userMessage }]
+    setMessages(newMessages)
     setIsLoading(true)
 
     try {
@@ -47,7 +48,10 @@ export function AIChatAssistant() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ question: userMessage }),
+        body: JSON.stringify({ 
+          question: userMessage,
+          history: messages
+        }),
       })
 
       if (!response.ok) {
@@ -94,21 +98,21 @@ export function AIChatAssistant() {
 
   return (
     <Card className={cn(
-      "fixed z-50 shadow-2xl flex flex-col overflow-hidden p-0 transition-all duration-300",
+      "fixed z-50 shadow-2xl flex flex-col overflow-hidden p-0 transition-all duration-300 bg-background",
       isExpanded 
-        ? "left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(1200px,95vw)] h-[min(800px,90vh)]"
-        : "left-1/2 bottom-4 -translate-x-1/2 sm:left-auto sm:right-6 sm:translate-x-0 w-[min(380px,calc(100vw-2rem))] h-[min(550px,calc(100vh-2rem))] sm:h-[500px]"
+        ? "left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(1400px,96vw)] h-[min(850px,92vh)]"
+        : "left-1/2 bottom-4 -translate-x-1/2 sm:left-auto sm:right-6 sm:translate-x-0 w-[min(420px,calc(100vw-2rem))] h-[min(600px,calc(100vh-2rem))] sm:h-[550px]"
     )}>
-      <div className="flex items-center justify-between px-4 py-3 border-b bg-accent text-white rounded-t-lg">
-        <div className="flex items-center gap-2">
-          <Sparkles className="h-5 w-5" />
-          <h3 className="font-semibold">Assistente de Anatomia</h3>
+      <div className="flex items-center justify-between px-5 py-4 border-b bg-gradient-to-r from-accent to-accent/90 text-white shadow-md">
+        <div className="flex items-center gap-3">
+          <Sparkles className="h-5 w-5 animate-pulse" />
+          <h3 className="font-semibold text-base">Assistente de Anatomia IA</h3>
         </div>
         <div className="flex items-center gap-1">
           <Button
             variant="ghost"
             size="icon"
-            className="hidden sm:flex h-8 w-8 hover:bg-accent-foreground/20 text-white"
+            className="hidden sm:flex h-9 w-9 hover:bg-white/20 text-white transition-colors"
             onClick={() => setIsExpanded(!isExpanded)}
             aria-label={isExpanded ? "Minimizar chat" : "Expandir chat"}
           >
@@ -117,7 +121,7 @@ export function AIChatAssistant() {
           <Button
             variant="ghost"
             size="icon"
-            className="h-8 w-8 hover:bg-accent-foreground/20 text-white"
+            className="h-9 w-9 hover:bg-white/20 text-white transition-colors"
             onClick={() => {
               setIsOpen(false)
               setIsExpanded(false)
@@ -128,8 +132,17 @@ export function AIChatAssistant() {
         </div>
       </div>
 
-      <div className="flex-1 p-4 overflow-y-auto" ref={scrollRef}>
-        <div className="space-y-4">
+      <div 
+        className={cn(
+          "flex-1 overflow-y-auto bg-gradient-to-b from-muted/20 to-background",
+          isExpanded ? "p-8" : "p-4"
+        )} 
+        ref={scrollRef}
+      >
+        <div className={cn(
+          "mx-auto space-y-5",
+          isExpanded ? "max-w-4xl" : "w-full"
+        )}>
           {messages.map((message, index) => (
             <div
               key={index}
@@ -140,11 +153,13 @@ export function AIChatAssistant() {
             >
               <div
                 className={cn(
-                  "rounded-xl shadow-sm border",
-                  isExpanded ? "w-full px-6 py-4" : "max-w-[85%] px-4 py-3",
+                  "rounded-2xl shadow-md border transition-all",
+                  isExpanded 
+                    ? message.role === "user" ? "max-w-[70%] px-6 py-4" : "w-full px-7 py-5"
+                    : "max-w-[88%] px-4 py-3.5",
                   message.role === "user"
-                    ? "bg-accent text-white border-accent"
-                    : "bg-card text-card-foreground border-border"
+                    ? "bg-gradient-to-br from-accent to-accent/90 text-white border-accent/50 shadow-accent/20"
+                    : "bg-card text-card-foreground border-border/40 shadow-sm"
                 )}
               >
                 {message.role === "user" ? (
@@ -154,13 +169,17 @@ export function AIChatAssistant() {
                   )}>{message.content}</p>
                 ) : (
                   <div className={cn(
-                    "ai-chat-message overflow-hidden break-words prose prose-sm max-w-none",
-                    isExpanded && "prose-base",
-                    "prose-headings:font-semibold prose-headings:text-foreground prose-headings:mt-6 prose-headings:mb-3",
-                    "prose-p:text-foreground prose-p:leading-relaxed prose-p:mb-4",
-                    "prose-strong:text-foreground prose-strong:font-semibold",
-                    "prose-ul:my-4 prose-ol:my-4 prose-li:my-2 prose-li:text-foreground",
-                    "prose-code:text-foreground prose-code:bg-muted prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded",
+                    "ai-chat-message overflow-hidden break-words prose max-w-none",
+                    isExpanded ? "prose-lg" : "prose-sm",
+                    "prose-headings:font-bold prose-headings:text-foreground",
+                    "prose-h2:text-xl prose-h2:mt-6 prose-h2:mb-4 prose-h2:border-b prose-h2:pb-2",
+                    "prose-h3:text-lg prose-h3:mt-5 prose-h3:mb-3",
+                    "prose-p:text-foreground prose-p:leading-relaxed prose-p:mb-4 prose-p:text-justify",
+                    "prose-strong:text-accent prose-strong:font-bold",
+                    "prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2",
+                    "prose-li:my-1.5 prose-li:text-foreground prose-li:leading-relaxed",
+                    "prose-code:text-accent prose-code:bg-muted prose-code:px-2 prose-code:py-0.5 prose-code:rounded prose-code:font-semibold",
+                    "prose-blockquote:border-accent prose-blockquote:bg-muted/50 prose-blockquote:italic",
                     "[&>*:first-child]:mt-0 [&>*:last-child]:mb-0"
                   )}>
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
@@ -173,11 +192,11 @@ export function AIChatAssistant() {
           ))}
           {isLoading && (
             <div className="flex justify-start">
-              <div className="bg-muted rounded-lg px-4 py-2">
-                <div className="flex gap-1">
-                  <div className="w-2 h-2 bg-accent/60 rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
-                  <div className="w-2 h-2 bg-accent/60 rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
-                  <div className="w-2 h-2 bg-accent/60 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
+              <div className="bg-muted/80 rounded-xl px-5 py-3 shadow-sm">
+                <div className="flex gap-1.5">
+                  <div className="w-2.5 h-2.5 bg-accent/70 rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
+                  <div className="w-2.5 h-2.5 bg-accent/70 rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
+                  <div className="w-2.5 h-2.5 bg-accent/70 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
                 </div>
               </div>
             </div>
@@ -185,28 +204,42 @@ export function AIChatAssistant() {
         </div>
       </div>
 
-      <div className="p-4 border-t">
-        <div className="flex gap-2">
-          <Input
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-            onKeyPress={handleKeyPress}
-            placeholder="Faça uma pergunta sobre anatomia..."
-            disabled={isLoading}
-            className="flex-1"
-          />
-          <Button
-            onClick={handleSendMessage}
-            disabled={isLoading || !inputValue.trim()}
-            size="icon"
-            className="bg-accent hover:bg-accent/90"
-          >
-            <Send className="h-4 w-4" />
-          </Button>
+      <div className={cn(
+        "border-t bg-card/50",
+        isExpanded ? "p-6" : "p-4"
+      )}>
+        <div className={cn(
+          "mx-auto",
+          isExpanded ? "max-w-4xl" : "w-full"
+        )}>
+          <div className="flex gap-3">
+            <Input
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              onKeyPress={handleKeyPress}
+              placeholder="Faça uma pergunta detalhada sobre anatomia..."
+              disabled={isLoading}
+              className={cn(
+                "flex-1 border-2 focus-visible:ring-accent transition-all",
+                isExpanded && "text-base py-6"
+              )}
+            />
+            <Button
+              onClick={handleSendMessage}
+              disabled={isLoading || !inputValue.trim()}
+              size="icon"
+              className={cn(
+                "bg-gradient-to-br from-accent to-accent/90 hover:from-accent/90 hover:to-accent shadow-md hover:shadow-lg transition-all",
+                isExpanded ? "h-auto w-14" : "h-10 w-10"
+              )}
+            >
+              <Send className={cn(isExpanded ? "h-5 w-5" : "h-4 w-4")} />
+            </Button>
+          </div>
+          <p className="text-xs text-muted-foreground mt-3 text-center font-medium">
+            🔬 Respostas baseadas em fontes científicas (NCBI, artigos) e conteúdo do site
+          </p>
         </div>
-        <p className="text-xs text-muted-foreground mt-2 text-center">
-          Respostas baseadas em fontes científicas e conteúdo do site
-        </p>
       </div>
     </Card>
   )
