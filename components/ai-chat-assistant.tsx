@@ -83,7 +83,7 @@ export function AIChatAssistant() {
       <Button
         onClick={() => setIsOpen(true)}
         size="icon"
-        className="fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-lg bg-accent hover:bg-accent/90 text-white z-50"
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 h-14 w-14 rounded-full shadow-lg bg-accent hover:bg-accent/90 text-white z-50"
         aria-label="Abrir assistente de IA"
       >
         <MessageCircle className="h-6 w-6" />
@@ -92,8 +92,8 @@ export function AIChatAssistant() {
   }
 
   return (
-    <Card className="fixed bottom-6 right-6 w-[380px] h-[600px] z-50 shadow-2xl flex flex-col">
-      <div className="flex items-center justify-between p-4 border-b bg-accent text-white rounded-t-lg">
+    <Card className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-[calc(100vw-2rem)] sm:w-[380px] max-w-[380px] h-[calc(100vh-2rem)] sm:h-[600px] max-h-[600px] z-50 shadow-2xl flex flex-col overflow-hidden p-0">
+      <div className="flex items-center justify-between px-4 py-3 border-b bg-accent text-white rounded-t-lg">
         <div className="flex items-center gap-2">
           <Sparkles className="h-5 w-5" />
           <h3 className="font-semibold">Assistente de Anatomia</h3>
