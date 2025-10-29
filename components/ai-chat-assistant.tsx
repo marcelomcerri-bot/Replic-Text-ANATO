@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { MessageCircle, X, Send, Sparkles } from "lucide-react"
+import { MessageCircle, X, Send, Sparkles, Maximize2, Minimize2 } from "lucide-react"
 import { cn } from "@/lib/utils"
 import ReactMarkdown from "react-markdown"
 import remarkGfm from "remark-gfm"
@@ -16,6 +16,7 @@ interface Message {
 
 export function AIChatAssistant() {
   const [isOpen, setIsOpen] = useState(false)
+  const [isExpanded, setIsExpanded] = useState(false)
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
@@ -92,20 +93,39 @@ export function AIChatAssistant() {
   }
 
   return (
-    <Card className="fixed left-1/2 bottom-4 -translate-x-1/2 sm:left-auto sm:right-6 sm:translate-x-0 w-[min(380px,calc(100vw-2rem))] h-[min(550px,calc(100vh-2rem))] sm:h-[500px] z-50 shadow-2xl flex flex-col overflow-hidden p-0">
+    <Card className={cn(
+      "fixed z-50 shadow-2xl flex flex-col overflow-hidden p-0 transition-all duration-300",
+      isExpanded 
+        ? "left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(1200px,95vw)] h-[min(800px,90vh)]"
+        : "left-1/2 bottom-4 -translate-x-1/2 sm:left-auto sm:right-6 sm:translate-x-0 w-[min(380px,calc(100vw-2rem))] h-[min(550px,calc(100vh-2rem))] sm:h-[500px]"
+    )}>
       <div className="flex items-center justify-between px-4 py-3 border-b bg-accent text-white rounded-t-lg">
         <div className="flex items-center gap-2">
           <Sparkles className="h-5 w-5" />
           <h3 className="font-semibold">Assistente de Anatomia</h3>
         </div>
-        <Button
-          variant="ghost"
-          size="icon"
-          className="h-8 w-8 hover:bg-accent-foreground/20 text-white"
-          onClick={() => setIsOpen(false)}
-        >
-          <X className="h-4 w-4" />
-        </Button>
+        <div className="flex items-center gap-1">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="hidden sm:flex h-8 w-8 hover:bg-accent-foreground/20 text-white"
+            onClick={() => setIsExpanded(!isExpanded)}
+            aria-label={isExpanded ? "Minimizar chat" : "Expandir chat"}
+          >
+            {isExpanded ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
+          </Button>
+          <Button
+            variant="ghost"
+            size="icon"
+            className="h-8 w-8 hover:bg-accent-foreground/20 text-white"
+            onClick={() => {
+              setIsOpen(false)
+              setIsExpanded(false)
+            }}
+          >
+            <X className="h-4 w-4" />
+          </Button>
+        </div>
       </div>
 
       <div className="flex-1 p-4 overflow-y-auto" ref={scrollRef}>
