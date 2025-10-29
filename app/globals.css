@@ -400,28 +400,32 @@
 }
 
 .ai-chat-message {
+  @apply overflow-hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  
   h2 {
-    @apply text-base font-semibold mt-3 mb-2 text-foreground;
+    @apply text-base font-semibold mt-3 mb-2 text-foreground break-words;
   }
   
   h3 {
-    @apply text-sm font-semibold mt-2 mb-1.5 text-foreground;
+    @apply text-sm font-semibold mt-2 mb-1.5 text-foreground break-words;
   }
   
   p {
-    @apply mb-2 text-sm leading-relaxed;
+    @apply mb-2 text-sm leading-relaxed break-words;
   }
   
   strong {
-    @apply font-semibold text-accent;
+    @apply font-semibold text-accent break-words;
   }
   
   ul, ol {
-    @apply my-2 ml-4 space-y-1;
+    @apply my-2 ml-4 space-y-1 break-words;
   }
   
   li {
-    @apply text-sm leading-relaxed;
+    @apply text-sm leading-relaxed break-words;
   }
   
   ul li {
@@ -433,7 +437,7 @@
   }
   
   code {
-    @apply bg-accent/10 text-accent px-1.5 py-0.5 rounded text-xs font-mono;
+    @apply bg-accent/10 text-accent px-1.5 py-0.5 rounded text-xs font-mono break-all;
   }
   
   pre {
@@ -441,22 +445,26 @@
   }
   
   pre code {
-    @apply bg-transparent p-0;
+    @apply bg-transparent p-0 break-all;
   }
   
   blockquote {
-    @apply border-l-4 border-accent/50 pl-3 my-2 italic text-muted-foreground;
+    @apply border-l-4 border-accent/50 pl-3 my-2 italic text-muted-foreground break-words;
+  }
+  
+  a {
+    @apply text-accent underline break-all;
   }
   
   table {
-    @apply w-full my-2 text-sm;
+    @apply w-full my-2 text-sm table-fixed;
   }
   
   th {
-    @apply font-semibold text-left p-2 border-b border-border;
+    @apply font-semibold text-left p-2 border-b border-border break-words;
   }
   
   td {
-    @apply p-2 border-b border-border/50;
+    @apply p-2 border-b border-border/50 break-words;
   }
 }

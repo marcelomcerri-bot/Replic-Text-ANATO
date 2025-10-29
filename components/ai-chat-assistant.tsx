@@ -129,7 +129,7 @@ export function AIChatAssistant() {
                 {message.role === "user" ? (
                   <p className="text-sm whitespace-pre-wrap">{message.content}</p>
                 ) : (
-                  <div className="ai-chat-message">
+                  <div className="ai-chat-message text-sm overflow-hidden break-words">
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                       {message.content}
                     </ReactMarkdown>
