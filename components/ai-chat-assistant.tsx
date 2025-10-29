@@ -140,19 +140,28 @@ export function AIChatAssistant() {
             >
               <div
                 className={cn(
-                  "rounded-lg px-4 py-2",
-                  isExpanded ? "w-full" : "max-w-[85%]",
+                  "rounded-xl shadow-sm border",
+                  isExpanded ? "w-full px-6 py-4" : "max-w-[85%] px-4 py-3",
                   message.role === "user"
-                    ? "bg-accent text-white"
-                    : "bg-muted text-foreground"
+                    ? "bg-accent text-white border-accent"
+                    : "bg-card text-card-foreground border-border"
                 )}
               >
                 {message.role === "user" ? (
-                  <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                  <p className={cn(
+                    "whitespace-pre-wrap leading-relaxed",
+                    isExpanded ? "text-base" : "text-sm"
+                  )}>{message.content}</p>
                 ) : (
                   <div className={cn(
-                    "ai-chat-message overflow-hidden break-words",
-                    isExpanded ? "text-base" : "text-sm"
+                    "ai-chat-message overflow-hidden break-words prose prose-sm max-w-none",
+                    isExpanded && "prose-base",
+                    "prose-headings:font-semibold prose-headings:text-foreground prose-headings:mt-6 prose-headings:mb-3",
+                    "prose-p:text-foreground prose-p:leading-relaxed prose-p:mb-4",
+                    "prose-strong:text-foreground prose-strong:font-semibold",
+                    "prose-ul:my-4 prose-ol:my-4 prose-li:my-2 prose-li:text-foreground",
+                    "prose-code:text-foreground prose-code:bg-muted prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded",
+                    "[&>*:first-child]:mt-0 [&>*:last-child]:mb-0"
                   )}>
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                       {message.content}
