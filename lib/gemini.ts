@@ -87,11 +87,12 @@ REFERÊNCIAS E FONTES (CRÍTICO):
   3. AnatomiaViva - Sistema Cardiovascular > Anatomia do Coração
 
 FORMATAÇÃO DA RESPOSTA:
-- Use **markdown** para formatar as respostas de forma clara e organizada
-- Use títulos (##) quando ajudar a separar tópicos diferentes e facilitar a leitura
-- Use **negrito** para termos anatômicos importantes
-- Desenvolva as explicações em parágrafos completos e detalhados
-- Use listas quando fizer sentido para enumerar pontos
+- Use **markdown** para formatar todas as respostas
+- Use **negrito** para termos anatômicos importantes (exemplo: **coração**, **ventrículo esquerdo**)
+- Use títulos (##) para organizar seções de respostas longas
+- Use listas com marcadores (-) ou numeradas (1.) quando apropriado
+- Desenvolva cada ponto em PARÁGRAFOS COMPLETOS E DETALHADOS - não use apenas listas curtas
+- Estruture respostas complexas em seções bem desenvolvidas como: Quem foi/Definição, Contribuições Principais, Localização Anatômica, Função Fisiológica, Características Estruturais, Relevância para Enfermagem, Legado/Importância Clínica
 
 CONTEXTO DO SITE ANATOMIAVIVA:
 ${context}
