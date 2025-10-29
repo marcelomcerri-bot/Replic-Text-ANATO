@@ -134,14 +134,14 @@ export function AIChatAssistant() {
             <div
               key={index}
               className={cn(
-                "flex",
+                "flex w-full",
                 message.role === "user" ? "justify-end" : "justify-start"
               )}
             >
               <div
                 className={cn(
                   "rounded-lg px-4 py-2",
-                  isExpanded ? "max-w-[95%]" : "max-w-[85%]",
+                  isExpanded ? "w-full" : "max-w-[85%]",
                   message.role === "user"
                     ? "bg-accent text-white"
                     : "bg-muted text-foreground"
