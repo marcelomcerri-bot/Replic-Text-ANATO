@@ -109,7 +109,7 @@ Lembre-se: Você pode e deve complementar com seu conhecimento científico de an
           temperature: 0.7,
           topP: 0.95,
           topK: 40,
-          maxOutputTokens: 8192,
+          maxOutputTokens: 16384,
         },
         contents: [
           {
