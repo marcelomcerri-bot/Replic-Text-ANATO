@@ -140,7 +140,8 @@ export function AIChatAssistant() {
             >
               <div
                 className={cn(
-                  "rounded-lg px-4 py-2 max-w-[85%]",
+                  "rounded-lg px-4 py-2",
+                  isExpanded ? "max-w-[95%]" : "max-w-[85%]",
                   message.role === "user"
                     ? "bg-accent text-white"
                     : "bg-muted text-foreground"
@@ -149,7 +150,10 @@ export function AIChatAssistant() {
                 {message.role === "user" ? (
                   <p className="text-sm whitespace-pre-wrap">{message.content}</p>
                 ) : (
-                  <div className="ai-chat-message text-sm overflow-hidden break-words">
+                  <div className={cn(
+                    "ai-chat-message overflow-hidden break-words",
+                    isExpanded ? "text-base" : "text-sm"
+                  )}>
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                       {message.content}
                     </ReactMarkdown>
