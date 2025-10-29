@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 const getAI = () => {
-  const apiKey = process.env.GEMINI_API_KEY || "";
+  const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY || "";
   if (!apiKey) {
     return null;
   }
@@ -45,8 +45,8 @@ export async function askAnatomyQuestion(
 ): Promise<string> {
   const ai = getAI();
   
-  if (!ai || !process.env.GEMINI_API_KEY) {
-    throw new Error("GEMINI_API_KEY não está configurada");
+  if (!ai || !process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
+    throw new Error("GOOGLE_GENERATIVE_AI_API_KEY não está configurada");
   }
 
   try {
