@@ -92,7 +92,7 @@ export function AIChatAssistant() {
   }
 
   return (
-    <Card className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-[calc(100vw-2rem)] sm:w-[380px] max-w-[380px] h-[calc(100vh-2rem)] sm:h-[600px] max-h-[600px] z-50 shadow-2xl flex flex-col overflow-hidden p-0">
+    <Card className="fixed left-1/2 bottom-4 -translate-x-1/2 sm:left-auto sm:right-6 sm:translate-x-0 w-[min(380px,calc(100vw-2rem))] h-[min(550px,calc(100vh-2rem))] sm:h-[500px] z-50 shadow-2xl flex flex-col overflow-hidden p-0">
       <div className="flex items-center justify-between px-4 py-3 border-b bg-accent text-white rounded-t-lg">
         <div className="flex items-center gap-2">
           <Sparkles className="h-5 w-5" />
