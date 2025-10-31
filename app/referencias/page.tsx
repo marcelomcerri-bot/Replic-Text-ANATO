@@ -389,30 +389,28 @@ export default function ReferencesPage() {
             <div className="space-y-4">
               {scientificArticles.map((article, index) => (
                 <Card key={index} className="w-full hover:shadow-lg transition-all hover:border-accent/50 border-2 group">
-                  <CardHeader>
-                    <div className="flex items-start justify-between gap-4">
-                      <div className="flex-1">
-                        <CardTitle className="text-lg leading-tight mb-2 group-hover:text-accent transition-colors">
-                          {article.title}
-                        </CardTitle>
-                        <CardDescription className="space-y-1">
-                          <p className="font-medium text-foreground">{article.authors}</p>
-                          <p className="text-sm">
-                            {article.journal} • {article.publisher} • {article.year}
-                          </p>
-                        </CardDescription>
-                      </div>
-                      {article.url && (
-                        <a
-                          href={article.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-accent hover:text-accent/80 transition-colors flex-shrink-0 p-2 hover:bg-accent/10 rounded-lg"
-                        >
-                          <ExternalLink className="h-5 w-5" />
-                        </a>
-                      )}
+                  <CardHeader className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                    <div className="flex-1 space-y-2">
+                      <CardTitle className="text-lg leading-tight group-hover:text-accent transition-colors">
+                        {article.title}
+                      </CardTitle>
+                      <CardDescription className="space-y-1">
+                        <p className="font-medium text-foreground">{article.authors}</p>
+                        <p className="text-sm">
+                          {article.journal} • {article.publisher} • {article.year}
+                        </p>
+                      </CardDescription>
                     </div>
+                    {article.url && (
+                      <a
+                        href={article.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent hover:text-accent/80 transition-colors flex-shrink-0 p-2 hover:bg-accent/10 rounded-lg"
+                      >
+                        <ExternalLink className="h-5 w-5" />
+                      </a>
+                    )}
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground leading-relaxed text-justify">{article.description}</p>
