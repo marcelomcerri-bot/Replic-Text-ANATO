@@ -29,7 +29,7 @@ export default function GlossarioPage() {
       <div className="container mx-auto px-4 py-12">
         <div className="mb-12">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">Glossário de Anatomia</h1>
-          <p className="text-lg text-muted-foreground mb-6">Termos anatômicos essenciais organizados por categoria</p>
+          <p className="text-lg text-muted-foreground mb-6 text-justify">Termos anatômicos essenciais organizados por categoria</p>
 
           <div className="relative max-w-md">
             <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
@@ -68,7 +68,7 @@ export default function GlossarioPage() {
                       <CardTitle className="text-lg">{item.term}</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <CardDescription className="leading-relaxed">{item.definition}</CardDescription>
+                      <CardDescription className="leading-relaxed text-justify">{item.definition}</CardDescription>
                     </CardContent>
                   </Card>
                 ))}

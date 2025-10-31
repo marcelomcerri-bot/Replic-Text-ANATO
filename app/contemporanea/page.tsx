@@ -129,7 +129,7 @@ export default function ContemporaneaPage() {
               Pesquisa Científica em Anatomia
             </h1>
           </div>
-          <p className="text-lg text-muted-foreground mb-6">
+          <p className="text-lg text-muted-foreground mb-6 text-justify">
             Artigos científicos e descobertas recentes em anatomia humana dos últimos 7 dias
           </p>
 
@@ -261,7 +261,7 @@ export default function ContemporaneaPage() {
                     </div>
 
                     {article.abstract && (
-                      <p className="text-sm text-muted-foreground line-clamp-3 mb-4">
+                      <p className="text-sm text-muted-foreground line-clamp-3 mb-4 text-justify">
                         {article.abstract}
                       </p>
                     )}

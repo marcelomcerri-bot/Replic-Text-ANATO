@@ -51,7 +51,7 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
             </Button>
           </Link>
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">{topic.title}</h1>
-          <p className="text-lg text-muted-foreground">{topic.description}</p>
+          <p className="text-lg text-muted-foreground text-justify">{topic.description}</p>
         </div>
 
         <div className="space-y-12">
@@ -61,7 +61,7 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
               {topic.content.sections.map((section, index) => (
                 <div key={index} className="space-y-8">
                   <h3 className="text-2xl font-bold text-accent mb-6">{section.title}</h3>
-                  <div className="space-y-6 text-lg">
+                  <div className="space-y-6 text-lg text-justify">
                     {section.content.map((paragraph, pIndex) => (
                       <FormattedText key={pIndex} text={paragraph} />
                     ))}
@@ -78,7 +78,7 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                       {section.subsections.map((subsection, subIndex) => (
                         <div key={subIndex} className="border-2 border-accent/20 bg-gradient-to-r from-accent/5 to-transparent p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                           <h4 className="text-xl font-bold text-foreground mb-6 pb-3 border-b border-accent/30">{subsection.title}</h4>
-                          <div className="space-y-6 text-base">
+                          <div className="space-y-6 text-base text-justify">
                             {Array.isArray(subsection.content) ? (
                               subsection.content.map((paragraph, pIndex) => (
                                 <FormattedText key={pIndex} text={paragraph} />
@@ -111,7 +111,7 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                     <CardTitle className="text-lg">{item.concept}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground">{item.definition}</p>
+                    <p className="text-muted-foreground text-justify">{item.definition}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -127,7 +127,7 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                     <CardTitle className="text-lg font-semibold">
                       Questão {questionIndex + 1}
                     </CardTitle>
-                    <CardDescription className="text-base text-foreground mt-2">
+                    <CardDescription className="text-base text-foreground mt-2 text-justify">
                       {question.question}
                     </CardDescription>
                   </CardHeader>
@@ -171,7 +171,7 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                               <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" />
                               <div>
                                 <p className="font-semibold text-green-900 dark:text-green-100">Correto!</p>
-                                <p className="text-sm text-green-800 dark:text-green-200 mt-1">
+                                <p className="text-sm text-green-800 dark:text-green-200 mt-1 text-justify">
                                   Resposta correta: {question.options[question.correctAnswer]}
                                 </p>
                               </div>
@@ -181,7 +181,7 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                               <XCircle className="h-5 w-5 text-red-600 dark:text-red-400 flex-shrink-0 mt-0.5" />
                               <div>
                                 <p className="font-semibold text-red-900 dark:text-red-100">Incorreto</p>
-                                <p className="text-sm text-red-800 dark:text-red-200 mt-1">
+                                <p className="text-sm text-red-800 dark:text-red-200 mt-1 text-justify">
                                   Resposta correta: {question.options[question.correctAnswer]}
                                 </p>
                               </div>
@@ -190,7 +190,7 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                         </div>
                         <div className="p-4 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900 rounded-lg">
                           <p className="font-semibold text-blue-900 dark:text-blue-100 mb-2">Explicação:</p>
-                          <p className="text-sm text-blue-800 dark:text-blue-200 leading-relaxed">
+                          <p className="text-sm text-blue-800 dark:text-blue-200 leading-relaxed text-justify">
                             {question.explanation}
                           </p>
                         </div>

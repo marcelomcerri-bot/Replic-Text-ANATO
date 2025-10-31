@@ -334,7 +334,7 @@ export default function ReferencesPage() {
       <div className="container mx-auto px-4 py-12">
         <div className="mb-12">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">Referências Bibliográficas</h1>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-muted-foreground text-justify">
             Fontes científicas e acadêmicas utilizadas na elaboração do conteúdo deste site
           </p>
         </div>
@@ -362,7 +362,7 @@ export default function ReferencesPage() {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground leading-relaxed">{book.description}</p>
+                    <p className="text-sm text-muted-foreground leading-relaxed text-justify">{book.description}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -406,7 +406,7 @@ export default function ReferencesPage() {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground leading-relaxed">{article.description}</p>
+                    <p className="text-sm text-muted-foreground leading-relaxed text-justify">{article.description}</p>
                   </CardContent>
                 </Card>
               ))}
