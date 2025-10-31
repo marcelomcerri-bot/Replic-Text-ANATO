@@ -31,12 +31,17 @@ package = "@netlify/plugin-nextjs"
 
 ### Depois (correto):
 ```toml
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 [build]
   command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "20"
 ```
+
+**ATUALIZAÇÃO**: Se você viu erro de "Page not found" após o build funcionar, veja o arquivo `PROBLEMA_404_RESOLVIDO.md` - o plugin foi adicionado de volta!
 
 ## O Que Estava Errado?
 
