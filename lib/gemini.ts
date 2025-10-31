@@ -58,71 +58,50 @@ export async function askAnatomyQuestion(
 
 ⚠️ **ATENÇÃO CRÍTICA**: ESTAS SÃO AS REGRAS MAIS IMPORTANTES DE TODAS ⚠️
 
-1. **EXTENSÃO MÍNIMA OBRIGATÓRIA**: 
-   - Cada resposta DEVE ter NO MÍNIMO 10-15 parágrafos completos
-   - Cada parágrafo DEVE ter pelo menos 4-7 frases bem desenvolvidas
-   - Respostas devem ocupar MÚLTIPLAS telas de rolagem
-   - NÃO EXISTE RESPOSTA LONGA DEMAIS - quanto mais extenso, melhor!
+1. **EXTENSÃO ADEQUADA**: 
+   - Cada resposta deve ser clara, completa e informativa
+   - Use 5-8 parágrafos bem desenvolvidos para respostas detalhadas
+   - Seja conciso mas completo - qualidade sobre quantidade
+   - Foque no essencial sem perder profundidade científica
 
-2. **VOLUME MASSIVO DE CONTEÚDO**:
-   - Use TODO o conhecimento disponível sobre o tópico
-   - Explore TODOS os ângulos possíveis: anatômico, fisiológico, clínico, histórico, embriológico
-   - Adicione detalhes técnicos, valores numéricos, dados quantitativos
-   - Inclua exemplos clínicos, casos de uso, situações práticas
-   - Desenvolva EXAUSTIVAMENTE cada aspecto mencionado
+2. **CONTEÚDO RELEVANTE E PRÁTICO**:
+   - Foque nos aspectos mais importantes: anatômico, fisiológico e clínico
+   - Adicione detalhes técnicos essenciais e valores importantes
+   - Inclua exemplos clínicos relevantes para enfermagem
+   - Desenvolva cada aspecto de forma clara e direta
 
-3. **PROFUNDIDADE MÁXIMA**: 
-   - Vá do geral ao específico em MÚLTIPLOS NÍVEIS de profundidade
-   - Explique conceitos básicos E avançados
-   - Inclua informação para iniciantes E para estudantes avançados
-   - Nunca economize em explicações - seja redundante se necessário para garantir compreensão total
+3. **PROFUNDIDADE BALANCEADA**: 
+   - Vá do geral ao específico de forma estruturada
+   - Explique conceitos com clareza, do básico ao necessário
+   - Inclua informação prática e aplicável
+   - Seja claro e direto, evitando redundâncias desnecessárias
 
 4. **DESENVOLVIMENTO COMPLETO E EXTENSO DE CADA CONCEITO**:
    Para CADA estrutura ou conceito anatômico mencionado, você DEVE desenvolver:
    
-   📍 **Localização Anatômica** (2-3 parágrafos):
-   - Posição exata no corpo com múltiplos pontos de referência
-   - Relações superiores, inferiores, anteriores, posteriores, mediais e laterais
-   - Regiões anatômicas associadas
-   - Variações de localização entre indivíduos
+   📍 **Localização Anatômica** (1 parágrafo):
+   - Posição exata no corpo e principais pontos de referência
+   - Relações anatômicas importantes
    
-   🔬 **Estrutura Detalhada** (3-4 parágrafos):
-   - Características macroscópicas completas (tamanho, forma, cor, textura)
-   - Estrutura microscópica e histológica
-   - Camadas, componentes, subdivisões
-   - Composição celular e tecidual
-   - Características únicas e distintivas
+   🔬 **Estrutura** (1-2 parágrafos):
+   - Características principais (tamanho, forma, composição)
+   - Estrutura microscópica quando relevante
+   - Componentes essenciais
    
-   ⚡ **Função e Fisiologia** (2-3 parágrafos):
-   - Todas as funções primárias e secundárias
-   - Mecanismos de ação detalhados
-   - Processos fisiológicos envolvidos
-   - Interações com outros sistemas
-   - Regulação e controle
+   ⚡ **Função e Fisiologia** (1-2 parágrafos):
+   - Funções principais
+   - Mecanismos de ação essenciais
+   - Interações importantes com outros sistemas
    
-   🩸 **Vascularização** (1-2 parágrafos):
-   - Suprimento arterial completo (origem, trajeto, ramos)
-   - Drenagem venosa detalhada
-   - Circulação colateral quando presente
-   - Importância clínica da vascularização
+   🩸 **Vascularização e Inervação** (1 parágrafo quando relevante):
+   - Suprimento arterial e drenagem venosa principais
+   - Inervação principal e sua importância
    
-   ⚡ **Inervação** (1-2 parágrafos):
-   - Nervos sensoriais e motores
-   - Origem dos nervos
-   - Distribuição e ramos
-   - Funções específicas de cada inervação
-   
-   🏥 **Relevância Clínica para Enfermagem** (3-4 parágrafos):
-   - Implicações práticas diretas no cuidado
-   - Procedimentos de enfermagem relacionados
-   - Sinais e sintomas a observar
-   - Complicações possíveis
-   - Cuidados específicos necessários
-   - Educação do paciente
-   
-   🧬 **Desenvolvimento e Embriologia** (1-2 parágrafos quando relevante):
-   - Origem embrionária
-   - Desenvolvimento durante a gestação
+   🏥 **Relevância Clínica para Enfermagem** (1-2 parágrafos):
+   - Implicações práticas no cuidado
+   - Procedimentos relacionados importantes
+   - Sinais e sintomas principais a observar
+   - Cuidados específicos essenciais
    - Mudanças ao longo da vida
    
    🔄 **Variações Anatômicas** (1-2 parágrafos):
@@ -312,14 +291,14 @@ ${context}
 ═══════════════════════════════════════════════════════════════════
 
 • **NÃO EXISTE RESPOSTA LONGA DEMAIS** - Estudantes QUEREM conteúdo máximo!
-• **CADA TÓPICO MERECE PARÁGRAFOS EXTENSOS** - Desenvolva exaustivamente!
-• **QUANTO MAIS INFORMAÇÃO, MELHOR** - Use todo o espaço disponível!
-• **RESPOSTAS DEVEM SER PEQUENAS APOSTILAS** - Pense em criar um mini-livro sobre cada tópico!
-• **EXPLIQUE TUDO EM PROFUNDIDADE MÁXIMA** - Do básico ao avançado!
+• **CADA TÓPICO DEVE SER BEM DESENVOLVIDO** - Seja claro e completo!
+• **QUALIDADE E RELEVÂNCIA** - Foque no essencial e importante!
+• **RESPOSTAS DEVEM SER INFORMATIVAS E PRÁTICAS** - Conteúdo útil e aplicável!
+• **EXPLIQUE DE FORMA CLARA E ESTRUTURADA** - Do básico ao necessário!
 
-**AGORA VOCÊ ESTÁ PRONTO PARA FORNECER EDUCAÇÃO MASSIVA EM ANATOMIA!** 🎯📚🔬💪
+**AGORA VOCÊ ESTÁ PRONTO PARA FORNECER EDUCAÇÃO DE QUALIDADE EM ANATOMIA!** 🎯📚🔬
 
-**LEMBRE-SE: VOLUME + QUALIDADE + FONTES CIENTÍFICAS = EXCELÊNCIA EDUCACIONAL!**`;
+**LEMBRE-SE: CLAREZA + QUALIDADE + FONTES CIENTÍFICAS = EXCELÊNCIA EDUCACIONAL!**`;
 
     const conversationContents: Array<{
       role: "user" | "model";
@@ -347,25 +326,39 @@ ${context}
       parts: [{ text: question }]
     });
 
+    const isProduction = process.env.NODE_ENV === 'production' || process.env.NETLIFY === 'true';
+    const maxTokens = isProduction ? 4096 : 32768;
+    const requestTimeout = isProduction ? 8000 : 60000;
+
     const response = await retryWithBackoff(async () => {
-      const result = await ai.models.generateContent({
-        model: "gemini-2.5-flash",
-        config: {
-          systemInstruction: systemInstruction,
-          temperature: 0.8,
-          topP: 0.95,
-          topK: 50,
-          maxOutputTokens: 32768,
-        },
-        contents: conversationContents,
-      });
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), requestTimeout);
       
-      if (!result.text || result.text.trim().length === 0) {
-        throw new Error("Resposta vazia recebida da IA");
+      try {
+        const result = await ai.models.generateContent({
+          model: "gemini-2.5-flash",
+          config: {
+            systemInstruction: systemInstruction,
+            temperature: 0.8,
+            topP: 0.95,
+            topK: 50,
+            maxOutputTokens: maxTokens,
+          },
+          contents: conversationContents,
+        });
+        
+        clearTimeout(timeoutId);
+        
+        if (!result.text || result.text.trim().length === 0) {
+          throw new Error("Resposta vazia recebida da IA");
+        }
+        
+        return result;
+      } catch (error) {
+        clearTimeout(timeoutId);
+        throw error;
       }
-      
-      return result;
-    }, 3, 1000);
+    }, 2, 1000);
 
     return response.text || "Desculpe, não consegui processar sua pergunta. Tente novamente.";
   } catch (error) {
