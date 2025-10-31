@@ -18,8 +18,9 @@ Failed during stage 'building site': Build script returned non-zero exit code: 2
 - Plugin declarado incorretamente
 
 ### Solução Aplicada:
-- Corrigido `netlify.toml` com configuração mínima e correta
-- Plugin `@netlify/plugin-nextjs` adicionado corretamente
+- Corrigido `netlify.toml` com configuração completa e correta
+- Plugin `@netlify/plugin-nextjs` adicionado
+- **IMPORTANTE**: `publish = ".next"` é necessário (não é auto-detectado)
 
 **Arquivo**: `ERRO_BUILD_NETLIFY_RESOLVIDO.md`
 
