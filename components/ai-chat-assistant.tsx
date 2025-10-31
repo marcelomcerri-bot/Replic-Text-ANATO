@@ -134,20 +134,17 @@ export function AIChatAssistant() {
 
       <div 
         className={cn(
-          "flex-1 overflow-y-auto bg-gradient-to-b from-muted/20 to-background",
+          "flex-1 overflow-y-auto bg-gradient-to-b from-muted/20 to-background flex flex-col",
           isExpanded ? "px-12 py-8" : "p-4"
         )} 
         ref={scrollRef}
       >
-        <div className={cn(
-          "space-y-5",
-          isExpanded ? "w-full" : "w-full"
-        )}>
+        <div className="flex flex-col space-y-5 w-full items-stretch">
           {messages.map((message, index) => (
             <div
               key={index}
               className={cn(
-                "flex w-full",
+                "flex w-full items-stretch",
                 message.role === "user" ? "justify-end" : "justify-start"
               )}
             >
