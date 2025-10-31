@@ -391,12 +391,12 @@ export default function ReferencesPage() {
                 <Card key={index} className="w-full hover:shadow-lg transition-all hover:border-accent/50 border-2 group">
                   <div className="flex flex-wrap items-start gap-4 px-6">
                     <div className="flex-1 min-w-0 space-y-2">
-                      <h3 className="text-lg font-semibold leading-tight group-hover:text-accent transition-colors">
+                      <h3 className="text-lg font-semibold leading-tight group-hover:text-accent transition-colors max-w-none">
                         {article.title}
                       </h3>
                       <div className="text-sm text-muted-foreground space-y-1">
-                        <p className="font-medium text-foreground">{article.authors}</p>
-                        <p className="text-sm">
+                        <p className="font-medium text-foreground max-w-none">{article.authors}</p>
+                        <p className="text-sm max-w-none">
                           {article.journal} • {article.publisher} • {article.year}
                         </p>
                       </div>
@@ -415,7 +415,7 @@ export default function ReferencesPage() {
                     )}
                   </div>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground leading-relaxed text-justify">{article.description}</p>
+                    <p className="text-sm text-muted-foreground leading-relaxed text-justify max-w-none">{article.description}</p>
                   </CardContent>
                 </Card>
               ))}
