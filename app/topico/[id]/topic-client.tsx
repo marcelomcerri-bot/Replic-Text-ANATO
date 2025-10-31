@@ -82,9 +82,9 @@ export function TopicClient({ topic }: { topic: TopicContent }) {
                     </CardHeader>
                     <CardContent className="space-y-4 sm:space-y-5">
                       {section.content?.map((paragraph, pIdx) => (
-                        <p key={pIdx} className="text-foreground/90 leading-relaxed">
+                        <div key={pIdx} className="text-foreground/90 leading-relaxed text-justify">
                           <FormattedText text={paragraph} />
-                        </p>
+                        </div>
                       ))}
                       {section.subsections?.map((subsection, sIdx) => (
                         <div
@@ -95,14 +95,14 @@ export function TopicClient({ topic }: { topic: TopicContent }) {
                           <div className="space-y-3 sm:space-y-4">
                             {Array.isArray(subsection.content) ? (
                               subsection.content.map((subParagraph, spIdx) => (
-                                <p key={spIdx} className="text-foreground/90 leading-relaxed">
+                                <div key={spIdx} className="text-foreground/90 leading-relaxed text-justify">
                                   <FormattedText text={subParagraph} />
-                                </p>
+                                </div>
                               ))
                             ) : (
-                              <p className="text-foreground/90 leading-relaxed">
+                              <div className="text-foreground/90 leading-relaxed text-justify">
                                 <FormattedText text={subsection.content} />
-                              </p>
+                              </div>
                             )}
                           </div>
                         </div>
@@ -160,7 +160,7 @@ export function TopicClient({ topic }: { topic: TopicContent }) {
                               <td className="py-3 sm:py-4 px-3 sm:px-4 font-semibold align-top text-foreground text-sm sm:text-base">
                                 {item.concept}
                               </td>
-                              <td className="py-3 sm:py-4 px-3 sm:px-4 leading-relaxed text-foreground/90 text-sm sm:text-base">
+                              <td className="py-3 sm:py-4 px-3 sm:px-4 leading-relaxed text-foreground/90 text-sm sm:text-base text-justify">
                                 {item.definition}
                               </td>
                             </tr>
@@ -288,7 +288,7 @@ export function TopicClient({ topic }: { topic: TopicContent }) {
                             {q.explanation && (
                               <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent space-y-2">
                                 <p className="font-bold text-accent tracking-wide text-xs sm:text-sm">EXPLICAÇÃO:</p>
-                                <p className="leading-relaxed text-foreground/90 text-sm sm:text-base">
+                                <p className="leading-relaxed text-foreground/90 text-sm sm:text-base text-justify">
                                   {q.explanation}
                                 </p>
                               </div>

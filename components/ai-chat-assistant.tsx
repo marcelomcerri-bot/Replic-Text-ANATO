@@ -20,7 +20,7 @@ export function AIChatAssistant() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Olá! Sou o assistente de anatomia do AnatomiaViva. Como posso ajudá-lo com seus estudos hoje?",
+      content: "Olá! Sou Vesalius, o assistente de anatomia do AnatomiaViva. Como posso ajudá-lo com seus estudos hoje?",
     },
   ])
   const [inputValue, setInputValue] = useState("")
@@ -106,7 +106,7 @@ export function AIChatAssistant() {
       <div className="flex items-center justify-between px-5 py-4 border-b bg-gradient-to-r from-accent to-accent/90 text-white shadow-md">
         <div className="flex items-center gap-3">
           <Sparkles className="h-5 w-5 animate-pulse" />
-          <h3 className="font-semibold text-base">Assistente de Anatomia IA</h3>
+          <h3 className="font-semibold text-base">Vesalius - Assistente de Anatomia IA</h3>
         </div>
         <div className="flex items-center gap-1">
           <Button
