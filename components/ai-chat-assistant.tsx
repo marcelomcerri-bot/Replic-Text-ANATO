@@ -141,7 +141,7 @@ export function AIChatAssistant() {
       >
         <div className={cn(
           "mx-auto space-y-5",
-          isExpanded ? "max-w-4xl" : "w-full"
+          isExpanded ? "max-w-[90%]" : "w-full"
         )}>
           {messages.map((message, index) => (
             <div
@@ -155,7 +155,7 @@ export function AIChatAssistant() {
                 className={cn(
                   "rounded-2xl shadow-md border transition-all",
                   isExpanded 
-                    ? message.role === "user" ? "max-w-[70%] px-6 py-4" : "w-full px-7 py-5"
+                    ? message.role === "user" ? "max-w-[65%] px-6 py-4" : "w-full px-8 py-6"
                     : "max-w-[88%] px-4 py-3.5",
                   message.role === "user"
                     ? "bg-gradient-to-br from-accent to-accent/90 text-white border-accent/50 shadow-accent/20"
@@ -164,12 +164,12 @@ export function AIChatAssistant() {
               >
                 {message.role === "user" ? (
                   <p className={cn(
-                    "whitespace-pre-wrap leading-relaxed",
+                    "whitespace-pre-wrap leading-relaxed text-justify",
                     isExpanded ? "text-base" : "text-sm"
                   )}>{message.content}</p>
                 ) : (
                   <div className={cn(
-                    "ai-chat-message overflow-hidden break-words prose max-w-none",
+                    "ai-chat-message overflow-hidden break-words prose max-w-none text-justify",
                     isExpanded ? "prose-lg" : "prose-sm",
                     "prose-headings:font-bold prose-headings:text-foreground",
                     "prose-h2:text-xl prose-h2:mt-6 prose-h2:mb-4 prose-h2:border-b prose-h2:pb-2",
@@ -177,10 +177,11 @@ export function AIChatAssistant() {
                     "prose-p:text-foreground prose-p:leading-relaxed prose-p:mb-4 prose-p:text-justify",
                     "prose-strong:text-accent prose-strong:font-bold",
                     "prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2",
-                    "prose-li:my-1.5 prose-li:text-foreground prose-li:leading-relaxed",
+                    "prose-li:my-1.5 prose-li:text-foreground prose-li:leading-relaxed prose-li:text-justify",
                     "prose-code:text-accent prose-code:bg-muted prose-code:px-2 prose-code:py-0.5 prose-code:rounded prose-code:font-semibold",
                     "prose-blockquote:border-accent prose-blockquote:bg-muted/50 prose-blockquote:italic",
-                    "[&>*:first-child]:mt-0 [&>*:last-child]:mb-0"
+                    "[&>*:first-child]:mt-0 [&>*:last-child]:mb-0",
+                    "[&_p]:text-justify [&_li]:text-justify"
                   )}>
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                       {message.content}
