@@ -140,25 +140,27 @@ export function AIChatAssistant() {
         ref={scrollRef}
       >
         <div className="flex flex-col space-y-5 w-full items-stretch">
-          {messages.map((message, index) => (
+          {messages.map((message, index) => {
+            const isUserMessage = message.role === "user"
+            const bubbleClasses = cn(
+              "rounded-2xl shadow-md border transition-all",
+              isExpanded && !isUserMessage ? "w-full px-8 py-6" : "",
+              isExpanded && isUserMessage ? "max-w-[60%] px-6 py-4" : "",
+              !isExpanded ? "max-w-[88%] px-4 py-3.5" : "",
+              isUserMessage
+                ? "bg-gradient-to-br from-accent to-accent/90 text-white border-accent/50 shadow-accent/20"
+                : "bg-card text-card-foreground border-border/40 shadow-sm"
+            )
+            
+            return (
             <div
               key={index}
               className={cn(
                 "flex w-full items-stretch",
-                message.role === "user" ? "justify-end" : "justify-start"
+                isUserMessage ? "justify-end" : "justify-start"
               )}
             >
-              <div
-                className={cn(
-                  "rounded-2xl shadow-md border transition-all",
-                  isExpanded 
-                    ? message.role === "user" ? "max-w-[60%] px-6 py-4" : "w-full px-8 py-6"
-                    : "max-w-[88%] px-4 py-3.5",
-                  message.role === "user"
-                    ? "bg-gradient-to-br from-accent to-accent/90 text-white border-accent/50 shadow-accent/20"
-                    : "bg-card text-card-foreground border-border/40 shadow-sm"
-                )}
-              >
+              <div className={bubbleClasses}>
                 {message.role === "user" ? (
                   <p className={cn(
                     "whitespace-pre-wrap leading-relaxed text-justify",
@@ -166,19 +168,19 @@ export function AIChatAssistant() {
                   )}>{message.content}</p>
                 ) : (
                   <div className={cn(
-                    "ai-chat-message overflow-hidden break-words prose max-w-none text-justify",
+                    "ai-chat-message overflow-hidden break-words prose !max-w-none text-justify w-full",
                     isExpanded ? "prose-lg" : "prose-sm",
                     "prose-headings:font-bold prose-headings:text-foreground",
                     "prose-h2:text-xl prose-h2:mt-6 prose-h2:mb-4 prose-h2:border-b prose-h2:pb-2",
                     "prose-h3:text-lg prose-h3:mt-5 prose-h3:mb-3",
-                    "prose-p:text-foreground prose-p:leading-relaxed prose-p:mb-4 prose-p:text-justify",
+                    "prose-p:text-foreground prose-p:leading-relaxed prose-p:mb-4 prose-p:text-justify prose-p:!max-w-none",
                     "prose-strong:text-accent prose-strong:font-bold",
                     "prose-ul:my-4 prose-ul:space-y-2 prose-ol:my-4 prose-ol:space-y-2",
                     "prose-li:my-1.5 prose-li:text-foreground prose-li:leading-relaxed prose-li:text-justify",
                     "prose-code:text-accent prose-code:bg-muted prose-code:px-2 prose-code:py-0.5 prose-code:rounded prose-code:font-semibold",
                     "prose-blockquote:border-accent prose-blockquote:bg-muted/50 prose-blockquote:italic",
                     "[&>*:first-child]:mt-0 [&>*:last-child]:mb-0",
-                    "[&_p]:text-justify [&_li]:text-justify"
+                    "[&_p]:text-justify [&_li]:text-justify [&_p]:!max-w-none"
                   )}>
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                       {message.content}
@@ -187,7 +189,7 @@ export function AIChatAssistant() {
                 )}
               </div>
             </div>
-          ))}
+          )})}
           {isLoading && (
             <div className="flex justify-start">
               <div className="bg-muted/80 rounded-xl px-5 py-3 shadow-sm">
