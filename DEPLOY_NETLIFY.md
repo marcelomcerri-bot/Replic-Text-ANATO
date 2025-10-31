@@ -60,8 +60,13 @@ Após o deploy:
 - Execute `npm run build` localmente para verificar erros
 
 ### Chat com IA não funciona
-- Verifique se adicionou a variável `GEMINI_API_KEY` nas configurações do Netlify
-- Faça um novo deploy após adicionar a variável
+**LEIA O ARQUIVO `SOLUCAO_CHAT_IA_NETLIFY.md` PARA SOLUÇÃO DETALHADA!**
+
+Resumo rápido:
+1. Adicione `GEMINI_API_KEY` nas Environment Variables do Netlify
+2. IMPORTANTE: Ao editar a variável, marque que ela deve ser aplicada a **"Functions"**
+3. Após adicionar, faça **"Clear cache and deploy site"** (não apenas "Deploy site")
+4. Verifique os logs da Function após o deploy
 
 ### Imagens não aparecem
 - As imagens estão na pasta `public/anatomia-images` e devem funcionar automaticamente
