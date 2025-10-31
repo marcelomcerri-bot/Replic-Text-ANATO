@@ -135,13 +135,13 @@ export function AIChatAssistant() {
       <div 
         className={cn(
           "flex-1 overflow-y-auto bg-gradient-to-b from-muted/20 to-background",
-          isExpanded ? "p-8" : "p-4"
+          isExpanded ? "px-12 py-8" : "p-4"
         )} 
         ref={scrollRef}
       >
         <div className={cn(
-          "mx-auto space-y-5",
-          isExpanded ? "max-w-[90%]" : "w-full"
+          "space-y-5",
+          isExpanded ? "w-full" : "w-full"
         )}>
           {messages.map((message, index) => (
             <div
@@ -155,7 +155,7 @@ export function AIChatAssistant() {
                 className={cn(
                   "rounded-2xl shadow-md border transition-all",
                   isExpanded 
-                    ? message.role === "user" ? "max-w-[65%] px-6 py-4" : "w-full px-8 py-6"
+                    ? message.role === "user" ? "max-w-[60%] px-6 py-4" : "w-full px-8 py-6"
                     : "max-w-[88%] px-4 py-3.5",
                   message.role === "user"
                     ? "bg-gradient-to-br from-accent to-accent/90 text-white border-accent/50 shadow-accent/20"
@@ -207,11 +207,10 @@ export function AIChatAssistant() {
 
       <div className={cn(
         "border-t bg-card/50",
-        isExpanded ? "p-6" : "p-4"
+        isExpanded ? "px-12 py-6" : "p-4"
       )}>
         <div className={cn(
-          "mx-auto",
-          isExpanded ? "max-w-4xl" : "w-full"
+          isExpanded ? "w-full" : "w-full"
         )}>
           <div className="flex gap-3">
             <Input
