@@ -1,6 +1,17 @@
 # Solução Definitiva: Chat de IA no Netlify
 
-## Problema
+## ⚠️ ATUALIZAÇÃO: Problema de Build Corrigido!
+
+Se você está vendo o erro:
+```
+Failed during stage 'building site': Build script returned non-zero exit code: 2
+```
+
+**SOLUÇÃO**: Acabei de corrigir o arquivo `netlify.toml`. Faça um novo commit e push para o Git, ou faça re-deploy no Netlify.
+
+---
+
+## Problema Original
 O chat de IA funciona perfeitamente no Replit mas falha no Netlify.
 
 ## Causa Raiz

@@ -47,6 +47,13 @@ Após o deploy:
 - ✅ Todas as páginas (Início, Tópicos, Glossário, Referências) devem carregar
 - ✅ O chat com IA só funcionará se a variável `GEMINI_API_KEY` estiver configurada
 
+## ⚠️ IMPORTANTE: Erro de Build Corrigido
+
+Se você estava vendo erro "Build script returned non-zero exit code: 2":
+- ✅ **JÁ FOI CORRIGIDO!** 
+- Faça um novo commit/push ou re-deploy
+- Veja detalhes em `ERRO_BUILD_NETLIFY_RESOLVIDO.md`
+
 ## Arquivos de Configuração Criados
 
 - ✅ `netlify.toml` - Configurações de build e deploy
