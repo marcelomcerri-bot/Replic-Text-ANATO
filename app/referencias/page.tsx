@@ -13,6 +13,15 @@ const textbooks = [
       "Obra clássica da anatomia brasileira, amplamente utilizada em cursos de medicina e ciências da saúde. Apresenta uma abordagem didática e sistemática da anatomia humana.",
   },
   {
+    title: "Anatomía Humana",
+    authors: "Latarjet, M. & Ruiz Liard, A.",
+    edition: "4ª Edição - Tomos I e II",
+    publisher: "Editorial Médica Panamericana",
+    year: "2004",
+    description:
+      "Tratado clássico de anatomia descritiva com enfoque clínico-anatômico, amplamente reconhecido internacionalmente. Apresenta descrição detalhada de todas as estruturas anatômicas com correlações clínicas, ilustrações de alta qualidade e aplicação de tecnologias de imagem diagnóstica. Obra fundamental para estudantes e profissionais da saúde.",
+  },
+  {
     title: "Anatomia e Fisiologia Humana",
     authors: "Marieb, E. N. & Hoehn, K.",
     edition: "9ª Edição",
