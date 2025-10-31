@@ -389,8 +389,8 @@ export default function ReferencesPage() {
             <div className="space-y-4">
               {scientificArticles.map((article, index) => (
                 <Card key={index} className="w-full hover:shadow-lg transition-all hover:border-accent/50 border-2 group">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 px-6">
-                    <div className="flex-1 space-y-2">
+                  <div className="flex flex-wrap items-start gap-4 px-6">
+                    <div className="flex-1 min-w-0 space-y-2">
                       <h3 className="text-lg font-semibold leading-tight group-hover:text-accent transition-colors">
                         {article.title}
                       </h3>
@@ -402,14 +402,16 @@ export default function ReferencesPage() {
                       </div>
                     </div>
                     {article.url && (
-                      <a
-                        href={article.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-accent hover:text-accent/80 transition-colors flex-shrink-0 p-2 hover:bg-accent/10 rounded-lg"
-                      >
-                        <ExternalLink className="h-5 w-5" />
-                      </a>
+                      <div className="flex-shrink-0">
+                        <a
+                          href={article.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-accent hover:text-accent/80 transition-colors p-2 hover:bg-accent/10 rounded-lg block"
+                        >
+                          <ExternalLink className="h-5 w-5" />
+                        </a>
+                      </div>
                     )}
                   </div>
                   <CardContent>
@@ -426,7 +428,7 @@ export default function ReferencesPage() {
               <CardHeader>
                 <CardTitle className="text-lg">Nota sobre Uso Acadêmico</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+              <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed text-justify">
                 <p>
                   Todo o conteúdo apresentado neste site foi elaborado com base em fontes científicas confiáveis e
                   livros-texto reconhecidos na área de anatomia humana. As informações são destinadas exclusivamente
