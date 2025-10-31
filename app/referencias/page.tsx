@@ -429,17 +429,17 @@ export default function ReferencesPage() {
                 <CardTitle className="text-lg">Nota sobre Uso Acadêmico</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed text-justify">
-                <p>
+                <p className="max-w-none">
                   Todo o conteúdo apresentado neste site foi elaborado com base em fontes científicas confiáveis e
                   livros-texto reconhecidos na área de anatomia humana. As informações são destinadas exclusivamente
                   para fins educacionais e de estudo.
                 </p>
-                <p>
+                <p className="max-w-none">
                   Os artigos científicos citados são provenientes de bases de dados respeitadas como a National Library
                   of Medicine (NCBI) e periódicos revisados por pares. Recomendamos a consulta direta às fontes
                   originais para aprofundamento e verificação das informações.
                 </p>
-                <p className="font-medium text-foreground">
+                <p className="font-medium text-foreground max-w-none">
                   Este material não substitui a orientação de professores, livros-texto completos ou a prática clínica
                   supervisionada.
                 </p>
