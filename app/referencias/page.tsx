@@ -388,7 +388,7 @@ export default function ReferencesPage() {
 
             <div className="space-y-4">
               {scientificArticles.map((article, index) => (
-                <Card key={index} className="hover:shadow-lg transition-all hover:border-accent/50 border-2 group">
+                <Card key={index} className="w-full hover:shadow-lg transition-all hover:border-accent/50 border-2 group">
                   <CardHeader>
                     <div className="flex items-start justify-between gap-4">
                       <div className="flex-1">
