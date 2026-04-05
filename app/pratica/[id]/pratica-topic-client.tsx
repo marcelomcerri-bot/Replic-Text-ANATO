@@ -8,6 +8,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { SiteHeader } from "@/components/site-header"
 import { FormattedText } from "@/components/formatted-text"
+import { AnatomicalImageGrid } from "@/components/anatomical-image"
 import { ArrowLeft, CheckCircle, XCircle } from "lucide-react"
 import type { PraticaTopicContent } from "@/lib/pratica-topics-data"
 
@@ -66,6 +67,12 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                     ))}
                   </div>
 
+                  <AnatomicalImageGrid 
+                    images={section.images || []} 
+                    sectionTitle={section.title}
+                    columns={2}
+                  />
+
                   {section.subsections && (
                     <div className="space-y-10 mt-10">
                       {section.subsections.map((subsection, subIndex) => (
@@ -81,6 +88,11 @@ export function PraticaTopicClient({ topic }: PraticaTopicClientProps) {
                             )}
                           </div>
 
+                          <AnatomicalImageGrid 
+                            images={subsection.images || []} 
+                            sectionTitle={subsection.title}
+                            columns={2}
+                          />
                         </div>
                       ))}
                     </div>
