@@ -9,7 +9,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  allowedDevOrigins: ['*'],
+  allowedDevOrigins: [
+    '*.riker.replit.dev',
+    '*.replit.dev',
+    'localhost',
+  ],
   async headers() {
     return [
       {
